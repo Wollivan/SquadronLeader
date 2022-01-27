@@ -3,8 +3,11 @@ tokenWidth = 26;
 wallWidth = 6;
 $fn = 100;
 
+arcWidth = 1;
+
 templateGapOffset = tokenWidth/6;
 templateLength = tokenWidth*3;
+
 module token(){
     translate([0,0,0])
     //cube([tokenWidth,tokenWidth,tokenHeight], true); 
@@ -13,6 +16,21 @@ module token(){
 }
 
 
+module tokenWithArc(){
+    difference(){
+        token();
+        
+        //weird z +1 and +2 height because its centered and this ensures no very thin line consufing the printer
+        translate([tokenWidth/3,tokenWidth/3,tokenHeight-arcWidth/2+1]) 
+        rotate([0,0,135/3])
+        cube([tokenWidth,arcWidth,arcWidth+2], center=true);
+        
+        
+        translate([tokenWidth/3,-tokenWidth/3,tokenHeight-arcWidth/2+1]) 
+        rotate([0,0,-135/3])
+        cube([tokenWidth,arcWidth,arcWidth+2], center=true);
+    }
+}
 
 module balls(zMod, dMod) {
     //they used to be procedurally generated but now there are only four, this was easier
@@ -36,7 +54,7 @@ module balls(zMod, dMod) {
 
 
 module plane(){
-    color("green") token();
+    color("green") tokenWithArc();
     
     translate([0.5,1,tokenHeight])
         linear_extrude(height = tokenHeight/4) {
@@ -147,6 +165,6 @@ planeTranslated();
 
 //blank token
 difference(){
-    token(); 
+    tokenWithArc(); 
         balls(zMod=0, dMod=0.25);
     }
