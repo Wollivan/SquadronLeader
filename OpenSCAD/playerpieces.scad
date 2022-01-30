@@ -76,11 +76,15 @@ module templateStraight() {
         translate([tokenWidth/2,templateLength+templateGapOffset,-1])
             rotate([0,0,135/2])
                 cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
+        
+        translate([tokenWidth/7,templateLength/3,tokenHeight/2])
+            linear_extrude(tokenHeight)
+                text("1", size=25);
     }
 }
-
+/*
 guess = 0.02; //i need someone cleverer than me to work out the calculations for the 45 degree template
-module template45() {
+module template45old() {
     difference(){
         translate([-templateLength,0,0])
             rotate_extrude(angle = 45)
@@ -100,6 +104,35 @@ module template45() {
                 cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
     }
 }
+*/
+
+module template45() {
+    difference(){
+        translate([-templateLength,0,0])
+            rotate_extrude(angle = 45)
+                translate([templateLength, 0, 0])
+                square(size = [tokenWidth, tokenHeight]);
+        
+        
+        translate([tokenWidth/2,-templateGapOffset,-1])
+            rotate([0,0,135/2])
+                cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
+        
+        
+        translate([-templateLength * sin(45/360)-(tokenWidth/1.6),-templateGapOffset+templateLength * cos(45/360)-tokenWidth/4,-1])
+            rotate([0,0,135/2])
+                    cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
+        
+        
+        translate([tokenWidth/8,templateLength/4,tokenHeight/2])
+            rotate([0,0,30])
+                linear_extrude(tokenHeight)
+                    text("2", size=25);
+        
+        
+    }
+    
+}
 
 module template90() {
     difference(){
@@ -117,6 +150,12 @@ module template90() {
         translate([-templateGapOffset,templateLength/2,-1])
             rotate([0,0,135/2])
                 cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
+        
+        
+        translate([tokenWidth/0.9,templateLength/6,tokenHeight/2])
+            rotate([0,0,45])
+                linear_extrude(tokenHeight)
+                    text("3", size=25);
     }
 }
 //altitude token
