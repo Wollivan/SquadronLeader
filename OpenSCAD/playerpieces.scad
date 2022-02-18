@@ -185,25 +185,29 @@ module planeTranslated(){
     }
 }
 
-//straight template
-translate([-tokenWidth*2,0,0]) templateStraight();
-
-
-//45 deg template
-translate([tokenWidth*3,0,0]) template45();
-
-//90 deg template
-template90();
-
-altitudeTranslated();
-planeTranslated();
 
 //test
 //color("green") rotate([0,0,315]) translate([tokenWidth*3,0,0]) template45();
 
 
 //blank token
-difference(){
-    tokenWithArc(); 
-        balls(zMod=0, dMod=0.25);
-    }
+//difference(){
+//    tokenWithArc(); 
+//        balls(zMod=0, dMod=0.25);
+//    }
+
+
+
+
+
+/*Actual models*/
+translate([-tokenWidth*2,0,0]) templateStraight();
+translate([tokenWidth*3,0,0]) template45();
+template90();
+altitudeTranslated();
+planeTranslated();
+
+/*Actual models*/
+
+
+
