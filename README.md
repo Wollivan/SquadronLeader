@@ -1,7 +1,5 @@
 <img width="689" alt="Screenshot 2022-01-30 at 23 39 07" src="https://user-images.githubusercontent.com/91621088/151722728-1c324f2c-841d-44c4-a855-62ca75a395dc.png">
 
-<img width="290" alt="Screenshot 2022-01-27 at 23 56 18" src="https://user-images.githubusercontent.com/91621088/151462929-f3453e9a-8d7a-48c4-8527-c347105f29c7.png">
-
 ### Printing instructions
 
 You will need to print the following from the STLs folder:
