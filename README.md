@@ -11,12 +11,6 @@ You will need to print the following from the STLs folder:
 - straight.stl x1 (or 1x for each player if you wish)
 - bank.stl x1 (or 1x for each player if you wish)
 - turn.stl x1 (or 1x for each player if you wish)
-- statwheel_inner_axle.stl x1 for each player
-- statwheel_outer_axle.stl x1 for each player
-- statwheel_A.stl x1 for each player
-- statwheel_D.stl x1 for each player
-- statwheel_S.stl x1 for each player
-- statwheel_H.stl x1 for each player
 
 At 2mm layer height the number wheels can be printed no smaller than 85% or the charcaters don't print properly.
 To adjust the tightness in the wheel, play around with "springWidth" variable around line 20 of the scad file.
@@ -40,8 +34,6 @@ At the start of the game each player secretly assigns the numbers 4,3,3,2 to the
 Determine who starts with a high roll of a d8.
 Each player places their plane in front of them in turn, and not closer than the range string to another players’ token.
 
-### There are 2 stages each round. Move & Attack:
-
 ## Move Stage:
 
 - Players take turns to move their plane using the move templates, up to their Speed value. Each move template has a cost of 1, 2 or 3, for the straight, bank & turn templates respectively.
@@ -52,8 +44,7 @@ Each player places their plane in front of them in turn, and not closer than the
 
 ## Attack Stage:
 
-- Players take turns to roll a number of Attack dice equal to your Attack value, while the defending plane rolls a number of Defense equal to their Defense value.
-- Each value of 6-7 rolled on the Attack dice counts as 1 damage. An 8 rolled counts as a critical hit.
+- Players take turns to roll a number of Attack dice equal to your Attack value if the defender is within the forward guides. Half the Attack value (round down) if they are only within the wide arc. The defending player rolls a number of Defense equal to their Defense value.- Each value of 6-7 rolled on the Attack dice counts as 1 damage. An 8 rolled counts as a critical hit.
 - Each value of 6-8 rolled on the Defense dice counts as a dodge and cancels out a hit. It takes 2 dodges to cancel out a critical hit.
 - The defender loses Health equal to the hits that haven’t been canceled out.
 - A player can only attack if the enemy plane is in range. Range is determined with the knots on the range string and measuring from the front arc of the attackers plane.
