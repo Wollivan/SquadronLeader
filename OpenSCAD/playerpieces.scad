@@ -22,13 +22,21 @@ module tokenWithArc(){
         
         //weird z +1 and +2 height because its centered and this ensures no very thin line consufing the printer
         translate([tokenWidth/3,tokenWidth/3,tokenHeight-arcWidth/2+1]) 
-        rotate([0,0,135/3])
-        cube([tokenWidth,arcWidth,arcWidth+2], center=true);
+            rotate([0,0,135/3])
+                cube([tokenWidth,arcWidth,arcWidth+2], center=true);
         
         
         translate([tokenWidth/3,-tokenWidth/3,tokenHeight-arcWidth/2+1]) 
-        rotate([0,0,-135/3])
-        cube([tokenWidth,arcWidth,arcWidth+2], center=true);
+            rotate([0,0,-135/3])
+                cube([tokenWidth,arcWidth,arcWidth+2], center=true);
+            
+        
+        translate([tokenWidth/3,tokenWidth/8,tokenHeight-arcWidth/2+1]) 
+            cube([tokenWidth/2,arcWidth,arcWidth+2], center=true);
+        
+        
+        translate([tokenWidth/3,-tokenWidth/8,tokenHeight-arcWidth/2+1]) 
+            cube([tokenWidth/2,arcWidth,arcWidth+2], center=true);
     }
 }
 
