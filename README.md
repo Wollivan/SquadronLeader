@@ -1,4 +1,6 @@
-###### visit https://aeronauts.netlify.app#downloads to download the printing files
+###### visit [The Aeronauts Website](https://aeronauts.netlify.app#downloads)
+
+###### [Downloadable assets](https://github.com/Wollivan/Aeronauts/tree/main/PrintingAssets)
 
 # Aeronauts
 
