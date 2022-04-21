@@ -22,7 +22,7 @@ export default function Instructions() {
       <div className="rules">
         <Markdown>{post}</Markdown>
       </div>
-      <img className="printing__assets-img" src={SCADImage} alt="SCAD assets" />
+      {/* <img className="printing__assets-img" src={SCADImage} alt="SCAD assets" /> */}
     </div>
   );
 }

@@ -5,4 +5,7 @@
   @include bp.medium {
     column-count: 1;
   }
+  img {
+    max-width: 100%;
+  }
 }
