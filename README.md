@@ -1,3 +1,5 @@
+![gameplay](https://aeronauts.netlify.app/static/media/gameplay.e60266eabf4ea8ab23f6.jpg)
+
 # Aeronauts
 
 #### Welcome to Aeronauts! An aerial combat game you can fit in your pocket!
@@ -74,3 +76,5 @@ You will need to print the following from the STLs folder:
 - turn.stl x1 (or 1x for each player if you wish)
 
 You will also need a piece of string more than the length of 3 of the 1 cost manuever template. Tie knots this distance apart for your range ruler.
+
+![gameplay](https://aeronauts.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)
