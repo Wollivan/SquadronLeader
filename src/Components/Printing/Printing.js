@@ -9,7 +9,7 @@ export default function Printing() {
   return (
     <div className="content">
       <div className="printing">
-        <h1>Downloads</h1>
+        <h2>Downloads</h2>
         <ul className="printing__list">
           <li className="printing__list-item">
             <a className="printing__download" href={AssetsZip}>
