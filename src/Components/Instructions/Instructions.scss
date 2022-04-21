@@ -1,0 +1,8 @@
+@use "../../styles/partials/breakpoints.scss" as bp;
+
+.rules {
+  column-count: 2;
+  @include bp.medium {
+    column-count: 1;
+  }
+}

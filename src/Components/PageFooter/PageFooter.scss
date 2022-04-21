@@ -1,0 +1,11 @@
+@use "../../styles/partials/variables" as v;
+@use "../../styles/partials/mixins" as m;
+@use "../../styles/partials/breakpoints" as bp;
+
+.footer {
+  padding: 3rem 5%;
+  color: #fff;
+  margin-top: 3rem;
+  background-color: v.$green;
+  text-align: center;
+}

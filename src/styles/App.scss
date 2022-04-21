@@ -1,0 +1,79 @@
+@use "./partials/variables" as v;
+// @use './partials/fonts' as f;
+@use "./partials/mixins" as m;
+@use "./partials/breakpoints" as bp;
+@use "./partials/buttons";
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.App {
+  z-index: -1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // background-color: #f7f8f9;
+  // font-family: "Press Start 2P", cursive;
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.5rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1rem;
+  text-align: left;
+  // font-family: "Press Start 2P", cursive;
+  @include bp.medium {
+    padding: 0 15%;
+  }
+  @include bp.large {
+    padding: 0 20%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  &:nth-of-type(1n) {
+    color: v.$red;
+  }
+  &:nth-of-type(2n) {
+    color: v.$green;
+  }
+  &:nth-of-type(3n) {
+    color: v.$blue;
+  }
+  &:nth-of-type(4n) {
+    color: v.$yellow;
+  }
+}
+
+li {
+  &:nth-of-type(1) {
+    color: v.$red;
+  }
+  &:nth-of-type(2) {
+    color: v.$green;
+  }
+  &:nth-of-type(3) {
+    color: v.$yellow;
+  }
+  &:nth-of-type(4) {
+    color: v.$blue;
+  }
+}

@@ -1,0 +1,31 @@
+$small: 767px; //Mobile
+$medium: 768px; //Tablet Portrait
+$large: 1024px; //Tablet Landscape
+$huge: 1280px; //Desktop
+
+@mixin small {
+  @media only screen and (max-width: $small) {
+    @content;
+  }
+}
+
+/* media query for tablet portrait */
+@mixin medium {
+  @media only screen and (min-width: $medium) {
+    @content;
+  }
+}
+
+/* media query for tablet landscape or medium pixel density desktops */
+@mixin large {
+  @media only screen and (min-width: $large) {
+    @content;
+  }
+}
+
+/* media query for high pixel density desktop */
+@mixin huge {
+  @media only screen and (min-width: $huge) {
+    @content;
+  }
+}

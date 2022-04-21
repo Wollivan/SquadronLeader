@@ -1,6 +1,6 @@
 # Aeronauts
 
-#### Welcome to Aeronauts! An aerial combat game you can fit in your pocket!
+Welcome to Aeronauts! An aerial combat game you can fit in your pocket!
 
 Each aeronaut will need:
 
@@ -62,15 +62,3 @@ A new turn begins and the player who went second in the previous turn now goes f
 Any turn a player hasn’t executed a climb or dive, they may spend 3 altitude tokens to play their plane token 180° (facing backwards). The Speed cost of the maneuver is doubles (the straight becomes a 2 etc)
 
 Alright Aeronauts, let’s fly!
-
-# Printing instructions
-
-You will need to print the following from the STLs folder:
-
-- plane.stl x1 for each player
-- altitude.stl x4 for each player
-- straight.stl x1 (or 1x for each player if you wish)
-- bank.stl x1 (or 1x for each player if you wish)
-- turn.stl x1 (or 1x for each player if you wish)
-
-You will also need a piece of string more than the length of 3 of the 1 cost manuever template. Tie knots this distance apart for your range ruler.
