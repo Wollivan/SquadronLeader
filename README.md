@@ -83,11 +83,13 @@ You will also need a piece of string more than the length of 3 of the 1 cost man
 
 ## Downloads
 
-[Download all printing assets](https://github.com/Wollivan/AeronautsPrintingAssets)
+You can download all the printable assets from GitHub. The reason we don't have anything on any of the STL sharing sites yet, is because things are in a big state of change, so its easer to just have them in one place at the moment.
 
-[Download OpenSCAD files](https://github.com/Wollivan/AeronautsPrintingAssets/tree/main/OpenSCAD)
+[Download all printing assets](https://github.com/Wollivan/Aeronauts/tree/main/PrintingAssets)
 
-[Download STLs ](https://github.com/Wollivan/AeronautsPrintingAssets/tree/main/STLs)
+[Download OpenSCAD files](https://github.com/Wollivan/Aeronauts/tree/main/OpenSCAD)
+
+[Download STLs ](https://github.com/Wollivan/Aeronauts/tree/main/STLs)
 
 ![assets](https://aeronauts.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)
 
