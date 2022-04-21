@@ -81,6 +81,16 @@ You will need to print the following from the STLs folder:
 
 You will also need a piece of string more than the length of 3 of the 1 cost manuever template. Tie knots this distance apart for your range ruler.
 
+## Downloads
+
+[Download all printing assets](https://github.com/Wollivan/AeronautsPrintingAssets)
+
+[Download OpenSCAD files](https://github.com/Wollivan/AeronautsPrintingAssets/tree/main/OpenSCAD)
+
+[Download STLs ](https://github.com/Wollivan/AeronautsPrintingAssets/tree/main/STLs)
+
+![assets](https://aeronauts.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)
+
 ## Thank you playtesters
 
 Without your help, I wouldn't have been able to make this!
@@ -95,5 +105,3 @@ Without your help, I wouldn't have been able to make this!
 - Lydia
 - Matti
 - Moses
-
-![assets](https://aeronauts.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)

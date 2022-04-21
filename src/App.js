@@ -1,7 +1,6 @@
 import "./styles/App.scss";
 import Instructions from "./Components/Instructions/Instructions";
 import PageHeader from "./Components/PageHeader/PageHeader";
-import Printing from "./Components/Printing/Printing";
 import PageFooter from "./Components/PageFooter/PageFooter";
 import GameplayImage from "./assets/images/gameplay.jpg";
 import SCADImage from "./assets/images/printing-assets.png";
@@ -13,7 +12,6 @@ function App() {
     <div className="App">
       <PageHeader />
       <Instructions />
-      <Printing />
       <PageFooter />
       <img
         className="hidden-image"
