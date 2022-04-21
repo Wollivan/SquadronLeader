@@ -38,11 +38,6 @@ export default function Printing() {
             </a>
           </li>
         </ul>
-        {/* <img
-          className="printing__assets-img"
-          src={SCADImage}
-          alt="SCAD assets"
-        /> */}
       </div>
     </div>
   );

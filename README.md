@@ -63,9 +63,9 @@ A new turn begins and the player who went second in the previous turn now goes f
 - On a turn they haven’t climbed, players may Dive by removing any number of altitude tokens to add that number to their speed for the turn.
   Beware the enemy in the sun! When rolling dice for the attack step, if the attacker is at a higher altitude they roll an additional die.
 
-### Loop the Loop:
+### Immelman Turn:
 
-Any turn a player hasn’t executed a climb or dive, they may spend 3 altitude tokens to play their plane token 180° (facing backwards). The Speed cost of the maneuver is doubles (the straight becomes a 2 etc)
+Any turn a player hasn’t executed a climb or dive may spend 3 altitude tokens to place their plane token 180° (facing backwards) after a manuever. The Speed cost of the maneuver is doubled (the straight becomes a 2 etc)
 
 Alright Aeronauts, let’s fly!
 
