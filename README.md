@@ -1,3 +1,5 @@
+###### visit https://aeronauts.netlify.app#downloads to download the printing files
+
 # Aeronauts
 
 #### The aerial combat game you can fit in your pocket!

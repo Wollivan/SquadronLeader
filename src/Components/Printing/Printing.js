@@ -7,7 +7,7 @@ import SCADImage from "../../assets/images/printing-assets.png";
 
 export default function Printing() {
   return (
-    <div className="content">
+    <div className="content" id="downloads">
       <div className="printing">
         <h2>Downloads</h2>
         <ul className="printing__list">
