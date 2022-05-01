@@ -140,3 +140,5 @@ Without your help, I wouldn't have been able to make this!
 - Lydia
 - Matti
 - Moses
+
+![gameplay2](https://aeronauts.netlify.app/static/media/gameplay-2.71dd594ffccd59667de3.jpg)
