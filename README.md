@@ -49,7 +49,7 @@ Each player places their plane token in front of them in turn, and not closer th
 - The player may use templates up to the value of their speed, for example a plane token with a Speed of 4 can execute 2 straight maneuvers & 1 bank maneuver (1+1+2).
 - A player must move at least once each turn otherwise their plane token will stall and they would plummet to the ground!
 
-[MovementExample](https://aeronauts.netlify.app/static/media/manuever-example.de005bba2f2fcafc70e5.gif)
+![MovementExample](https://aeronauts.netlify.app/static/media/manuever-example.de005bba2f2fcafc70e5.gif)
 
 ### Attack Stage:
 
