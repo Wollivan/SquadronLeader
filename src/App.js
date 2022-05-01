@@ -7,6 +7,8 @@ import GameplayImage2 from "./assets/images/gameplay-2.jpg";
 import SCADImage from "./assets/images/printing-assets.png";
 import Logo from "./assets/images/aeronauts-logo.png";
 import MovementImage from "./assets/images/movement-example.png";
+import MovementGIF from "./assets/images/manuever-example.gif";
+import UnboxingGIF from "./assets/images/unboxing.gif";
 
 function App() {
   return (
@@ -37,6 +39,16 @@ function App() {
       <img
         className="hidden-image"
         src={MovementImage}
+        alt="hidden img, you shouldn't see this ever, its just for the readme"
+      />
+      <img
+        className="hidden-image"
+        src={MovementGIF}
+        alt="hidden img, you shouldn't see this ever, its just for the readme"
+      />
+      <img
+        className="hidden-image"
+        src={UnboxingGIF}
         alt="hidden img, you shouldn't see this ever, its just for the readme"
       />
     </div>
