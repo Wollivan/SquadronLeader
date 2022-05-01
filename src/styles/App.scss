@@ -50,21 +50,31 @@ h5 {
   text-align: center;
   line-height: 2.25rem;
 }
+
 h1 {
-  color: v.$red;
+  font-size: 2.5rem;
+  //   color: v.$red;
 }
 h2 {
+  font-size: 2rem;
   color: v.$green;
 }
 h3 {
+  font-size: 1.5rem;
   color: v.$yellow;
 }
 h4 {
-  color: v.$blue;
+  font-size: 1.17rem;
+  // color: v.$blue;
 }
 h5 {
+  font-size: 1rem;
   color: v.$red;
 }
+h6 {
+  font-size: 0.83rem;
+}
+
 li {
   &:nth-of-type(1),
   &:nth-of-type(1n + 4) {
@@ -82,25 +92,6 @@ li {
   &:nth-of-type(4n + 4) {
     color: v.$blue;
   }
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-h2 {
-  font-size: 2rem;
-}
-h3 {
-  font-size: 1.5rem;
-}
-h4 {
-  font-size: 1.17rem;
-}
-h5 {
-  font-size: 1rem;
-}
-h6 {
-  font-size: 0.83rem;
 }
 
 // because there is something we want to see on github but not the website

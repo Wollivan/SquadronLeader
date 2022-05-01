@@ -130,7 +130,7 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 ## Thank you playtesters
 
-Without your help, I wouldn't have been able to make this!
+Without your help, this game would suck.
 
 - Becky
 - Bekah
