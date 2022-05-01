@@ -18,9 +18,10 @@ Each aeronaut will need:
 The aeronauts will share:
 
 - 1 of each move template
-- 1 range string (with 2 knots 23cm apart)
-- 4 Red d8 (Attack dice)
+- 1 range string
+- 3-4 Red d8 (Attack dice)
 - 4 Green d8 (Defense dice)
+- 1-2 Blue d8 (Bonus dice)
 
 At the start of the game each player secretly assigns the numbers 4,3,3,2 to their Attack, Defense, Speed & Health and simultaneously reveals their choices.
 
