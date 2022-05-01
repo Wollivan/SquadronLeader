@@ -84,17 +84,19 @@ Alright Aeronauts, let’s fly!
 
 This rule rewards players for playing aggressively, which can be helpful if you find pilots often avoid the action.
 
-- When you a pilot knocks another pilot out of the sky, they gain a bonus dice.
-- You can choose to roll your bonus dice at any point, but only once a round.
-- You must declare you are rolling your bonus before rolling any other dice
+- When a pilot knocks another pilot out of the sky, they gain a bonus dice.
+- For the rest of the game, that pilot can choose to roll the bonus dice at any point, but only once a round.
+- You must declare you are rolling your bonus before rolling any other dice.
+
+For example, you could say "I am rolling my bonus dice for this attack". You can't use the bonus dice until the next round, so if you used it for your attack, you wouldn't be able to use it when defending this round.
 
 ### forward firing guides
 
-If you are an expert pilot, you can make the game harder for yourself
+If you are an expert pilot, you can make the game harder for yourself!
 
 You can either:
 
-- Play using only forward firing guides and not the wide arc
+- Play using only the forward firing guides and not the wide arc, or
 - Roll an additional attack dice when the defender is in the forward firing guide.
 
 ### Quick game rules
