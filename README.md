@@ -59,6 +59,7 @@ Each player places their plane token in front of them in turn, and not closer th
 A new turn begins and the player who went second in the previous turn now goes first this turn.
 
 ## Optional Rules
+
 ### Altitude (recommended)
 
 This rules adds a lot of options for strategy, and it's recommended you play with it.
@@ -69,6 +70,7 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 - When at a higher altitude than an attacker or defender, you may reroll 1 dice.
 
 ### Immelman Turn
+
 ##### Requires Altitude
 
 Any turn a player hasn’t executed a climb or dive may spend 3 altitude tokens to place their plane token 180° (facing backwards) after a manuever. The Speed cost of the maneuver is doubled (the straight becomes a 2 etc)
@@ -84,13 +86,16 @@ This rule rewards players for playing aggressively, which can be helpful if you 
 - You must declare you are rolling your bonus before rolling any other dice
 
 ### forward firing guides
+
 If you are an expert pilot, you can make the game harder for yourself
 
 You can either:
+
 - Play using only forward firing guides and not the wide arc
 - Roll an additional attack dice when the defender is in the forward firing guide.
 
 ### Quick game rules
+
 For shorter games, have everyone start with Health 2, Attack 3, Speed 4 and Defense 2.
 The playing area size also effects game time, so if you make the area smaller, you will have a much faster game.
 Feel free to experiment with these number, the original 4,3,3,2 is a guideline for balanced games only.
@@ -126,9 +131,11 @@ Without your help, I wouldn't have been able to make this!
 - Becky
 - Bekah
 - Ben
+- Chris
 - Dan
 - Danny
 - Harry
+- John
 - Josh
 - Lydia
 - Matti

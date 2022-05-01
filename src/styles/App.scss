@@ -112,9 +112,18 @@ h6 {
 }
 
 a {
-  color: v.$green;
+  background-color: v.$green;
   text-decoration: none;
   text-align: center;
   width: 100%;
+  color: #fff;
+  padding: 1rem 0;
+  margin: 0 auto;
   display: block;
+  &:hover {
+    background-color: v.$yellow;
+  }
+  @include bp.medium {
+    width: 50%;
+  }
 }
