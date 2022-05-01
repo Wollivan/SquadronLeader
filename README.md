@@ -45,31 +45,55 @@ Each player places their plane token in front of them in turn, and not closer th
 
 - Players take turns to move their plane token using the move templates, up to their Speed value. Each move template has a cost of 1, 2 or 3, for the straight, bank & turn templates respectively.
 - To move, place the template at the front of the plane token, and move the plane token to the other end of the template.
-- The player may use templates up to the value of their speed, for example a plane token with a Speed of 4 can use move execute 2 straight maneuvers & 1 bank maneuver.
-- A player must move at least
-  once each turn otherwise their plane token will stall and they would plummet to the ground!
+- The player may use templates up to the value of their speed, for example a plane token with a Speed of 4 can execute 2 straight maneuvers & 1 bank maneuver (1+1+2).
+- A player must move at least once each turn otherwise their plane token will stall and they would plummet to the ground!
 
 ### Attack Stage:
 
-- Players take turns to roll a number of Attack dice equal to your Attack value if the defender is within the forward guides. Half the Attack value (round down) if they are only within the wide arc. The defending player rolls a number of Defense equal to their Defense value.- Each value of 6-7 rolled on the Attack dice counts as 1 damage. An 8 rolled counts as a critical hit.
-- Each value of 6-8 rolled on the Defense dice counts as a dodge and cancels out a hit. It takes 2 dodges to cancel out a critical hit.
+- Players take turns to roll a number of Attack dice equal to your Attack value if the defender is within their firing arc. The defending player rolls a number of Defense equal to their Defense value.
+- Each value of 6-7 rolled on the Attack dice counts as 1 damage. An 8 rolled counts as a critical hit.
+- Each value of 6-8 rolled on the Defense dice counts as a dodge and cancels out a hit. It takes 2 dodges to cancel out a critical hit. Critical hits still only deal 1 damage when not cancelled out.
 - The defender loses Health equal to the hits that haven’t been canceled out.
 - A player can only attack if the enemy plane token is in range. Range is determined with the knots on the range string and measuring from the front arc of the attackers plane token.
 
 A new turn begins and the player who went second in the previous turn now goes first this turn.
 
-### Altitude: (optional rule)
+## Optional Rules
+### Altitude (recommended)
+
+This rules adds a lot of options for strategy, and it's recommended you play with it.
 
 - At the start of the game each player takes off with 0 altitude tokens.
-- Once per turn when a player moves, they may spend 1 speed to Climb and add 1 altitude token.
+- Once per turn when a player moves, they may spend 1 speed to Climb and add 1 altitude token underneath their plane.
 - On a turn they haven’t climbed, players may Dive by removing any number of altitude tokens to add that number to their speed for the turn.
-  Beware the enemy in the sun! When rolling dice for the attack step, if the attacker is at a higher altitude they roll an additional die.
+- When at a higher altitude than an attacker or defender, you may reroll 1 dice.
 
-### Immelman Turn:
+### Immelman Turn
+##### Requires Altitude
 
 Any turn a player hasn’t executed a climb or dive may spend 3 altitude tokens to place their plane token 180° (facing backwards) after a manuever. The Speed cost of the maneuver is doubled (the straight becomes a 2 etc)
 
 Alright Aeronauts, let’s fly!
+
+### Ace Pilots rule
+
+This rule rewards players for playing aggressively, which can be helpful if you find pilots often avoid the action.
+
+- When you a pilot knocks another pilot out of the sky, they gain a bonus dice.
+- You can choose to roll your bonus dice at any point, but only once a round.
+- You must declare you are rolling your bonus before rolling any other dice
+
+### forward firing guides
+If you are an expert pilot, you can make the game harder for yourself
+
+You can either:
+- Play using only forward firing guides and not the wide arc
+- Roll an additional attack dice when the defender is in the forward firing guide.
+
+### Quick game rules
+For shorter games, have everyone start with Health 2, Attack 3, Speed 4 and Defense 2.
+The playing area size also effects game time, so if you make the area smaller, you will have a much faster game.
+Feel free to experiment with these number, the original 4,3,3,2 is a guideline for balanced games only.
 
 ## Printing instructions
 
