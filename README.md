@@ -56,13 +56,15 @@ Each player places their plane token in front of them in turn, and not closer th
 
 ### Attack Stage:
 
-- The attacking player rolls a number of Attack dice equal to your Attack value.
+- The attacker declares which enemy plane token they will attack.
+- A player can only attack if the enemy plane token is in range. Range is determined with the knots on the range string, ensuring any part of both knot at each end crosses over the defender and attacker (or closer). 
+- The defender must also be within the attackers firing arc which are the 90° lines on the front of the token.
+- The attacking player rolls a number of Attack dice equal to their Attack value.
 - The defending player rolls a number of Defense dice equal to their Defense value.
 - Each value of 6-7 rolled on the Attack dice counts as 1 damage. An 8 rolled counts as a critical hit.
 - Each value of 6-8 rolled on the Defense dice counts as a dodge and cancels out a hit. It takes 2 dodges to cancel out a critical hit. Critical hits still only deal 1 damage when not cancelled out.
 - The defender loses Health equal to the hits that haven’t been canceled out.
-- A player can only attack if the enemy plane token is in range. Range is determined with the knots on the range string, ensuring any part of the knots each crosses over a token, or closer. 
-- The defender must also be within the attackers firing arc (90° lines on the front of the token).
+
 
 A new turn begins and the player who went second in the previous turn now goes first this turn.
 
