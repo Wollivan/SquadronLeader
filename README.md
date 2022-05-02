@@ -1,21 +1,21 @@
-###### visit [The Aeronauts Website](https://aeronauts.netlify.app#downloads)
+###### visit [Squadron Leader Website](https://squadronleader.netlify.app#downloads)
 
-###### [Downloadable assets](https://github.com/Wollivan/Aeronauts/tree/main/PrintingAssets)
+###### [Downloadable assets](https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets)
 
-# Aeronauts
+# Squadron Leader
 
 #### The aerial combat game you can fit in your pocket!
 
-![gameplay](https://aeronauts.netlify.app/static/media/gameplay.e60266eabf4ea8ab23f6.jpg)
+![gameplay](https://squadronleader.netlify.app/static/media/gameplay.e60266eabf4ea8ab23f6.jpg)
 
 ## Rules
 
-Each aeronaut will need:
+Each pilot will need:
 
 - 1 plane token
 - 4 altitude tokens
 
-The aeronauts will share:
+The pilots will share:
 
 - 1 of each move template
 - 1 range string
@@ -50,7 +50,7 @@ Each player places their plane token in front of them in turn, and not closer th
 - A player must move at least once each turn otherwise their plane token will stall and they would plummet to the ground!
 - If any part of a plane token goes off the board at the end of a maneuver, that plane is destroyed!
 
-![MovementExample](https://aeronauts.netlify.app/static/media/manuever-example.de005bba2f2fcafc70e5.gif)
+![MovementExample](https://squadronleader.netlify.app/static/media/manuever-example.de005bba2f2fcafc70e5.gif)
 
 ### Attack Stage:
 
@@ -62,6 +62,7 @@ Each player places their plane token in front of them in turn, and not closer th
 
 A new turn begins and the player who went second in the previous turn now goes first this turn.
 
+Alright enough chatter, let's take to the skies!
 ## Optional Rules
 
 ### Altitude (recommended)
@@ -79,8 +80,6 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 Any turn a player hasn’t executed a climb or dive may spend 3 altitude tokens to place their plane token 180° (facing backwards) after a manuever. The Speed cost of the maneuver is doubled (the straight becomes a 2 etc)
-
-Alright Aeronauts, let’s fly!
 
 ### Ace Pilots rule
 
@@ -130,14 +129,14 @@ You will also need a piece of string more than the length of 3 of the 1 cost man
 
 You can download all the printable assets from GitHub. The reason we don't have anything on any of the STL sharing sites yet, is because things are in a big state of change, so its easer to just have them in one place at the moment.
 
-[Download all printing assets](https://github.com/Wollivan/Aeronauts/tree/main/PrintingAssets)
+[Download all printing assets](https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets)
 
-[Download OpenSCAD files](https://github.com/Wollivan/Aeronauts/tree/main/OpenSCAD)
+[Download OpenSCAD files](https://github.com/Wollivan/SquadronLeader/tree/main/OpenSCAD)
 
-[Download STLs ](https://github.com/Wollivan/Aeronauts/tree/main/STLs)
+[Download STLs ](https://github.com/Wollivan/SquadronLeader/tree/main/STLs)
 
-![assets](https://aeronauts.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)
-![unboxing](https://aeronauts.netlify.app/static/media/unboxing.f9e1f07a71fa1e9f4a85.gif)
+![assets](https://squadronleader.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)
+![unboxing](https://squadronleader.netlify.app/static/media/unboxing.f9e1f07a71fa1e9f4a85.gif)
 
 ## Thank you playtesters
 
@@ -156,4 +155,4 @@ Without your help, this game would suck.
 - Matti
 - Moses
 
-![gameplay2](https://aeronauts.netlify.app/static/media/gameplay-2.71dd594ffccd59667de3.jpg)
+![gameplay2](https://squadronleader.netlify.app/static/media/gameplay-2.71dd594ffccd59667de3.jpg)
