@@ -10,6 +10,8 @@
 
 Squadron Leader is a fast pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built in that can be enjoyed by all ages!
 
+The modular nature of the optional rules allows for players to customise their game, and house rules are encouraged!
+
 ## Rules
 
 Each pilot will need:
