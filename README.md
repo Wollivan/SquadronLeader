@@ -48,6 +48,7 @@ Each player places their plane token in front of them in turn, and not closer th
 - To move, place the template at the front of the plane token, and move the plane token to the other end of the template.
 - The player may use templates up to the value of their speed, for example a plane token with a Speed of 4 can execute 2 straight maneuvers & 1 bank maneuver (1+1+2).
 - A player must move at least once each turn otherwise their plane token will stall and they would plummet to the ground!
+- If any part of a plane token goes off the board at the end of a maneuver, that plane is destroyed!
 
 ![MovementExample](https://aeronauts.netlify.app/static/media/manuever-example.de005bba2f2fcafc70e5.gif)
 
@@ -72,10 +73,11 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 - On a turn they haven’t climbed, players may Dive by removing any number of altitude tokens to add that number to their speed for the turn.
 - When at a higher altitude than an attacker or defender, you may reroll 1 dice.
 
-### Immelman Turn
+### Immelman Turn rule (recommended)
 
 ##### Requires Altitude
 
+This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 Any turn a player hasn’t executed a climb or dive may spend 3 altitude tokens to place their plane token 180° (facing backwards) after a manuever. The Speed cost of the maneuver is doubled (the straight becomes a 2 etc)
 
 Alright Aeronauts, let’s fly!
@@ -90,7 +92,7 @@ This rule rewards players for playing aggressively, which can be helpful if you 
 
 For example, you could say "I am rolling my bonus dice for this attack". You can't use the bonus dice until the next round, so if you used it for your attack, you wouldn't be able to use it when defending this round.
 
-### forward firing guides
+### Using the Forward Firing Guides
 
 If you are an expert pilot, you can make the game harder for yourself!
 
@@ -98,6 +100,13 @@ You can either:
 
 - Play using only the forward firing guides and not the wide arc, or
 - Roll an additional attack dice when the defender is in the forward firing guide.
+
+### Team rules
+
+You can change the feel of the game greatly by flying with a wingman. The strategy of how you fly together is totally up to you. Here are the additional rules for playing in teams:
+
+- Teammates should sit next to one another
+- The turn order is determined by teams, rather than players, so within your team you decide who moves first, and once the entire team has moved, the other team goes. This is the same principle for attacking.
 
 ### Quick game rules
 
