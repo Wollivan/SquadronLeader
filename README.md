@@ -81,6 +81,12 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 Any turn a player hasn’t executed a climb or dive may spend 3 altitude tokens to place their plane token 180° (facing backwards) after a manuever. The Speed cost of the maneuver is doubled (the straight becomes a 2 etc)
 
+You can read more about the Immelmann turn [here](https://en.m.wikipedia.org/wiki/Immelmann_turn).
+Here is an excerpt:
+
+"In modern aerobatics, an Immelmann turn (also known as a roll-off-the-top, or simply an Immelmann) is an aerobatic maneuver that results in level flight in the opposite direction at a higher altitude."
+
+Thanks to Ben for teaching me that this move has a name!
 ### Ace Pilots rule
 
 This rule rewards players for playing aggressively, which can be helpful if you find pilots often avoid the action.
