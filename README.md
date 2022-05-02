@@ -23,9 +23,9 @@ The pilots will share:
 
 - 1 of each move template
 - 1 range string
-- 3-4 Red d8 (Attack dice)
+- 4 Red d8 (Attack dice)
 - 4 Green d8 (Defense dice)
-- 1-2 Blue d8 (Bonus dice)
+- 1 Blue d8 (Bonus dice)
 
 At the start of the game each player secretly assigns the numbers 4,3,3,2 to their Attack, Defense, Speed & Health and simultaneously reveals their choices.
 
@@ -44,22 +44,22 @@ Whereas a seasoned Ace may elect for:
 - Health - 2
 
 Determine who starts with a high roll of a d8.
-Each player places their plane token in front of them in turn, and not closer than the range string to another players’ plane token that has already been placed. If each player is controlling more than one plane token, take in turns until each plane token is placed down.
+Each player places their plane in front of them in turn, and not closer than the range string to another players’ plane token that has already been placed. If each player is controlling more than one plane, take in turns until each token is placed down.
 
 ### Move Stage:
 
-- Players take turns to move their plane token using the move templates, up to their Speed value. Each move template has a cost of 1, 2 or 3, for the straight, bank & turn templates respectively.
-- To move, place the template at the front of the plane token, and move the plane token to the other end of the template.
-- The player may use templates up to the value of their speed, for example a plane token with a Speed of 4 can execute 2 straight maneuvers & 1 bank maneuver (1+1+2).
-- A player must move at least once each turn otherwise their plane token will stall and they would plummet to the ground!
+- Players take turns to move their plane using the move templates, up to their Speed value. Each move template has a cost of 1, 2 or 3, for the straight, bank & turn templates respectively.
+- To move, place the maneuver template at the front of the plane token, and move the plane to the other end of the template.
+- The player may use templates up to the value of their speed, for example a player with a Speed of 4 can execute 2 straight maneuvers & 1 bank maneuver (1+1+2).
+- A player must move at least once each turn otherwise their plane would stall and they would plummet to the ground!
 - If any part of a plane token goes off the board at the end of a maneuver, that plane is destroyed!
 
 ![MovementExample](https://squadronleader.netlify.app/static/media/manuever-example.de005bba2f2fcafc70e5.gif)
 
 ### Attack Stage:
 
-- The attacker declares which enemy plane token they will attack.
-- A player can only attack if the enemy plane token is in range. Range is determined with the knots on the range string, ensuring any part of both knot at each end crosses over the defender and attacker (or closer). 
+- The attacker declares which enemy plane they will attack.
+- A player can only attack if the enemy plane is in range. Range is determined with the knots on the range string, ensuring any part of both knot at each end crosses over the defender and attacker (or closer). 
 - The defender must also be within the attackers firing arc which are the 90° lines on the front of the token.
 - The attacking player rolls a number of Attack dice equal to their Attack value.
 - The defending player rolls a number of Defense dice equal to their Defense value.
@@ -108,7 +108,7 @@ Here is an excerpt:
 
 This rule rewards aggressive tactics:
 
-- After a player knocks an enemy plane token out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the manuever (facing backwards to where they were).
+- After a player knocks an enemy plane out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the manuever (facing backwards to where they were).
 - This is an optional maneuver, but must be done before the next attack happens.
 
 You can read more about the Immelmann turn here:
