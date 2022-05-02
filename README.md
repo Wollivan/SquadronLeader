@@ -92,7 +92,7 @@ This rule prevents a pilot from being stuck when they are being tailed by an opp
 
 - During the move phase, a player may declare they are executing an Immelmann and spend 3 altitude tokens to place their plane token at 180° at the end of the manuever (facing backwards to where they were).
 - The Speed cost of the maneuver is double the normal cost of whichever manuever template you are using (the straight becomes a 2, the bank becomes 4).
-- Players can perform an Immelmann if that have already climbed this round and cannot climb after an Immelmann on the same round.
+- Players can perform an Immelmann if that haven't already climbed this round and cannot climb after an Immelmann on the same round.
 
 You can read more about the Immelmann turn here (and how you should actually be gaining altitude, but shh)
 
