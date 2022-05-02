@@ -115,9 +115,10 @@ This rule shows the true nature of the Immelmann turn, and also rewards aggressi
 
 This rule rewards players for playing aggressively, which can be helpful if you find pilots often avoid the action.
 
-- When a pilot knocks another pilot out of the sky, they gain a bonus dice.
+- When a pilot knocks another pilot out of the sky they become an Ace, and gain a bonus dice.
 - For the rest of the game, that pilot can choose to roll the bonus dice at any point, but only once a round.
 - You must declare you are rolling your bonus before rolling any other dice.
+- Players can have multiple bonus dice, if they knock multiple opponents out.
 
 For example, you could say "I am rolling my bonus dice for this attack". You can't use the bonus dice until the next round, so if you used it for your attack, you wouldn't be able to use it when defending this round.
 
