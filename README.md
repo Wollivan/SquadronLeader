@@ -106,7 +106,7 @@ Here is an excerpt:
 
 This rule rewards aggressive tactics:
 
-- After a player knocks an enemy plane token out, they may add 3 Altitude to their token (or up to 3 if they already have 1, 2 or 3) and execute a straight manuever and place their plane token at 180° at the end of the manuever (facing backwards to where they were)
+- After a player knocks an enemy plane token out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the manuever (facing backwards to where they were).
 - This is an optional maneuver, but must be done before the next attack happens.
 
 You can read more about the Immelmann turn here:
