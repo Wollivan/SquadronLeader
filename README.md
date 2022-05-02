@@ -82,7 +82,7 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 - On a turn they haven’t climbed, players may Dive by removing any number of altitude tokens to add that number to their speed for the turn.
 - When at a higher altitude than an attacker or defender, you may reroll 1 dice.
 
-### Immelmann Turn rule
+### Split S rule
 
 ##### recommended
 
@@ -90,11 +90,26 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
-- During the move phase, a player may declare they are executing an Immelmann and spend 3 altitude tokens to place their plane token at 180° at the end of the manuever (facing backwards to where they were).
+- During the move phase, a player may declare they are executing a Split S maneuver and spend 3 altitude tokens to place their plane token at 180° at the end of the manuever (facing backwards to where they were).
 - The Speed cost of the maneuver is double the normal cost of whichever manuever template you are using (the straight becomes a 2, the bank becomes 4).
-- Players cannot perform an Immelmann and gain altitude in the same round.
+- Players cannot perform a Split S and gain altitude in the same round.
 
-You can read more about the Immelmann turn here (and how you should actually be gaining altitude, but shh)
+You can read more about the Split S maneuver here:
+
+[Split S Wiki](https://en.m.wikipedia.org/wiki/Split_S#:~:text=The%20split%20S%20is%20an,direction%20at%20a%20lower%20altitude.)
+
+Here is an excerpt:
+
+"To execute a split S, the pilot half-rolls their aircraft inverted and executes a descending half-loop, resulting in level flight in the opposite direction at a lower altitude."
+
+### Immelmann rule
+
+This rule rewards aggressive tactics:
+
+- After a player knocks an enemy plane token out, they may add 3 Altitude to their token (or up to 3 if they already have 1, 2 or 3) and execute an Immelmann with the straight manuever template.
+- This is an optional maneuver, but must be done before the next attack happens.
+
+You can read more about the Immelmann turn here:
 
 [Immelmann Wiki](https://en.m.wikipedia.org/wiki/Immelmann_turn)
 
@@ -102,14 +117,7 @@ Here is an excerpt:
 
 "In modern aerobatics, an Immelmann turn (also known as a roll-off-the-top, or simply an Immelmann) is an aerobatic maneuver that results in level flight in the opposite direction at a higher altitude."
 
-Thanks to Ben for teaching me that this move has a name!
-
-### Immelmann after a kill
-
-This rule shows the true nature of the Immelmann turn, and also rewards aggressive tactics:
-
-- After a player knocks an enemy plane token out, they may add 3 Altitude to their token (or up to 3 if they already have 1, 2 or 3) and execute an Immelmann with the straight manuever template.
-- This is an optional maneuver, but must be done before the next attack happens.
+Thanks to Ben for teaching me that this move has a name, and thanks Josh for finding Split S so the rules can match real life!
 
 ### Ace Pilots rule
 
