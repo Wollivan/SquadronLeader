@@ -8,6 +8,8 @@
 
 ![gameplay](https://squadronleader.netlify.app/static/media/gameplay.e60266eabf4ea8ab23f6.jpg)
 
+Squadron Leader is a fast pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built in that can be enjoyed by all ages!
+
 ## Rules
 
 Each pilot will need:
