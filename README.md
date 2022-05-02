@@ -73,7 +73,7 @@ Alright enough chatter, let's take to the skies!
 
 ### Altitude
 
-#### recommended
+##### recommended
 
 This rules adds a lot of options for strategy, and it's recommended you play with it.
 
@@ -84,7 +84,7 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 
 ### Immelmann Turn rule
 
-#### recommended
+##### recommended
 
 ##### Requires Altitude
 
