@@ -74,7 +74,7 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 - On a turn they haven’t climbed, players may Dive by removing any number of altitude tokens to add that number to their speed for the turn.
 - When at a higher altitude than an attacker or defender, you may reroll 1 dice.
 
-### Immelman Turn rule (recommended)
+### Immelmann Turn rule (recommended)
 
 ##### Requires Altitude
 
