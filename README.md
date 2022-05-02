@@ -96,7 +96,7 @@ This rule prevents a pilot from being stuck when they are being tailed by an opp
 
 You can read more about the Split S maneuver here:
 
-[Split S Wiki](https://en.m.wikipedia.org/wiki/Split_S#:~:text=The%20split%20S%20is%20an,direction%20at%20a%20lower%20altitude.)
+[Split S Wiki](https://en.m.wikipedia.org/wiki/Split_S)
 
 Here is an excerpt:
 
@@ -106,7 +106,7 @@ Here is an excerpt:
 
 This rule rewards aggressive tactics:
 
-- After a player knocks an enemy plane token out, they may add 3 Altitude to their token (or up to 3 if they already have 1, 2 or 3) and execute an Immelmann with the straight manuever template.
+- After a player knocks an enemy plane token out, they may add 3 Altitude to their token (or up to 3 if they already have 1, 2 or 3) and execute a straight manuever and place their plane token at 180° at the end of the manuever (facing backwards to where they were)
 - This is an optional maneuver, but must be done before the next attack happens.
 
 You can read more about the Immelmann turn here:
