@@ -81,7 +81,10 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 Any turn a player hasn’t executed a climb or dive may spend 3 altitude tokens to place their plane token 180° (facing backwards) after a manuever. The Speed cost of the maneuver is doubled (the straight becomes a 2 etc)
 
-You can read more about the Immelmann turn [here](https://en.m.wikipedia.org/wiki/Immelmann_turn).
+You can read more about the Immelmann turn here.
+
+[Immelmann Wiki](https://en.m.wikipedia.org/wiki/Immelmann_turn).
+
 Here is an excerpt:
 
 "In modern aerobatics, an Immelmann turn (also known as a roll-off-the-top, or simply an Immelmann) is an aerobatic maneuver that results in level flight in the opposite direction at a higher altitude."
@@ -141,7 +144,9 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 [Download STLs ](https://github.com/Wollivan/SquadronLeader/tree/main/STLs)
 
-You fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, you can get one (here)[https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader].
+You fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, you can get one here.
+
+(Squadron Leader Tin on Etsy)[https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader].
 
 ![assets](https://squadronleader.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)
 ![unboxing](https://squadronleader.netlify.app/static/media/unboxing.f9e1f07a71fa1e9f4a85.gif)
