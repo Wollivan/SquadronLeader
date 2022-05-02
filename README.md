@@ -141,6 +141,8 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 [Download STLs ](https://github.com/Wollivan/SquadronLeader/tree/main/STLs)
 
+You fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, you can get one (here)[https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader].
+
 ![assets](https://squadronleader.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)
 ![unboxing](https://squadronleader.netlify.app/static/media/unboxing.f9e1f07a71fa1e9f4a85.gif)
 
