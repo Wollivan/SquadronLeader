@@ -104,6 +104,12 @@ Here is an excerpt:
 
 Thanks to Ben for teaching me that this move has a name!
 
+### Immelmann after a kill
+
+This rule shows the true nature of the Immelmann turn, and also rewards aggressive tactics:
+
+- After a player knocks an enemy plane token out, they may add 3 Altitude to their token (or up to 3 if they already have 1, 2 or 3) and execute an Immelmann with the straight manuever template.
+
 ### Ace Pilots rule
 
 This rule rewards players for playing aggressively, which can be helpful if you find pilots often avoid the action.
