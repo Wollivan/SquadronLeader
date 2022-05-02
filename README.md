@@ -83,7 +83,7 @@ Any turn a player hasn’t executed a climb or dive may spend 3 altitude tokens 
 
 You can read more about the Immelmann turn here.
 
-[Immelmann Wiki](https://en.m.wikipedia.org/wiki/Immelmann_turn).
+[Immelmann Wiki](https://en.m.wikipedia.org/wiki/Immelmann_turn)
 
 Here is an excerpt:
 
@@ -146,7 +146,7 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 You fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, you can get one here.
 
-[Squadron Leader Tin on Etsy](https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader).
+[Squadron Leader Tin on Etsy](https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader)
 
 ![assets](https://squadronleader.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)
 ![unboxing](https://squadronleader.netlify.app/static/media/unboxing.f9e1f07a71fa1e9f4a85.gif)
