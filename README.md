@@ -190,6 +190,21 @@ You will need to print the following from the STLs folder:
 
 You will also need a piece of string more than the length of 3 of the 1 cost manuever template. Tie knots this distance apart for your range ruler.
 
+## Downloads
+
+You can download all the printable assets from GitHub. The reason we don't have anything on any of the STL sharing sites yet, is because things are in a big state of change, so its easer to just have them in one place at the moment.
+
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets" target="_blank" class="button">Download all printing assets</a>
+
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
+
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/STLs" target="_blank" class="button">Download STLs</a>
+
+You fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get one here</a>.
+
+![assets](https://user-images.githubusercontent.com/91621088/166551882-3499db4b-4429-4911-aade-1348efc2a338.png)
+![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
+
 ## FAQ
 
 #### Can I spend altitude to help pay the extra speed cost of perfoming a Split S/Barrel roll?
@@ -217,21 +232,6 @@ You will also need a piece of string more than the length of 3 of the 1 cost man
 #### The rules for Split S and Barrel Roll say I can't execute them on the same turn as I gain altitude. Does this mean I can't do an Immelmann after a knockout?
 
 ##### No. The altitude gained from an Immelmann does not count, so you could do a Barrel Roll/Split S, then proceed to Immelmann during the attack stage after taking an opponent out! (If you do, you'll be one hell of a pilot!)
-
-## Downloads
-
-You can download all the printable assets from GitHub. The reason we don't have anything on any of the STL sharing sites yet, is because things are in a big state of change, so its easer to just have them in one place at the moment.
-
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets" target="_blank" class="button">Download all printing assets</a>
-
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
-
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/STLs" target="_blank" class="button">Download STLs</a>
-
-You fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get one here</a>.
-
-![assets](https://user-images.githubusercontent.com/91621088/166551882-3499db4b-4429-4911-aade-1348efc2a338.png)
-![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
 
 ## Thank you playtesters
 
