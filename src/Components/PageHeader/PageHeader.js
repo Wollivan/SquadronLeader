@@ -50,7 +50,7 @@ export default function PageHeader({ theme, setTheme }) {
   return (
     <div className="header">
       <div className="header__top">
-        <span>v0.2.5</span>
+        <span>v0.2.6</span>
         {button()}
       </div>
       <div className="header__bottom">{outputLogo()}</div>
