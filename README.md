@@ -95,7 +95,7 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
-- During the move phase, a player may declare they are executing a Split S maneuver and spend 3 altitude tokens to place their plane token at 180° at the end of the manuever (facing backwards to where they were).
+- During the move phase, a player may declare they are executing a Split S maneuver and spend 3 altitude tokens to place their plane token at 180° at the end of the manuever (facing the opposite direction to where they were).
 - The Speed cost of the maneuver is double the normal cost of whichever manuever template the player is using (the straight becomes a 2, the bank becomes 4).
 - Players cannot perform a Split S and gain altitude in the same round.
 
@@ -113,7 +113,7 @@ Here is an excerpt:
 
 This rule rewards aggressive tactics:
 
-- After a player knocks an enemy plane out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the manuever (facing backwards to where they were).
+- After a player knocks an enemy plane out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the manuever (facing the opposite direction to where they were).
 - This is an optional maneuver, but must be done before the next attack happens.
 
 You can read more about the Immelmann turn here:
