@@ -47,7 +47,7 @@ h2,
 h3,
 h4,
 h5 {
-  text-align: center;
+  // text-align: center;
   line-height: 2.25rem;
 }
 
@@ -65,7 +65,7 @@ h2 {
 h3 {
   color: v.$yellow;
   font-size: 1.5rem;
-  margin: 2.5rem auto;
+  margin: 2.5rem 0;
   padding-top: 1.5rem;
   border-top: 1px solid v.$yellow;
   width: 60%;
