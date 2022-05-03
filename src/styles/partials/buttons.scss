@@ -2,45 +2,20 @@
 
 .button {
   text-decoration: none;
-  background-color: v.$secondary-color;
-  border: 1px solid v.$secondary-color;
+  background-color: v.$green;
+  border: 1px solid v.$green;
   // border-radius: 5px;
   color: #fff;
   padding: 1rem 1.5rem;
   // margin-bottom: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 1rem;
   &:hover {
-    background-color: v.$tertiary-color;
-    border: 1px solid v.$tertiary-color;
+    background-color: v.$yellow;
+    border: 1px solid v.$yellow;
     color: #fff;
-  }
-  &--primary {
-    @extend .button;
-    background-color: v.$primary-color;
-    border: 3px solid v.$primary-color;
-    color: #000;
-    &:hover {
-      background-color: v.$primary-color;
-      border: 3px solid #000;
-      color: #000;
-    }
-  }
-
-  &--disabled {
-    @extend .button;
-    background-color: v.$primary-color;
-    border: 3px solid v.$primary-color;
-    opacity: 0.4;
-    color: #000;
-    cursor: default;
-    &:hover {
-      background-color: v.$primary-color;
-      border: 3px solid v.$primary-color;
-      color: #000;
-    }
   }
 }

@@ -98,7 +98,7 @@ This rule prevents a pilot from being stuck when they are being tailed by an opp
 
 You can read more about the Split S maneuver here:
 
-[Split S Wiki](https://en.m.wikipedia.org/wiki/Split_S)
+<a href="https://en.m.wikipedia.org/wiki/Split_S" target="_blank" class="button">Split S Wiki</a>
 
 Here is an excerpt:
 
@@ -115,7 +115,7 @@ This rule rewards aggressive tactics:
 
 You can read more about the Immelmann turn here:
 
-[Immelmann Wiki](https://en.m.wikipedia.org/wiki/Immelmann_turn)
+<a href="https://en.m.wikipedia.org/wiki/Immelmann_turn" target="_blank" class="button">Immelmann Wiki</a>
 
 Here is an excerpt:
 
@@ -172,15 +172,15 @@ You will also need a piece of string more than the length of 3 of the 1 cost man
 
 You can download all the printable assets from GitHub. The reason we don't have anything on any of the STL sharing sites yet, is because things are in a big state of change, so its easer to just have them in one place at the moment.
 
-[Download all printing assets](https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets)
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets" target="_blank" class="button">Download all printing assets</a>
 
-[Download OpenSCAD files](https://github.com/Wollivan/SquadronLeader/tree/main/OpenSCAD)
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
 
-[Download STLs ](https://github.com/Wollivan/SquadronLeader/tree/main/STLs)
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/STLs" target="_blank" class="button">Download STLs</a>
 
 You fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, you can get one here.
 
-[Squadron Leader Tin on Etsy](https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader)
+<a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader" target="_blank" class="button">Squadron Leader Tin on Etsy</a>
 
 ![assets](https://user-images.githubusercontent.com/91621088/166423494-07c1a658-16de-4230-89a6-c007e1ceafd2.png)
 ![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
