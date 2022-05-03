@@ -85,8 +85,8 @@ module templateStraight() {
             rotate([0,0,135/2])
                 cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
         
-        translate([tokenWidth/7,templateLength/3,tokenHeight/2])
-            linear_extrude(tokenHeight)
+        translate([tokenWidth/7,templateLength/3,-1])
+            linear_extrude(tokenHeight+2)
                 text("1", size=25);
     }
 }
@@ -132,9 +132,9 @@ module template45() {
                     cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
         
         
-        translate([tokenWidth/8,templateLength/4,tokenHeight/2])
+        translate([tokenWidth/8,templateLength/4,-1])
             rotate([0,0,30])
-                linear_extrude(tokenHeight)
+                linear_extrude(tokenHeight+2)
                     text("2", size=25);
         
         
@@ -160,9 +160,9 @@ module template90() {
                 cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
         
         
-        translate([tokenWidth/0.9,templateLength/6,tokenHeight/2])
+        translate([tokenWidth/0.9,templateLength/6,-1])
             rotate([0,0,45])
-                linear_extrude(tokenHeight)
+                linear_extrude(tokenHeight+2)
                     text("3", size=25);
     }
 }
@@ -209,30 +209,30 @@ module planeTranslated(){
 
 
 //bomber model
-difference(){
-        scale([2,2,1])
-            plane();
-
-        balls(zMod=0, dMod=0.25);
-        
-    rotate([0,0,-90])
-    translate([-tokenWidth/2,tokenWidth/1.5,-1])
-        scale([1,1,2])
-    templateStraight();
-    
-    
-    rotate([0,0,-90])
-    translate([-tokenWidth/2,tokenWidth/1.5,-1])
-        scale([1,1,2])
-    #templateStraight();
-    }
+//difference(){
+//        scale([2,2,1])
+//            plane();
+//
+//        balls(zMod=0, dMod=0.25);
+//        
+//    rotate([0,0,-90])
+//    translate([-tokenWidth/2,tokenWidth/1.5,-1])
+//        scale([1,1,2])
+//    templateStraight();
+//    
+//    
+//    rotate([0,0,-90])
+//    translate([-tokenWidth/2,tokenWidth/1.5,-1])
+//        scale([1,1,2])
+//    #templateStraight();
+//    }
 
 /*Actual models*/
-//translate([-tokenWidth*2,0,0]) templateStraight();
-//translate([tokenWidth*3,0,0]) template45();
-//template90();
-//altitudeTranslated();
-//planeTranslated();
+translate([-tokenWidth*2,0,0]) templateStraight();
+translate([tokenWidth*3,0,0]) template45();
+template90();
+altitudeTranslated();
+planeTranslated();
 
 /*Actual models*/
 
