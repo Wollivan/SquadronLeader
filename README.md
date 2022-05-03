@@ -27,6 +27,8 @@ The pilots will share:
 - 4 Green d8 (Defense dice)
 - 1 Blue d8 (Bonus dice)
 
+The playing area of the game can be any size. Its usually just the entire table, because thats the easiest to keep track of, but for an optimal playing experience, you can define a square which is 3 lengths of the range string wide and long.
+
 At the start of the game each player secretly assigns the numbers 4,3,3,2 to their Attack, Defense, Speed & Health and simultaneously reveals their choices.
 
 For example a begginner player may choose the following:
@@ -44,7 +46,7 @@ Whereas a seasoned Ace may elect for:
 - Health - 2
 
 Determine who starts with a high roll of a d8.
-Each player places their plane in front of them in turn, and not closer than the range string to another players’ plane token that has already been placed. If each player is controlling more than one plane, take in turns until each token is placed down.
+Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range string to another players’ token that has already been placed. If each player is controlling more than one plane, take in turns until each token is placed down.
 
 ### Move Stage:
 
@@ -59,7 +61,7 @@ Each player places their plane in front of them in turn, and not closer than the
 ### Attack Stage:
 
 - The attacker declares which enemy plane they will attack.
-- A player can only attack if the enemy plane is in range. Range is determined with the knots on the range string, ensuring any part of both knot at each end crosses over the defender and attacker (or closer). 
+- A player can only attack if the enemy plane is in range. Range is determined with the knots on the range string, ensuring any part of both knot at each end crosses over the defender and attacker (or closer).
 - The defender must also be within the attackers firing arc which are the 90° lines on the front of the token.
 - The attacking player rolls a number of Attack dice equal to their Attack value.
 - The defending player rolls a number of Defense dice equal to their Defense value.
@@ -67,10 +69,10 @@ Each player places their plane in front of them in turn, and not closer than the
 - Each value of 6-8 rolled on the Defense dice counts as a dodge and cancels out a hit. It takes 2 dodges to cancel out a critical hit. Critical hits still only deal 1 damage when not cancelled out.
 - The defender loses Health equal to the hits that haven’t been canceled out.
 
-
 A new turn begins and the player who went second in the previous turn now goes first this turn.
 
 Alright enough chatter, let's take to the skies!
+
 ## Optional Rules
 
 ### Altitude
