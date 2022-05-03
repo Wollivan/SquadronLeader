@@ -128,8 +128,8 @@ Thanks to Ben for teaching me that this move has a name, and thanks Josh for fin
 
 This rule rewards expertly skills pilots who can maneuver their plane into just the right place in the sky!
 
-- During the move phase, a player may declare they are executing a Barrel maneuver and spend 2 altitude tokens to move their plane to the left or right, using the two notches on the side of the straight maneuver template.
-- It costs 2 speed to perform a Barrel Roll.
+- During the move phase, a player may declare they are executing a Barrel maneuver and move their plane to the left or right using the two notches on the side of the straight maneuver template.
+- It costs 4 speed to perform a Barrel Roll.
 - Players cannot perform a Barrel roll and gain altitude in the same round.
 
 You can read more about the Barrel roll maneuver here:
