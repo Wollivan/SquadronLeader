@@ -75,9 +75,9 @@ Alright enough chatter, let's take to the skies!
 
 ## Optional Rules
 
-### Altitude
+### Altitude rule
 
-##### recommended
+##### Recommended
 
 This rules adds a lot of options for strategy, and it's recommended you play with it.
 
@@ -88,9 +88,7 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 
 ### Split S rule
 
-##### recommended
-
-##### Requires Altitude
+##### Recommended / Requires Altitude rule
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
@@ -107,6 +105,8 @@ Here is an excerpt:
 "To execute a split S, the pilot half-rolls their aircraft inverted and executes a descending half-loop, resulting in level flight in the opposite direction at a lower altitude."
 
 ### Immelmann rule
+
+##### Requires Altitude rule
 
 This rule rewards aggressive tactics:
 
