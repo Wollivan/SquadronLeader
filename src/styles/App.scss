@@ -58,14 +58,17 @@ h1 {
 h2 {
   font-size: 2rem;
   color: v.$green;
-  margin: 4rem 0 3rem;
-  padding-top: 4rem;
+  margin: 6rem 0 3rem;
+  padding-top: 6rem;
   border-top: 1px solid v.$green;
 }
 h3 {
-  font-size: 1.5rem;
   color: v.$yellow;
-  margin-top: 3rem;
+  font-size: 1.5rem;
+  margin: 2.5rem auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid v.$yellow;
+  width: 60%;
 }
 h4 {
   font-size: 1.17rem;
