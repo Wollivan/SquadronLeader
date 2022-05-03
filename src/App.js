@@ -2,11 +2,27 @@ import "./styles/App.scss";
 import Instructions from "./Components/Instructions/Instructions";
 import PageHeader from "./Components/PageHeader/PageHeader";
 import PageFooter from "./Components/PageFooter/PageFooter";
+import { useState } from "react";
 
 function App() {
+  const [theme, setTheme] = useState("light");
+  let themeStyles = {};
+
+  if (theme === "light") {
+    themeStyles = {
+      color: "black",
+      background: "white",
+    };
+  } else {
+    themeStyles = {
+      color: "white",
+      background: "black",
+    };
+  }
+
   return (
-    <div className="App">
-      <PageHeader />
+    <div className="App" style={themeStyles}>
+      <PageHeader theme={theme} setTheme={setTheme} />
       <Instructions />
       <PageFooter />
     </div>

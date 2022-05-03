@@ -4,11 +4,31 @@
 
 .header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 2rem 2rem 0 2rem;
   // background-color: v.$primary-color;
   &__logo {
-    max-width: 20%;
+    max-width: 50%;
+    @include bp.medium {
+      max-width: 20%;
+    }
+  }
+  &__top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+    @include bp.medium {
+      margin-bottom: 0;
+    }
+    &--theme-btn {
+      padding: 0.5rem;
+    }
+  }
+  &__bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
