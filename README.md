@@ -233,6 +233,10 @@ You fit the game in most tobacco tins, old or new, but if you'd like a Squadron 
 
 ##### No. The altitude gained from an Immelmann does not count, so you could do a Barrel Roll/Split S, then proceed to Immelmann during the attack stage after taking an opponent out! (If you do, you'll be one hell of a pilot!)
 
+#### Does a critical hit do more damage?
+
+##### The benefit of a critical hit is it's dificulty to dodge. Think of it as a very accurate shot. But is still only deals 1 damage.
+
 ## Thank you playtesters
 
 Without your help, this game would suck.
