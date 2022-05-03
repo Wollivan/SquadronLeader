@@ -208,12 +208,31 @@ module planeTranslated(){
 
 
 
+//bomber model
+difference(){
+        scale([2,2,1])
+            plane();
+
+        balls(zMod=0, dMod=0.25);
+        
+    rotate([0,0,-90])
+    translate([-tokenWidth/2,tokenWidth/1.5,-1])
+        scale([1,1,2])
+    templateStraight();
+    
+    
+    rotate([0,0,-90])
+    translate([-tokenWidth/2,tokenWidth/1.5,-1])
+        scale([1,1,2])
+    #templateStraight();
+    }
+
 /*Actual models*/
-translate([-tokenWidth*2,0,0]) templateStraight();
-translate([tokenWidth*3,0,0]) template45();
-template90();
-altitudeTranslated();
-planeTranslated();
+//translate([-tokenWidth*2,0,0]) templateStraight();
+//translate([tokenWidth*3,0,0]) template45();
+//template90();
+//altitudeTranslated();
+//planeTranslated();
 
 /*Actual models*/
 
