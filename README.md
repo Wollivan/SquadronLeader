@@ -129,8 +129,9 @@ Thanks to Ben for teaching me that this move has a name, and thanks Josh for fin
 This rule rewards expertly skills pilots who can maneuver their plane into just the right place in the sky!
 
 - During the move phase, a player may declare they are executing a Barrel maneuver and move their plane to the left or right using the two notches on the side of the straight maneuver template.
-- It costs 4 speed to perform a Barrel Roll.
+- It costs 3 speed to perform a Barrel Roll.
 - Players cannot perform a Barrel roll and gain altitude in the same round.
+- A Barrel Roll cannot be the only movement the player perfoms that round.
 
 You can read more about the Barrel roll maneuver here:
 
@@ -210,6 +211,10 @@ You will also need a piece of string more than the length of 3 of the 1 cost man
 #### My opponent just rolled three 8s on the attack dice, what can I do?
 
 ##### Hope you have enough Health left and roll very well, that pilot has good aim!
+
+#### The rules for Split S and Barrel Roll say I can't execute them on the same turn as I gain altitude. Does this mean I can't do an Immelmann after a knockout?
+
+##### No. The altitude gained from an Immelmann does not count, so you could do a Barrel Roll/Split S, then proceed to Immelmann during the attack stage after taking an opponent out! (If you do, you'll be one hell of a pilot!)
 
 ## Downloads
 
