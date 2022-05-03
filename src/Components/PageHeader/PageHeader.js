@@ -1,7 +1,5 @@
 import React from "react";
 import "./PageHeader.scss";
-import Logo from "../../assets/images/aeronauts-logo.png";
-import LogoWhite from "../../assets/images/aeronauts-logo-white.png";
 
 export default function PageHeader({ theme, setTheme }) {
   // useEffect(() => {}, [theme]);
@@ -31,7 +29,7 @@ export default function PageHeader({ theme, setTheme }) {
     }
     return (
       <button
-        className="button header__top--theme-btn"
+        className="button header__theme-btn"
         onClick={toggleTheme}
         style={btnStyles}
       >
@@ -40,20 +38,10 @@ export default function PageHeader({ theme, setTheme }) {
     );
   }
 
-  function outputLogo() {
-    if (theme === "light") {
-      return <img className="header__logo" src={Logo} alt="logo" />;
-    } else {
-      return <img className="header__logo" src={LogoWhite} alt="logo" />;
-    }
-  }
   return (
     <div className="header">
-      <div className="header__top">
-        <span>v0.2.6</span>
-        {button()}
-      </div>
-      <div className="header__bottom">{outputLogo()}</div>
+      <span>v0.2.6</span>
+      {button()}
     </div>
   );
 }

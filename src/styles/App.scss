@@ -40,6 +40,14 @@
   @include bp.large {
     padding: 0 20%;
   }
+  &__logo {
+    margin: 0 auto;
+    max-width: 30%;
+    @include bp.medium {
+      max-width: 20%;
+      margin: 0 auto 0 0;
+    }
+  }
 }
 
 h1,

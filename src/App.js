@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App" style={themeStyles}>
       <PageHeader theme={theme} setTheme={setTheme} />
-      <Instructions />
+      <Instructions theme={theme} />
       <PageFooter />
     </div>
   );

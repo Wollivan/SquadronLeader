@@ -1,9 +1,10 @@
 import { React, useEffect, useState } from "react";
 import Markdown from "markdown-to-jsx";
 import "./Instructions.scss";
-import SCADImage from "../../assets/images/gameplay.jpg";
+import Logo from "../../assets/images/aeronauts-logo.png";
+import LogoWhite from "../../assets/images/aeronauts-logo-white.png";
 
-export default function Instructions() {
+export default function Instructions({ theme }) {
   const [post, setPost] = useState("");
 
   useEffect(() => {
@@ -16,9 +17,16 @@ export default function Instructions() {
       })
       .catch((err) => console.log(err));
   });
-
+  function outputLogo() {
+    if (theme === "light") {
+      return <img className="content__logo" src={Logo} alt="logo" />;
+    } else {
+      return <img className="content__logo" src={LogoWhite} alt="logo" />;
+    }
+  }
   return (
     <div className="content">
+      {outputLogo()}
       <div className="rules">
         <Markdown>{post}</Markdown>
       </div>
