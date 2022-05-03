@@ -17,7 +17,7 @@
   &__top {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin-bottom: 2rem;
     @include bp.medium {
       margin-bottom: 0;

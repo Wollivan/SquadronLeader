@@ -49,7 +49,10 @@ export default function PageHeader({ theme, setTheme }) {
   }
   return (
     <div className="header">
-      <div className="header__top">{button()}</div>
+      <div className="header__top">
+        <span>v0.5.2</span>
+        {button()}
+      </div>
       <div className="header__bottom">{outputLogo()}</div>
     </div>
   );
