@@ -10,7 +10,9 @@
 
 Squadron Leader is a fast pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built in that can be enjoyed by all ages!
 
-The modular nature of the optional rules allows for players to customise their game, and house rules are encouraged!
+The modular nature of the rules allows for players to customise their game and add entirely new layers of strategy.
+
+We encourage the use of house rules, and ask that you make suggestions on the <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>, this is an Open Source game after all!
 
 ## Rules
 
