@@ -1,4 +1,4 @@
-###### visit [Squadron Leader Website](https://squadronleader.netlify.app#downloads)
+###### visit [Squadron Leader Website](https://squadronleader.netlify.app)
 
 ###### [Downloadable assets](https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets)
 
