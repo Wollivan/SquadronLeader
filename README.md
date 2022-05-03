@@ -6,7 +6,7 @@
 
 #### The aerial combat game you can fit in your pocket!
 
-![gameplay](https://squadronleader.netlify.app/static/media/gameplay.e60266eabf4ea8ab23f6.jpg)
+![gameplay](https://user-images.githubusercontent.com/91621088/166423402-8616cf0d-327b-4b30-899a-ac93b54038e1.jpg)
 
 Squadron Leader is a fast pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built in that can be enjoyed by all ages!
 
@@ -54,7 +54,7 @@ Each player places their plane in front of them in turn, and not closer than the
 - A player must move at least once each turn otherwise their plane would stall and they would plummet to the ground!
 - If any part of a plane token goes off the board at the end of a maneuver, that plane is destroyed!
 
-![MovementExample](https://squadronleader.netlify.app/static/media/manuever-example.de005bba2f2fcafc70e5.gif)
+![manuever-example](https://user-images.githubusercontent.com/91621088/166423425-fbc0e7bf-2f76-4b47-92a3-d33456841918.gif)
 
 ### Attack Stage:
 
@@ -180,8 +180,8 @@ You fit the game in most tobacco tins, old or new, but if you'd like a Squadron 
 
 [Squadron Leader Tin on Etsy](https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader)
 
-![assets](https://squadronleader.netlify.app/static/media/printing-assets.b04d9e23cb0a7435a6ca.png)
-![unboxing](https://squadronleader.netlify.app/static/media/unboxing.f9e1f07a71fa1e9f4a85.gif)
+![assets](https://user-images.githubusercontent.com/91621088/166423494-07c1a658-16de-4230-89a6-c007e1ceafd2.png)
+![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
 
 ## Thank you playtesters
 
@@ -200,4 +200,4 @@ Without your help, this game would suck.
 - Matti
 - Moses
 
-![gameplay2](https://squadronleader.netlify.app/static/media/gameplay-2.71dd594ffccd59667de3.jpg)
+![gameplay-2](https://user-images.githubusercontent.com/91621088/166423599-6162de87-f5f0-46f2-9d7a-0d0b62a873f4.jpg)
