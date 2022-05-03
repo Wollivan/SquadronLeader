@@ -124,6 +124,22 @@ Here is an excerpt:
 
 Thanks to Ben for teaching me that this move has a name, and thanks Josh for finding Split S so the rules can match real life!
 
+### Barrel Roll rule
+
+This rule rewards expertly skills pilots who can maneuver their plane into just the right place in the sky!
+
+- During the move phase, a player may declare they are executing a Barrel maneuver and spend 2 altitude tokens to move their plane to the left or right, using the two notches on the side of the straight maneuver template.
+- It costs 2 speed to perform a Barrel Roll.
+- Players cannot perform a Barrel roll and gain altitude in the same round.
+
+You can read more about the Barrel roll maneuver here:
+
+<a href="https://en.wikipedia.org/wiki/Barrel_roll" target="_blank" class="button">Barrel Roll Wiki</a>
+
+Here is an excerpt:
+
+"A barrel roll is an aerial maneuver in which an airplane makes a complete rotation on both its longitudinal and lateral axes, causing it to follow a helical path, approximately maintaining its original direction."
+
 ### Ace Pilots rule
 
 This rule rewards players for playing aggressively, which can be helpful if you find pilots often avoid the action.
@@ -172,6 +188,10 @@ You will need to print the following from the STLs folder:
 You will also need a piece of string more than the length of 3 of the 1 cost manuever template. Tie knots this distance apart for your range ruler.
 
 ## FAQ
+
+#### Can I spend altitude to help pay the extra speed cost of perfoming a Split S/Barrel roll?
+
+##### Yes! If you don't have enough speed left, but do have enough altitude to pay for the maneuver and STILL have the altitude required to perfom the maneuever, go for it!
 
 #### Can you print me a copy?
 

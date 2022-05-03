@@ -88,6 +88,20 @@ module templateStraight() {
         translate([tokenWidth/7,templateLength/3,-1])
             linear_extrude(tokenHeight+2)
                 text("1", size=25);
+        
+        //barrel roll notches
+        translate([tokenWidth*1.35,tokenWidth/1.7,-1])
+            scale([1,1,1.5])
+                token();
+        
+        translate([tokenWidth*1.35,tokenWidth*2.42,-1])
+            scale([1,1,1.5])
+                token();
+                
+//        this just shows that the notches are exactly one token apart
+//        translate([tokenWidth*1.35,tokenWidth*1.5,-1])
+//            scale([1,1,1.5])
+//                #token();
     }
 }
 /*
@@ -168,7 +182,7 @@ module template90() {
 }
 //altitude token
 module altitudeTranslated(){
-    translate([0,-60,0])
+    translate([0,-tokenWidth*1.7,0])
     union(){
         balls(zMod=tokenHeight, dMod=0);
         difference(){
@@ -185,7 +199,7 @@ module altitudeTranslated(){
 }
 //plane token
 module planeTranslated(){
-    translate([0,-30,0])
+    translate([0,-tokenWidth/2,0])
     difference(){
         plane();
 
