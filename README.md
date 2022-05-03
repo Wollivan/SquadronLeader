@@ -175,20 +175,21 @@ You will also need a piece of string more than the length of 3 of the 1 cost man
 
 #### Can you print me a copy?
 
-Currently no, but its something we are working towards!
+##### Currently no, but its something we are working towards!
 
 #### My opponent just rolled their attack dice, is it too late for me to declare I'm rolling my Ace Bonus dice?
 
-No, so long as you declare before rolling any of your own dice.
+##### No, so long as you declare before rolling any of your own dice.
 
 #### What happens when I try to execute a maneuver but my opponents plane token is in the way?
 
-If you can't execute a maneuver without finishing in the same place as an opponent, you can't choose that maneuever.
-However, if you need to move an opponent so you can put the maneuever template down, use another maneuver template to make sure you don't forget where your opponents plane token was originally.
+##### If you can't execute a maneuver without finishing in the same place as an opponent, you can't choose that maneuever.
+
+##### However, if you need to move an opponent so you can put the maneuever template down, use another maneuver template to make sure you don't forget where your opponents plane token was originally.
 
 #### My opponent just rolled three 8s on the attack dice, what can I do?
 
-Hope you have enough Health left and roll very well, that pilot has good aim!
+##### Hope you have enough Health left and roll very well, that pilot has good aim!
 
 ## Downloads
 
