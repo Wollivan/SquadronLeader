@@ -223,9 +223,7 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 You fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, you can get one here.
 
-<a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader" target="_blank" class="button">Squadron Leader Tin on Etsy</a>
-
-![assets](https://user-images.githubusercontent.com/91621088/166423494-07c1a658-16de-4230-89a6-c007e1ceafd2.png)
+![assets](https://user-images.githubusercontent.com/91621088/166551882-3499db4b-4429-4911-aade-1348efc2a338.png)
 ![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
 
 ## Thank you playtesters
