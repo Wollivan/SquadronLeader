@@ -135,7 +135,7 @@ This rule rewards expertly skills pilots who can maneuver their plane into just 
 - During the move phase, a player may declare they are executing a Barrel Roll and move their plane to the left or right using the two notches on the side of the straight maneuver template.
 - It costs 3 speed to perform a Barrel Roll.
 - Players cannot perform a Barrel roll and gain altitude in the same round.
-- A Barrel Roll cannot be the only movement the player perfoms that round.
+- A Barrel Roll cannot be the only movement a player perfoms that round.
 
 You can read more about the Barrel roll maneuver here:
 
