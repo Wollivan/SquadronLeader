@@ -49,7 +49,7 @@ Whereas a seasoned Ace may elect for:
 - Health - 2
 
 Determine who starts with a high roll of a d8.
-Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range string to another players’ token that has already been placed. If each player is controlling more than one plane, take in turns until each token is placed down.
+Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range string to another players’ token that has already been placed. If each player is controlling more than one plane, take it in turns until each token is placed down.
 
 ### Move Stage:
 
@@ -78,6 +78,8 @@ Alright enough chatter, let's take to the skies!
 
 ## Modular Rules
 
+Squadron Leader has a growing modular rules to keep your games fresh, and for you to find the best version of aerial combat for you!
+
 ### Altitude rule
 
 ##### Recommended
@@ -87,7 +89,7 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 - At the start of the game each player takes off with 0 altitude tokens.
 - Once per round during their move stage, a player may spend 1 speed to Climb and add 1 altitude token underneath their plane.
 - In a round that the player hasn't climbed, they may Dive by removing any number of altitude tokens to add that number to their speed for the round.
-- When at a higher altitude while attacking or defending, a player may reroll 1 dice.
+- When at a higher altitude while attacking or defending, a player may reroll 1 die.
 
 ### Split S rule
 
@@ -124,13 +126,13 @@ Here is an excerpt:
 
 "In modern aerobatics, an Immelmann turn (also known as a roll-off-the-top, or simply an Immelmann) is an aerobatic maneuver that results in level flight in the opposite direction at a higher altitude."
 
-Thanks to Ben for teaching me that this move has a name, and thanks Josh for finding Split S so the rules can match real life!
+Thanks to Ben for teaching me that this move has a name, and thanks Josh for finding Split S so the what the rules do match real life planes!
 
 ### Barrel Roll rule
 
 This rule rewards expertly skills pilots who can maneuver their plane into just the right place in the sky!
 
-- During the move phase, a player may declare they are executing a Barrel maneuver and move their plane to the left or right using the two notches on the side of the straight maneuver template.
+- During the move phase, a player may declare they are executing a Barrel Roll and move their plane to the left or right using the two notches on the side of the straight maneuver template.
 - It costs 3 speed to perform a Barrel Roll.
 - Players cannot perform a Barrel roll and gain altitude in the same round.
 - A Barrel Roll cannot be the only movement the player perfoms that round.
@@ -176,7 +178,7 @@ You can change the feel of the game greatly by flying with a wingman. The strate
 
 For shorter games, have everyone start with Health 2, Attack 3, Speed 4 and Defense 2.
 The playing area size also effects game time, so if you make the area smaller, you will have a much faster game.
-Feel free to experiment with these number, the original 4,3,3,2 is a guideline for balanced games only.
+Feel free to experiment with these numbers, the original 4,3,3,2 is a guideline for balanced games only.
 
 ## Printing instructions
 
@@ -236,6 +238,8 @@ You can fit the game in most tobacco tins, old or new, but if you'd like a Squad
 #### Does a critical hit do more damage?
 
 ##### The benefit of a critical hit is it's dificulty to dodge. Think of it as a very accurate shot. But is still only deals 1 damage.
+
+##### It still only counts as one!
 
 ## Thank you playtesters
 

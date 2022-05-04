@@ -40,7 +40,7 @@ export default function PageHeader({ theme, setTheme }) {
 
   return (
     <div className="header">
-      <span>v0.2.7</span>
+      <span>v0.2.8</span>
       {button()}
     </div>
   );
