@@ -72,7 +72,7 @@ module plane(){
 }
 
 
-module templateStraight() {
+module templateStraight(theNum) {
     difference(){
         cube([tokenWidth,templateLength,tokenHeight]);
         
@@ -87,7 +87,7 @@ module templateStraight() {
         
         translate([tokenWidth/7,templateLength/3,-1])
             linear_extrude(tokenHeight+2)
-                text("1", size=25);
+                text(theNum, size=25);
         
         //barrel roll notches
         translate([tokenWidth*1.35,tokenWidth/1.7,-1])
@@ -128,7 +128,7 @@ module template45old() {
 }
 */
 
-module template45() {
+module template45(theNum) {
     difference(){
         translate([-templateLength,0,0])
             rotate_extrude(angle = 45)
@@ -149,14 +149,14 @@ module template45() {
         translate([tokenWidth/8,templateLength/4,-1])
             rotate([0,0,30])
                 linear_extrude(tokenHeight+2)
-                    text("2", size=25);
+                    text(theNum, size=25);
         
         
     }
     
 }
 
-module template90() {
+module template90(theNum) {
     difference(){
         translate([0,0,0])
             rotate_extrude(angle = 90)
@@ -177,7 +177,7 @@ module template90() {
         translate([tokenWidth/0.9,templateLength/6,-1])
             rotate([0,0,45])
                 linear_extrude(tokenHeight+2)
-                    text("3", size=25);
+                    text(theNum, size=25);
     }
 }
 //altitude token
@@ -207,7 +207,17 @@ module planeTranslated(){
     }
 }
 
-
+// single maneuver template
+module singleManeuver() {
+    
+    translate([tokenWidth,0,0]) templateStraight();
+    translate([tokenWidth,0,0]) template45();
+    template90();
+    
+    
+        scale([1,1,0.3]) translate([tokenWidth*1.3,tokenWidth*1.5,tokenWidth/2]) plane();
+    
+}
 //test
 //color("green") rotate([0,0,315]) translate([tokenWidth*3,0,0]) template45();
 
@@ -242,13 +252,15 @@ module planeTranslated(){
 //    }
 
 /*Actual models*/
-translate([-tokenWidth*2,0,0]) templateStraight();
-translate([tokenWidth*3,0,0]) template45();
-template90();
+translate([-tokenWidth*2,0,0]) templateStraight("1");
+translate([tokenWidth*3,0,0]) template45("2");
+template90("3");
 altitudeTranslated();
 planeTranslated();
+translate([-tokenWidth*4.5,0,0]) singleManeuver();
 
 /*Actual models*/
+
 
 
 
