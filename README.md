@@ -64,8 +64,8 @@ Each player places their plane within 1 straight maneuver template from the edge
 ### Attack Stage:
 
 - The attacker declares which enemy plane they will attack.
-- A player can only attack if the enemy plane is within in range. Range is determined with the knots on the range string, ensuring any part of the knot at one end crosses over the attacker and any part of the other knot crosses of the defender (or closer than this).
-- The defender must also be within the attackers firing arc which are the 90° lines on the front of the token.
+- A player can only attack if the enemy plane is within in range. Range is determined with the knots on the range string, ensuring any part of the knot at one end crosses over the attacker and any part of the other knot crosses over the defender (or closer than this).
+- The defender must also be within the attackers firing arc which is the 90° lines on the front of the token.
 - The attacking player rolls a number of Attack dice equal to their Attack value.
 - The defending player rolls a number of Defense dice equal to their Defense value.
 - Each value of 6-8 rolled on the Attack dice counts as 1 damage. An 8 rolled counts as a critical hit.
@@ -78,7 +78,7 @@ Alright enough chatter, let's take to the skies!
 
 ## Modular Rules
 
-Squadron Leader has a growing modular rules to keep your games fresh, and for you to find the best version of aerial combat for you!
+Squadron Leader has a growing set of modular rules to keep your games fresh, and for you to find the best version of aerial combat for you!
 
 ### Altitude rule
 
@@ -98,7 +98,7 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
 - During the move phase, a player may declare they are executing a Split S maneuver and spend 3 altitude tokens to place their plane token at 180° at the end of the manuever (facing the opposite direction to the way they were).
-- The Speed cost of the maneuver is double the normal cost of whichever manuever template the player is using (the straight becomes a 2, the bank becomes 4).
+- The Speed cost of the maneuver is double the normal cost of whichever manuever template the player is using (the straight now costs 2, the bank now costs 4).
 - Players cannot perform a Split S and gain altitude in the same round.
 
 You can read more about the Split S maneuver here:
@@ -126,7 +126,7 @@ Here is an excerpt:
 
 "In modern aerobatics, an Immelmann turn (also known as a roll-off-the-top, or simply an Immelmann) is an aerobatic maneuver that results in level flight in the opposite direction at a higher altitude."
 
-Thanks to Ben for teaching me that this move has a name, and thanks Josh for finding Split S so the what the rules do match real life planes!
+Thanks to Ben for teaching me that this move has a name, and thanks Josh for finding Split S so that what the rules do in game match what real life planes can do!
 
 ### Barrel Roll rule
 
@@ -135,7 +135,7 @@ This rule rewards expertly skills pilots who can maneuver their plane into just 
 - During the move phase, a player may declare they are executing a Barrel Roll and move their plane to the left or right using the two notches on the side of the straight maneuver template.
 - It costs 3 speed to perform a Barrel Roll.
 - Players cannot perform a Barrel roll and gain altitude in the same round.
-- A Barrel Roll cannot be the only movement the player perfoms that round.
+- A Barrel Roll cannot be the only movement a player perfoms that round.
 
 You can read more about the Barrel roll maneuver here:
 
@@ -149,20 +149,21 @@ Here is an excerpt:
 
 This rule rewards players for playing aggressively, which can be helpful if you find pilots often avoid the action.
 
-- When a pilot knocks another pilot out of the sky they become an Ace, and gain a Ace Bonus dice.
-- For the rest of the game, that pilot can choose to roll the Ace Bonus dice at any point, but only once a round.
-- The player must declare they are rolling their Ace Bonus dice before rolling any other dice.
+- When a pilot knocks another pilot out of the sky they become an Ace, and gain a Ace Bonus die.
+- For the rest of the game, that pilot can choose to roll the Ace Bonus die at any point, but only once a round.
+- The player must declare they are rolling their Ace Bonus die before rolling any other dice.
 - Players can have multiple Ace Bonus dice, if they knock multiple opponents out.
 
-For example, you could say "I am rolling my bonus dice for this attack". You can't use the bonus dice until the next round, so if you used it for your attack, you wouldn't be able to use it when defending this round.
+For example, you could say "I am rolling my bonus dice for this attack". You now can't use the bonus dice until the next round, so if you used it for your attack, you wouldn't be able to use it when defending this round.
+
+If you have 2 Ace bonus, you could use them both in the same roll, or spread them out across the round.
 
 ### Using the Forward Firing Guides
 
-If you are an expert pilot, you can make the game harder for yourself!
-
+Reward or challenge expert pilots by changing the rules around the firing arcs.
 You can either:
 
-- Play using only the forward firing guides and not the wide arc, or
+- Play using only the forward firing guides and ignoring the wide arc, or
 - Roll an additional attack dice when the defender is in the forward firing guide.
 
 ## Game modes
@@ -171,18 +172,21 @@ You can either:
 
 You can change the feel of the game greatly by flying with a wingman. The strategy of how you fly together is totally up to you. Here are the additional rules for playing in teams:
 
-- Teammates should sit next to one another
+- Teammates should sit next to one another.
 - The playing order is determined by teams, rather than players, so within your team you decide who moves first, and once the entire team has moved, the other team goes. This is the same principle for attacking.
 
 ### Quick game
 
-For shorter games, have everyone start with Health 2, Attack 3, Speed 4 and Defense 2.
-The playing area size also effects game time, so if you make the area smaller, you will have a much faster game.
-Feel free to experiment with these numbers, the original 4,3,3,2 is a guideline for balanced games only.
+There are a few ways to make the game shorter:
+
+- Have everyone start with a max of 2 Health.
+- Designate a smaller playing area.
+
+Feel free to experiment with the starting numbers, the original 4,3,3,2 is a guideline for balanced games, so going higher will change the game, but so long as each player has the same choices it SHOULD be fair.
 
 ## Printing instructions
 
-You will need to print the following from the STLs folder:
+You will need to print the following from the STLs directory:
 
 - plane.stl x1 for each player
 - altitude.stl x4 for each player
@@ -190,7 +194,7 @@ You will need to print the following from the STLs folder:
 - bank.stl x1 (or 1x for each player if you wish)
 - turn.stl x1 (or 1x for each player if you wish)
 
-You will also need a piece of string more than the length of 3 of the 1 cost manuever template. Tie knots this distance apart for your range ruler.
+For the range string you will meed a piece of string which is longer than the length of 3 of the 1 cost manuever template. You then need to tie 2 knots the distance of 3 straight maneuver templates apart.
 
 ## Downloads
 
@@ -217,15 +221,15 @@ You can fit the game in most tobacco tins, old or new, but if you'd like a Squad
 
 ##### Currently no, but its something we are working towards!
 
-#### My opponent just rolled their attack dice, is it too late for me to declare I'm rolling my Ace Bonus dice?
+#### My opponent just rolled their attack dice, is it too late for me to declare that I'm rolling my Ace Bonus dice?
 
 ##### No, so long as you declare before rolling any of your own dice.
 
 #### What happens when I try to execute a maneuver but my opponents plane token is in the way?
 
-##### If you can't execute a maneuver without finishing in the same place as an opponent, you can't choose that maneuever.
+##### If you can't execute a maneuver without finishing it in the same place as an opponent, you can't choose that maneuever.
 
-##### However, if you need to move an opponent so you can put the maneuever template down, use another maneuver template to make sure you don't forget where your opponents plane token was originally.
+##### However, if you need to move an opponent's token out of the way so you can put the maneuever template down, use another maneuver template to make sure you don't forget where your opponent's plane token was originally.
 
 #### My opponent just rolled three 8s on the attack dice, what can I do?
 
@@ -233,7 +237,9 @@ You can fit the game in most tobacco tins, old or new, but if you'd like a Squad
 
 #### The rules for Split S and Barrel Roll say I can't execute them on the same turn as I gain altitude. Does this mean I can't do an Immelmann after a knockout?
 
-##### No. The altitude gained from an Immelmann does not count, so you could do a Barrel Roll/Split S, then proceed to Immelmann during the attack stage after taking an opponent out! (If you do, you'll be one hell of a pilot!)
+##### No. The altitude gained from an Immelmann does not count, so you could do a Barrel Roll/Split S, then proceed to Immelmann during the attack stage after taking an opponent out!
+
+##### Anyone who manages that... When that's one hell of a pilot!
 
 #### Does a critical hit do more damage?
 
