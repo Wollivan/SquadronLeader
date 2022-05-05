@@ -239,7 +239,7 @@ You can fit the game in most tobacco tins, old or new, but if you'd like a Squad
 
 ##### No. The altitude gained from an Immelmann does not count, so you could do a Barrel Roll/Split S, then proceed to Immelmann during the attack stage after taking an opponent out!
 
-##### Anyone who manages that... When that's one hell of a pilot!
+##### Anyone who manages that... Well that's one hell of a pilot!
 
 #### Does a critical hit do more damage?
 
