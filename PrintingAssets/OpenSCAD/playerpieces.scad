@@ -209,13 +209,31 @@ module planeTranslated(){
 
 // single maneuver template
 module singleManeuver() {
+    difference(){
+        union() {
+            translate([tokenWidth,0,0]) templateStraight();
+            translate([tokenWidth,0,0]) template45();
+            template90();
+        }
+        
+        //scale([1,1,0.3]) translate([tokenWidth*1.3,tokenWidth*1.5,tokenWidth/2]) plane();
     
-    translate([tokenWidth,0,0]) templateStraight();
-    translate([tokenWidth,0,0]) template45();
-    template90();
     
+    //numbers
     
-        scale([1,1,0.3]) translate([tokenWidth*1.3,tokenWidth*1.5,tokenWidth/2]) plane();
+        translate([tokenWidth*1.33,templateLength/1.35,-1])
+            linear_extrude(tokenHeight+2)
+                text("1", size=10);
+        
+        translate([tokenWidth/1.1,templateLength/1.6,-1])
+            rotate([0,0,45])
+                linear_extrude(tokenHeight+2)
+                    text("2", size=10);
+        translate([tokenWidth/1.4,templateLength/2.25,-1])
+            rotate([0,0,90])
+                linear_extrude(tokenHeight+2)
+                    text("3", size=10);
+    }
     
 }
 //test
