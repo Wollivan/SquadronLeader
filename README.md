@@ -264,4 +264,4 @@ Without your help, this game would suck.
 - Matti
 - Moses
 
-![gameplay-2](https://user-images.githubusercontent.com/91621088/166423599-6162de87-f5f0-46f2-9d7a-0d0b62a873f4.jpg)
+![gameplay-gif](https://user-images.githubusercontent.com/91621088/167132550-7d76632c-5442-49ae-bf9d-bd636c559a73.gif)
