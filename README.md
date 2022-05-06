@@ -16,6 +16,8 @@ We encourage the use of house rules, and ask that you make suggestions on the <a
 
 ## Rules
 
+The objective of the game is the be the last plane left in the air by reducing your opponents Health to zero.
+
 Each pilot will need:
 
 - 1 plane token

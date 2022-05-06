@@ -1,3 +1,17 @@
+// Outputs
+
+translate([-tokenWidth*2,0,0]) templateStraight("1"); // Straight Template
+translate([tokenWidth*3,0,0]) template45("2"); // Bank Template
+template90("3"); // Turn Template
+altitudeTranslated(); // Altitude Token
+planeTranslated(); // Plane Token
+translate([-tokenWidth*4.5,0,0]) singleManeuver(); // All in one maneuver template
+
+
+
+
+
+// Begin Code
 tokenHeight = 4;
 tokenWidth = 26;
 wallWidth = 6;
@@ -270,17 +284,3 @@ module singleManeuver() {
 //        scale([1,1,2])
 //    #templateStraight();
 //    }
-
-/*Actual models*/
-translate([-tokenWidth*2,0,0]) templateStraight("1");
-translate([tokenWidth*3,0,0]) template45("2");
-template90("3");
-altitudeTranslated();
-planeTranslated();
-translate([-tokenWidth*4.5,0,0]) singleManeuver();
-
-/*Actual models*/
-
-
-
-
