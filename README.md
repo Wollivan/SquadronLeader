@@ -249,7 +249,9 @@ You can fit the game in most tobacco tins, old or new, but if you'd like a Squad
 
 ##### It still only counts as one!
 
-## Thank you playtesters
+## Thank yous
+
+### Playtesters
 
 Without your help, this game would suck.
 
@@ -265,5 +267,20 @@ Without your help, this game would suck.
 - Lydia
 - Matti
 - Moses
+- Patrick
+- Priyatham
+
+### Inspiration
+
+This game was inspired by X-Wing TMG and Wings of War. The motivation for creating Squadron Leader was not as a replacement to either of these, rather as a alternative, when time, space and people who don't want to learn complex games are a factor when trying to get your gaming fix.
 
 ![gameplay-gif](https://user-images.githubusercontent.com/91621088/167132550-7d76632c-5442-49ae-bf9d-bd636c559a73.gif)
+
+## Future features
+
+- Coop objectives & campaigns
+- Bomber token (larger, slower, tankier)
+- Alternative maneuver templates
+- Large scale battle rules (10+ ships per team)
+- Assets & instructions for playmats
+- Printable assets for 3D models on blank bases
