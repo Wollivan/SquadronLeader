@@ -194,6 +194,7 @@ module altitudeTranslated(){
                     token();
             
             balls(zMod=0, dMod=0.25);
+            rotate([0,0,45]) balls(zMod=0, dMod=0.25);
         }
     }
 }
@@ -204,6 +205,7 @@ module planeTranslated(){
         plane();
 
         balls(zMod=0, dMod=0.25);
+            rotate([0,0,45]) balls(zMod=0, dMod=0.25);
     }
 }
 

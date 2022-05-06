@@ -1,7 +1,7 @@
 import React from "react";
 import "./PageHeader.scss";
 
-export default function PageHeader({ theme, setTheme }) {
+export default function PageHeader({ theme, setTheme, version }) {
   // useEffect(() => {}, [theme]);
   function toggleTheme() {
     if (theme === "light") {
@@ -40,7 +40,7 @@ export default function PageHeader({ theme, setTheme }) {
 
   return (
     <div className="header">
-      <span>v0.2.8</span>
+      <span>{version}</span>
       {button()}
     </div>
   );
