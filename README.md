@@ -190,13 +190,22 @@ Feel free to experiment with the starting numbers, the original 4,3,3,2 is a gui
 
 You will need to print the following from the STLs directory:
 
-- plane.stl x1 for each player
-- altitude.stl x4 for each player
-- straight.stl x1 (or 1x for each player if you wish)
-- bank.stl x1 (or 1x for each player if you wish)
-- turn.stl x1 (or 1x for each player if you wish)
+#### For each player:
 
-For the range string you will meed a piece of string which is longer than the length of 3 of the 1 cost manuever template. You then need to tie 2 knots the distance of 3 straight maneuver templates apart.
+- player_plane.stl x1 for each player
+- player_altitude.stl x4 for each player
+
+#### To share either print:
+
+- move_all.stl x1
+
+or
+
+- move_straight.stl x1 (or 1x for each player if you wish)
+- move_bank.stl x1 (or 1x for each player if you wish)
+- move_turn.stl x1 (or 1x for each player if you wish)
+
+For the range string you will need a piece of string which is longer than the length of 3 of the 1 cost manuever template. You then need to tie 2 knots the distance of 3 straight maneuver templates apart.
 
 ## Downloads
 
