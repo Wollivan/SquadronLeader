@@ -78,6 +78,9 @@ This gif shows a Move Stage where the player spends 3 speed to move.
 - Each value of 6-8 rolled on the Defense dice counts as a dodge and cancels out a hit. It takes 2 dodges to cancel out a critical hit. Critical hits still only deal 1 damage when not cancelled out.
 - The defender loses Health equal to the hits that haven’t been canceled out.
 
+This image shows a situation where the white plane can shoot at the yellow plane (blue arc) and the yellow plane CAN'T shoot at the white plane (red arc).
+![firing-arc](https://user-images.githubusercontent.com/91621088/167209670-d14cfa27-6109-4bee-8a9e-e8c88d571aa2.jpg)
+
 A new round begins and the player who went second in the previous round now goes first.
 
 Alright enough chatter, let's take to the skies!
