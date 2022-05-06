@@ -61,6 +61,8 @@ Each player places their plane within 1 straight maneuver template from the edge
 - A player must move at least once each round otherwise their plane would stall and they would plummet to the ground!
 - If any part of a plane token goes off the board at the end of a maneuver, that plane is destroyed!
 
+![movement](https://user-images.githubusercontent.com/91621088/167208819-c5c2eedb-7fd1-4cb4-945c-70a1b26c79bf.gif)
+
 ![manuever-example](https://user-images.githubusercontent.com/91621088/166423425-fbc0e7bf-2f76-4b47-92a3-d33456841918.gif)
 
 ### Attack Stage:
