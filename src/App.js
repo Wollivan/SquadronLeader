@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App" style={themeStyles}>
-      <PageHeader theme={theme} setTheme={setTheme} version="0.2.11" />
+      <PageHeader theme={theme} setTheme={setTheme} version="v0.2.12" />
       <Instructions theme={theme} />
       <PageFooter />
     </div>
