@@ -175,6 +175,27 @@ You can either:
 - Play using only the forward firing guides and ignoring the wide arc, or
 - Roll an additional attack dice when the defender is in the forward firing guide.
 
+### Hex Grid
+
+The game can be played on a hex grid. That removes the need for movement templates and strings. All rules are the same as without a grid, except for what is described in this section.
+
+Any battlemat with a hex grid can be used. Planes set up in hexes along each player's edge of the mat. There can only ever be one plane per hex, and planes can never end a move in the same hex as another plane. A plane always face one of the six sides of its hex.
+
+Instead of using the movement templates the three possible moves on a hex grid are:
+1. (Cost 1) Move 2 hexes forward.
+2. (Cost 2) Move 1 hex forward, then turn left or right 60 degrees (i.e. to the next hex-side clockwise or counter-clockwise
+3. (Cost 3) Turn 60 degrees, then move 1 hex forward, then turn another 60 degrees in the same direction as the first turn
+
+![hex-moves](src/assets/images/hex_moves.png)
+
+Attacks are up to range 3. Count range in hexes, not including the hex occupied by the attacking plane, but including the attacked plane. The firing arc of a plane is a cone in front of it, starting with the single hex in front, then the 3 hexes in front of that, then the 5 beyond those.
+
+![hex-fire-arc](src/assets/images/hex_fire_arc.png)
+
+A barrel roll is performed by moving in the hex to the left or right and slightly backwards.
+
+![hex-barrel-roll](src/assets/images/hex_barrel_roll.png)
+
 ## Game modes
 
 ### Team game
