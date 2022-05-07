@@ -220,9 +220,9 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets" target="_blank" class="button">Download all printing assets</a>
 
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
 
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/STLs" target="_blank" class="button">Download STLs</a>
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/STLs" target="_blank" class="button">Download STLs</a>
 
 You can fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get one here</a>.
 
