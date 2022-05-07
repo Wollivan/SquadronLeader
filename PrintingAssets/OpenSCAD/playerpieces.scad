@@ -249,6 +249,13 @@ module singleManeuver() {
             rotate([0,0,90])
                 linear_extrude(tokenHeight+2)
                     text("3", size=10);
+        
+        translate([tokenWidth*1.45,tokenWidth*0.8,tokenHeight-0.9])
+        rotate([0,0,90])
+        linear_extrude(height = tokenHeight/4) {
+            scale(0.065)
+                import("plane-model.svg", center=true);
+        }
     }
     
 }
