@@ -237,6 +237,7 @@ The small form factor of Squadron Leader is definitely one of the core tenets of
 
 To that end, I am going to start adding components that won't fit in a small box, that are interchangeable with components that do fit in the tin. The main one being a rigid range ruler that can be used with one hand.
 The other added benefit of not trying make the game fit in a tin, is printed rules will fit, there will be more space for player tokens and maneuver templates (so each player can have their own set).
+Most excitingly is that I can reintroduce my original design for a dial that players can use to keep track of their stats, so watch this space!
 
 As stated, small box is part of the Squadron Leader quirk, so that's not going to change, but I am going to strive to make this game more flexible, and available for everyone to enjoy!
 
@@ -311,3 +312,5 @@ This game was inspired by X-Wing TMG and Wings of War. The motivation for creati
 - Large scale battle rules (10+ ships per team)
 - Assets & instructions for playmats
 - Printable assets for 3D models on blank bases
+- More accessible components for less able players
+- Stat dials for people who don't mind a larger box
