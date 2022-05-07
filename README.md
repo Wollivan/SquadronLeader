@@ -175,6 +175,10 @@ You can either:
 - Play using only the forward firing guides and ignoring the wide arc, or
 - Roll an additional attack dice when the defender is in the forward firing guide.
 
+### D6 Rule
+
+Not everyone has a bucket of 8-sided dice in 2-3 colors readily available. With this optional rule common 6-sided dice are used instead. Attacks hit on a roll of 4-6. Defense cancels a hit on each roll of 4-6. There are no critical hits when using 6-sided dice.
+
 ## Game modes
 
 ### Team game
