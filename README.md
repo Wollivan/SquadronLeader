@@ -322,7 +322,7 @@ This game was inspired by X-Wing TMG and Wings of War. The motivation for creati
 This license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, for noncommercial purposes only. If others modify or adapt the material, they must license the modified material under identical terms.
 
 
-BY: Credit must be given to you, the creator.
+BY: Credit must be given to the creator.
 
 NC: Only noncommercial use of your work is permitted.
 Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.
