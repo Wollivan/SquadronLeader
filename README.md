@@ -30,9 +30,9 @@ The pilots will share:
 - 4 Red d8 for the Attack dice
 - 4 Green d8 for the Defense dice
 - Optional: Blue d8 for the Ace Bonus dice
-- Optional: 1 70cm x 70cm playmat
+- Optional: 1 70 cm x 70 cm playmat
 
-The playing area of the game can be any size. Its usually just the entire table, because thats the easiest to keep track of, but for an optimal playing experience, you can define a square which is 70cm square or 3 lengths of the range string wide and long.
+The playing area of the game can be any size. Its usually just the entire table, because that is the easiest to keep track of, but for an optimal playing experience, you can define a square which is 70 cm square or 3 lengths of the range string wide and long.
 
 At the start of the game each player secretly assigns the numbers 4,3,3,2 to their Attack, Defense, Speed & Health and simultaneously reveals their choices.
 
@@ -55,9 +55,9 @@ Each player places their plane within 1 straight maneuver template from the edge
 
 ### Move Stage:
 
-- Players take turns to move their plane using the move templates, up to their Speed value. Each move template has a cost of 1, 2 or 3, for the straight, bank & turn templates respectively.
+- Players take turns to move their plane using the move templates, up to their Speed value. Each move template has a cost of 1, 2 or 3 for the straight, bank & turn templates respectively.
 - To move, place the maneuver template at the front of the plane token, and move the plane to the other end of the template.
-- The player may use templates up to the value of their speed, for example a player with a Speed of 4 can execute 2 straight maneuvers & 1 bank maneuver (1+1+2).
+- The player may use templates up to the value of their speed, for example a player with a Speed of 4 can execute 2 straight maneuvers & 1 bank maneuver (1 + 1 + 2).
 - A player must move at least once each round otherwise their plane would stall and they would plummet to the ground!
 - If any part of a plane token goes off the board at the end of a maneuver, that plane is destroyed!
 
@@ -220,9 +220,9 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets" target="_blank" class="button">Download all printing assets</a>
 
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
 
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/STLs" target="_blank" class="button">Download STLs</a>
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/STLs" target="_blank" class="button">Download STLs</a>
 
 You can fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get one here</a>.
 
