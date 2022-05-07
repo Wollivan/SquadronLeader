@@ -229,6 +229,17 @@ You can fit the game in most tobacco tins, old or new, but if you'd like a Squad
 ![assets](https://user-images.githubusercontent.com/91621088/166903264-f92af9b1-4419-4c2c-9cc0-766198d7ef9a.png)
 ![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
 
+## Accessibility
+
+### Small Tin vs Big Box
+
+The small form factor of Squadron Leader is definitely one of the core tenets of the game. That said, u/porgherder made the very astute observation that this restricts design space, which sometimes is a good thing, but it is potentially at the cost of accessibility to some users.
+
+To that end, I am going to start adding components that won't fit in a small box, that are interchangeable with components that do fit in the tin. The main one being a rigid range ruler that can be used with one hand.
+The other added benefit of not trying make the game fit in a tin, is printed rules will fit, there will be more space for player tokens and maneuver templates (so each player can have their own set).
+
+As stated, small box is part of the Squadron Leader quirk, so that's not going to change, but I am going to strive to make this game more flexible, and available for everyone to enjoy!
+
 ## FAQ
 
 #### Can I spend altitude to help pay the extra speed cost of perfoming a Split S/Barrel roll?
