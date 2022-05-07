@@ -181,10 +181,9 @@ The game can be played on a hex grid. That removes the need for movement templat
 
 Any battlemat with a hex grid can be used. Planes set up in hexes along each player's edge of the mat. There can only ever be one plane per hex, and planes can never end a move in the same hex as another plane. A plane always face one of the six sides of its hex.
 
-Instead of using the movement templates there are four possible moves on a hex grid:
+Instead of using the movement templates there are three possible moves on a hex grid that are used instead:
 - 1 (Cost 1) Move 2 hexes forward.
-- 2a (Cost 2) Move 1 hex forward, then turn left or right 60 degrees (i.e. to the next hex-side clockwise or counter-clockwise
-- 2b (Cost 2) Turn left or right 60 degrees, then move 1 hex forward.
+- 2 (Cost 2) Move 1 hex forward, then turn left or right 60 degrees, then move 1 hex forward in the new direction.
 - 3 (Cost 3) Turn 60 degrees, then move 1 hex forward, then turn another 60 degrees in the same direction as the first turn
 
 ![hex-moves](src/assets/images/hex_moves.png)
