@@ -183,7 +183,8 @@ Any battlemat with a hex grid can be used. Planes set up in hexes along each pla
 
 Instead of using the movement templates the three possible moves on a hex grid are:
 1. (Cost 1) Move 2 hexes forward.
-2. (Cost 2) Move 1 hex forward, then turn left or right 60 degrees (i.e. to the next hex-side clockwise or counter-clockwise
+2a. (Cost 2) Move 1 hex forward, then turn left or right 60 degrees (i.e. to the next hex-side clockwise or counter-clockwise
+2b. (Cost 2) Turn left or right 60 degrees, then move 1 hex forward.
 3. (Cost 3) Turn 60 degrees, then move 1 hex forward, then turn another 60 degrees in the same direction as the first turn
 
 ![hex-moves](src/assets/images/hex_moves.png)
