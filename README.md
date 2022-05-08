@@ -141,10 +141,9 @@ Thanks to Ben for teaching me that this move has a name, and thanks Josh for fin
 
 This rule rewards expertly skills pilots who can maneuver their plane into just the right place in the sky!
 
-- During the move phase, a player may declare they are executing a Barrel Roll and move their plane to the left or right using the two notches on the side of the straight maneuver template.
-- It costs 3 speed to perform a Barrel Roll.
+- During the move phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost maneuver, but instead of orienting their plane along the new axis, their token will not rotate at all, and be traveling in the same direction.
+- The speed cost for a Barrel roll is twice whatever number is on the template (2 maneuver costs 4, 3 maneuver costs 6)
 - Players cannot perform a Barrel roll and gain altitude in the same round.
-- A Barrel Roll cannot be the only movement a player perfoms that round.
 
 You can read more about the Barrel roll maneuver here:
 
@@ -301,6 +300,12 @@ Without your help, this game would suck.
 - Moses
 - Patrick
 - Priyatham
+
+and a special thanks for their genius in coming up with a new barrel roll rule:
+
+- Dylon
+- Kirk
+- Lila
 
 ### Inspiration
 
