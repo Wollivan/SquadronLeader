@@ -195,10 +195,6 @@ Attacks are up to range 3. Count range in hexes, not including the hex occupied 
 
 ![hex-fire-arc](src/assets/images/hex_fire_arc.png)
 
-A barrel roll is performed by moving in the hex to the left or right and slightly backwards.
-
-![hex-barrel-roll](src/assets/images/hex_barrel_roll.png)
-
 ### D6 Rule
 
 Not everyone has a bucket of 8-sided dice in 2-3 colors readily available. With this optional rule common 6-sided dice are used instead. Attacks hit on a roll of 4-6. Defense cancels a hit on each roll of 4-6. There are no critical hits when using 6-sided dice.
