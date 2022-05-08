@@ -53,6 +53,8 @@ Whereas a seasoned Ace may elect for:
 Determine who starts with a high roll of a d8.
 Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range string to another players’ token that has already been placed. If each player is controlling more than one plane, take it in turns until each token is placed down.
 
+There are 2 stages each round, the Move Stage and the Attack Stage. Everyone moves during the Move stage, and then everyone Attacks during the Attack Stage. Here are how they work:
+
 ### Move Stage:
 
 - Players take turns to move their plane using the move templates, up to their Speed value. Each move template has a cost of 1, 2 or 3 for the straight, bank & turn templates respectively.
