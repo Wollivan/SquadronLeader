@@ -99,8 +99,10 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 
 - At the start of the game each player takes off with 0 altitude tokens.
 - Once per round during their move stage, a player may spend 1 speed to Climb and add 1 altitude token underneath their plane.
+- Players can only gain 1 alititude per round.
 - In a round that the player hasn't climbed, they may Dive by removing any number of altitude tokens to add that number to their speed for the round.
 - When at a higher altitude while attacking or defending, a player may reroll 1 die.
+- The maximum altitude allowed is 4.
 
 ### Split S rule
 
@@ -195,6 +197,7 @@ There are a few ways to make the game shorter:
 
 - Have everyone start with a max of 2 Health.
 - Designate a smaller playing area.
+- Allow players to gain more than 1 altitude per round.
 
 Feel free to experiment with the starting numbers, the original 4,3,3,2 is a guideline for balanced games, so going higher will change the game, but so long as each player has the same choices it SHOULD be fair.
 
