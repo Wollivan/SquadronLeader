@@ -256,6 +256,16 @@ module singleManeuver() {
             scale(0.065)
                 import("plane-model.svg", center=true);
         }
+        
+        
+        //barrel roll notches
+        translate([tokenWidth+tokenWidth*1.35,tokenWidth/1.7,-1])
+            scale([1,1,1.5])
+                token();
+        
+        translate([tokenWidth+tokenWidth*1.35,tokenWidth*2.42,-1])
+            scale([1,1,1.5])
+                token();
     }
     
 }
