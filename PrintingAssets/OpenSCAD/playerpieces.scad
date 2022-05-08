@@ -103,6 +103,7 @@ module templateStraight(theNum) {
             linear_extrude(tokenHeight+2)
                 text(theNum, size=25);
         
+        /* removed because this is no longer how they are executed
         //barrel roll notches
         translate([tokenWidth*1.35,tokenWidth/1.7,-1])
             scale([1,1,1.5])
@@ -111,7 +112,8 @@ module templateStraight(theNum) {
         translate([tokenWidth*1.35,tokenWidth*2.42,-1])
             scale([1,1,1.5])
                 token();
-                
+        */
+        
 //        this just shows that the notches are exactly one token apart
 //        translate([tokenWidth*1.35,tokenWidth*1.5,-1])
 //            scale([1,1,1.5])
@@ -256,6 +258,17 @@ module singleManeuver() {
             scale(0.065)
                 import("plane-model.svg", center=true);
         }
+        
+        /* removed because this is no longer how they are executed
+        //barrel roll notches
+        translate([tokenWidth+tokenWidth*1.35,tokenWidth/1.7,-1])
+            scale([1,1,1.5])
+                token();
+        
+        translate([tokenWidth+tokenWidth*1.35,tokenWidth*2.42,-1])
+            scale([1,1,1.5])
+                token();
+        */
     }
     
 }

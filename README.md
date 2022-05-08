@@ -53,6 +53,8 @@ Whereas a seasoned Ace may elect for:
 Determine who starts with a high roll of a d8.
 Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range string to another players’ token that has already been placed. If each player is controlling more than one plane, take it in turns until each token is placed down.
 
+There are 2 stages each round, the Move Stage and the Attack Stage. Everyone moves during the Move stage, and then everyone Attacks during the Attack Stage. Here are how they work:
+
 ### Move Stage:
 
 - Players take turns to move their plane using the move templates, up to their Speed value. Each move template has a cost of 1, 2 or 3 for the straight, bank & turn templates respectively.
@@ -97,8 +99,10 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 
 - At the start of the game each player takes off with 0 altitude tokens.
 - Once per round during their move stage, a player may spend 1 speed to Climb and add 1 altitude token underneath their plane.
+- Players can only gain 1 alititude per round.
 - In a round that the player hasn't climbed, they may Dive by removing any number of altitude tokens to add that number to their speed for the round.
 - When at a higher altitude while attacking or defending, a player may reroll 1 die.
+- The maximum altitude allowed is 4.
 
 ### Split S rule
 
@@ -141,10 +145,9 @@ Thanks to Ben for teaching me that this move has a name, and thanks Josh for fin
 
 This rule rewards expertly skills pilots who can maneuver their plane into just the right place in the sky!
 
-- During the move phase, a player may declare they are executing a Barrel Roll and move their plane to the left or right using the two notches on the side of the straight maneuver template.
-- It costs 3 speed to perform a Barrel Roll.
+- During the move phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost maneuver, but instead of orienting their plane along the new axis, their token will not rotate at all, and be traveling in the same direction.
+- The speed cost for a Barrel roll is twice whatever number is on the template (2 maneuver costs 4, 3 maneuver costs 6)
 - Players cannot perform a Barrel roll and gain altitude in the same round.
-- A Barrel Roll cannot be the only movement a player perfoms that round.
 
 You can read more about the Barrel roll maneuver here:
 
@@ -196,6 +199,10 @@ A barrel roll is performed by moving in the hex to the left or right and slightl
 
 ![hex-barrel-roll](src/assets/images/hex_barrel_roll.png)
 
+### D6 Rule
+
+Not everyone has a bucket of 8-sided dice in 2-3 colors readily available. With this optional rule common 6-sided dice are used instead. Attacks hit on a roll of 4-6. Defense cancels a hit on each roll of 4-6. There are no critical hits when using 6-sided dice.
+
 ## Game modes
 
 ### Team game
@@ -211,6 +218,7 @@ There are a few ways to make the game shorter:
 
 - Have everyone start with a max of 2 Health.
 - Designate a smaller playing area.
+- Allow players to gain more than 1 altitude per round.
 
 Feel free to experiment with the starting numbers, the original 4,3,3,2 is a guideline for balanced games, so going higher will change the game, but so long as each player has the same choices it SHOULD be fair.
 
@@ -247,7 +255,7 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 You can fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get one here</a>.
 
-![assets](https://user-images.githubusercontent.com/91621088/167252216-13f2ec44-185c-405d-8002-66bb23c53254.png)
+![assets](https://user-images.githubusercontent.com/91621088/167314934-d9db01ea-04d0-4fb6-ba31-9ec6d6091408.png)
 ![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
 
 ## Accessibility
@@ -318,6 +326,12 @@ Without your help, this game would suck.
 - Moses
 - Patrick
 - Priyatham
+
+and a special thanks for their genius in coming up with a new barrel roll rule:
+
+- Dylon
+- Kirk
+- Lila
 
 ### Inspiration
 
