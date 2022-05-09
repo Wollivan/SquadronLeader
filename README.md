@@ -329,6 +329,15 @@ and a special thanks for their genius in coming up with a new barrel roll rule:
 - Kirk
 - Lila
 
+and thank you for their immediate help on release with getting the rules more readable
+
+- Pelle
+
+and for making sure the game met Open Source requirements
+
+- penyuan
+- TechnologyClassroom
+
 ### Inspiration
 
 This game was inspired by X-Wing TMG and Wings of War. The motivation for creating Squadron Leader was not as a replacement to either of these, rather as a alternative, when time, space and people who don't want to learn complex games are a factor when trying to get your gaming fix.
