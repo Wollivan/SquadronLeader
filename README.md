@@ -237,6 +237,10 @@ or
 - move_bank.stl x1 (or 1x for each player if you wish)
 - move_turn.stl x1 (or 1x for each player if you wish)
 
+#### Optional:
+
+- box.stl x1
+
 For the range string you will need a piece of string which is longer than the length of 3 of the 1 cost manuever template. You then need to tie 2 knots the distance of 3 straight maneuver templates apart.
 
 ## Downloads
