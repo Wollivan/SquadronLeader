@@ -310,7 +310,9 @@ As stated, small box is part of the Squadron Leader quirk, so that's not going t
 
 ## Thank yous
 
-Without your help, this game would suck.
+First and most important thank you to <a href="https://twitter.com/HarryTheGM?t=-lbRdIOqqLyfzbsDPnInbA&s=09" target="_blank">Harry the GM</a> for inspiring me to make a game in the first place.
+
+Playtesters. Without your help, this game would suck.
 
 - Becky
 - Bekah
