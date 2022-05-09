@@ -335,11 +335,20 @@ a major thank you for their immediate help on release with getting the rules mor
 
 - Pelle
 
-and also for making sure the game met Open Source requirements:
+and for the important  fix of making sure the game met Open Source requirements:
 
 - avamk
 - penyuan
 - TechnologyClassroom
+
+and for their awesome contributions to making an awesome printable box:
+
+- Amnos
+- Flo
+
+and for SITCKERS:
+
+- mevdev
 
 ### Inspiration
 
