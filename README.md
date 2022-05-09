@@ -327,12 +327,13 @@ and a special thanks for their genius in coming up with a new barrel roll rule:
 - Kirk
 - Lila
 
-A major thank you for their immediate help on release with getting the rules more readable, adding the Hex Grid rules and the d6 rules:
+a major thank you for their immediate help on release with getting the rules more readable, adding the Hex Grid rules and the d6 rules:
 
 - Pelle
 
 and also for making sure the game met Open Source requirements:
 
+- avamk
 - penyuan
 - TechnologyClassroom
 
