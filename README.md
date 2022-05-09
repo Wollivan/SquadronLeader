@@ -14,7 +14,9 @@ The modular nature of the rules allows for players to customise their game and a
 
 We encourage the use of house rules, and ask that you make suggestions on the <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>, this is an Open Source game after all!
 
-Note from the creator: If you're viewing this on the website and want to see all the incredible work from amazing people, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a> and <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> on GitHub.
+#### Note from the creator:
+
+If you're viewing this on the website and want to see all the incredible work from the amazing people making this game better, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a>, <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> and <a href="https://github.com/Wollivan/SquadronLeader/discussions" target="_blank">discussions</a> on GitHub.
 
 ## Rules
 
