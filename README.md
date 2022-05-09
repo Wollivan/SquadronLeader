@@ -304,8 +304,6 @@ As stated, small box is part of the Squadron Leader quirk, so that's not going t
 
 ## Thank yous
 
-### Playtesters
-
 Without your help, this game would suck.
 
 - Becky
@@ -329,11 +327,11 @@ and a special thanks for their genius in coming up with a new barrel roll rule:
 - Kirk
 - Lila
 
-and thank you for their immediate help on release with getting the rules more readable
+A major thank you for their immediate help on release with getting the rules more readable, adding the Hex Grid rules and the d6 rules:
 
 - Pelle
 
-and for making sure the game met Open Source requirements
+and also for making sure the game met Open Source requirements:
 
 - penyuan
 - TechnologyClassroom
