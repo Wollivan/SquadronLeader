@@ -12,9 +12,20 @@
   @include bp.medium {
     margin-bottom: 0;
   }
+  &__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   &__theme-btn {
     padding: 0.5rem;
     width: unset;
     margin: unset;
+  }
+  &__github-link {
+    margin-right: 2rem;
+    &-logo {
+      max-width: 40px;
+    }
   }
 }
