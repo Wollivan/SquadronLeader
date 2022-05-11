@@ -193,11 +193,11 @@ Instead of using the movement templates there are three possible moves on a hex 
 - 2 (Cost 2) Move 1 hex forward, then turn left or right 60 degrees, then move 1 hex forward in the new direction.
 - 3 (Cost 3) Turn 60 degrees, then move 1 hex forward, then turn another 60 degrees in the same direction as the first turn
 
-![hex-moves](src/assets/images/hex_moves.png)
+![hex_moves](https://user-images.githubusercontent.com/91621088/167960079-7a060dfd-bdcc-4787-87df-f362fb33d053.png)
 
 Attacks are up to range 3. Count range in hexes, not including the hex occupied by the attacking plane, but including the attacked plane. The firing arc of a plane is a cone in front of it, starting with the single hex in front, then the 3 hexes in front of that, then the 5 beyond those.
 
-![hex-fire-arc](src/assets/images/hex_fire_arc.png)
+![hex_fire_arc](https://user-images.githubusercontent.com/91621088/167960090-ac8a2d9d-62a3-431c-a0a2-f6d53c963038.png)
 
 ### D6 Rule
 
