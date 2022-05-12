@@ -1,5 +1,7 @@
 ###### visit [Squadron Leader Website](https://squadronleader.netlify.app)
 
+##### visit [Squadron Leader subreddit](https://www.reddit.com/r/SquadronLeader/)
+
 ###### [Downloadable assets](https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets)
 
 # Squadron Leader
