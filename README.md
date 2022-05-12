@@ -32,13 +32,13 @@ Each pilot will need:
 The pilots will share:
 
 - 1 of each move template
-- 1 range string
+- 1 range ruler
 - 4 Red d8 for the Attack dice
 - 4 Green d8 for the Defense dice
 - Optional: Blue d8 for the Ace Bonus dice
 - Optional: 1 70 cm x 70 cm playmat
 
-The playing area of the game can be any size. Its usually just the entire table, because that is the easiest to keep track of, but for an optimal playing experience, you can define a square which is 70 cm square or 3 lengths of the range string wide and long.
+The playing area of the game can be any size. Its usually just the entire table, because that is the easiest to keep track of, but for an optimal playing experience, you can define a square which is 70 cm square or 3 lengths of the range ruler wide and long.
 
 At the start of the game each player secretly assigns the numbers 4,3,3,2 to their Attack, Defense, Speed & Health and simultaneously reveals their choices.
 
@@ -57,7 +57,7 @@ Whereas a seasoned Ace may elect for:
 - Health - 2
 
 Determine who starts with a high roll of a d8.
-Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range string to another players’ token that has already been placed. If each player is controlling more than one plane, take it in turns until each token is placed down.
+Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range ruler to another players’ token that has already been placed. If each player is controlling more than one plane, take it in turns until each token is placed down.
 
 There are 2 stages each round, the Move Stage and the Attack Stage. Everyone moves during the Move stage, and then everyone Attacks during the Attack Stage. Here are how they work:
 
@@ -78,7 +78,7 @@ This gif shows a Move Stage where the player spends 3 speed to move.
 ### Attack Stage:
 
 - The attacker declares which enemy plane they will attack.
-- A player can only attack if the enemy plane is within in range. Range is determined with the knots on the range string, ensuring any part of the knot at one end crosses over the attacker and any part of the other knot crosses over the defender (or closer than this).
+- A player can only attack if the enemy plane is within in range. Range is determined with the two endmost marks on the range ruler, ensuring both planes are within that distance.
 - The defender must also be within the attackers firing arc which is the 90° lines on the front of the token.
 - The attacking player rolls a number of Attack dice equal to their Attack value.
 - The defending player rolls a number of Defense dice equal to their Defense value.
@@ -90,6 +90,15 @@ A new round begins and the player who went second in the previous round now goes
 
 This image shows a situation where the white plane can shoot at the yellow plane (blue arc) and the yellow plane CAN'T shoot at the white plane (red arc).
 ![firing-arc](https://user-images.githubusercontent.com/91621088/167209670-d14cfa27-6109-4bee-8a9e-e8c88d571aa2.jpg)
+
+#### Attack/Defense bonuses
+
+Beyond the bonuses outlined in the altitude rule, there are 2 other attack and defense bonuses dependent on the distance between the attacker and defender:
+
+- The defender may reroll 1 die if they are within the furthest section of the range ruler
+- The attacker may reroll 1 dice if they are within the closest section of the range ruler
+
+This adds a nice dynamic between (1) rewarding players for an aggressive assault (2) rewarding defenders for making a getaway (3) punishing those people getting away by not rewarding a bonus to their roll.
 
 Alright enough chatter, let's take to the skies!
 
@@ -186,11 +195,12 @@ You can either:
 
 ### Hex Grid
 
-The game can be played on a hex grid. That removes the need for movement templates and strings. All rules are the same as without a grid, except for what is described in this section.
+The game can be played on a hex grid. That removes the need for movement templates and rulers. All rules are the same as without a grid, except for what is described in this section.
 
 Any battlemat with a hex grid can be used. Planes set up in hexes along each player's edge of the mat. There can only ever be one plane per hex, and planes can never end a move in the same hex as another plane. A plane always face one of the six sides of its hex.
 
 Instead of using the movement templates there are three possible moves on a hex grid that are used instead:
+
 - 1 (Cost 1) Move 2 hexes forward.
 - 2 (Cost 2) Move 1 hex forward, then turn left or right 60 degrees, then move 1 hex forward in the new direction.
 - 3 (Cost 3) Turn 60 degrees, then move 1 hex forward, then turn another 60 degrees in the same direction as the first turn
@@ -246,8 +256,20 @@ or
 #### Optional:
 
 - box.stl x1
+- range_bendable.stl OR range_solid.stl (for the bendable modelling, it hasn't yet been tested, and I imagine normal PLA will just snap)
 
-For the range string you will need a piece of string which is longer than the length of 3 of the 1 cost manuever template. You then need to tie 2 knots the distance of 3 straight maneuver templates apart.
+#### Range Ruler
+
+If you aren't printing the range ruler you will need to make one out of string.
+The string needs to be greater that 234mm. Don't worry about this specific mmeasurement, it's the length of 3 straight maneuvers.
+Mark the string slightly beyond the end so you have some excess to hold. Then from that point, measure and mark at:
+
+- 78mm (one straight maneuver length)
+- 156mm (2 straight maneuver lengths)
+- 234mm (you guessed it, 3 straights)
+  Be sure to leave a little excess before and after the first and last mark, so you have something to hold onto when measuring range.
+
+The final option for a range ruler is just that... a ruler! You will just have to remember the distances for each section as outlined above.
 
 ## Downloads
 
@@ -270,7 +292,7 @@ You can fit the game in most tobacco tins, old or new, but if you'd like a Squad
 
 The small form factor of Squadron Leader is definitely one of the core tenets of the game. That said, u/porgherder made the very astute observation that this restricts design space, which sometimes is a good thing, but it is potentially at the cost of accessibility to some users.
 
-To that end, I am going to start adding components that won't fit in a small box, that are interchangeable with components that do fit in the tin. The main one being a rigid range ruler that can be used with one hand.
+To that end, there is now a printable range ruler, both a solid version, and a pottentially bendable one that fits in a box (currently untested). If you are able to confirm whether this is better for people with need for acceible components, please do get in touch so we can ensure tge game is available to all!
 The other added benefit of not trying make the game fit in a tin, is printed rules will fit, there will be more space for player tokens and maneuver templates (so each player can have their own set).
 Most excitingly is that I can reintroduce my original design for a dial that players can use to keep track of their stats, so watch this space!
 
@@ -343,7 +365,7 @@ a major thank you for their immediate help on release with getting the rules mor
 
 - Pelle
 
-and for the important  fix of making sure the game met Open Source requirements:
+and for the important fix of making sure the game met Open Source requirements:
 
 - avamk
 - penyuan
