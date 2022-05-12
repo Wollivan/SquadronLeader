@@ -6,8 +6,8 @@ template90("3"); // Turn Template
 altitudeTranslated(); // Altitude Token
 planeTranslated(); // Plane Token
 translate([-tokenWidth*4.5,0,0]) singleManeuver(); // All in one maneuver template
-
-
+translate([-tokenWidth*5.5,0,0]) ruler(); //range ruler
+translate([-tokenWidth*5.5,0,0]) ruler(true); //bendable range ruler
 
 
 
@@ -272,6 +272,45 @@ module singleManeuver() {
     }
     
 }
+
+
+// printable range ruler
+module ruler(bendable) {
+    difference() {
+        cube([tokenWidth/4, templateLength*3,tokenHeight]);
+        
+        if(bendable == true) {
+            //bendable parts
+            translate([-1,templateLength,1])
+                cube([2+tokenWidth/4, 1, tokenHeight]);
+            
+            
+            translate([-1,templateLength*2,-1])
+                cube([2+tokenWidth/4, 1, tokenHeight]);
+        }
+        
+        //numbers
+        translate([0,templateLength/2-5,0])
+            linear_extrude(tokenHeight+2)
+                #text("1", size=8);
+        
+        
+        translate([0,templateLength*1.5-5,0])
+            linear_extrude(tokenHeight+2)
+                #text("2", size=8);
+                
+                
+        translate([0,templateLength*2.5-5,0])
+            linear_extrude(tokenHeight+2)
+                #text("3", size=8);
+    }
+}
+
+
+
+
+
+
 //test
 //color("green") rotate([0,0,315]) translate([tokenWidth*3,0,0]) template45();
 
@@ -285,7 +324,7 @@ module singleManeuver() {
 
 
 
-
+// WIP
 //bomber model
 //difference(){
 //        scale([2,2,1])
