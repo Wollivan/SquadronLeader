@@ -2,6 +2,7 @@ import React from "react";
 import "./PageHeader.scss";
 import GitHubWhite from "../../assets/images/github-white.png";
 import GitHubBlack from "../../assets/images/github-black.png";
+import Reddit from "../../assets/images/reddit.png";
 export default function PageHeader({ theme, setTheme, version }) {
   // useEffect(() => {}, [theme]);
   function toggleTheme() {
@@ -19,12 +20,12 @@ export default function PageHeader({ theme, setTheme, version }) {
           href="https://github.com/Wollivan/SquadronLeader"
           target="_blank"
           rel="noreferrer"
-          className="header__github-link"
+          className="header__link"
         >
           <img
             src={GitHubBlack}
             alt="github link"
-            className="header__github-link-logo"
+            className="header__link-logo"
           />
         </a>
       );
@@ -34,12 +35,12 @@ export default function PageHeader({ theme, setTheme, version }) {
           href="https://github.com/Wollivan/SquadronLeader"
           target="_blank"
           rel="noreferrer"
-          className="header__github-link"
+          className="header__link"
         >
           <img
             src={GitHubWhite}
             alt="github link"
-            className="header__github-link-logo"
+            className="header__link-logo"
           />
         </a>
       );
@@ -77,6 +78,14 @@ export default function PageHeader({ theme, setTheme, version }) {
     <div className="header">
       <span className="header__left">
         {githubImg()}
+        <a
+          href="https://www.reddit.com/r/SquadronLeader/"
+          target="_blank"
+          rel="noreferrer"
+          className="header__link"
+        >
+          <img src={Reddit} alt="github link" className="header__link-logo" />
+        </a>
         {version}
       </span>
       {button()}
