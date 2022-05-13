@@ -3,6 +3,7 @@ import "./PageHeader.scss";
 import GitHubWhite from "../../assets/images/github-white.png";
 import GitHubBlack from "../../assets/images/github-black.png";
 import Reddit from "../../assets/images/reddit.png";
+import BoardGameGeek from "../../assets/images/boardgamegeek.png";
 export default function PageHeader({ theme, setTheme, version }) {
   // useEffect(() => {}, [theme]);
   function toggleTheme() {
@@ -84,7 +85,19 @@ export default function PageHeader({ theme, setTheme, version }) {
           rel="noreferrer"
           className="header__link"
         >
-          <img src={Reddit} alt="github link" className="header__link-logo" />
+          <img src={Reddit} alt="reddit link" className="header__link-logo" />
+        </a>
+        <a
+          href="https://boardgamegeek.com/boardgame/362713/squadron-leader"
+          target="_blank"
+          rel="noreferrer"
+          className="header__link"
+        >
+          <img
+            src={BoardGameGeek}
+            alt="board game geek link"
+            className="header__link-logo"
+          />
         </a>
         {version}
       </span>
