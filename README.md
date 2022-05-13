@@ -191,6 +191,7 @@ The game can be played on a hex grid. That removes the need for movement templat
 Any battlemat with a hex grid can be used. Planes set up in hexes along each player's edge of the mat. There can only ever be one plane per hex, and planes can never end a move in the same hex as another plane. A plane always face one of the six sides of its hex.
 
 Instead of using the movement templates there are three possible moves on a hex grid that are used instead:
+
 - 1 (Cost 1) Move 2 hexes forward.
 - 2 (Cost 2) Move 1 hex forward, then turn left or right 60 degrees, then move 1 hex forward in the new direction.
 - 3 (Cost 3) Turn 60 degrees, then move 1 hex forward, then turn another 60 degrees in the same direction as the first turn
@@ -343,7 +344,7 @@ a major thank you for their immediate help on release with getting the rules mor
 
 - Pelle
 
-and for the important  fix of making sure the game met Open Source requirements:
+and for the important fix of making sure the game met Open Source requirements:
 
 - avamk
 - penyuan
@@ -377,7 +378,8 @@ This game was inspired by X-Wing TMG and Wings of War. The motivation for creati
 
 ## License
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Wollivan/SquadronLeader">Squadron Leader</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Wollivan">Tim Smith</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+<a property="dct:title" rel="cc:attributionURL" href="https://github.com/Wollivan/SquadronLeader">Squadron Leader</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Wollivan">Tim Smith</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-ShareAlike 4.0 International<img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 
 CC BY-SA 4.0
 Attribution-ShareAlike 4.0 International
