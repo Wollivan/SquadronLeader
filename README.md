@@ -2,6 +2,8 @@
 
 ###### visit [Squadron Leader subreddit](https://www.reddit.com/r/SquadronLeader/)
 
+###### visit [Board Game Geek page](https://boardgamegeek.com/boardgame/362713/squadron-leader)
+
 ###### [Downloadable assets](https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets)
 
 # Squadron Leader
