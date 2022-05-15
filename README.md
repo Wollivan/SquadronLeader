@@ -10,6 +10,9 @@
 
 #### The aerial combat game you can fit in your pocket!
 
+![SquadronLeader](https://user-images.githubusercontent.com/91621088/168493767-c1d63822-c580-4a32-9528-802238ef4220.png)
+Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
+
 ![gameplay](https://user-images.githubusercontent.com/91621088/166423402-8616cf0d-327b-4b30-899a-ac93b54038e1.jpg)
 
 Squadron Leader is a fast pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built in that can be enjoyed by all ages!
