@@ -57,6 +57,7 @@ h4,
 h5 {
   // text-align: center;
   line-height: 2.25rem;
+  color: v.$sl-green;
 }
 
 h1 {
@@ -65,17 +66,19 @@ h1 {
 }
 h2 {
   font-size: 2rem;
-  color: v.$green;
+  // color: v.$green;
   margin: 6rem 0 3rem;
   padding-top: 6rem;
-  border-top: 1px solid v.$green;
+  // border-top: 1px solid v.$green;
+  border-top: 1px solid v.$sl-red;
 }
 h3 {
-  color: v.$yellow;
+  // color: v.$yellow;
   font-size: 1.5rem;
   margin: 2.5rem 0;
   padding-top: 1.5rem;
-  border-top: 1px solid v.$yellow;
+  // border-top: 1px solid v.$yellow;
+  border-top: 1px solid v.$sl-red;
   width: 60%;
 }
 h4 {
@@ -84,30 +87,11 @@ h4 {
 }
 h5 {
   font-size: 1rem;
-  color: v.$red;
+  // color: v.$red;
   margin-top: -1rem;
 }
 h6 {
   font-size: 0.83rem;
-}
-
-li {
-  &:nth-of-type(1),
-  &:nth-of-type(1n + 4) {
-    color: v.$red;
-  }
-  &:nth-of-type(2),
-  &:nth-of-type(2n + 4) {
-    color: v.$green;
-  }
-  &:nth-of-type(3),
-  &:nth-of-type(3n + 4) {
-    color: v.$yellow;
-  }
-  &:nth-of-type(4),
-  &:nth-of-type(4n + 4) {
-    color: v.$blue;
-  }
 }
 
 // because there is something we want to see on github but not the website

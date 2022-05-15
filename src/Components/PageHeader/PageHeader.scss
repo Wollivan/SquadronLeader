@@ -9,13 +9,19 @@
   // background-color: v.$primary-color;width: 100%;
 
   justify-content: space-between;
+  flex-direction: column-reverse;
   @include bp.medium {
     margin-bottom: 0;
+    flex-direction: row;
   }
   &__left {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
+    @include bp.medium {
+      margin-top: 0;
+    }
   }
   &__theme-btn {
     padding: 0.5rem;
