@@ -7,7 +7,6 @@ altitudeTranslated(); // Altitude Token
 planeTranslated(); // Plane Token
 translate([-tokenWidth*4.5,0,0]) singleManeuver(); // All in one maneuver template
 translate([-tokenWidth*5.5,0,0]) ruler(); //range ruler
-translate([-tokenWidth*5.5,0,0]) ruler(true); //bendable range ruler
 
 
 
@@ -275,19 +274,18 @@ module singleManeuver() {
 
 
 // printable range ruler
-module ruler(bendable) {
+module ruler() {
     difference() {
         cube([tokenWidth/4, templateLength*3,tokenHeight]);
         
-        if(bendable == true) {
-            //bendable parts
-            translate([-1,templateLength,1])
-                cube([2+tokenWidth/4, 1, tokenHeight]);
-            
-            
-            translate([-1,templateLength*2,-1])
-                cube([2+tokenWidth/4, 1, tokenHeight]);
-        }
+        // markers
+        translate([-1,templateLength,tokenHeight*0.8])
+            cube([2+tokenWidth/4, 1, tokenHeight]);
+        
+        
+        translate([-1,templateLength*2,tokenHeight*0.8])
+            cube([2+tokenWidth/4, 1, tokenHeight]);
+        
         
         //numbers
         translate([0,templateLength/2-5,0])
