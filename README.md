@@ -134,6 +134,8 @@ This rule prevents a pilot from being stuck when they are being tailed by an opp
 - The Speed cost of the maneuver is double the normal cost of whichever maneuver template the player is using (the straight now costs 2, the bank now costs 4).
 - Players cannot perform a Split S and gain altitude in the same round.
 
+![split_s_with_text](https://user-images.githubusercontent.com/91621088/168678072-211ec138-71c3-49d5-a688-1d8365c199d2.png)
+
 You can read more about the Split S maneuver here:
 
 <a href="https://en.m.wikipedia.org/wiki/Split_S" target="_blank" class="button">Split S Wiki</a>
@@ -150,6 +152,8 @@ This rule rewards aggressive tactics:
 
 - After a player knocks an enemy plane out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
 - This is an optional maneuver, but must be done before the next attack happens.
+
+![immelmann_with_text](https://user-images.githubusercontent.com/91621088/168678053-855dd761-e99f-4563-ae60-34632d8bf2dd.png)
 
 You can read more about the Immelmann turn here:
 
@@ -168,6 +172,8 @@ This rule rewards expertly skills pilots who can maneuver their plane into just 
 - During the move phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost maneuver, but instead of orienting their plane along the new axis, their token will not rotate at all, and be traveling in the same direction.
 - The speed cost for a Barrel roll is twice whatever number is on the template (2 maneuver costs 4, 3 maneuver costs 6)
 - Players cannot perform a Barrel roll and gain altitude in the same round.
+
+![barrel_roll_with_text](https://user-images.githubusercontent.com/91621088/168678014-f78b079a-f44a-4a6c-b3c8-42ed09937de2.png)
 
 You can read more about the Barrel roll maneuver here:
 
@@ -370,6 +376,10 @@ and a special thanks for their genius in coming up with a new barrel roll rule:
 a major thank you for their immediate help on release with getting the rules more readable, adding the Hex Grid rules and the d6 rules:
 
 - Pelle
+
+a thank you on the visual learners:
+
+- Adam
 
 and for the important fix of making sure the game met Open Source requirements:
 
