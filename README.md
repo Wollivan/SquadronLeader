@@ -47,7 +47,7 @@ The playing area of the game can be any size. Its usually just the entire table,
 
 At the start of the game each player secretly assigns the numbers 4,3,3,2 to their Attack, Defense, Speed & Health and simultaneously reveals their choices.
 
-For example a begginner player may choose the following:
+For example a beginner player may choose the following:
 
 - Attack - 2
 - Defense - 3
@@ -78,7 +78,7 @@ The below gif shows how to use the maneuver templates.
 ![movement](https://user-images.githubusercontent.com/91621088/167208819-c5c2eedb-7fd1-4cb4-945c-70a1b26c79bf.gif)
 
 This gif shows a Move Stage where the player spends 3 speed to move.
-![manuever-example](https://user-images.githubusercontent.com/91621088/166423425-fbc0e7bf-2f76-4b47-92a3-d33456841918.gif)
+![maneuver-example](https://user-images.githubusercontent.com/91621088/166423425-fbc0e7bf-2f76-4b47-92a3-d33456841918.gif)
 
 ### Attack Stage:
 
@@ -119,7 +119,7 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 
 - At the start of the game each player takes off with 0 altitude tokens.
 - Once per round during their move stage, a player may spend 1 speed to Climb and add 1 altitude token underneath their plane.
-- Players can only gain 1 alititude per round.
+- Players can only gain 1 altitude per round.
 - In a round that the player hasn't climbed, they may Dive by removing any number of altitude tokens to add that number to their speed for the round.
 - When at a higher altitude while attacking or defending, a player may reroll 1 die.
 - The maximum altitude allowed is 4.
@@ -130,8 +130,8 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
-- During the move phase, a player may declare they are executing a Split S maneuver and spend 3 altitude tokens to place their plane token at 180° at the end of the manuever (facing the opposite direction to the way they were).
-- The Speed cost of the maneuver is double the normal cost of whichever manuever template the player is using (the straight now costs 2, the bank now costs 4).
+- During the move phase, a player may declare they are executing a Split S maneuver and spend 3 altitude tokens to place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
+- The Speed cost of the maneuver is double the normal cost of whichever maneuver template the player is using (the straight now costs 2, the bank now costs 4).
 - Players cannot perform a Split S and gain altitude in the same round.
 
 You can read more about the Split S maneuver here:
@@ -148,7 +148,7 @@ Here is an excerpt:
 
 This rule rewards aggressive tactics:
 
-- After a player knocks an enemy plane out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the manuever (facing the opposite direction to the way they were).
+- After a player knocks an enemy plane out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
 - This is an optional maneuver, but must be done before the next attack happens.
 
 You can read more about the Immelmann turn here:
@@ -266,7 +266,7 @@ or
 #### Range Ruler
 
 If you aren't printing the range ruler you will need to make one out of string.
-The string needs to be greater that 234mm. Don't worry about this specific mmeasurement, it's the length of 3 straight maneuvers.
+The string needs to be greater that 234mm. Don't worry about this specific measurement, it's the length of 3 straight maneuvers.
 Mark the string slightly beyond the end so you have some excess to hold. Then from that point, measure and mark at:
 
 - 78mm (one straight maneuver length)
@@ -297,7 +297,7 @@ You can fit the game in most tobacco tins, old or new, but if you'd like a Squad
 
 The small form factor of Squadron Leader is definitely one of the core tenets of the game. That said, u/porgherder made the very astute observation that this restricts design space, which sometimes is a good thing, but it is potentially at the cost of accessibility to some users.
 
-To that end, there is now a printable range ruler, both a solid version, and a pottentially bendable one that fits in a box (currently untested). If you are able to confirm whether this is better for people with need for acceible components, please do get in touch so we can ensure tge game is available to all!
+To that end, there is now a printable range ruler, both a solid version, and a potentially bendable one that fits in a box (currently untested). If you are able to confirm whether this is better for people with need for accessible components, please do get in touch so we can ensure tge game is available to all!
 The other added benefit of not trying make the game fit in a tin, is printed rules will fit, there will be more space for player tokens and maneuver templates (so each player can have their own set).
 Most excitingly is that I can reintroduce my original design for a dial that players can use to keep track of their stats, so watch this space!
 
@@ -305,9 +305,9 @@ As stated, small box is part of the Squadron Leader quirk, so that's not going t
 
 ## FAQ
 
-#### Can I spend altitude to help pay the extra speed cost of perfoming a Split S/Barrel roll?
+#### Can I spend altitude to help pay the extra speed cost of performing a Split S/Barrel roll?
 
-##### Yes! If you don't have enough speed left, but do have enough altitude to pay for the maneuver and STILL have the altitude required to perfom the maneuever, go for it!
+##### Yes! If you don't have enough speed left, but do have enough altitude to pay for the maneuver and STILL have the altitude required to perform the maneuver, go for it!
 
 #### Can you print me a copy?
 
@@ -319,9 +319,9 @@ As stated, small box is part of the Squadron Leader quirk, so that's not going t
 
 #### What happens when I try to execute a maneuver but my opponents plane token is in the way?
 
-##### If you can't execute a maneuver without finishing it in the same place as an opponent, you can't choose that maneuever.
+##### If you can't execute a maneuver without finishing it in the same place as an opponent, you can't choose that maneuver.
 
-##### However, if you need to move an opponent's token out of the way so you can put the maneuever template down, use another maneuver template to make sure you don't forget where your opponent's plane token was originally.
+##### However, if you need to move an opponent's token out of the way so you can put the maneuver template down, use another maneuver template to make sure you don't forget where your opponent's plane token was originally.
 
 #### My opponent just rolled three 8s on the attack dice, what can I do?
 
@@ -335,7 +335,7 @@ As stated, small box is part of the Squadron Leader quirk, so that's not going t
 
 #### Does a critical hit do more damage?
 
-##### The benefit of a critical hit is it's dificulty to dodge. Think of it as a very accurate shot. But is still only deals 1 damage.
+##### The benefit of a critical hit is it's difficulty to dodge. Think of it as a very accurate shot. But is still only deals 1 damage.
 
 ##### It still only counts as one!
 
@@ -381,7 +381,7 @@ and for their awesome contributions to making an awesome printable box:
 - Amnos
 - Flo
 
-and for SITCKERS:
+and for STICKERS:
 
 - mevdev
 
