@@ -261,6 +261,7 @@ or
 #### Optional:
 
 - box.stl x1
+- FancyBoxTopper.stl x1 <b>and</b> FancyBoxTop.stl (FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5 levels to be able to perform filament swaps of different colors. The bottom level of the topper is .6mm giving 3, .2mm layer passes. All other levels are .4mm allowing 2, .2mm layer passes.
 - range_bendable.stl OR range_solid.stl (for the bendable modelling, it hasn't yet been tested, and I imagine normal PLA will just snap)
 
 #### Range Ruler
