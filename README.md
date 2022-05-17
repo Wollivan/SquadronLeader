@@ -381,6 +381,10 @@ a thank you on the visual learners:
 
 - Adam
 
+for the awesome stat tracking designs:
+
+- Greg
+
 and for the important fix of making sure the game met Open Source requirements:
 
 - avamk
