@@ -220,6 +220,8 @@ Instead of using the movement templates there are three possible moves on a hex 
 
 Attacks are up to range 3. Count range in hexes, not including the hex occupied by the attacking plane, but including the attacked plane. The firing arc of a plane is a cone in front of it, starting with the single hex in front, then the 3 hexes in front of that, then the 5 beyond those.
 
+The hexes immediately in front of the firing plane corresponds to the closest section of the range ruler for the purpose of attack bonuses. Hexes at range 3 corresponds to the furthest section of the range ruler.
+
 ![hex_fire_arc](https://user-images.githubusercontent.com/91621088/167960090-ac8a2d9d-62a3-431c-a0a2-f6d53c963038.png)
 
 ### D6 Rule
