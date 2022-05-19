@@ -11,9 +11,9 @@ planeTranslated(); // Plane Token
 translate([-tokenWidth*4.5,0,0]) singleManeuver(); // All in one maneuver template
 translate([-tokenWidth*5.5,0,0]) ruler("solid"); //range ruler
 translate([-tokenWidth*6.5,0,0]) ruler("bendable"); //bendable range ruler
-translate([-tokenWidth*7.5,0,0]) rulerParts("1"); //detachable range ruler part 1
-translate([-tokenWidth*8,0,0]) rulerParts("2"); //detachable range ruler part 2
-translate([-tokenWidth*8.5,0,0]) rulerParts("3"); //detachable range ruler part 3
+translate([-tokenWidth*7.5,0,0]) rulerInterlocking("1"); //detachable range ruler part 1
+translate([-tokenWidth*8,0,0]) rulerInterlocking("2"); //detachable range ruler part 2
+translate([-tokenWidth*8.5,0,0]) rulerInterlocking("3"); //detachable range ruler part 3
 
 
 // Begin Code
@@ -331,7 +331,7 @@ module ruler(type) {
 }
 
 
-module rulerParts(partNo) {
+module rulerInterlocking(partNo) {
     doveTailY = templateLength/16;
     doveTailX = tokenWidth/4;
     difference() {
