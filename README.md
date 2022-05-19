@@ -204,7 +204,11 @@ You can either:
 - Play using only the forward firing guides and ignoring the wide arc, or
 - Roll an additional attack dice when the defender is in the forward firing guide.
 
-### Hex Grid
+### D6 Rule
+
+Not everyone has a bucket of 8-sided dice in 2-3 colors readily available. With this optional rule common 6-sided dice are used instead. Attacks hit on a roll of 4-6. Defense cancels a hit on each roll of 4-6. There are no critical hits when using 6-sided dice.
+
+## Hex Grid Mode (for players without a 3D printer)
 
 The game can be played on a hex grid. That removes the need for movement templates and rulers. All rules are the same as without a grid, except for what is described in this section.
 
@@ -222,11 +226,7 @@ Attacks are up to range 3. Count range in hexes, not including the hex occupied 
 
 The hexes immediately in front of the firing plane corresponds to the closest section of the range ruler for the purpose of attack bonuses. Hexes at range 3 corresponds to the furthest section of the range ruler.
 
-![hex_fire_arc](https://user-images.githubusercontent.com/91621088/167960090-ac8a2d9d-62a3-431c-a0a2-f6d53c963038.png)
-
-### D6 Rule
-
-Not everyone has a bucket of 8-sided dice in 2-3 colors readily available. With this optional rule common 6-sided dice are used instead. Attacks hit on a roll of 4-6. Defense cancels a hit on each roll of 4-6. There are no critical hits when using 6-sided dice.
+![hex_fire_arc](https://user-images.githubusercontent.com/91621088/169265686-f44e3ec4-f23e-400e-85e9-db8188f4b645.png)
 
 ## Game modes
 
