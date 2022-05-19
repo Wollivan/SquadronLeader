@@ -1,3 +1,6 @@
+//include jointSCAD for the range ruler
+include <JointSCAD/JointSCAD.scad>;
+
 // Outputs
 
 translate([-tokenWidth*2,0,0]) templateStraight("1"); // Straight Template
@@ -6,8 +9,11 @@ template90("3"); // Turn Template
 altitudeTranslated(); // Altitude Token
 planeTranslated(); // Plane Token
 translate([-tokenWidth*4.5,0,0]) singleManeuver(); // All in one maneuver template
-translate([-tokenWidth*5.5,0,0]) ruler(); //range ruler
-
+translate([-tokenWidth*5.5,0,0]) ruler("solid"); //range ruler
+translate([-tokenWidth*6.5,0,0]) ruler("bendable"); //bendable range ruler
+translate([-tokenWidth*7.5,0,0]) rulerParts("1"); //detachable range ruler part 1
+translate([-tokenWidth*8,0,0]) rulerParts("2"); //detachable range ruler part 2
+translate([-tokenWidth*8.5,0,0]) rulerParts("3"); //detachable range ruler part 3
 
 
 // Begin Code
@@ -274,17 +280,37 @@ module singleManeuver() {
 
 
 // printable range ruler
-module ruler() {
+module ruler(type) {
     difference() {
-        cube([tokenWidth/4, templateLength*3,tokenHeight]);
-        
-        // markers
-        translate([-1,templateLength,tokenHeight*0.8])
-            cube([2+tokenWidth/4, 1, tokenHeight]);
         
         
-        translate([-1,templateLength*2,tokenHeight*0.8])
-            cube([2+tokenWidth/4, 1, tokenHeight]);
+        if(type == "bendable") {
+            difference() {
+                // ruler
+                cube([tokenWidth/4, templateLength*3,tokenHeight]);
+                
+                //bendable parts
+                translate([-1,templateLength,1])
+                    cube([2+tokenWidth/4, 1, tokenHeight]);
+
+
+                translate([-1,templateLength*2,-1])
+                    cube([2+tokenWidth/4, 1, tokenHeight]);
+            }
+        } else if(type == "solid") {
+            difference() {
+                // ruler
+                cube([tokenWidth/4, templateLength*3,tokenHeight]);
+                
+                // markers
+                translate([-1,templateLength,tokenHeight*0.8])
+                    cube([2+tokenWidth/4, 1, tokenHeight]);
+                
+                
+                translate([-1,templateLength*2,tokenHeight*0.8])
+                    cube([2+tokenWidth/4, 1, tokenHeight]);      
+            }
+        } 
         
         
         //numbers
@@ -305,7 +331,54 @@ module ruler() {
 }
 
 
-
+module rulerParts(partNo) {
+    doveTailY = templateLength/16;
+    doveTailX = tokenWidth/4;
+    difference() {
+        if(partNo == "1") {
+            // part 1
+            difference() {
+                union() {
+                    cube([tokenWidth/4, templateLength-doveTailY,tokenHeight]);
+                    
+                    translate([0,templateLength-doveTailY,0])
+                        dovetailJointB([doveTailX, doveTailY, tokenHeight], 1);
+                }
+                
+            }
+        } else if(partNo == "2") {
+            // part 2
+            difference() {
+                union() {
+                    cube([tokenWidth/4, templateLength-doveTailY,tokenHeight]);
+                    
+                    translate([0,templateLength-doveTailY,0])
+                        dovetailJointB([doveTailX, doveTailY, tokenHeight], 1);
+                    
+                    translate([0,-doveTailY,0])
+                        dovetailJointA([doveTailX, doveTailY, tokenHeight], 1);
+                }
+                
+            }
+        } else if(partNo == "3") {
+            // part 3
+            difference() {
+                union() {
+                    cube([tokenWidth/4, templateLength,tokenHeight]);
+                    
+                    translate([0,-doveTailY,0])
+                        dovetailJointA([doveTailX, doveTailY, tokenHeight], 1);
+                }
+                
+            }
+        }
+        
+        // number
+        translate([0,templateLength/2-5,0])
+            linear_extrude(tokenHeight+2)
+                text(partNo, size=8);
+    }
+}
 
 
 
