@@ -25,6 +25,12 @@ We encourage the use of house rules, and ask that you make suggestions on the <a
 
 If you're viewing this on the website and want to see all the incredible work from the amazing people making this game better, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a>, <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> and <a href="https://github.com/Wollivan/SquadronLeader/discussions" target="_blank">discussions</a> on GitHub.
 
+![Printed Box](https://user-images.githubusercontent.com/91621088/169612233-e8880bba-e824-4f66-98ce-2126f780c2cf.jpeg)
+![Printed Box Full](https://user-images.githubusercontent.com/91621088/169612239-ede93c1b-ddd3-401f-8a6f-48d78336ffac.jpeg)
+![All Pieces printed](https://user-images.githubusercontent.com/91621088/169612247-01b5856a-db04-4191-a7e8-98d2e06612be.jpeg)
+
+Amazing set printed by Greg (who also designed the score keeper pieces)
+
 ## Rules
 
 The objective of the game is the be the last plane left in the air by reducing your opponents Health to zero.
