@@ -33,7 +33,7 @@ Amazing set printed by Greg (who also designed the score keeper pieces)
 
 ## Rules
 
-The objective of the game is the be the last plane left in the air by reducing your opponents Health to zero.
+The objective of the game is to be the last plane left in the air by reducing your opponents Health to zero.
 
 Each pilot will need:
 
