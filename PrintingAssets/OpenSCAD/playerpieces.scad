@@ -407,60 +407,68 @@ module rulerInterlocking(partNo) {
 module statBoard(hasID){
 	difference(){
 		//board
-		cube([boardHeight,boardWidth,statHeight]);
-		
-		//ID hole
 		if(hasID){
-			translate([2.4,boardWidth/2,statHeight])
-			planeIDToken();
-		}
-			
-		//token notches
-		translate([tokenRadSm+tokenSpace+4.5,-2.8,0])
-		for(i=[0:3]){
-			translate([i*((tokenRadSm*2)+tokenSpace),0,0])
-			baseStatToken(true);
-		}
-	
-		//peg holes
-		translate([13.6,boardWidth-2.5,0])
-		for(j=[0:3]){
-			translate([j*pegSpace,0,8.8])
-			rotate([180,0,0])
-			healthPeg();
+			cube([boardHeight,boardWidth,statHeight]);
+		}else{
+			cube([boardHeight-4.5,boardWidth,statHeight]);
 		}
 		
-		//peg path vertical
-		translate([13.5,boardWidth-2.7,statHeight/2])
-		cube([((.5)+pegSpace)*2.9,.6,statHeight/2]);
-		//peg path horizontal
-		translate([13.3,15,statHeight/2])
-		cube([.6,5,statHeight/2]);
-		
-		//icons
-		translate([0,boardWidth/2,0])
+		boardOffset = hasID ? 0 : -4.5;
+		translate([boardOffset,0,0])
 		union(){
-			translate([13.5,0,0])
-			linear_extrude(height = statHeight) {
-				scale(0.75)
-				import("health.svg", center=true);
+			//ID hole
+			if(hasID){
+				translate([2.4,boardWidth/2,statHeight])
+				planeIDToken();
 			}
-			translate([29.5,0,0])
-			linear_extrude(height = statHeight) {
-				scale(0.75)
-				rotate([0,0,90])
-				import("defense.svg", center=true);
+				
+			//token notches
+			translate([tokenRadSm+tokenSpace+4.5,-2.8,0])
+			for(i=[0:3]){
+				translate([i*((tokenRadSm*2)+tokenSpace),0,0])
+				baseStatToken(true);
 			}
-			translate([44.9,0,0])
-			linear_extrude(height = statHeight) {
-				scale(0.80)
-				import("attack.svg", center=true);
+		
+			//peg holes
+			translate([13.6,boardWidth-2.5,0])
+			for(j=[0:3]){
+				translate([j*pegSpace,0,8.8])
+				rotate([180,0,0])
+				healthPeg();
 			}
-			translate([60.5,0,0])
-			linear_extrude(height = statHeight) {
-				scale(0.75)
-				rotate([0,0,90])
-				import("speed.svg", center=true);
+			
+			//peg path vertical
+			translate([13.5,boardWidth-2.7,statHeight/2])
+			cube([((.5)+pegSpace)*2.9,.6,statHeight/2]);
+			//peg path horizontal
+			translate([13.3,15,statHeight/2])
+			cube([.6,5,statHeight/2]);
+			
+			//icons
+			translate([0,boardWidth/2,0])
+			union(){
+				translate([13.5,0,0])
+				linear_extrude(height = statHeight) {
+					scale(0.75)
+					import("health.svg", center=true);
+				}
+				translate([29.5,0,0])
+				linear_extrude(height = statHeight) {
+					scale(0.75)
+					rotate([0,0,90])
+					import("defense.svg", center=true);
+				}
+				translate([44.9,0,0])
+				linear_extrude(height = statHeight) {
+					scale(0.80)
+					import("attack.svg", center=true);
+				}
+				translate([60.5,0,0])
+				linear_extrude(height = statHeight) {
+					scale(0.75)
+					rotate([0,0,90])
+					import("speed.svg", center=true);
+				}
 			}
 		}
 	}					
