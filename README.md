@@ -276,7 +276,20 @@ or
 
 - box.stl x1
 - FancyBoxTopper.stl x1 <b>and</b> FancyBoxTop.stl (FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5 levels to be able to perform filament swaps of different colors. The bottom level of the topper is .6mm giving 3, .2mm layer passes. All other levels are .4mm allowing 2, .2mm layer passes.
-- range_bendable.stl OR range_solid.stl (for the bendable modelling, it hasn't yet been tested, and I imagine normal PLA will just snap)
+
+- The range ruler has three printing options:
+  - range_ruler_solid.stl
+  - range_ruler_bendable.stl (tested with TPU and worked well, but could wearout over time)
+  - range_ruler_interlocking_all.stl OR range_ruler_interlocking_[1-3].stl
+
+- A stat/health tracker is available by printing:
+  - statBoard.stl x1 for each player
+  - one of the three statChit options x1 for each player (statChitsDots.stl, statChitsNumbersCutout.stl, statChitsNumbers.stl)
+
+- There are ID chits for large dog-fights or an alternative method of identifying planes and stat boards. For this, print:
+  - statBoard_wID.stl x1 for each player
+  - IDChits_A_E.stl x 1 for each player
+  - player_plane_wID.stl x1 for each player
 
 #### Range Ruler
 
