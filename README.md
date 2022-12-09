@@ -44,9 +44,9 @@ The pilots will share:
 
 - 1 of each move template
 - 1 range ruler
-- 4 Red d8 for the Attack dice
-- 4 Green d8 for the Defense dice
-- Optional: Blue d8 for the Ace Bonus dice
+- 4 Red d6 for the Attack dice
+- 4 Green d6 for the Defense dice
+- Optional: Blue d6 for the Ace Bonus dice
 - Optional: 1 70 cm x 70 cm playmat
 
 The playing area of the game can be any size. Its usually just the entire table, because that is the easiest to keep track of, but for an optimal playing experience, you can define a square which is 70 cm square or 3 lengths of the range ruler wide and long.
@@ -67,7 +67,7 @@ Whereas a seasoned Ace may elect for:
 - Speed - 4
 - Health - 2
 
-Determine who starts with a high roll of a d8.
+Determine who starts with a high roll of a d6.
 Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range ruler to another players’ token that has already been placed. If each player is controlling more than one plane, take it in turns until each token is placed down.
 
 There are 2 stages each round, the Move Stage and the Attack Stage. Everyone moves during the Move stage, and then everyone Attacks during the Attack Stage. Here are how they work:
@@ -93,8 +93,8 @@ This gif shows a Move Stage where the player spends 3 speed to move.
 - The defender must also be within the attackers firing arc which is the 90° lines on the front of the token.
 - The attacking player rolls a number of Attack dice equal to their Attack value.
 - The defending player rolls a number of Defense dice equal to their Defense value.
-- Each value of 6-8 rolled on the Attack dice counts as 1 damage. An 8 rolled counts as a critical hit.
-- Each value of 6-8 rolled on the Defense dice counts as a dodge and cancels out a hit. It takes 2 dodges to cancel out a critical hit. Critical hits still only deal 1 damage when not cancelled out.
+- Each value of 4-6 rolled on the Attack dice counts as 1 damage. A 6 rolled counts as a critical hit.
+- Each value of 4-6 rolled on the Defense dice counts as a dodge and cancels out a hit. It takes 2 dodges to cancel out a critical hit. Critical hits still only deal 1 damage when not cancelled out.
 - The defender loses Health equal to the hits that haven’t been canceled out.
 
 This image shows a situation where the white plane can shoot at the yellow plane (blue arc) and the yellow plane CAN'T shoot at the white plane (red arc).
@@ -212,10 +212,6 @@ You can either:
 - Play using only the forward firing guides and ignoring the wide arc, or
 - Roll an additional attack dice when the defender is in the forward firing guide.
 
-### D6 Rule
-
-Not everyone has a bucket of 8-sided dice in 2-3 colors readily available. With this optional rule common 6-sided dice are used instead. Attacks hit on a roll of 4-6. Defense cancels a hit on each roll of 4-6. There are no critical hits when using 6-sided dice.
-
 ## Hex Grid Mode (for players without a 3D printer)
 
 The game can be played on a hex grid. That removes the need for movement templates and rulers. All rules are the same as without a grid, except for what is described in this section.
@@ -280,11 +276,13 @@ or
 - FancyBoxTopper.stl x1 <b>and</b> FancyBoxTop.stl (FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5 levels to be able to perform filament swaps of different colors. The bottom level of the topper is .6mm giving 3, .2mm layer passes. All other levels are .4mm allowing 2, .2mm layer passes.
 
 - The range ruler has three printing options:
+
   - range_ruler_solid.stl
   - range_ruler_bendable.stl (tested with TPU and worked well, but could wearout over time)
-  - range_ruler_interlocking_all.stl OR range_ruler_interlocking_[1-3].stl
+  - range*ruler_interlocking_all.stl OR range_ruler_interlocking*[1-3].stl
 
 - A stat/health tracker is available by printing:
+
   - statBoard.stl x1 for each player
   - one of the three statChit options x1 for each player (statChitsDots.stl, statChitsNumbersCutout.stl, statChitsNumbers.stl)
 
