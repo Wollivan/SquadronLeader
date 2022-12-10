@@ -6,8 +6,8 @@ translate([tokenWidth*5,-20,0]) numberStatToken("4");
 translate([tokenWidth*5.6,-20,0]) numberStatToken("3");
 translate([tokenWidth*6.2,-20,0]) numberStatToken("3");
 translate([tokenWidth*6.8,-20,0]) numberStatToken("2");
-translate([tokenWidth*4.5,30,0]) healthPeg();
-translate([tokenWidth*5,30,0]) planeIDToken("A");
+translate([tokenWidth*4.5,35,0]) healthPeg();
+translate([tokenWidth*5,40,0]) planeIDToken("A");
 
 module statBoard(hasID){
 	difference(){
@@ -28,9 +28,9 @@ module statBoard(hasID){
 			}
 				
 			//token notches
-			translate([tokenRadSm+tokenSpace+4.5,-2.8,0])
+			translate([tokenRadSm+tokenSpace+4.5,tokenRad/2,0])
 			for(i=[0:3]){
-				translate([i*((tokenRadSm*2)+tokenSpace),0,0])
+				translate([i*((tokenRadSm*2)+tokenSpace),0,statHeight/2])
 				baseStatToken(true);
 			}
 		
@@ -50,7 +50,7 @@ module statBoard(hasID){
 			cube([.6,5,statHeight/2]);
 			
 			//icons
-			translate([0,boardWidth/2,0])
+			translate([0,boardWidth/1.5,0])
 			union(){
 				translate([13.5,0,0])
 				linear_extrude(height = statHeight) {
@@ -93,13 +93,14 @@ module baseStatToken(isMold){
 		rotate([0,0,22.45])
 		cylinder(h=1.8,r=tokenRad,$fn=8);
 			
-		//lock notch
-		translate([-tokenRad,tokenRad/1.7,0])
-		if(isMold){
-			cube([tokenRad*2,tokenRad/7.5,statHeight/2.5]);
-		}else{
-			cube([tokenRad*2,tokenRad/7.5,statHeight/2]);
-		}
+        // lock notch no longer needed
+//		//lock notch
+//		translate([-tokenRad,tokenRad/1.7,0])
+//		if(isMold){
+//			cube([tokenRad*2,tokenRad/7.5,statHeight/2.5]);
+//		}else{
+//			cube([tokenRad*2,tokenRad/7.5,statHeight/2]);
+//		}
 	}
 }
 
