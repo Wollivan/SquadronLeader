@@ -4,7 +4,7 @@ include <variables.scad>;
 
 //plane token
 module playerPiece(hasID){
-    translate([0,-tokenWidth/2,0])
+    //translate([0,-tokenWidth/2,0])
     difference(){
         plane();
 
@@ -20,7 +20,7 @@ module playerPiece(hasID){
 
 //altitude token
 module altitude(){
-    translate([0,-tokenWidth*1.7,0])
+    //translate([0,-tokenWidth*1.7,0])
     union(){
         balls(zMod=tokenHeight, dMod=0);
         difference(){
@@ -37,5 +37,11 @@ module altitude(){
     }
 }
 
-playerPiece(); // Altitude Token
-altitude(); // Plane Token
+// Plane Token
+playerPiece();
+
+// Altitude Tokens
+translate([0,tokenWidth,0]) altitude();
+translate([tokenWidth,0,0]) altitude();
+translate([tokenWidth,tokenWidth,0]) altitude();
+translate([tokenWidth*2,tokenWidth,0]) altitude();
