@@ -1,4 +1,4 @@
-## Thank yous
+# Thank yous
 
 First and most important thank you to <a href="https://twitter.com/HarryTheGM?t=-lbRdIOqqLyfzbsDPnInbA&s=09" target="_blank">Harry the GM</a> for inspiring me to make a game in the first place.
 
@@ -52,7 +52,7 @@ and for STICKERS:
 
 - mevdev
 
-### Inspiration
+## Inspiration
 
 This game was inspired by X-Wing TMG and Wings of War. The motivation for creating Squadron Leader was not as a replacement to either of these, rather as a alternative, when time, space and people who don't want to learn complex games are a factor when trying to get your gaming fix.
 

@@ -1,10 +1,10 @@
-## Modular Rules
+# Modular Rules
 
 Squadron Leader has a growing set of modular rules to keep your games fresh, and for you to find the best version of aerial combat for you!
 
-### Altitude rule
+## Altitude rule
 
-##### Recommended
+#### Recommended
 
 This rules adds a lot of options for strategy, and it's recommended you play with it.
 
@@ -15,9 +15,9 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 - When at a higher altitude while attacking or defending, a player may reroll 1 die.
 - The maximum altitude allowed is 4.
 
-### Split S rule
+## Split S rule
 
-##### Recommended / Requires Altitude rule
+#### Recommended / Requires Altitude rule
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
@@ -35,7 +35,7 @@ Here is an excerpt:
 
 "To execute a split S, the pilot half-rolls their aircraft inverted and executes a descending half-loop, resulting in level flight in the opposite direction at a lower altitude."
 
-### Immelmann rule
+## Immelmann rule
 
 ##### Requires Altitude rule
 
@@ -56,7 +56,7 @@ Here is an excerpt:
 
 Thanks to Ben for teaching me that this move has a name, and thanks Josh for finding Split S so that what the rules do in game match what real life planes can do!
 
-### Barrel Roll rule
+## Barrel Roll rule
 
 This rule rewards expertly skills pilots who can maneuver their plane into just the right place in the sky!
 
@@ -74,7 +74,7 @@ Here is an excerpt:
 
 "A barrel roll is an aerial maneuver in which an airplane makes a complete rotation on both its longitudinal and lateral axes, causing it to follow a helical path, approximately maintaining its original direction."
 
-### Ace Pilots rule
+## Ace Pilots rule
 
 This rule rewards players for playing aggressively, which can be helpful if you find pilots often avoid the action.
 
@@ -87,7 +87,7 @@ For example, you could say "I am rolling my bonus dice for this attack". You now
 
 If you have 2 Ace bonus, you could use them both in the same roll, or spread them out across the round.
 
-### Using the Forward Firing Guides
+## Using the Forward Firing Guides
 
 Reward or challenge expert pilots by changing the rules around the firing arcs.
 You can either:
@@ -114,22 +114,3 @@ Attacks are up to range 3. Count range in hexes, not including the hex occupied 
 The hexes immediately in front of the firing plane corresponds to the closest section of the range ruler for the purpose of attack bonuses. Hexes at range 3 corresponds to the furthest section of the range ruler.
 
 ![hex_fire_arc](https://user-images.githubusercontent.com/91621088/169265686-f44e3ec4-f23e-400e-85e9-db8188f4b645.png)
-
-## Game modes
-
-### Team game
-
-You can change the feel of the game greatly by flying with a wingman. The strategy of how you fly together is totally up to you. Here are the additional rules for playing in teams:
-
-- Teammates should sit next to one another.
-- The playing order is determined by teams, rather than players, so within your team you decide who moves first, and once the entire team has moved, the other team goes. This is the same principle for attacking.
-
-### Quick game
-
-There are a few ways to make the game shorter:
-
-- Have everyone start with a max of 2 Health.
-- Designate a smaller playing area.
-- Allow players to gain more than 1 altitude per round.
-
-Feel free to experiment with the starting numbers, the original 4,3,3,2 is a guideline for balanced games, so going higher will change the game, but so long as each player has the same choices it SHOULD be fair.
