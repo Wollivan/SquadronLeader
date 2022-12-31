@@ -31,39 +31,6 @@ If you're viewing this on the website and want to see all the incredible work fr
 
 Amazing set printed by Greg (who also designed the first score keeper pieces)
 
-## Printing instructions
-
-You will need to print the following from the STLs directory:
-
-#### For each player:
-
-- player.stl
-- stat_board.stl
-
-#### To share either print:
-
-- move_template.stl
-- range_ruler.stl
-
-#### Optional:
-
-- box.stl x1
-- FancyBoxTopper.stl x1 <b>and</b> FancyBoxTop.stl (FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5 levels to be able to perform filament swaps of different colors. The bottom level of the topper is .6mm giving 3, .2mm layer passes. All other levels are .4mm allowing 2, .2mm layer passes.
-
-- If you are having a large dogfight and don't have enough different colour filaments, you can print the stat boards from the "extras" folder which have identifying letters".
-
-## Downloads
-
-You can download all the printable assets from GitHub. The reason we don't have anything on any of the STL sharing sites yet, is because things are in a big state of change, so its easer to just have them in one place at the moment.
-
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets" target="_blank" class="button">Download all printing assets</a>
-
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
-
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/STLs" target="_blank" class="button">Download STLs</a>
-
-You can fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get one here</a>.
-
 Where it started:
 ![assets](https://user-images.githubusercontent.com/91621088/167314934-d9db01ea-04d0-4fb6-ba31-9ec6d6091408.png)
 
@@ -80,9 +47,7 @@ How it's going:
 - More accessible components for less able players
 - Stat dials for people who don't mind a larger box
 
-
 ![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
-
 
 ## License
 
