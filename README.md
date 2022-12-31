@@ -42,12 +42,12 @@ Each pilot will need:
 
 The pilots will share:
 
-- 1 of each move template
+- 1 move template
 - 1 range ruler
 - 4 Red d6 for the Attack dice
 - 4 Green d6 for the Defense dice
 - Optional: Blue d6 for the Ace Bonus dice
-- Optional: 1 70 cm x 70 cm playmat
+- Optional: 1 70cm x 70cm playmat
 
 The playing area of the game can be any size. Its usually just the entire table, because that is the easiest to keep track of, but for an optimal playing experience, you can define a square which is 70 cm square or 3 lengths of the range ruler wide and long.
 
@@ -68,7 +68,7 @@ Whereas a seasoned Ace may elect for:
 - Health - 2
 
 Determine who starts with a high roll of a d6.
-Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range ruler to another players’ token that has already been placed. If each player is controlling more than one plane, take it in turns until each token is placed down.
+Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range ruler to another players’ token that has already been placed. If players are controlling more than one plane, take it in turns until each token is placed down.
 
 There are 2 stages each round, the Move Stage and the Attack Stage. Everyone moves during the Move stage, and then everyone Attacks during the Attack Stage. Here are how they work:
 
@@ -257,52 +257,20 @@ You will need to print the following from the STLs directory:
 
 #### For each player:
 
-- player_plane.stl x1 for each player
-- player_altitude.stl x4 for each player
+- player.stl
+- stat_board.stl
 
 #### To share either print:
 
-- move_all.stl x1
-
-or
-
-- move_straight.stl x1 (or 1x for each player if you wish)
-- move_bank.stl x1 (or 1x for each player if you wish)
-- move_turn.stl x1 (or 1x for each player if you wish)
+- move_template.stl
+- range_ruler.stl
 
 #### Optional:
 
 - box.stl x1
 - FancyBoxTopper.stl x1 <b>and</b> FancyBoxTop.stl (FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5 levels to be able to perform filament swaps of different colors. The bottom level of the topper is .6mm giving 3, .2mm layer passes. All other levels are .4mm allowing 2, .2mm layer passes.
 
-- The range ruler has three printing options:
-
-  - range_ruler_solid.stl
-  - range_ruler_bendable.stl (tested with TPU and worked well, but could wearout over time)
-  - range*ruler_interlocking_all.stl OR range_ruler_interlocking*[1-3].stl
-
-- A stat/health tracker is available by printing:
-
-  - statBoard.stl x1 for each player
-  - one of the three statChit options x1 for each player (statChitsDots.stl, statChitsNumbersCutout.stl, statChitsNumbers.stl)
-
-- There are ID chits for large dog-fights or an alternative method of identifying planes and stat boards. For this, print:
-  - statBoard_wID.stl x1 for each player
-  - IDChits_A_E.stl x 1 for each player
-  - player_plane_wID.stl x1 for each player
-
-#### Range Ruler
-
-If you aren't printing the range ruler you will need to make one out of string.
-The string needs to be greater that 234mm. Don't worry about this specific measurement, it's the length of 3 straight maneuvers.
-Mark the string slightly beyond the end so you have some excess to hold. Then from that point, measure and mark at:
-
-- 78mm (one straight maneuver length)
-- 156mm (2 straight maneuver lengths)
-- 234mm (you guessed it, 3 straights)
-  Be sure to leave a little excess before and after the first and last mark, so you have something to hold onto when measuring range.
-
-The final option for a range ruler is just that... a ruler! You will just have to remember the distances for each section as outlined above.
+- If you are having a large dogfight and don't have enough different colour filaments, you can print the stat boards from the "extras" folder which have identifying letters".
 
 ## Downloads
 
@@ -310,9 +278,9 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets" target="_blank" class="button">Download all printing assets</a>
 
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
 
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/STLs" target="_blank" class="button">Download STLs</a>
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/STLs" target="_blank" class="button">Download STLs</a>
 
 You can fit the game in most tobacco tins, old or new, but if you'd like a Squadron Leader tin that isn't £100+, <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get one here</a>.
 
