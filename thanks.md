@@ -14,6 +14,7 @@ Playtesters. Without your help, this game would suck.
 - John
 - Josh
 - Lydia
+- Martin
 - Matti
 - Moses
 - Patrick

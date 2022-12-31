@@ -16,32 +16,21 @@ The pilots will share:
 - Optional: Blue d6 for the Ace Bonus dice
 - Optional: 1 70cm x 70cm playmat
 
-The playing area of the game can be any size. Its usually just the entire table, because that is the easiest to keep track of, but for an optimal playing experience, you can define a square which is 70 cm square or 3 lengths of the range ruler wide and long.
+The playing area of the game can be any size. Its usually just the entire table but if you want to have a consitent size try 3 lengths of the range ruler.
 
-At the start of the game each player secretly assigns the numbers 4,3,3,2 to their Attack, Defense, Speed & Health and simultaneously reveals their choices.
+At the start of the game each player assigns the numbers 4,3,3,2 to their Health Defense, Attack & Speed.
 
-For example a beginner player may choose the following:
+The last player to have been on a plane goes first.
 
-- Attack - 2
-- Defense - 3
-- Speed - 3
-- Health - 4
+Each player places their plane in front of them in turn.
+It should be placed within range 1 of the edge of the table, and not closer than a ranger ruler to another player.
 
-Whereas a seasoned Ace may elect for:
-
-- Attack - 3
-- Defense - 3
-- Speed - 4
-- Health - 2
-
-Determine who starts with a high roll of a d6.
-Each player places their plane within 1 straight maneuver template from the edge of the playing area and not closer than the range ruler to another players’ token that has already been placed. If players are controlling more than one plane, take it in turns until each token is placed down.
-
-There are 2 stages each round, the Move Stage and the Attack Stage. Everyone moves during the Move stage, and then everyone Attacks during the Attack Stage. Here are how they work:
+There are 2 stages each round, the Move Stage and the Attack Stage.
+Everyone moves during the Move stage, and then everyone Attacks during the Attack Stage. Here is how that works:
 
 ## Move Stage:
 
-- Players take turns to move their plane using the move templates, up to their Speed value. Each move template has a cost of 1, 2 or 3 for the straight, bank & turn templates respectively.
+- Players take turns to move their plane using the maneuver templates, up to their Speed value. Each maneuver template has a cost of 1, 2 or 3 for the straight, bank & turn templates respectively.
 - To move, place the maneuver template at the front of the plane token, and move the plane to the other end of the template.
 - The player may use templates up to the value of their speed, for example a player with a Speed of 4 can execute 2 straight maneuvers & 1 bank maneuver (1 + 1 + 2).
 - A player must move at least once each round otherwise their plane would stall and they would plummet to the ground!
@@ -69,16 +58,19 @@ This image shows a situation where the white plane can shoot at the yellow plane
 
 ### Attack/Defense bonuses
 
-Beyond the bonuses outlined in the altitude rule, there are 2 other attack and defense bonuses dependent on the distance between the attacker and defender:
+Beyond the bonuses outlined in the modular altitude rule, there are 2 other attack and defense bonuses dependent on the distance between the attacker and defender:
 
 - The defender may reroll 1 die if they are within the furthest section of the range ruler
 - The attacker may reroll 1 dice if they are within the closest section of the range ruler
 
-This adds a nice dynamic between (1) rewarding players for an aggressive assault (2) rewarding defenders for making a getaway (3) punishing those people getting away by not rewarding a bonus to their roll.
+This adds a nice dynamic between:
+
+- rewarding players for an aggressive assault
+- rewarding defenders for making a getaway
 
 ## Next Round:
 
-After the final attack, a new round begins and the player who went second in the previous round now goes first.
+After the last player who can attacks does so, a new round begins and the player who went second in the previous round now goes first.
 
 Alright enough chatter, let's take to the skies!
 
@@ -99,4 +91,4 @@ There are a few ways to make the game shorter:
 - Designate a smaller playing area.
 - Allow players to gain more than 1 altitude per round.
 
-Feel free to experiment with the starting numbers, the original 4,3,3,2 is a guideline for balanced games, so going higher will change the game, but so long as each player has the same choices it SHOULD be fair.
+Feel free to experiment with the starting numbers, the original 4,3,3,2 is a guideline for balanced games, so going higher will change the game. As long as each player has the same choices it SHOULD be fair.
