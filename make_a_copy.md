@@ -4,7 +4,7 @@ At the moment the only way to get a copy of this game is to make it yourself, or
 
 ## Printing instructions
 
-You will need to print the following from the <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/STLs" target="_blank" class="button">STLs</a> directory:
+You will need to print the following from the <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/STLs" target="_blank">STLs</a> directory:
 
 ### For each player:
 
