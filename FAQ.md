@@ -2,7 +2,7 @@
 
 #### Can I spend altitude to help pay the extra speed cost of performing a Split S/Barrel roll?
 
-##### Yes! If you don't have enough speed left, but do have enough altitude to pay for the maneuver and STILL have the altitude required to perform the maneuver, go for it!
+Yes! If you don't have enough speed left, but do have enough altitude to pay for the maneuver and STILL have the altitude required to perform the maneuver, go for it!
 
 #### Can you print me a copy?
 
