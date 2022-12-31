@@ -290,8 +290,6 @@ Where it started:
 How it's going:
 ![assetsNew](https://user-images.githubusercontent.com/91621088/210134702-814e3454-e7f7-4336-92ea-cc5f6e584ccb.png)
 
-![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
-
 ## Accessibility
 
 ### Small Tin vs Big Box
@@ -404,12 +402,15 @@ This game was inspired by X-Wing TMG and Wings of War. The motivation for creati
 
 - Coop objectives & campaigns
 - Bomber token (larger, slower, tankier)
-- Alternative maneuver templates
 - Large scale battle rules (10+ ships per team)
 - Assets & instructions for playmats
 - Printable assets for 3D models on blank bases
 - More accessible components for less able players
 - Stat dials for people who don't mind a larger box
+
+
+![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
+
 
 ## License
 
