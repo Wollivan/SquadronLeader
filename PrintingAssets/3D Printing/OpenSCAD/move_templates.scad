@@ -1,10 +1,11 @@
 // mode templates
 include <variables.scad>;
 
-translate([-tokenWidth*2,0,0]) templateStraight("1"); // Straight Template
-translate([tokenWidth*3,0,0]) template45("2"); // Bank Template
-template90("3"); // Turn Template
-translate([-tokenWidth*4.5,0,0]) singleManeuver(); // All in one maneuver template
+//translate([-tokenWidth*2,0,0]) templateStraight("1"); // Straight Template
+//translate([tokenWidth*3,0,0]) template45("2"); // Bank Template
+//template90("3"); // Turn Template
+//translate([-tokenWidth*4.5,0,0]) 
+singleManeuver(); // All in one maneuver template
 
 module templateStraight(theNum) {
     difference(){
@@ -95,31 +96,41 @@ module singleManeuver() {
         }
         
         //scale([1,1,0.3]) translate([tokenWidth*1.3,tokenWidth*1.5,tokenWidth/2]) plane();
-    
-    
+
     //numbers
     
-        translate([tokenWidth*1.33,templateLength/1.35,-1])
-            linear_extrude(tokenHeight+2)
-                text("1", size=10);
+        translate([tokenWidth*1.5,templateLength/1.175,-1])
+            linear_extrude(height = tokenHeight+2) {
+                scale(0.75)
+                rotate([0,0,90])
+                import("icons/speed_one.svg", center=true);
+            }
         
-        translate([tokenWidth/1.1,templateLength/1.6,-1])
+        translate([tokenWidth/1.15,templateLength/1.45,-1])
             rotate([0,0,45])
-                linear_extrude(tokenHeight+2)
-                    text("2", size=10);
-        translate([tokenWidth/1.4,templateLength/2.25,-1])
+                linear_extrude(height = tokenHeight+2) {
+                    scale(0.75)
+                    rotate([0,0,90])
+                    import("icons/speed_two.svg", center=true);
+                }
+            
+        translate([tokenWidth/1.75,templateLength/2,-1])
             rotate([0,0,90])
-                linear_extrude(tokenHeight+2)
-                    text("3", size=10);
+                linear_extrude(height = tokenHeight+2) {
+                    scale(0.75)
+                    rotate([0,0,90])
+                    import("icons/speed.svg", center=true);
+                }
         
-        translate([tokenWidth*1.45,tokenWidth*0.8,tokenHeight-0.9])
+        translate([tokenWidth*1.45,tokenWidth*0.8,-1])
         rotate([0,0,90])
-        linear_extrude(height = tokenHeight/4) {
+        linear_extrude(height = tokenHeight+2) {
             scale(0.065)
-                import("plane-model.svg", center=true);
+                import("icons/plane-model.svg", center=true);
         }
         
   
     }
     
 }
+

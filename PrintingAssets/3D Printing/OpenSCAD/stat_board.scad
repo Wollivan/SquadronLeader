@@ -2,12 +2,13 @@
 include <variables.scad>;
 
 translate([tokenWidth*4.5,0,0]) statBoard();//Stat board
-translate([tokenWidth*5,-20,0]) numberStatToken("4");
-translate([tokenWidth*5.6,-20,0]) numberStatToken("3");
-translate([tokenWidth*6.2,-20,0]) numberStatToken("3");
-translate([tokenWidth*6.8,-20,0]) numberStatToken("2");
-translate([tokenWidth*4.5,35,0]) healthPeg();
-translate([tokenWidth*5,40,0]) planeIDToken("A");
+//translate([tokenWidth*5,-20,0]) numberStatToken("4", true);
+translate([tokenWidth*4.85,-5,0]) numberStatToken("4", true);
+translate([tokenWidth*5.45,-5,0]) numberStatToken("3", true);
+translate([tokenWidth*6.05,-5,0]) numberStatToken("3", true);
+translate([tokenWidth*6.67,-5,0]) numberStatToken("2", true);
+translate([tokenWidth*4.85,30,0]) healthPeg();
+//translate([tokenWidth*5,40,0]) planeIDToken("A");
 
 module statBoard(hasID){
 	difference(){
@@ -27,19 +28,19 @@ module statBoard(hasID){
 				planeIDToken();
 			}
 				
-			//token notches
-			translate([tokenRadSm+tokenSpace+4.5,tokenRad/2,0])
+			//token gaps
+			translate([tokenRadSm+tokenSpace+4.5,0,0])
 			for(i=[0:3]){
-				translate([i*((tokenRadSm*2)+tokenSpace),0,statHeight/2])
+				translate([i*((tokenRadSm*2)+tokenSpace),0,0])
 				baseStatToken(true);
 			}
 		
 			//peg holes
 			translate([13.6,boardWidth-2.5,0])
 			for(j=[0:3]){
-				translate([j*pegSpace,0,8.8])
+				translate([j*pegSpace,0,statHeight+1])
 				rotate([180,0,0])
-				healthPeg();
+				cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
 			}
 			
 			//peg path vertical
@@ -50,29 +51,29 @@ module statBoard(hasID){
 			cube([.6,5,statHeight/2]);
 			
 			//icons
-			translate([0,boardWidth/1.5,0])
+			translate([0,boardWidth/1.75,0])
 			union(){
 				translate([13.5,0,0])
 				linear_extrude(height = statHeight) {
 					scale(0.75)
-					import("health.svg", center=true);
+					import("icons/health.svg", center=true);
 				}
 				translate([29.5,0,0])
 				linear_extrude(height = statHeight) {
 					scale(0.75)
 					rotate([0,0,90])
-					import("defense.svg", center=true);
+					import("icons/defense.svg", center=true);
 				}
 				translate([44.9,0,0])
 				linear_extrude(height = statHeight) {
 					scale(0.80)
-					import("attack.svg", center=true);
+					import("icons/attack.svg", center=true);
 				}
 				translate([60.5,0,0])
 				linear_extrude(height = statHeight) {
 					scale(0.75)
 					rotate([0,0,90])
-					import("speed.svg", center=true);
+					import("icons/speed.svg", center=true);
 				}
 			}
 		}
@@ -81,9 +82,13 @@ module statBoard(hasID){
 
 module healthPeg(){
 	union(){
-		cylinder(h=7,r=1.6,$fn=35);
-		translate([0,0,7])
-		cylinder(h=(statHeight+.01),r=1,$fn=35);
+		//cylinder(h=7,r=1.6,$fn=35);
+        translate([0,-pegHoleRad*2,0])
+            cube([pegHoleRad*2,pegHoleRad*6,statHeight]);
+        translate([-pegHoleRad*2,0,0])
+            cube([pegHoleRad*6,pegHoleRad*2,statHeight]);
+		translate([pegHoleRad,pegHoleRad,statHeight])
+            cylinder(h=(statHeight+.01),r=pegHoleRad,$fn=35);
 	}
 }
 
@@ -147,6 +152,7 @@ module dottedStatToken(number){
 			for(i=[0:1]){
 				translate([(tokenRadSm/1.5)*i,(tokenRadSm/1.5)*i,0])
 				sphere(d=statHeight,$fn=24);
+                //cylinder(h=2, d=statHeight)
 			}
 			translate([-tokenRadSm/3,tokenRadSm/3,0])
 			for(i=[0:1]){

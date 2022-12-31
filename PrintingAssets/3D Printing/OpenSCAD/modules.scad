@@ -59,6 +59,6 @@ module plane(){
     translate([0.5,1,tokenHeight])
         linear_extrude(height = tokenHeight/4) {
             scale(0.065)
-                import("plane-model.svg", center=true);
+                import("icons/plane-model.svg", center=true);
     }
 }

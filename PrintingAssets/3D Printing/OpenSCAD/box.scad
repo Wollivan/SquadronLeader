@@ -92,7 +92,7 @@ module lid () {
         translate([lid_length*3/4, lid_width/2, -0.1])
             linear_extrude(height = lid_thickness/2) {
                 resize([0, lid_cover_size, 0], auto=true)
-                    import("plane-model.svg", center=true);
+                    import("icons/plane-model.svg", center=true);
             }
         translate([lid_length*1/20, lid_width/2, -0.1])
             linear_extrude(height = lid_thickness/4)
