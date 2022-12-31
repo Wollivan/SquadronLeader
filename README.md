@@ -35,7 +35,7 @@ Where it started:
 ![assets](https://user-images.githubusercontent.com/91621088/167314934-d9db01ea-04d0-4fb6-ba31-9ec6d6091408.png)
 
 How it's going:
-![assetsNew](https://user-images.githubusercontent.com/91621088/210134702-814e3454-e7f7-4336-92ea-cc5f6e584ccb.png)
+![assetsNew](https://user-images.githubusercontent.com/91621088/210150646-a45c4ba9-c6b3-45c0-9648-0ddf359317c1.png)
 
 ## Future features
 
