@@ -288,7 +288,7 @@ Where it started:
 ![assets](https://user-images.githubusercontent.com/91621088/167314934-d9db01ea-04d0-4fb6-ba31-9ec6d6091408.png)
 
 How it's going:
-![assetsNew](https://user-images.githubusercontent.com/91621088/173934258-ea3a1a15-99cc-4494-8e80-1898cc7eb9f9.png)
+![assetsNew](https://user-images.githubusercontent.com/91621088/210134702-814e3454-e7f7-4336-92ea-cc5f6e584ccb.png)
 
 ![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
 
