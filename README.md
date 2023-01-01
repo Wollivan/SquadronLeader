@@ -34,9 +34,7 @@ If you're viewing this on the website and want to see all the incredible work fr
 
 This amazing set was printed by Greg (who also designed the first score keeper pieces)
 
-![Printed Box](https://user-images.githubusercontent.com/91621088/169612233-e8880bba-e824-4f66-98ce-2126f780c2cf.jpeg)
-![Printed Box Full](https://user-images.githubusercontent.com/91621088/169612239-ede93c1b-ddd3-401f-8a6f-48d78336ffac.jpeg)
-![All Pieces printed](https://user-images.githubusercontent.com/91621088/169612247-01b5856a-db04-4191-a7e8-98d2e06612be.jpeg)
+![greg-box](https://user-images.githubusercontent.com/91621088/210184175-434638bb-5560-4614-b36b-49738572a15d.gif)
 
 Where it started:
 ![assets](https://user-images.githubusercontent.com/91621088/167314934-d9db01ea-04d0-4fb6-ba31-9ec6d6091408.png)
