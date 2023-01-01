@@ -21,15 +21,22 @@ The modular nature of the rules allows for players to customise their game and a
 
 We encourage the use of house rules, and ask that you make suggestions on the <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>, this is an Open Source game after all!
 
+#### How to play
+
+Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page for how to play, and once you get the hang of it, head on over to the <a href="https://squadronleader.netlify.app/rules">modular rules</a> to see really see how much of an Ace you can be!
+
 #### Note from the creator:
 
+This porject is made possible only through the continued support of <a href="https://squadronleader.netlify.app/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.
 If you're viewing this on the website and want to see all the incredible work from the amazing people making this game better, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a>, <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> and <a href="https://github.com/Wollivan/SquadronLeader/discussions" target="_blank">discussions</a> on GitHub.
+
+##### Example print
+
+This amazing set was printed by Greg (who also designed the first score keeper pieces)
 
 ![Printed Box](https://user-images.githubusercontent.com/91621088/169612233-e8880bba-e824-4f66-98ce-2126f780c2cf.jpeg)
 ![Printed Box Full](https://user-images.githubusercontent.com/91621088/169612239-ede93c1b-ddd3-401f-8a6f-48d78336ffac.jpeg)
 ![All Pieces printed](https://user-images.githubusercontent.com/91621088/169612247-01b5856a-db04-4191-a7e8-98d2e06612be.jpeg)
-
-Amazing set printed by Greg (who also designed the first score keeper pieces)
 
 Where it started:
 ![assets](https://user-images.githubusercontent.com/91621088/167314934-d9db01ea-04d0-4fb6-ba31-9ec6d6091408.png)
