@@ -2,6 +2,9 @@
 
 At the moment the only way to get a copy of this game is to make it yourself, or find a friend with a 3D printer who is willing to print it for you. In the future there may be a way to order them, or even a crowd funding thing... who knows!
 
+Everything you need to for a 4 player game:
+![assetsNew](https://user-images.githubusercontent.com/91621088/210150646-a45c4ba9-c6b3-45c0-9648-0ddf359317c1.png)
+
 ## Printing instructions
 
 You will need to print the following from the <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/STLs" target="_blank">STLs</a> directory:
