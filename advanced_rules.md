@@ -1,12 +1,10 @@
-# Modular Rules
+# Advanced Rules
 
-Squadron Leader has a growing set of modular rules to keep your games fresh, and for you to find the best version of aerial combat for you!
+These rules are for players already familiar with the core rules, or those who want to dive right in and become world famous fighter pilots!
 
 ## Altitude rule
 
-#### Recommended
-
-This rules adds a lot of options for strategy, and it's recommended you play with it.
+The sky is a big place. Let's take advantage of that!
 
 - At the start of the game each player takes off with 0 altitude tokens.
 - Once per round during their move stage, a player may spend 1 speed to Climb and add 1 altitude token underneath their plane.
@@ -16,8 +14,6 @@ This rules adds a lot of options for strategy, and it's recommended you play wit
 - The maximum altitude allowed is 4.
 
 ## Split S rule
-
-#### Recommended / Requires Altitude rule
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
@@ -37,9 +33,7 @@ Here is an excerpt:
 
 ## Immelmann rule
 
-##### Requires Altitude rule
-
-This rule rewards aggressive tactics:
+This rule rewards aggressive tactics.
 
 - After a player knocks an enemy plane out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
 - This is an optional maneuver, but must be done before the next attack happens.
@@ -58,7 +52,7 @@ Thanks to Ben for teaching me that this move has a name, and thanks Josh for fin
 
 ## Barrel Roll rule
 
-This rule rewards expertly skills pilots who can maneuver their plane into just the right place in the sky!
+This rule seperates the timid from the bold!
 
 - During the move phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost maneuver, but instead of orienting their plane along the new axis, their token will not rotate at all, and be traveling in the same direction.
 - The speed cost for a Barrel roll is twice whatever number is on the template (2 maneuver costs 4, 3 maneuver costs 6)
@@ -74,18 +68,13 @@ Here is an excerpt:
 
 "A barrel roll is an aerial maneuver in which an airplane makes a complete rotation on both its longitudinal and lateral axes, causing it to follow a helical path, approximately maintaining its original direction."
 
-## Ace Pilots rule
+## Ace Pilot rule
 
-This rule rewards players for playing aggressively, which can be helpful if you find pilots often avoid the action.
+Earn your wings and keep the action moving!
 
-- When a pilot knocks another pilot out of the sky they become an Ace, and gain a Ace Bonus die.
-- For the rest of the game, that pilot can choose to roll the Ace Bonus die at any point, but only once a round.
-- The player must declare they are rolling their Ace Bonus die before rolling any other dice.
-- Players can have multiple Ace Bonus dice, if they knock multiple opponents out.
-
-For example, you could say "I am rolling my bonus dice for this attack". You now can't use the bonus dice until the next round, so if you used it for your attack, you wouldn't be able to use it when defending this round.
-
-If you have 2 Ace bonus, you could use them both in the same roll, or spread them out across the round.
+- When a pilot destroys another plane, they become the Ace. (You can use the Medal token to remember who the current Ace is)
+- For as long as they are the Ace, that pilot may reroll 1 Attack dice and 1 Defense dice each round.
+- There can only be one Ace in the sky at a time.
 
 ## Using the Forward Firing Guides
 
@@ -93,7 +82,9 @@ Reward or challenge expert pilots by changing the rules around the firing arcs.
 You can either:
 
 - Play using only the forward firing guides and ignoring the wide arc, or
-- Roll an additional attack dice when the defender is in the forward firing guide.
+- Allow pilots to reroll an attack dice when the defender is in the forward firing guide.
+
+# Alternative Play Mode
 
 ## Hex Grid Mode (for players without a 3D printer)
 
