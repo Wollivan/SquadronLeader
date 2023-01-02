@@ -92,3 +92,8 @@ There are a few ways to make the game shorter:
 - Allow players to gain more than 1 altitude per round.
 
 Feel free to experiment with the starting numbers, the original 4,3,3,2 is a guideline for balanced games, so going higher will change the game. As long as each player has the same choices it SHOULD be fair.
+
+
+## Advanced Rules
+
+Now check out the <a href="https://squadronleader.netlify.app/advanced_rules">advanced rules</a> and see if you have what it takes to rule the skies!
