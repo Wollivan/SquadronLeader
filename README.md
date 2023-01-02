@@ -23,7 +23,7 @@ We encourage the use of house rules, and ask that you make suggestions on the <a
 
 #### How to play
 
-Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page for how to play, and once you get the hang of it, head on over to the <a href="https://squadronleader.netlify.app/advanced_rules">advanced rules</a> to see really see how much of an Ace you can be!
+Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page for how to play, and once you get the hang of it, head on over to the <a href="https://squadronleader.netlify.app/rules/advanced">advanced rules</a> to see really see how much of an Ace you can be!
 
 #### Note from the creator:
 
