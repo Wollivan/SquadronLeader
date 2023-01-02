@@ -74,26 +74,6 @@ After the last player who can attacks does so, a new round begins and the player
 
 Alright enough chatter, let's take to the skies!
 
-## Alternative Game modes
-
-### Team game
-
-You can change the feel of the game greatly by flying with a wingman. The strategy of how you fly together is totally up to you. Here are the additional rules for playing in teams:
-
-- Teammates should sit next to one another.
-- The playing order is determined by teams, rather than players, so within your team you decide who moves first, and once the entire team has moved, the other team goes. This is the same principle for attacking.
-
-### Quick game
-
-There are a few ways to make the game shorter:
-
-- Have everyone start with a max of 2 Health.
-- Designate a smaller playing area.
-- Allow players to gain more than 1 altitude per round.
-
-Feel free to experiment with the starting numbers, the original 4,3,3,2 is a guideline for balanced games, so going higher will change the game. As long as each player has the same choices it SHOULD be fair.
-
-
 ## Advanced Rules
 
 Now check out the <a href="https://squadronleader.netlify.app/advanced_rules">advanced rules</a> and see if you have what it takes to rule the skies!
