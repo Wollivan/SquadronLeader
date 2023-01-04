@@ -14,7 +14,7 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 - player.stl
 - stat_board.stl
 
-### To share either print:
+### To share (or optionally print one for each player):
 
 - move_template.stl
 - range_ruler.stl
