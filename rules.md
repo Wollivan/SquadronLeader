@@ -18,28 +18,28 @@ The pilots will share:
 
 The playing area of the game can be any size. Its usually just the entire table but if you want to have a consitent size try 3 lengths of the range ruler.
 
-At the start of the game each player assigns the numbers 4,3,3,2 to their Health Defense, Attack & Speed.
+At the start of the game each player assigns the numbers 4,3,3,2 to their Health Defense, Attack & Maneuverability.
 
 The last player to have been on a plane goes first.
 
 Each player places their plane in front of them in turn.
 It should be placed within range 1 of the edge of the table, and not closer than a ranger ruler to another player.
 
-There are 2 stages each round, the Move Stage and the Attack Stage.
-Everyone moves during the Move stage, and then everyone Attacks during the Attack Stage. Here is how that works:
+There are 2 stages each round, the maneuver Stage and the Attack Stage.
+Everyone moves their plane during the maneuver stage, and then everyone Attacks during the Attack Stage. Here is how that works:
 
-## Move Stage:
+## maneuver Stage:
 
-- Players take turns to move their plane using the maneuver templates, up to their Speed value. Each maneuver template has a cost of 1, 2 or 3 for the straight, bank & turn templates respectively.
+- Players take turns to move their plane using the maneuver templates, up to their Maneuverability value. Each maneuver template has a cost of 1, 2 or 3 for the straight, bank & turn templates respectively.
 - To move, place the maneuver template at the front of the plane token, and move the plane to the other end of the template.
-- The player may use templates up to the value of their speed, for example a player with a Speed of 4 can execute 2 straight maneuvers & 1 bank maneuver (1 + 1 + 2).
-- A player must move at least once each round otherwise their plane would stall and they would plummet to the ground!
+- The player may use templates up to the value of their Maneuverability, for example a player with a Maneuverability of 4 can execute 2 straight maneuvers & 1 bank maneuver (1 + 1 + 2).
+- A player must complete at least one maneuver each round otherwise their plane would stall and they would plummet to the ground! (Gaining altitude doesn't count)
 - If any part of a plane token goes off the board at the end of a maneuver, that plane is destroyed!
 
 The below gif shows how to use the maneuver templates.
 ![movement](https://user-images.githubusercontent.com/91621088/167208819-c5c2eedb-7fd1-4cb4-945c-70a1b26c79bf.gif)
 
-This gif shows a Move Stage where the player spends 3 speed to move.
+This gif shows a maneuver Stage where the player spends 3 maneuverability to move around.
 ![maneuver-example](https://user-images.githubusercontent.com/91621088/166423425-fbc0e7bf-2f76-4b47-92a3-d33456841918.gif)
 
 ## Attack Stage:

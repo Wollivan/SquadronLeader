@@ -98,7 +98,7 @@ module singleManeuver() {
         //scale([1,1,0.3]) translate([tokenWidth*1.3,tokenWidth*1.5,tokenWidth/2]) plane();
 
     //numbers
-    
+        
         translate([tokenWidth*1.5,templateLength/1.175,-1])
             linear_extrude(height = tokenHeight+2) {
                 scale(0.75)
@@ -114,7 +114,7 @@ module singleManeuver() {
                     import("icons/speed_two.svg", center=true);
                 }
             
-        translate([tokenWidth/1.75,templateLength/2,-1])
+        translate([tokenWidth/1.75,templateLength/2.0,-1])
             rotate([0,0,90])
                 linear_extrude(height = tokenHeight+2) {
                     scale(0.75)
@@ -129,8 +129,33 @@ module singleManeuver() {
                 import("icons/plane-model.svg", center=true);
         }
         
-  
+        
+        // guide lines top v1
+        translate([0,0,tokenHeight-1])
+        rotate_extrude(angle = 90)
+                translate([templateLength/3+tokenWidth-1, 0, 0])
+                    square(size = [0.5, 2]);
+        
+        translate([-tokenWidth*2-1,0,tokenHeight-1])
+            rotate_extrude(angle = 45)
+                translate([templateLength+tokenWidth-0.25, 0, 0])
+                square(size = [0.5, 2]);
+        
+        // guide lines bottom v1
+        translate([0,0,-1])
+        rotate_extrude(angle = 90)
+                translate([templateLength/3+tokenWidth-1, 0, 0])
+                    square(size = [0.5, 2]);
+        
+        translate([-tokenWidth*2-1,0,-1])
+            rotate_extrude(angle = 45)
+                translate([templateLength+tokenWidth-0.25, 0, 0])
+                square(size = [0.5, 2]);
+                
+                
+
     }
     
 }
 
+            

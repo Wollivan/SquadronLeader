@@ -7,9 +7,9 @@ These rules are for players already familiar with the core rules, or those who w
 The sky is a big place. Let's take advantage of that!
 
 - At the start of the game each player takes off with 0 altitude tokens.
-- Once per round during their move stage, a player may spend 1 speed to Climb and add 1 altitude token underneath their plane.
+- Once per round during their maneuver stage, a player may spend 1 maneuverability to Climb and add 1 altitude token underneath their plane.
 - Players can only gain 1 altitude per round.
-- In a round that the player hasn't climbed, they may Dive by removing any number of altitude tokens to add that number to their speed for the round.
+- In a round that the player hasn't climbed, they may Dive by removing any number of altitude tokens to add that number to their maneuverability for the round.
 - When at a higher altitude while attacking or defending, a player may reroll 1 die.
 - The maximum altitude allowed is 4.
 
@@ -17,8 +17,8 @@ The sky is a big place. Let's take advantage of that!
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
-- During the move phase, a player may declare they are executing a Split S maneuver and spend 3 altitude tokens to place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
-- The Speed cost of the maneuver is double the normal cost of whichever maneuver template the player is using (the straight now costs 2, the bank now costs 4).
+- During the maneuver phase, a player may declare they are executing a Split S maneuver and spend 3 altitude tokens to place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
+- The maneuver cost is double the cost of whichever maneuver template the player is using (the straight now costs 2, the bank now costs 4).
 - Players cannot perform a Split S and gain altitude in the same round.
 
 ![split_s_with_text](https://user-images.githubusercontent.com/91621088/168678072-211ec138-71c3-49d5-a688-1d8365c199d2.png)
@@ -48,14 +48,14 @@ Here is an excerpt:
 
 "In modern aerobatics, an Immelmann turn (also known as a roll-off-the-top, or simply an Immelmann) is an aerobatic maneuver that results in level flight in the opposite direction at a higher altitude."
 
-Thanks to Ben for teaching me that this move has a name, and thanks Josh for finding Split S so that what the rules do in game match what real life planes can do!
+Thanks to Ben for teaching me that this maneuver has a name, and thanks Josh for finding Split S so that what the rules do in game match what real life planes can do!
 
 ## Barrel Roll rule
 
 This rule seperates the timid from the bold!
 
-- During the move phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost maneuver, but instead of orienting their plane along the new axis, their token will not rotate at all, and be traveling in the same direction.
-- The speed cost for a Barrel roll is twice whatever number is on the template (2 maneuver costs 4, 3 maneuver costs 6)
+- During the maneuver phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost maneuver, but instead of orienting their plane along the new axis, their token will not rotate at all, and be traveling in the same direction.
+- The maneuver cost is double the cost of whichever maneuver template the player is using (the straight now costs 2, the bank now costs 4).
 - Players cannot perform a Barrel roll and gain altitude in the same round.
 
 ![barrel_roll_with_text](https://user-images.githubusercontent.com/91621088/168678014-f78b079a-f44a-4a6c-b3c8-42ed09937de2.png)
@@ -105,11 +105,11 @@ Feel free to experiment with the starting numbers, the original 4,3,3,2 is a gui
 
 ### Hex Grid Mode (for players without a 3D printer)
 
-The game can be played on a hex grid. That removes the need for movement templates and rulers. All rules are the same as without a grid, except for what is described in this section.
+The game can be played on a hex grid. That removes the need for maneuver templates and range rulers. All rules are the same as without a grid, except for what is described in this section.
 
-Any battlemat with a hex grid can be used. Planes set up in hexes along each player's edge of the mat. There can only ever be one plane per hex, and planes can never end a move in the same hex as another plane. A plane always face one of the six sides of its hex.
+Any battlemat with a hex grid can be used. Planes set up in hexes along each player's edge of the mat. There can only ever be one plane per hex, and planes can never end a maneuver in the same hex as another plane. A plane always face one of the six sides of its hex.
 
-Instead of using the movement templates there are three possible moves on a hex grid that are used instead:
+Instead of using the maneuver templates there are three possible maneuvers on a hex grid that are used instead:
 
 - 1 (Cost 1) Move 2 hexes forward.
 - 2 (Cost 2) Move 1 hex forward, then turn left or right 60 degrees, then move 1 hex forward in the new direction.

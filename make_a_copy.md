@@ -16,7 +16,7 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 
 ### To share (or optionally print one for each player):
 
-- move_template.stl
+- maneuver_template.stl
 - range_ruler.stl
 
 ### Optional from the extras directory:
