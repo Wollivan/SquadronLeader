@@ -18,7 +18,19 @@ The pilots will share:
 
 The playing area of the game can be any size. Its usually just the entire table but if you want to have a consitent size try 3 lengths of the range ruler.
 
-At the start of the game each player assigns the numbers 4,3,3,2 to their Health Defense, Attack & Maneuverability.
+At the start of the game each player assigns their choice from 4, 3, 3, 2 to their:
+
+- Health
+- Defense
+- Attack
+- Maneuverability
+
+For good starting setup for new players is:
+
+- Health - 3
+- Defense - 3
+- Attack - 2
+- Maneuverability - 4
 
 The last player to have been on a plane goes first.
 
