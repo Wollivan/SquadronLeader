@@ -25,14 +25,14 @@ At the start of the game each player assigns their choice from 4, 3, 3, 2 to the
 - Attack
 - Maneuverability
 
-For good starting setup for new players is:
+A good starting setup for new players is:
 
 - Health - 3
 - Defense - 3
 - Attack - 2
 - Maneuverability - 4
 
-The last player to have been on a plane goes first.
+The last player to see a plane goes first.
 
 Each player places their plane in front of them in turn.
 It should be placed within range 1 of the edge of the table, and not closer than a ranger ruler to another player.
@@ -40,7 +40,7 @@ It should be placed within range 1 of the edge of the table, and not closer than
 There are 2 stages each round, the maneuver Stage and the Attack Stage.
 Everyone moves their plane during the maneuver stage, and then everyone Attacks during the Attack Stage. Here is how that works:
 
-## maneuver Stage:
+## Maneuver Stage:
 
 - Players take turns to move their plane using the maneuver templates, up to their Maneuverability value. Each maneuver template has a cost of 1, 2 or 3 for the straight, bank & turn templates respectively.
 - To move, place the maneuver template at the front of the plane token, and move the plane to the other end of the template.
