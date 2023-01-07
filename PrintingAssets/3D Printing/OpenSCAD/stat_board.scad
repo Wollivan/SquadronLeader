@@ -1,83 +1,111 @@
 // stat board
 include <variables.scad>;
 
-translate([tokenWidth*4.5,0,0]) statBoard();//Stat board
+translate([0,0,0]) statBoard();//Stat board
 //translate([tokenWidth*5,-20,0]) numberStatToken("4", true);
-translate([tokenWidth*4.85,-5,0]) numberStatToken("4", true);
-translate([tokenWidth*5.45,-5,0]) numberStatToken("3", true);
-translate([tokenWidth*6.05,-5,0]) numberStatToken("3", true);
-translate([tokenWidth*6.67,-5,0]) numberStatToken("2", true);
-translate([tokenWidth*4.85,30,0]) healthPeg();
+translate([0,-6,0]) numberStatToken("4");
+translate([11,-6,0]) numberStatToken("3");
+translate([22,-6,0]) numberStatToken("3");
+translate([33,-6,0]) numberStatToken("2");
+translate([42,-6,0]) healthPeg();
 //translate([tokenWidth*5,40,0]) planeIDToken("A");
 
-module statBoard(hasID){
-	difference(){
-		//board
-		if(hasID){
-			cube([boardHeight,boardWidth,statHeight]);
-		}else{
-			cube([boardHeight-4.5,boardWidth,statHeight]);
-		}
-		
-		boardOffset = hasID ? 0 : -4.5;
-		translate([boardOffset,0,0])
-		union(){
-			//ID hole
-			if(hasID){
-				translate([2.4,boardWidth/2,statHeight])
-				planeIDToken();
-			}
-				
-			//token gaps
-			translate([tokenRadSm+tokenSpace+4.5,0,0])
-			for(i=[0:3]){
-				translate([i*((tokenRadSm*2)+tokenSpace),0,0])
-				baseStatToken(true);
-			}
-		
-			//peg holes
-			translate([13.6,boardWidth-2.5,0])
-			for(j=[0:3]){
-				translate([j*pegSpace,0,statHeight+1])
-				rotate([180,0,0])
-				cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
-			}
-			
-			//peg path vertical
-			translate([13.5,boardWidth-2.7,statHeight/2])
-			cube([((.5)+pegSpace)*2.9,.6,statHeight/2]);
-			//peg path horizontal
-			translate([13.3,15,statHeight/2])
-			cube([.6,5,statHeight/2]);
-			
-			//icons
-			translate([0,boardWidth/1.75,0])
-			union(){
-				translate([13.5,0,0])
-				linear_extrude(height = statHeight) {
-					scale(0.75)
-					import("icons/health.svg", center=true);
-				}
-				translate([29.5,0,0])
-				linear_extrude(height = statHeight) {
-					scale(0.75)
-					rotate([0,0,90])
-					import("icons/defense.svg", center=true);
-				}
-				translate([44.9,0,0])
-				linear_extrude(height = statHeight) {
-					scale(0.80)
-					import("icons/attack.svg", center=true);
-				}
-				translate([60.5,0,0])
-				linear_extrude(height = statHeight) {
-					scale(0.75)
-					rotate([0,0,90])
-					import("icons/speed.svg", center=true);
-				}
-			}
-		}
-	}					
+
+module blankBoard() {
+    union() {
+        translate([tokenWidth/6,tokenWidth/2-1,0])
+            scale([1,1,1])
+                rotate([0,0,22.45])
+                    cylinder(h=statHeight, d=tokenWidth, $fn=8, center=false);
+        
+        cube([boardHeight, tokenWidth-2, statHeight]);
+        
+        translate([boardHeight-tokenWidth/6,tokenWidth/2-1,0])
+            scale([1,1,1])
+                rotate([0,0,22.45])
+                    cylinder(h=statHeight, d=tokenWidth, $fn=8, center=false);
+    }
+}
+
+module statBoard() {
+    difference() {
+        blankBoard();
+        // STILL NEED TO ADD BACK ID HOLE
+        
+        // stat peg holes
+        translate([-6,0,0])
+            union() {
+                translate([0,boardWidth/5,0])
+                    union() {
+                        translate([tokenWidth/4,0,statHeight+1])
+                            rotate([180,0,0])
+                                cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                        
+                        translate([tokenWidth/4*3,0,statHeight+1])
+                            rotate([180,0,0])
+                                cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                        
+                        translate([tokenWidth/4*5,0,statHeight+1])
+                            rotate([180,0,0])
+                                cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                        
+                        translate([tokenWidth/4*7,0,statHeight+1])
+                            rotate([180,0,0])
+                                cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                    }
+            
+                union() {
+                    //health peg holes
+                    translate([tokenWidth/4,boardWidth-4.5,0])
+                        for(j=[0:3]){
+                            translate([j*pegSpace,0,statHeight+1])
+                                rotate([180,0,0])
+                                    cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                        }
+                    
+                    //health peg path vertical
+                    translate([tokenWidth/4.2,boardWidth-4.75,statHeight/2])
+                        cube([((.5)+pegSpace)*2.9,.6,statHeight/2+1]);
+                    //health peg path horizontal
+                    translate([tokenWidth/4.2,17,statHeight/2])
+                        cube([.6,5,statHeight/2+1]);
+                
+                }   
+                
+                //icons
+                translate([0,tokenWidth/1.75,-1])
+                    union(){
+                        translate([tokenWidth/4,0,0])
+                            linear_extrude(height = statHeight+2) {
+                                scale(0.6)
+                                    import("icons/health.svg", center=true);
+                        }
+                        translate([tokenWidth/4*3,-0.5,0])
+                            linear_extrude(height = statHeight+2) {
+                                scale(0.6)
+                                rotate([0,0,90])
+                                import("icons/defense.svg", center=true);
+                        }
+                        translate([tokenWidth/4*5,-1,0])
+                            linear_extrude(height = statHeight+2) {
+                                scale(0.7)
+                                import("icons/attack.svg", center=true);
+                        }
+                        translate([tokenWidth/4*7,0.5,0])
+                            linear_extrude(height = statHeight+2) {
+                                scale(0.6)
+                                rotate([0,0,90])
+                                import("icons/speed.svg", center=true);
+                        }
+                    }
+            }
+        
+        
+    }
+}
+
+module peg() {
+    cylinder(h=(statHeight+.01),r=pegHoleRad,$fn=35);
 }
 
 module healthPeg(){
@@ -88,46 +116,34 @@ module healthPeg(){
         translate([-pegHoleRad*2,0,0])
             cube([pegHoleRad*6,pegHoleRad*2,statHeight]);
 		translate([pegHoleRad,pegHoleRad,statHeight])
-            cylinder(h=(statHeight+.01),r=pegHoleRad,$fn=35);
+            peg();
 	}
 }
 
 module baseStatToken(isMold){
-	difference(){
-		//base token
-		rotate([0,0,22.45])
+	rotate([0,0,22.45])
 		cylinder(h=1.8,r=tokenRad,$fn=8);
 			
-        // lock notch no longer needed
-//		//lock notch
-//		translate([-tokenRad,tokenRad/1.7,0])
-//		if(isMold){
-//			cube([tokenRad*2,tokenRad/7.5,statHeight/2.5]);
-//		}else{
-//			cube([tokenRad*2,tokenRad/7.5,statHeight/2]);
-//		}
-	}
 }
 
-module numberStatToken(number,isCutOut){
-	difference(){
-		baseStatToken();
-		
-		//number/dot placement
-		if(number){
-			if(isCutOut){
-				translate([0,0,0])
-				rotate([0,0,90])
-				linear_extrude(statHeight)
-				text(number,tokenRad,halign="center",valign="center",font="Verdana:style=Bold");
-			}else{				
-				translate([0,0,(statHeight-numberHeight)])
-				rotate([0,0,90])
-				linear_extrude(numberHeight)
-				text(number,tokenRad,halign="center",valign="center",font="Verdana:style=Bold");
-			}
-		}
-	}
+module numberStatToken(number){
+    union() {
+        difference(){
+            baseStatToken();
+            
+            //number/dot placement
+            if(number){
+                translate([0,0,statHeight/2])
+                rotate([0,180,0])
+                    linear_extrude(statHeight)
+                        text(number,tokenRad,halign="center",valign="center",font="Verdana:style=Bold");
+                
+            }
+        }
+        
+		translate([0,0,statHeight])
+            peg();
+    }
 }
 
 module dottedStatToken(number){
