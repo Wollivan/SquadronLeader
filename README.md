@@ -36,9 +36,6 @@ This amazing set was printed by Greg (who also designed the first score keeper p
 
 ![greg-box](https://user-images.githubusercontent.com/91621088/210184175-434638bb-5560-4614-b36b-49738572a15d.gif)
 
-Where it started:
-![assets](https://user-images.githubusercontent.com/91621088/167314934-d9db01ea-04d0-4fb6-ba31-9ec6d6091408.png)
-
 How it's going:
 ![assetsNew](https://user-images.githubusercontent.com/91621088/210150646-a45c4ba9-c6b3-45c0-9648-0ddf359317c1.png)
 
@@ -52,7 +49,14 @@ How it's going:
 - More accessible components for less able players
 - Stat dials for people who don't mind a larger box
 
+How it started:
+
 ![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
+
+How it's going:
+
+![unboxing](https://user-images.githubusercontent.com/91621088/211172716-5bc4983f-1582-4c58-9a07-ba0d7531282e.png)
+
 
 ## License
 
