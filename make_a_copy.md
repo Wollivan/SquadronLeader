@@ -27,7 +27,7 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 ### Optional from the extras directory:
 
 - box.stl x1
-- FancyBoxTopper.stl x1 <b>and</b> FancyBoxTop.stl (FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5 levels to be able to perform filament swaps of different colors. The bottom level of the topper is .6mm giving 3, .2mm layer passes. All other levels are .4mm allowing 2, .2mm layer passes.
+- FancyBoxTopper.stl x1 <b>and</b> FancyBoxTop.stl (FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5 levels to be able to perform filament swaps of different colours. The bottom level of the topper is .6mm giving 3, .2mm layer passes. All other levels are .4mm allowing 2, .2mm layer passes.
 
 - If you are having a large dogfight and don't have enough different colour filaments, you can print the stat boards from the "extras" folder which have identifying letters".
 
