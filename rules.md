@@ -16,7 +16,7 @@ The pilots will share:
 - Optional: Blue d6 for the Ace Bonus dice
 - Optional: 1 70cm x 70cm playmat
 
-The playing area of the game can be any size. Its usually just the entire table but if you want to have a consitent size try 3 lengths of the range ruler.
+The playing area of the game can be any size. Its usually just the entire table but if you want to have a consistent size try 3 lengths of the range ruler.
 
 At the start of the game each player assigns their choice from 4, 3, 3, 2 to their:
 
