@@ -27,7 +27,7 @@ Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page 
 
 #### Note from the creator:
 
-This porject is made possible only through the continued support of <a href="https://squadronleader.netlify.app/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.
+This project is made possible only through the continued support of <a href="https://squadronleader.netlify.app/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.
 If you're viewing this on the website and want to see all the incredible work from the amazing people making this game better, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a>, <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> and <a href="https://github.com/Wollivan/SquadronLeader/discussions" target="_blank">discussions</a> on GitHub.
 
 #### Example print
