@@ -2,23 +2,12 @@
 
 These rules are for players already familiar with the core rules, or those who want to dive right in and become world famous fighter pilots!
 
-## Altitude rule
-
-The sky is a big place. Let's take advantage of that!
-
-- At the start of the game each player takes off with 0 altitude tokens.
-- Once per round during their maneuver stage, a player may spend 1 maneuverability to Climb and add 1 altitude token underneath their plane.
-- Players can only gain 1 altitude per round.
-- In a round that the player hasn't climbed, they may Dive by removing any number of altitude tokens to add that number to their maneuverability for the round.
-- When at a higher altitude while attacking or defending, a player may reroll 1 die.
-- The maximum altitude allowed is 4.
-
 ## Split S rule
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
-- During the maneuver phase, a player may declare they are executing a Split S maneuver and spend 3 altitude tokens to place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
-- The maneuver cost is double the cost of whichever maneuver template the player is using (the straight now costs 2, the bank now costs 4).
+- The Split S costs 4 altitude to execute.
+- During the maneuver phase, a player may declare they are executing a Split S maneuver and place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
 - Players cannot perform a Split S and gain altitude in the same round.
 
 ![split_s_with_text](https://user-images.githubusercontent.com/91621088/168678072-211ec138-71c3-49d5-a688-1d8365c199d2.png)
@@ -35,8 +24,11 @@ Here is an excerpt:
 
 This rule rewards aggressive tactics.
 
-- After a player knocks an enemy plane out, they may gain 3 altitude tokens (or up to 3 if they already have 1, 2 or 3), execute a straight, and place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
-- This is an optional maneuver, but must be done before the next attack happens.
+- This is an optionaly maneuver that can only be performed immediatley after reducing another opponent's Health to 0.
+- Do the following actions in order:
+  - Gain 3 altitude tokens
+  - Execute a straight
+  - Place your plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
 
 ![immelmann_with_text](https://user-images.githubusercontent.com/91621088/168678053-855dd761-e99f-4563-ae60-34632d8bf2dd.png)
 
@@ -72,17 +64,9 @@ Here is an excerpt:
 
 Earn your wings and keep the action moving!
 
-- When a pilot destroys another plane, they become the Ace. (You can use the Medal token to remember who the current Ace is)
+- When a pilot destroys another plane, they become the Ace.
 - For as long as they are the Ace, that pilot may reroll 1 Attack dice and 1 Defense dice each round.
 - There can only be one Ace in the sky at a time.
-
-## Using the Forward Firing Guides
-
-Reward or challenge expert pilots by changing the rules around the firing arcs.
-You can either:
-
-- Play using only the forward firing guides and ignoring the wide arc, or
-- Allow pilots to reroll an attack dice when the defender is in the forward firing guide.
 
 ## Alternative Game modes
 
