@@ -7,7 +7,7 @@ These rules are for players already familiar with the core rules, or those who w
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
 - The Split S costs 4 altitude to execute.
-- During the maneuver phase, a player may declare they are executing a Split S maneuver and place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
+- Place the plane token at 180° at the end of the maneuver.
 - Players cannot perform a Split S and gain altitude in the same round.
 
 ![split-s](https://user-images.githubusercontent.com/91621088/212528018-d6794ec1-d06e-4aab-9836-c2f4ba803637.png)
