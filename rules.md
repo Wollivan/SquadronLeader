@@ -91,6 +91,6 @@ After the last player who can attack is finished, a new round begins and the pla
 
 ## Advanced Rules
 
-Now check out the <a href="https://squadronleader.netlify.app/rules/advanced">advanced rules</a> and see if you have what it takes to rule the skies!
+Now check out the <a href="https://squadronleader.netlify.app/rules/advanced">advanced rules</a> and see if you have what it takes to rule the air!
 
 Alright enough chatter, let's take to the skies!
