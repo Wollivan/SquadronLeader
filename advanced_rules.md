@@ -10,7 +10,7 @@ This rule prevents a pilot from being stuck when they are being tailed by an opp
 - During the maneuver phase, a player may declare they are executing a Split S maneuver and place their plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
 - Players cannot perform a Split S and gain altitude in the same round.
 
-![split-s](https://user-images.githubusercontent.com/91621088/212527788-8c4d9203-f398-4a59-98de-b3b61b5fd670.png)
+![split-s](https://user-images.githubusercontent.com/91621088/212528018-d6794ec1-d06e-4aab-9836-c2f4ba803637.png)
 
 You can read more about the Split S maneuver here:
 
