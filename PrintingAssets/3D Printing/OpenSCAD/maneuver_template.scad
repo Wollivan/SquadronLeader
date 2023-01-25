@@ -1,11 +1,12 @@
 // mode templates
 include <variables.scad>;
 
-translate([-tokenWidth*2,0,0]) templateStraight(); // Straight Template
-translate([tokenWidth*3,0,0]) template45(); // Bank Template
+//translate([-tokenWidth*2,0,0]) templateStraight(); // Straight Template
+//translate([tokenWidth*3,0,0]) template45(); // Bank Template
 template90(); // Turn Template
 //translate([-tokenWidth*4.5,0,0]) 
 //singleManeuver(); // All in one maneuver template
+
 
 module templateStraight() {
     difference(){
