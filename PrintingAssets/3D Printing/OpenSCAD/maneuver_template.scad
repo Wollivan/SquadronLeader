@@ -1,14 +1,13 @@
 // mode templates
 include <variables.scad>;
 
-//translate([-tokenWidth*2,0,0]) templateStraight(); // Straight Template
-//translate([tokenWidth*3,0,0]) template45(); // Bank Template
-template90(); // Turn Template
-//translate([-tokenWidth*4.5,0,0]) 
-//singleManeuver(); // All in one maneuver template
+translate([-tokenWidth*2,0,0]) templateStraight(1); // Straight Template
+//translate([tokenWidth*3,0,0]) template45(1); // Bank Template
+//template90(1); // Turn Template
+singleManeuver(); // All in one maneuver template
 
 
-module templateStraight() {
+module templateStraight(single) {
     difference(){
         cube([tokenWidth,templateLength,tokenHeight]);
         
@@ -23,7 +22,7 @@ module templateStraight() {
         
         translate([tokenWidth/2,templateLength/2,-1])
             linear_extrude(tokenHeight+2)
-                scale(1.5)
+                scale(1.5*single)
                     rotate([0,0,90])
                         import("icons/speed_one.svg", center=true);
         
@@ -35,7 +34,7 @@ module templateStraight() {
     }
 }
 
-module template45() {
+module template45(single) {
     difference(){
         translate([-templateLength,0,0])
             rotate_extrude(angle = 45)
@@ -56,7 +55,7 @@ module template45() {
         translate([tokenWidth/4.5,templateLength/2.2,-1])
             rotate([0,0,30])
                 linear_extrude(tokenHeight+2)
-                scale(1.5)
+                scale(1.5*single)
                     rotate([0,0,90])
                         import("icons/speed_two.svg", center=true);
         
@@ -65,7 +64,7 @@ module template45() {
     
 }
 
-module template90() {
+module template90(single) {
     difference(){
         translate([0,0,0])
             rotate_extrude(angle = 90)
@@ -86,7 +85,7 @@ module template90() {
         translate([tokenWidth*1,templateLength/2.7,-1])
             rotate([0,0,45])
                 linear_extrude(tokenHeight+2)
-                scale(1.5)
+                scale(1.5*single)
                     rotate([0,0,90])
                         import("icons/speed.svg", center=true);
     }
@@ -97,9 +96,9 @@ module template90() {
 module singleManeuver() {
     difference(){
         union() {
-            translate([tokenWidth,0,0]) templateStraight();
-            translate([tokenWidth,0,0]) template45();
-            template90();
+            translate([tokenWidth,0,0]) templateStraight(0);
+            translate([tokenWidth,0,0]) template45(0);
+            template90(0);
         }
         
         //scale([1,1,0.3]) translate([tokenWidth*1.3,tokenWidth*1.5,tokenWidth/2]) plane();
