@@ -1,13 +1,14 @@
 // mode templates
 include <variables.scad>;
 
-//translate([-tokenWidth*2,0,0]) templateStraight("1"); // Straight Template
-//translate([tokenWidth*3,0,0]) template45("2"); // Bank Template
-//template90("3"); // Turn Template
+//translate([-tokenWidth*2,0,0]) templateStraight(); // Straight Template
+//translate([tokenWidth*3,0,0]) template45(); // Bank Template
+template90(); // Turn Template
 //translate([-tokenWidth*4.5,0,0]) 
-singleManeuver(); // All in one maneuver template
+//singleManeuver(); // All in one maneuver template
 
-module templateStraight(theNum) {
+
+module templateStraight() {
     difference(){
         cube([tokenWidth,templateLength,tokenHeight]);
         
@@ -20,9 +21,11 @@ module templateStraight(theNum) {
             rotate([0,0,135/2])
                 cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
         
-        translate([tokenWidth/7,templateLength/3,-1])
+        translate([tokenWidth/2,templateLength/2,-1])
             linear_extrude(tokenHeight+2)
-                text(theNum, size=25);
+                scale(1.5)
+                    rotate([0,0,90])
+                        import("icons/speed_one.svg", center=true);
         
         
 //        this just shows that the notches are exactly one token apart
@@ -32,7 +35,7 @@ module templateStraight(theNum) {
     }
 }
 
-module template45(theNum) {
+module template45() {
     difference(){
         translate([-templateLength,0,0])
             rotate_extrude(angle = 45)
@@ -50,17 +53,19 @@ module template45(theNum) {
                     cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
         
         
-        translate([tokenWidth/8,templateLength/4,-1])
+        translate([tokenWidth/4.5,templateLength/2.2,-1])
             rotate([0,0,30])
                 linear_extrude(tokenHeight+2)
-                    text(theNum, size=25);
+                scale(1.5)
+                    rotate([0,0,90])
+                        import("icons/speed_two.svg", center=true);
         
         
     }
     
 }
 
-module template90(theNum) {
+module template90() {
     difference(){
         translate([0,0,0])
             rotate_extrude(angle = 90)
@@ -78,10 +83,12 @@ module template90(theNum) {
                 cylinder(h=tokenHeight+2, d=tokenWidth, $fn=8);
         
         
-        translate([tokenWidth/0.9,templateLength/6,-1])
+        translate([tokenWidth*1,templateLength/2.7,-1])
             rotate([0,0,45])
                 linear_extrude(tokenHeight+2)
-                    text(theNum, size=25);
+                scale(1.5)
+                    rotate([0,0,90])
+                        import("icons/speed.svg", center=true);
     }
 }
 
