@@ -2,7 +2,7 @@
 
 These rules are for players already familiar with the core rules, or those who want to dive right in and become world famous fighter pilots!
 
-## Split S rule
+## Split S
 
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
@@ -20,7 +20,7 @@ Here is an excerpt:
 
 "To execute a split S, the pilot half-rolls their aircraft inverted and executes a descending half-loop, resulting in level flight in the opposite direction at a lower altitude."
 
-## Immelmann rule
+## Immelmann
 
 This rule rewards aggressive tactics.
 
@@ -42,7 +42,7 @@ Here is an excerpt:
 
 Thanks to Ben for teaching me that this manoeuvre has a name, and thanks Josh for finding Split S so that what the rules do in game match what real life planes can do!
 
-## Barrel Roll rule
+## Barrel Roll
 
 This rule seperates the timid from the bold!
 
@@ -60,7 +60,25 @@ Here is an excerpt:
 
 "A barrel roll is an aerial manoeuvre in which an airplane makes a complete rotation on both its longitudinal and lateral axes, causing it to follow a helical path, approximately maintaining its original direction."
 
-## Ace Pilot rule
+## Divebomb
+
+After a players has attacked, if the defender is within range one **and** the attacker has at least 2 more altitude than the defender, they may attempt to perform a dive bomb manoeuvre:
+
+- Remove altitude tokens from the attacker until they have the same number as the defender
+- The attacker rolls a d6:
+  - On a 2-6 result the defender suffers 1 damage
+  - On a 1 result the attacker suffers 1 damage
+
+You can read more about the Dive Bomb manoeuvre here:
+
+<a href="https://en.wikipedia.org/wiki/Dive_bomber" target="_blank" class="button">Immelmann Wiki</a>
+
+Here is an excerpt:
+"A dive bomber is a bomber aircraft that dives directly at its targets in order to provide greater accuracy for the bomb it drops. Diving towards the target simplifies the bomb's trajectory and allows the pilot to keep visual contact throughout the bomb run."
+
+Not to be confused with the Divebomb, the homicidal Decepticon.
+
+## Ace Pilot
 
 Earn your wings and keep the action moving!
 
