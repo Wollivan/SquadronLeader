@@ -1,18 +1,18 @@
 # FAQ
 
-### Can I spend altitude to help pay the extra maneuver cost of performing a Split S/Barrel roll?
+### Can I spend altitude to help pay the extra manoeuvre cost of performing a Split S/Barrel roll?
 
-Yes! If you don't have enough maneuverability left, but do have enough altitude to pay for the maneuver and STILL have the altitude required to perform the maneuver, go for it!
+Yes! If you don't have enough Manoeuvrability left, but do have enough altitude to pay for the manoeuvre and STILL have the altitude required to perform the manoeuvre, go for it!
 
 ### Can you print me a copy?
 
 Currently no, but its something we are working towards!
 
-### What happens when I try to execute a maneuver but my opponents plane token is in the way?
+### What happens when I try to execute a manoeuvre but my opponents plane token is in the way?
 
-If you can't execute a maneuver without finishing it in the same place as an opponent, you can't choose that maneuver.
+If you can't execute a manoeuvre without finishing it in the same place as an opponent, you can't choose that manoeuvre.
 
-However, if you need to move an opponent's token out of the way so you can put the maneuver template down, use another maneuver template to make sure you don't forget where your opponent's plane token was originally.
+However, if you need to move an opponent's token out of the way so you can put the manoeuvre template down, use another manoeuvre template to make sure you don't forget where your opponent's plane token was originally.
 
 ### My opponent just rolled three 6s on the attack dice, what can I do?
 

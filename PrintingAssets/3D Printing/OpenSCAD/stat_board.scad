@@ -1,13 +1,12 @@
 // stat board
 include <variables.scad>;
 
-translate([0,0,0]) statBoard();//Stat board
-//translate([tokenWidth*5,-20,0]) numberStatToken("4", true);
+// translate([0,0,0]) statBoard();//Stat board
 translate([0,-6,0]) numberStatToken("4");
 translate([11,-6,0]) numberStatToken("3");
 translate([22,-6,0]) numberStatToken("3");
 translate([33,-6,0]) numberStatToken("2");
-translate([42,-6,0]) healthPeg();
+translate([44,-8,0]) healthPeg();
 //translate([tokenWidth*5,40,0]) planeIDToken("A");
 
 
@@ -39,19 +38,19 @@ module statBoard() {
                     union() {
                         translate([tokenWidth/4,0,statHeight+1])
                             rotate([180,0,0])
-                                cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                                cylinder(h=(statHeight*2),r=pegHoleRad+0.1,$fn=35);
                         
                         translate([tokenWidth/4*3,0,statHeight+1])
                             rotate([180,0,0])
-                                cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                                cylinder(h=(statHeight*2),r=pegHoleRad+0.1,$fn=35);
                         
                         translate([tokenWidth/4*5,0,statHeight+1])
                             rotate([180,0,0])
-                                cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                                cylinder(h=(statHeight*2),r=pegHoleRad+0.1,$fn=35);
                         
                         translate([tokenWidth/4*7,0,statHeight+1])
                             rotate([180,0,0])
-                                cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                                cylinder(h=(statHeight*2),r=pegHoleRad+0.1,$fn=35);
                     }
             
                 union() {
@@ -60,7 +59,7 @@ module statBoard() {
                         for(j=[0:3]){
                             translate([j*pegSpace,0,statHeight+1])
                                 rotate([180,0,0])
-                                    cylinder(h=(statHeight*2),r=pegHoleRad+0.5,$fn=35);
+                                    cylinder(h=(statHeight*2),r=pegHoleRad+0.1,$fn=35);
                         }
                     
                     //health peg path vertical
@@ -113,8 +112,10 @@ module healthPeg(){
 		//cylinder(h=7,r=1.6,$fn=35);
         translate([0,-pegHoleRad*2,0])
             cube([pegHoleRad*2,pegHoleRad*6,statHeight]);
+
         translate([-pegHoleRad*2,0,0])
             cube([pegHoleRad*6,pegHoleRad*2,statHeight]);
+
 		translate([pegHoleRad,pegHoleRad,statHeight])
             peg();
 	}

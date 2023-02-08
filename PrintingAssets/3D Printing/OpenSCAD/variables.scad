@@ -17,4 +17,4 @@ tokenSpace=2.27;//this could be calculated
 tokenRad=5;//7.32;
 tokenRadSm=tokenRad*.924;
 pegSpace=6;
-pegHoleRad=1;
+pegHoleRad=1.6;

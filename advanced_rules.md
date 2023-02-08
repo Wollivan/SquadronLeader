@@ -7,12 +7,12 @@ These rules are for players already familiar with the core rules, or those who w
 This rule prevents a pilot from being stuck when they are being tailed by an opponent.
 
 - The Split S costs 4 altitude to execute.
-- Turn the plane token 180° at the end of the maneuver.
+- Turn the plane token 180° at the end of the manoeuvre.
 - Players cannot perform a Split S and gain altitude in the same round.
 
 ![split-s](https://user-images.githubusercontent.com/91621088/212528018-d6794ec1-d06e-4aab-9836-c2f4ba803637.png)
 
-You can read more about the Split S maneuver here:
+You can read more about the Split S manoeuvre here:
 
 <a href="https://en.m.wikipedia.org/wiki/Split_S" target="_blank" class="button">Split S Wiki</a>
 
@@ -24,11 +24,11 @@ Here is an excerpt:
 
 This rule rewards aggressive tactics.
 
-- This is an optionaly maneuver that can only be performed immediatley after reducing another opponent's Health to 0.
+- This is an optionaly manoeuvre that can only be performed immediatley after reducing another opponent's Health to 0.
 - Do the following actions in order:
   - Gain 3 altitude tokens
   - Execute a straight
-  - Place your plane token at 180° at the end of the maneuver (facing the opposite direction to the way they were).
+  - Place your plane token at 180° at the end of the manoeuvre (facing the opposite direction to the way they were).
 
 ![immelmann_with_text](https://user-images.githubusercontent.com/91621088/168678053-855dd761-e99f-4563-ae60-34632d8bf2dd.png)
 
@@ -38,27 +38,27 @@ You can read more about the Immelmann turn here:
 
 Here is an excerpt:
 
-"In modern aerobatics, an Immelmann turn (also known as a roll-off-the-top, or simply an Immelmann) is an aerobatic maneuver that results in level flight in the opposite direction at a higher altitude."
+"In modern aerobatics, an Immelmann turn (also known as a roll-off-the-top, or simply an Immelmann) is an aerobatic manoeuvre that results in level flight in the opposite direction at a higher altitude."
 
-Thanks to Ben for teaching me that this maneuver has a name, and thanks Josh for finding Split S so that what the rules do in game match what real life planes can do!
+Thanks to Ben for teaching me that this manoeuvre has a name, and thanks Josh for finding Split S so that what the rules do in game match what real life planes can do!
 
 ## Barrel Roll rule
 
 This rule seperates the timid from the bold!
 
-- During the maneuver phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost maneuver, but instead of orienting their plane along the new axis, their token will not rotate at all, and be traveling in the same direction.
-- The maneuver cost is double the cost of whichever maneuver template the player is using (the straight now costs 2, the bank now costs 4).
+- During the manoeuvre phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost manoeuvre, but instead of orienting their plane along the new axis, their token will not rotate at all, and be traveling in the same direction.
+- The manoeuvre cost is double the cost of whichever manoeuvre template the player is using (the straight now costs 2, the bank now costs 4).
 - Players cannot perform a Barrel roll and gain altitude in the same round.
 
 ![barrel_roll_with_text](https://user-images.githubusercontent.com/91621088/168678014-f78b079a-f44a-4a6c-b3c8-42ed09937de2.png)
 
-You can read more about the Barrel roll maneuver here:
+You can read more about the Barrel roll manoeuvre here:
 
 <a href="https://en.wikipedia.org/wiki/Barrel_roll" target="_blank" class="button">Barrel Roll Wiki</a>
 
 Here is an excerpt:
 
-"A barrel roll is an aerial maneuver in which an airplane makes a complete rotation on both its longitudinal and lateral axes, causing it to follow a helical path, approximately maintaining its original direction."
+"A barrel roll is an aerial manoeuvre in which an airplane makes a complete rotation on both its longitudinal and lateral axes, causing it to follow a helical path, approximately maintaining its original direction."
 
 ## Ace Pilot rule
 
@@ -89,11 +89,11 @@ Feel free to experiment with the starting numbers, the original 4,3,3,2 is a gui
 
 ### Hex Grid Mode (for players without a 3D printer)
 
-The game can be played on a hex grid. That removes the need for maneuver templates and range rulers. All rules are the same as without a grid, except for what is described in this section.
+The game can be played on a hex grid. That removes the need for manoeuvre templates and range rulers. All rules are the same as without a grid, except for what is described in this section.
 
-Any battlemat with a hex grid can be used. Planes set up in hexes along each player's edge of the mat. There can only ever be one plane per hex, and planes can never end a maneuver in the same hex as another plane. A plane always face one of the six sides of its hex.
+Any battlemat with a hex grid can be used. Planes set up in hexes along each player's edge of the mat. There can only ever be one plane per hex, and planes can never end a manoeuvre in the same hex as another plane. A plane always face one of the six sides of its hex.
 
-Instead of using the maneuver templates there are three possible maneuvers on a hex grid that are used instead:
+Instead of using the manoeuvre templates there are three possible manoeuvres on a hex grid that are used instead:
 
 - 1 (Cost 1) Move 2 hexes forward.
 - 2 (Cost 2) Move 1 hex forward, then turn left or right 60 degrees, then move 1 hex forward in the new direction.

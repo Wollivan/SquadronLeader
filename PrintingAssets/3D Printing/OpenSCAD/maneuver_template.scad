@@ -1,10 +1,10 @@
 // mode templates
 include <variables.scad>;
 
-translate([-tokenWidth*2,0,0]) templateStraight(1); // Straight Template
+//translate([-tokenWidth*2,0,0]) templateStraight(1); // Straight Template
 //translate([tokenWidth*3,0,0]) template45(1); // Bank Template
 //template90(1); // Turn Template
-singleManeuver(); // All in one maneuver template
+singleManoeuvre(); // All in one manoeuvre template
 
 
 module templateStraight(single) {
@@ -92,8 +92,8 @@ module template90(single) {
 }
 
 
-// single maneuver template
-module singleManeuver() {
+// single manoeuvre template
+module singleManoeuvre() {
     difference(){
         union() {
             translate([tokenWidth,0,0]) templateStraight(0);
