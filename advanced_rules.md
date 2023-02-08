@@ -60,7 +60,7 @@ Here is an excerpt:
 
 "A barrel roll is an aerial manoeuvre in which an airplane makes a complete rotation on both its longitudinal and lateral axes, causing it to follow a helical path, approximately maintaining its original direction."
 
-## Divebomb
+## Dive Bomb
 
 After a players has attacked, if the defender is within range one **and** the attacker has at least 2 more altitude than the defender, they may attempt to perform a dive bomb manoeuvre:
 
