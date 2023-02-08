@@ -21,35 +21,35 @@ At the start of the game each player assigns their choice from 4, 3, 3, 2 to the
 - Health
 - Defense
 - Attack
-- Maneuverability
+- Manoeuvrability
 
 A good starting setup for new players is:
 
 - Health - 3
 - Defense - 3
 - Attack - 2
-- Maneuverability - 4
+- Manoeuvrability - 4
 
 The last player to see a plane in real life goes first.
 
 Each player places their plane on the playing area in turn.
 It should be placed within range 1 of the edge of the playing area, and not closer than a ranger ruler to another player.
 
-There are 2 stages each round, the maneuver Stage and the Attack Stage.
-Everyone moves their plane during the maneuver stage, and then everyone Attacks during the Attack Stage. Here is how that works:
+There are 2 stages each round, the manoeuvre Stage and the Attack Stage.
+Everyone moves their plane during the manoeuvre stage, and then everyone Attacks during the Attack Stage. Here is how that works:
 
-## Maneuver Stage:
+## Manoeuvre Stage:
 
-- To move, place the maneuver template at the front of the plane token, and move the plane to the other end of the template.
-- The player may use templates up to the value of their Maneuverability, for example a player with a Maneuverability of 4 can execute 2 straight maneuvers & 1 bank maneuver (1 + 1 + 2).
-- A player must complete at least one maneuver each round otherwise their plane would stall and they would plummet to the ground! (Gaining altitude doesn't count)
-- If any part of a plane token goes off the board at the end of a maneuver, that plane is destroyed!
+- To move, place the manoeuvre template at the front of the plane token, and move the plane to the other end of the template.
+- The player may use templates up to the value of their Manoeuvrability, for example a player with a Manoeuvrability of 4 can execute 2 straight manoeuvres & 1 bank manoeuvre (1 + 1 + 2).
+- A player must complete at least one manoeuvre each round otherwise their plane would stall and they would plummet to the ground! (Gaining altitude doesn't count)
+- If any part of a plane token goes off the board at the end of a manoeuvre, that plane is destroyed!
 
-The below gif shows how to use the maneuver templates.
+The below gif shows how to use the manoeuvre templates.
 ![movement](https://user-images.githubusercontent.com/91621088/167208819-c5c2eedb-7fd1-4cb4-945c-70a1b26c79bf.gif)
 
-This gif shows a maneuver Stage where the player spends 3 maneuverability to move around.
-![maneuver-example](https://user-images.githubusercontent.com/91621088/166423425-fbc0e7bf-2f76-4b47-92a3-d33456841918.gif)
+This gif shows a manoeuvre Stage where the player spends 3 Manoeuvrability to move around.
+![manoeuvre-example](https://user-images.githubusercontent.com/91621088/166423425-fbc0e7bf-2f76-4b47-92a3-d33456841918.gif)
 
 ## Attack Stage:
 
@@ -80,9 +80,9 @@ If multiple abilities allow you to reroll a die, you can reroll that many dice, 
 The sky is a big place. Let's take advantage of that!
 
 - At the start of the game each player takes off with 0 altitude tokens.
-- Once per round during their maneuver stage, a player may spend 1 maneuverability to Climb and add 1 altitude token underneath their plane.
+- Once per round during their manoeuvre stage, a player may spend 1 Manoeuvrability to Climb and add 1 altitude token underneath their plane.
 - Players can only gain 1 altitude per round.
-- If a player hasn't Climbed this round, they may Dive by removing any number of altitude tokens to gain that much maneuverability this round.
+- If a player hasn't Climbed this round, they may Dive by removing any number of altitude tokens to gain that much Manoeuvrability this round.
 - The maximum altitude allowed is 4.
 
 ## Next Round:

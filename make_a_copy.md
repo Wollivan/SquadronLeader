@@ -6,7 +6,7 @@ There are only 4 assets that need to be printed.
 
 - Plane and altitude tokens
 - Stat board
-- Maneuver template
+- Manoeuvre template
 - Range ruler
 
 ![assetsNew](https://user-images.githubusercontent.com/91621088/211172716-5bc4983f-1582-4c58-9a07-ba0d7531282e.png)
@@ -22,7 +22,7 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 
 ### To share (or optionally print one for each player):
 
-- maneuver_template.stl
+- manoeuvre_template.stl
 - range_ruler.stl
 
 ### Optional from the extras directory:
