@@ -1,12 +1,12 @@
 include <variables.scad>;
 
 $fn=100;
-
+extra_space=10;
 ///// -- parameters -- /////////
 // Box
-box_length=templateLength + 2;
-box_width=52 + (tokenWidth/4) + 2; // manuever template plus the range ruler plus a bit
-box_height=(tokenHeight*6) + 2; // this is the players pieces plus the manuever template
+box_length=templateLength + extra_space;
+box_width=52 + (tokenWidth/4) + extra_space; // manuever template plus the range ruler plus a bit
+box_height=(tokenHeight*6) + extra_space/3; // this is the players pieces plus the manuever template
 box_radius_out=5;  // outer corner radius
 box_radius_in=3;   // inner corner radius
 box_wall_thickness=2;
@@ -112,6 +112,6 @@ module lid () {
                 
 
 // Output
-// box();
+box();
 translate([box_length+10, 0, 0])
 lid();
