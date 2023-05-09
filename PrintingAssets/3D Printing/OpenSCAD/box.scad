@@ -1,10 +1,12 @@
+include <variables.scad>;
+
 $fn=100;
 
 ///// -- parameters -- /////////
 // Box
-box_length=108;
-box_width=83;
-box_height=25.4;
+box_length=templateLength + 2;
+box_width=52 + (tokenWidth/4) + 2; // manuever template plus the range ruler plus a bit
+box_height=(tokenHeight*6) + 2; // this is the players pieces plus the manuever template
 box_radius_out=5;  // outer corner radius
 box_radius_in=3;   // inner corner radius
 box_wall_thickness=2;
@@ -89,7 +91,7 @@ module lid () {
         }
         
         // Cover design
-        translate([lid_length*3/4, lid_width/2, -0.1])
+        #translate([lid_length*3/3.5, lid_width/1.6, -0.1])
             linear_extrude(height = lid_thickness/2) {
                 resize([0, lid_cover_size, 0], auto=true)
                     import("icons/plane-model.svg", center=true);
@@ -110,6 +112,6 @@ module lid () {
                 
 
 // Output
-box();
+// box();
 translate([box_length+10, 0, 0])
 lid();
