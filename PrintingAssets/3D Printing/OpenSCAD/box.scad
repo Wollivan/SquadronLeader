@@ -1,15 +1,16 @@
 include <variables.scad>;
 
 $fn=100;
-extra_space=10;
+extra_space=4;
+tolerance = 0.8;
 ///// -- parameters -- /////////
 // Box
-box_length=templateLength + extra_space;
-box_width=52 + (tokenWidth/4) + extra_space; // manuever template plus the range ruler plus a bit
-box_height=(tokenHeight*6) + extra_space/3; // this is the players pieces plus the manuever template
+box_wall_thickness=2;
+box_length = templateLength + extra_space + box_wall_thickness*2 + 5; // 5 is for the extra length from the joints on the ruler
+box_width = 52 + (tokenWidth/4) + extra_space; // manuever template plus the range ruler plus a bit
+box_height=tokenWidth + tokenHeight + extra_space; // this is the players pieces plus the manuever template
 box_radius_out=5;  // outer corner radius
 box_radius_in=3;   // inner corner radius
-box_wall_thickness=2;
 box_bottom_thickness=box_wall_thickness;
 
 // Lid
@@ -22,6 +23,34 @@ lid_wall_thickness=2;    // wall thickness
 lid_thickness=lid_wall_thickness;  // top thickness
 lid_cover_size=20; // y size of plane on cover
 
+insert_thickness = 1;
+insert_width = tokenWidth*2 + insert_thickness - tolerance;
+insert_length = box_length - box_wall_thickness*2 - (tolerance*2);
+insert_height = tokenWidth/2;
+sideways_stacked_player = (tokenHeight*5) + 7; // 7 because 1mm for each gap between tokens, and an extra for good measure
+
+module insertLong() {
+  cube([insert_length,insert_thickness,insert_height]);
+}
+module insertLongShort() {
+  cube([insert_thickness + sideways_stacked_player*2,insert_thickness,insert_height]);
+}
+module insertWide() {
+  cube([insert_thickness,insert_width,insert_height]);
+}
+module insert() {
+  translate([box_wall_thickness+tolerance, tokenWidth+box_wall_thickness, box_bottom_thickness])
+    insertLongShort();
+
+  translate([box_wall_thickness+tolerance,(tokenWidth*2)+box_wall_thickness + insert_thickness, box_bottom_thickness])
+    insertLong();
+
+  translate([box_wall_thickness + tolerance + sideways_stacked_player, box_wall_thickness + tolerance, box_bottom_thickness])
+    insertWide();
+
+  translate([box_wall_thickness + tolerance + insert_thickness + sideways_stacked_player*2, box_wall_thickness + tolerance, box_bottom_thickness])
+    insertWide();
+}
 
 // Create box
 module box_outer_cylinder () {
@@ -108,10 +137,10 @@ module lid () {
         
     }
 }
-                    
-                
+
 
 // Output
-box();
+// insert();
+// box();
 translate([box_length+10, 0, 0])
 lid();
