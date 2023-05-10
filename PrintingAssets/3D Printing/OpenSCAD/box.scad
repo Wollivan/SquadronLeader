@@ -140,7 +140,7 @@ module lid () {
 
 
 // Output
-// insert();
+insert();
 // box();
-translate([box_length+10, 0, 0])
-lid();
+// translate([box_length+10, 0, 0])
+// lid();
