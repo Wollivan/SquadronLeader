@@ -8,8 +8,13 @@ include <variables.scad>;
 interlocking();
 
 jointDepth = 5;
+tolerance = 0.8;
 
 module jointPiece() {
+    translate([(tokenWidth/4)/4+ tolerance/2,0,0])
+        cube([(tokenWidth/4)/2-tolerance, jointDepth, tokenHeight]);
+}
+module jointPieceMissing() {
     translate([(tokenWidth/4)/4,0,0])
         cube([(tokenWidth/4)/2, jointDepth, tokenHeight]);
 }
@@ -44,7 +49,7 @@ module rangeTwo() {
             translate([0,templateLength,0])
                 jointPiece();
         }
-        jointPiece();
+        jointPieceMissing();
 
         missingNo("2");
     }
@@ -54,7 +59,7 @@ module rangeThree() {
     difference() {
         cube([tokenWidth/4, templateLength,tokenHeight]);
             
-        jointPiece();
+        jointPieceMissing();
 
         missingNo("3");
     }
