@@ -14,9 +14,9 @@ box_radius_in=3;   // inner corner radius
 box_bottom_thickness=box_wall_thickness;
 
 // Lid
-lid_length=box_length; //+ 0.5;  // inner lid lenght, add 0.2-0.5mm over box size
-lid_width=box_width + 0.3;  // inner lid width, add 0.2-0.5mm over box size
-lid_height=0.6 * box_height;  // lid height
+lid_length=box_length + (tolerance*2); //+ 0.5;  // inner lid lenght, add 0.2-0.5mm over box size
+lid_width=box_width  + (tolerance*2);  // inner lid width, add 0.2-0.5mm over box size
+lid_height=0.3 * box_height;  // lid height
 lid_radius_in=box_radius_out;   // inner corner radius,the same or smaller as outer on box
 lid_radius_out=2;  // outer corner radius
 lid_wall_thickness=2;    // wall thickness
@@ -125,19 +125,25 @@ module lid () {
         }
         
         // Cover design
-        #translate([lid_length*3/3.5, lid_width/1.6, -0.1])
+        translate([lid_length*3/3.5, lid_width/1.6, -0.1])
             linear_extrude(height = lid_thickness/2) {
                 resize([0, lid_cover_size, 0], auto=true)
+        rotate([0,0,-90])
                     import("icons/plane-model.svg", center=true);
             }
-        translate([lid_length*1/20, lid_width/2, -0.1])
-            linear_extrude(height = lid_thickness/4)
+        translate([box_wall_thickness, 10.5+box_wall_thickness*2, -0.1])
+            linear_extrude(height = lid_thickness/2)
                 mirror([0, 1, 0])
                     text("Squadron", valign="bottom");
-        translate([lid_length*1/20, lid_width/2, -0.1])
+        translate([box_wall_thickness, 10.5+box_wall_thickness*2, -0.1])
             linear_extrude(height = lid_thickness/2)
                 mirror([0, 1, 0])
                     text("Leader", valign="top");
+
+        translate([box_wall_thickness, lid_width-7, -0.1])
+            linear_extrude(height = lid_thickness/2)
+                mirror([0, 1, 0])
+                    text("A Game by Tim Smith", valign="top", size=5);
 
         
     }
@@ -154,5 +160,5 @@ module boxWithInsert() {
 // Output
 
 boxWithInsert();
-// translate([box_length+10, 0, 0])
+// translate([box_length+10, 0, 0]) 
 // lid();
