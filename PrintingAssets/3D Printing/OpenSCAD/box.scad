@@ -23,34 +23,39 @@ lid_wall_thickness=2;    // wall thickness
 lid_thickness=lid_wall_thickness;  // top thickness
 lid_cover_size=20; // y size of plane on cover
 
-insert_thickness = 1;
-insert_width = tokenWidth*2 + insert_thickness - tolerance;
-insert_length = box_length - box_wall_thickness*2 - (tolerance*2);
-insert_height = tokenWidth/2;
-sideways_stacked_player = (tokenHeight*5) + 7; // 7 because 1mm for each gap between tokens, and an extra for good measure
 
-module insertLong() {
-  cube([insert_length,insert_thickness,insert_height]);
-}
-module insertLongShort() {
-  cube([insert_thickness + sideways_stacked_player*2,insert_thickness,insert_height]);
-}
-module insertWide() {
-  cube([insert_thickness,insert_width,insert_height]);
-}
+// Insert
+token_stack_height = (tokenHeight*5)+3;
+inside_box_width = box_length-box_wall_thickness*2;
+token_stack_width = tokenWidth+tolerance*2;
+
 module insert() {
-  translate([box_wall_thickness+tolerance, tokenWidth+box_wall_thickness, box_bottom_thickness])
-    insertLongShort();
+  difference() {
+    cube([inside_box_width, box_width-box_wall_thickness*2, tokenWidth/1.5]);
 
-  translate([box_wall_thickness+tolerance,(tokenWidth*2)+box_wall_thickness + insert_thickness, box_bottom_thickness])
-    insertLong();
+    cube([token_stack_width, token_stack_height, tokenWidth]);
 
-  translate([box_wall_thickness + tolerance + sideways_stacked_player, box_wall_thickness + tolerance, box_bottom_thickness])
-    insertWide();
+    translate([token_stack_width+box_wall_thickness,0,0])
+      cube([token_stack_width, token_stack_height, tokenWidth]);
 
-  translate([box_wall_thickness + tolerance + insert_thickness + sideways_stacked_player*2, box_wall_thickness + tolerance, box_bottom_thickness])
-    insertWide();
+    translate([0, token_stack_height+box_wall_thickness,0])
+      cube([token_stack_width, token_stack_height, tokenWidth]);
+
+    translate([token_stack_width+box_wall_thickness, token_stack_height+box_wall_thickness,0])
+      cube([token_stack_width, token_stack_height, tokenWidth]);
+
+    // dice section
+    
+    translate([(token_stack_width+box_wall_thickness)*2, 0,0])
+      cube([inside_box_width-(token_stack_width+box_wall_thickness)*2, (token_stack_height*2)+box_wall_thickness, tokenWidth]);
+
+    // ruler section
+    translate([0, (token_stack_height+box_wall_thickness)*2, 0])
+      cube([inside_box_width, box_width-box_wall_thickness*2-tolerance*2, tokenWidth/1.5]);
+  }
+  
 }
+
 
 // Create box
 module box_outer_cylinder () {
@@ -137,10 +142,17 @@ module lid () {
         
     }
 }
-
+module boxWithInsert() {
+  union() {
+    translate([box_wall_thickness, box_wall_thickness,box_bottom_thickness])
+      insert();
+    
+    box();
+  }
+}
 
 // Output
-insert();
-// box();
+
+boxWithInsert();
 // translate([box_length+10, 0, 0])
 // lid();
