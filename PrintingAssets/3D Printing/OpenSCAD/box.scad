@@ -14,8 +14,8 @@ box_radius_in=3;   // inner corner radius
 box_bottom_thickness=box_wall_thickness;
 
 // Lid
-lid_length=box_length + (tolerance*2); //+ 0.5;  // inner lid lenght, add 0.2-0.5mm over box size
-lid_width=box_width  + (tolerance*2);  // inner lid width, add 0.2-0.5mm over box size
+lid_length=box_length; //+ 0.5;  // inner lid lenght, add 0.2-0.5mm over box size
+lid_width=box_width  + tolerance;  // inner lid width, add 0.2-0.5mm over box size
 lid_height=0.3 * box_height;  // lid height
 lid_radius_in=box_radius_out;   // inner corner radius,the same or smaller as outer on box
 lid_radius_out=2;  // outer corner radius
@@ -159,6 +159,6 @@ module boxWithInsert() {
 
 // Output
 
-boxWithInsert();
+// boxWithInsert();
 // translate([box_length+10, 0, 0]) 
-// lid();
+lid();
