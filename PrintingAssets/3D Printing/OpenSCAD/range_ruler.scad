@@ -1,5 +1,4 @@
 // range ruler
-include <JointSCAD/JointSCAD.scad>;
 include <variables.scad>;
 // translate([-tokenWidth*5.5,0,0]) rulerWhole(); //range ruler
 // translate([0,0,0]) rulerInterlocking("1"); //detachable range ruler part 1
