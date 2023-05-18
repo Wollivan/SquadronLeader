@@ -86,6 +86,20 @@ Earn your wings and keep the action moving!
 - For as long as they are the Ace, that pilot may reroll 1 Attack dice and 1 Defense dice each round.
 - There can only be one Ace in the sky at a time.
 
+## Pushing the Envelope
+
+Any a player push the envelope and roll a d6:
+
+- On a result of 4-6 they gain gain 1 extra Manoeuvrability for the turn.
+- On a result of 1-3, they lose 1 Health.
+- The pilot might only "Push the envelope" only once per turn.
+
+This rule rewards daring pilots who are willing to test the limits of the aircraft by going faster and higher than it should be possible!
+
+The flight envelope is a graph visualizing the capabilities of the aircraft in terms of min-max speeds and the altitude at which it can safely fly. The envelope itself is of course defined by various parameters and there is absolutely no way of simulating that in a board game. But, there is a term "Pushing the envelope", which means that the pilot tries to go over the speed or altitude defined by the flight envelope while risking the integrity of the aircraft (or causing the plane to stall).
+
+<a href="https://en.wikipedia.org/wiki/Flight_envelope#%22Pushing_the_envelope%22" target="_blank" class="button">Immelmann Wiki</a>
+
 ## Alternative Game modes
 
 ### Team game
