@@ -36,25 +36,6 @@ This amazing set was printed by Greg (who also designed the first score keeper p
 
 ![greg-box](https://user-images.githubusercontent.com/91621088/210184175-434638bb-5560-4614-b36b-49738572a15d.gif)
 
-## Future features
-
-- Coop objectives & campaigns
-- Bomber token (larger, slower, tankier)
-- Large scale battle rules (10+ ships per team)
-- Assets & instructions for playmats
-- Printable assets for 3D models on blank bases
-- More accessible components for less able players
-- Stat dials for people who don't mind a larger box
-
-How it started:
-
-![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
-
-How it's going:
-
-![unboxing](https://user-images.githubusercontent.com/91621088/211172716-5bc4983f-1582-4c58-9a07-ba0d7531282e.png)
-
-
 ## License
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
