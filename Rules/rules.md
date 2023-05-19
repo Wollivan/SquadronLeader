@@ -77,6 +77,8 @@ The sky is a big place. Let's take advantage of that!
 This image shows a situation where the white plane can shoot at the yellow plane (blue arc) and the yellow plane CAN'T shoot at the white plane (red arc).
 ![firing-arc](https://user-images.githubusercontent.com/91621088/167209670-d14cfa27-6109-4bee-8a9e-e8c88d571aa2.jpg)
 
+Tip: use the box lid as a dice tray to avoid moving your plane tokens around by accident!
+
 ### Attack/Defense bonuses
 
 - The defender may reroll 1 die if they are within the furthest section of the range ruler
