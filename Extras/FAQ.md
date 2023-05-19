@@ -27,3 +27,5 @@ Anyone who manages that... Well that's one hell of a pilot!
 ### Does a critical hit do more damage?
 
 The benefit of a critical hit is it's difficult to dodge. Think of it as a very accurate shot. It still only counts as one!
+
+![that-still-only-counts-as-one-lotr](https://github.com/Wollivan/SquadronLeader/assets/91621088/e25cd8ed-6fab-45c4-a1ab-3341ea709b2a)
