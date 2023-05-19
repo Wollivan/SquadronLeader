@@ -4,8 +4,6 @@
 
 ###### visit [Board Game Geek page](https://boardgamegeek.com/boardgame/362713/squadron-leader)
 
-###### [All Downloadable assets](https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets)
-
 # Squadron Leader
 
 #### The aerial combat game you can fit in your pocket!
@@ -30,6 +28,8 @@ Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page 
 This project is made possible only through the continued support of <a href="https://squadronleader.netlify.app/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.
 If you're viewing this on the website and want to see all the incredible work from the amazing people making this game better, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a>, <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> and <a href="https://github.com/Wollivan/SquadronLeader/discussions" target="_blank">discussions</a> on GitHub.
 
+If you have an idea, no matter what it is, we love seeing the community getting involved so please jump on GitHub and make a pull request, issue or start a discussion!
+
 #### Example print
 
 This amazing set was printed by Greg (who also designed the first score keeper pieces)
@@ -40,6 +40,7 @@ This amazing set was printed by Greg (who also designed the first score keeper p
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
 <a property="dct:title" rel="cc:attributionURL" href="https://github.com/Wollivan/SquadronLeader">Squadron Leader</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Wollivan">Tim Smith</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-ShareAlike 4.0 International
+
 <img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 
 CC BY-SA 4.0

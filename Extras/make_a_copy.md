@@ -20,7 +20,7 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 - player.stl
 - stat_board.stl
 
-### To share (or optionally print one for each player):
+### To share:
 
 - manoeuvre_template.stl
 - range_ruler.stl
@@ -40,5 +40,5 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
 
-The game was originally designed to fit in old tobacco tins, so it is joyful to see copies of this in ld tins!
-If you want a classic Squadron Leader tin without getting out a small loan <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get an imitation here</a>.
+The game was originally designed to fit in old tobacco tins, so it is joyful to see copies of this in old tins!
+If you want a classic Squadron Leader tobacco tin without getting out a small loan <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get an imitation here</a>.
