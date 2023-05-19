@@ -24,11 +24,11 @@ Here is an excerpt:
 
 This rule rewards aggressive tactics.
 
-- This is an optionaly manoeuvre that can only be performed immediatley after reducing another opponent's Health to 0.
+- This free manoeuvre that can only be performed immediatley after reducing another opponent's Health to 0.
 - Do the following actions in order:
   - Gain 3 altitude tokens
   - Execute a straight
-  - Place your plane token at 180° at the end of the manoeuvre (facing the opposite direction to the way they were).
+  - Turn your plane 180° (facing the opposite direction to the way they were).
 
 ![immelmann_with_text](https://user-images.githubusercontent.com/91621088/168678053-855dd761-e99f-4563-ae60-34632d8bf2dd.png)
 
@@ -62,7 +62,7 @@ Here is an excerpt:
 
 ## Dive Bomb
 
-After a players has attacked, if the defender is within range one **and** the attacker has at least 2 more altitude than the defender, they may attempt to perform a dive bomb manoeuvre:
+After a players has attacked a plane within range 1 **and** they have more altitude than the defender, they may attempt to perform a dive bomb manoeuvre:
 
 - Remove altitude tokens from the attacker until they have the same number as the defender
 - The attacker rolls a d6:
@@ -74,6 +74,7 @@ You can read more about the Dive Bomb manoeuvre here:
 <a href="https://en.wikipedia.org/wiki/Dive_bomber" target="_blank" class="button">Immelmann Wiki</a>
 
 Here is an excerpt:
+
 "A dive bomber is a bomber aircraft that dives directly at its targets in order to provide greater accuracy for the bomb it drops. Diving towards the target simplifies the bomb's trajectory and allows the pilot to keep visual contact throughout the bomb run."
 
 Not to be confused with the Divebomb, the homicidal Decepticon.

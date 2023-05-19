@@ -19,11 +19,11 @@ Squadron Leader is a fast pace World War 1 (loosely) themed aerial combat game t
 
 The modular nature of the rules allows for players to customise their game and add entirely new layers of strategy.
 
-We encourage the use of house rules, and ask that you make suggestions on the <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>, this is an Open Source game after all!
+We encourage the use of house rules, and ask that you make suggestions on <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>, this is an Open Source game after all!
 
 #### How to play
 
-Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page for how to play, and once you get the hang of it, head on over to the <a href="https://squadronleader.netlify.app/rules/advanced">advanced rules</a> to see really see how much of an Ace you can be!
+Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page for how to play, and once you get the hang of it, head on over to the <a href="https://squadronleader.netlify.app/rules/advanced">advanced rules</a> to see how much of an Ace you are!
 
 #### Note from the creator:
 
@@ -39,7 +39,8 @@ This amazing set was printed by Greg (who also designed the first score keeper p
 ## License
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-<a property="dct:title" rel="cc:attributionURL" href="https://github.com/Wollivan/SquadronLeader">Squadron Leader</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Wollivan">Tim Smith</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-ShareAlike 4.0 International<img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+<a property="dct:title" rel="cc:attributionURL" href="https://github.com/Wollivan/SquadronLeader">Squadron Leader</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Wollivan">Tim Smith</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-ShareAlike 4.0 International
+<img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img class="license-image" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 
 CC BY-SA 4.0
 Attribution-ShareAlike 4.0 International
