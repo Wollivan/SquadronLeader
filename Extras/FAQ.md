@@ -12,7 +12,7 @@ Currently no, but its something we are working towards!
 
 If you can't execute a manoeuvre without finishing it in the same place as an opponent, you can't choose that manoeuvre.
 
-However, if you need to move an opponent's token out of the way so you can put the manoeuvre template down, use another manoeuvre template to make sure you don't forget where your opponent's plane token was originally.
+However, if you need to move an opponent's token out of the way so you can put the manoeuvre template down you can move the other players token, but use an altitude token next to where the moved token was to make sure you don't forget where it was originally.
 
 ### My opponent just rolled three 6s on the attack dice, what can I do?
 
