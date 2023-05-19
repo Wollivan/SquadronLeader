@@ -97,4 +97,6 @@ Any a player push the envelope and roll a d6:
 
 The flight envelope is a graph visualizing the capabilities of the aircraft in terms of min-max speeds and the altitude at which it can safely fly. The envelope itself is of course defined by various parameters and there is absolutely no way of simulating that in a board game. But, there is a term "Pushing the envelope", which means that the pilot tries to go over the speed or altitude defined by the flight envelope while risking the integrity of the aircraft (or causing the plane to stall).
 
+![push-the-envelope](https://github.com/Wollivan/SquadronLeader/assets/91621088/4d42ef50-5f53-49ea-a8af-8a6b4e74fe0a)
+
 <a href="https://en.wikipedia.org/wiki/Flight_envelope#%22Pushing_the_envelope%22" target="_blank" class="button">Immelmann Wiki</a>
