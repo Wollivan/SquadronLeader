@@ -53,6 +53,18 @@ and for STICKERS:
 
 - mevdev
 
+and for the Push the Envelope rules:
+
+- asmialek
+
+and for teaching me that all these special manoeuvres have names
+
+- Ben
+
+and for finding Split S so that what the rules do in game match what real life planes can do!
+
+- Josh
+
 ## Future features
 
 - Coop objectives & campaigns

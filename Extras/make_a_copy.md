@@ -24,15 +24,10 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 
 - manoeuvre_template.stl
 - range_ruler.stl
+- box.stl
+- box_top.stl
 
-### Optional from the extras directory:
-
-- box.stl x1
-  or
-
-- FancyBoxTopper.stl x1
-  &
-- FancyBoxTop.stl
+### Optional fancy box topper:
 
 FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5 levels to be able to perform filament swaps of different colours. The bottom level of the topper is .6mm giving 3, .2mm layer passes. All other levels are .4mm allowing 2, .2mm layer passes.
 
@@ -46,4 +41,5 @@ You can download all the printable assets from GitHub. The reason we don't have 
 
 <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
 
-You can fit the game in most tobacco tins, old or new, and there is a printable box in the files. If you'd prefer a metal Squadron Leader tin that isn't £100+, <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get one here</a>.
+The game was originally designed to fit in old tobacco tins, so it is joyful to see copies of this in ld tins!
+If you want a classic Squadron Leader tin without getting out a small loan <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get an imitation here</a>.
