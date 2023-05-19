@@ -8,7 +8,7 @@ tolerance = 0.8;
 box_wall_thickness=2;
 box_length = templateLength + extra_space + box_wall_thickness*2 + 5; // 5 is for the extra length from the joints on the ruler
 box_width = 52 + (tokenWidth/4) + extra_space; // manuever template plus the range ruler plus a bit
-box_height=tokenWidth + tokenHeight + extra_space; // this is the players pieces plus the manuever template
+box_height=tokenWidth + (tokenHeight*2) + extra_space; // this is the players pieces plus the manuever template OR its the dice plus 4 stat boards plus manuever template
 box_radius_out=5;  // outer corner radius
 box_radius_in=3;   // inner corner radius
 box_bottom_thickness=box_wall_thickness;
@@ -159,6 +159,6 @@ module boxWithInsert() {
 
 // Output
 
-// boxWithInsert();
-// translate([box_length+10, 0, 0]) 
+boxWithInsert();
+translate([0, box_width+10, 0]) 
 lid();

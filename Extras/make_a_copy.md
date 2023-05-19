@@ -25,7 +25,6 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 - manoeuvre_template.stl
 - range_ruler.stl
 - box.stl
-- box_top.stl
 
 ### Optional fancy box topper:
 
