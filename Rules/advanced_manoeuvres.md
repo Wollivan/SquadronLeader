@@ -1,6 +1,6 @@
-# Advanced Rules
+# Advanced Manoeuvres
 
-These rules are for players already familiar with the core rules, or those who want to dive right in and become world famous fighter pilots!
+These manoeuvres are for players already familiar with the core rules, or those who want to dive right in and become world famous fighter pilots!
 
 ## Split S
 
