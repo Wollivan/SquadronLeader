@@ -32,6 +32,11 @@ FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5
 
 - If you are having a large dogfight and don't have enough different colour filaments, you can print the stat boards from the "extras" folder which have identifying letters".
 
+### Rules Quick Reference Cards
+
+There are 4 cards that have a quick reference for the basic and advanced rules. You can find them <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/STLs" target="_blank">here</a>.
+The size is made to fit on standard business cards so you can get them printed double sided and only need to put 2 cards in a box.
+
 ## Downloads
 
 You can download all the printable assets from GitHub. The reason we don't have anything on any of the STL sharing sites yet, is because things are in a big state of change, so its easer to just have them in one place at the moment.

@@ -1,4 +1,7 @@
 include <variables.scad>;
+use <fonts/RobotoMono-VariableFont_wght.ttf>
+
+
 
 $fn=100;
 extra_space=4;
@@ -125,16 +128,19 @@ module lid () {
         }
         
         // Cover design
-        translate([lid_length*3/3.5, lid_width/1.6, -0.1])
-            linear_extrude(height = lid_thickness/2) {
-                resize([0, lid_cover_size, 0], auto=true)
-        rotate([0,0,-90])
-                    import("icons/plane-model.svg", center=true);
-            }
+        // translate([lid_length*3/3.5, lid_width/1.6, -0.1])
+        //     linear_extrude(height = lid_thickness/2) {
+        //         resize([0, lid_cover_size, 0], auto=true)
+        // // rotate([0,0,-90])
+        //             import("icons/plane-model.svg", center=true);
+        //     }
+
+        translate([lid_length*3/3.6, lid_width/1.6,-box_bottom_thickness/2])
+          tokenIcon();
         translate([box_wall_thickness, 10.5+box_wall_thickness*2, -0.1])
             linear_extrude(height = lid_thickness/2)
                 mirror([0, 1, 0])
-                    text("Squadron", valign="bottom");
+                    text("Squadron", valign="bottom", font="RobotoMono");
         translate([box_wall_thickness, 10.5+box_wall_thickness*2, -0.1])
             linear_extrude(height = lid_thickness/2)
                 mirror([0, 1, 0])
@@ -143,7 +149,7 @@ module lid () {
         translate([box_wall_thickness, lid_width-7, -0.1])
             linear_extrude(height = lid_thickness/2)
                 mirror([0, 1, 0])
-                    text("A Game by Tim Smith", valign="top", size=5);
+                    text("A Game by Tim Smith", font="RobotoMono", valign="top", size=5);
 
         
     }
@@ -157,8 +163,25 @@ module boxWithInsert() {
   }
 }
 
-// Output
+module thinToken(){
+    translate([0,0,0])
+    //cube([tokenWidth,tokenWidth,tokenHeight], true); 
+    rotate([0,0,135/2])
+        cylinder(h=box_bottom_thickness, d=tokenWidth, $fn=8); 
+}
 
-boxWithInsert();
-translate([0, box_width+10, 0]) 
+module tokenIcon() {
+  difference() {
+    thinToken();
+    translate([0,1.07, -1])
+                linear_extrude(height = tokenHeight*2) {
+                    resize([0, lid_cover_size, 0], auto=true)
+            // rotate([0,0,-90])
+                        import("icons/plane-model.svg", center=true);
+                }
+  }
+}
+// Output
+// boxWithInsert();
+// translate([0, box_width+10, 0]) 
 lid();

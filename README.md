@@ -9,26 +9,29 @@
 #### The aerial combat game you can fit in your pocket!
 
 ![SquadronLeader](https://user-images.githubusercontent.com/91621088/168493767-c1d63822-c580-4a32-9528-802238ef4220.png)
-Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
-
-![gameplay](https://user-images.githubusercontent.com/91621088/166423402-8616cf0d-327b-4b30-899a-ac93b54038e1.jpg)
 
 Squadron Leader is a fast pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built in that can be enjoyed by all ages!
 
 The modular nature of the rules allows for players to customise their game and add entirely new layers of strategy.
 
-We encourage the use of house rules, and ask that you make suggestions on <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>, this is an Open Source game after all!
+We encourage the use of house rules, and if you think your rule improves the game, make a suggestions on <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>!
+
+Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
 
 #### How to play
 
 Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page for how to play, and once you get the hang of it, head on over to the <a href="https://squadronleader.netlify.app/rules/advanced">advanced rules</a> to see how much of an Ace you are!
 
+#### Get Involved
+
+Here are all the instructions for <a href="https://squadronleader.netlify.app/make-a-copy">printing your own copy</a>.
+
+If you have ANY ideas for rule changes, new rules or expansions, this is an Open Source project, so don't hesitate to make a fork!
+
 #### Note from the creator:
 
 This project is made possible only through the continued support of <a href="https://squadronleader.netlify.app/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.
 If you're viewing this on the website and want to see all the incredible work from the amazing people making this game better, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a>, <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> and <a href="https://github.com/Wollivan/SquadronLeader/discussions" target="_blank">discussions</a> on GitHub.
-
-If you have an idea, no matter what it is, we love seeing the community getting involved so please jump on GitHub and make a pull request, issue or start a discussion!
 
 #### Example print
 

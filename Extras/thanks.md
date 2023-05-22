@@ -1,5 +1,7 @@
 # Thank yous
 
+![gameplay](https://user-images.githubusercontent.com/91621088/166423402-8616cf0d-327b-4b30-899a-ac93b54038e1.jpg)
+
 First and most important thank you to <a href="https://twitter.com/HarryTheGM?t=-lbRdIOqqLyfzbsDPnInbA&s=09" target="_blank">Harry the GM</a> for inspiring me to make a game in the first place.
 
 Playtesters. Without your help, this game would suck.
