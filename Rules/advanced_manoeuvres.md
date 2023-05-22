@@ -60,7 +60,7 @@ Here is an excerpt:
 
 ## Dive Bomb
 
-After a players has attacked a plane within range 1 **and** they have more altitude than the defender, they may attempt to perform a dive bomb manoeuvre:
+After a player has attacked a plane within range 1 **and** they have more altitude than the defender, they may attempt to perform a dive bomb manoeuvre:
 
 - Remove altitude tokens from the attacker until they have the same number as the defender
 - The attacker rolls a d6:
@@ -77,21 +77,13 @@ Here is an excerpt:
 
 Not to be confused with the Divebomb, the homicidal Decepticon.
 
-## Ace Pilot
-
-Earn your wings and keep the action moving!
-
-- When a pilot destroys another plane, they become the Ace.
-- For as long as they are the Ace, that pilot may reroll 1 Attack dice and 1 Defense dice each round.
-- There can only be one Ace in the sky at a time.
-
 ## Pushing the Envelope
 
 This rule rewards daring pilots who are willing to test the limits of the aircraft by going faster and higher than it should be possible!
 
-Any a player push the envelope and roll a d6:
+A player may push the envelope during the manoeuvre stage and roll a d6:
 
-- On a result of 5-6 they gain gain 1 extra Manoeuvrability for the turn.
+- On a result of 5-6 they gain gain 1 extra Manoeuvrability for the turn or 1 extra altitude.
 - On a result of 1-4, they lose 1 Health.
 - The pilot may only "Push the envelope" only once per turn.
 
@@ -100,3 +92,11 @@ The flight envelope is a graph visualizing the capabilities of the aircraft in t
 ![push-the-envelope](https://github.com/Wollivan/SquadronLeader/assets/91621088/4d42ef50-5f53-49ea-a8af-8a6b4e74fe0a)
 
 <a href="https://en.wikipedia.org/wiki/Flight_envelope#%22Pushing_the_envelope%22" target="_blank" class="button">Immelmann Wiki</a>
+
+## Special Rule - Ace Pilot
+
+Earn your wings and keep the action moving!
+
+- When a pilot destroys another plane, they become the Ace.
+- For as long as they are the Ace, that pilot may reroll 1 Attack dice and 1 Defense dice each round.
+- There can only be one Ace in the sky at a time.
