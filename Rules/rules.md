@@ -30,6 +30,8 @@ A good starting setup for new players is:
 - Attack - 2
 - Manoeuvrability - 4
 
+If you don't have any of the printable stat trackers, use the <a href="https://squadronleader.netlify.app/rules/advanced-manoeuvres">digital plane stat tracker</a>.
+
 The last player who saw a plane in real life goes first.
 
 Each player places their plane on the playing area in turn.
