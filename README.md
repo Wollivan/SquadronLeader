@@ -18,9 +18,17 @@ We encourage the use of house rules, and if you think your rule improves the gam
 
 Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
 
-#### How to play
+#### Learn the Game
 
-Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page for how to play, and once you get the hang of it, head on over to the <a href="https://squadronleader.netlify.app/rules/advanced">advanced rules</a> to see how much of an Ace you are!
+<a href="https://squadronleader.netlify.app/rules" class="button">How to Play</a>
+
+Once you get the hang of the rules, checkout the Advanced Manoeuvres:
+
+<a href="https://squadronleader.netlify.app/rules/advanced-manoeuvres" class="button">Advanced Manoeuvres</a>
+
+When you're ready to start playing, you can use the plane tracker to make it easier to remember the different plane's stats.
+
+<a href="https://squadronleader.netlify.app/tracker" class="button">Plane Stat Tracker</a>
 
 #### Get Involved
 
