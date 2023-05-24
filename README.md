@@ -1,4 +1,4 @@
-###### visit [Squadron Leader Website](https://squadronleader.netlify.app)
+###### visit [Squadron Leader Website](https://squadronleader.wollivan.dev)
 
 ###### visit [Squadron Leader subreddit](https://www.reddit.com/r/SquadronLeader/)
 
@@ -20,17 +20,17 @@ Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
 
 #### How to play
 
-Check out the <a href="https://squadronleader.netlify.app/rules">rules</a> page for how to play, and once you get the hang of it, head on over to the <a href="https://squadronleader.netlify.app/rules/advanced">advanced rules</a> to see how much of an Ace you are!
+Check out the <a href="https://squadronleader.wollivan.dev/rules">rules</a> page for how to play, and once you get the hang of it, head on over to the <a href="https://squadronleader.wollivan.dev/rules/advanced">advanced rules</a> to see how much of an Ace you are!
 
 #### Get Involved
 
-Here are all the instructions for <a href="https://squadronleader.netlify.app/make-a-copy">printing your own copy</a>.
+Here are all the instructions for <a href="https://squadronleader.wollivan.dev/make-a-copy">printing your own copy</a>.
 
 If you have ANY ideas for rule changes, new rules or expansions, this is an Open Source project, so don't hesitate to make a fork!
 
 #### Note from the creator:
 
-This project is made possible only through the continued support of <a href="https://squadronleader.netlify.app/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.
+This project is made possible only through the continued support of <a href="https://squadronleader.wollivan.dev/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.
 If you're viewing this on the website and want to see all the incredible work from the amazing people making this game better, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a>, <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> and <a href="https://github.com/Wollivan/SquadronLeader/discussions" target="_blank">discussions</a> on GitHub.
 
 #### Example print
