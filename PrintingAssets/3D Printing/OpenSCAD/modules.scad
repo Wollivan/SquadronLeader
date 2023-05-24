@@ -8,7 +8,7 @@ module token(){
         cylinder(h=tokenHeight, d=tokenWidth, $fn=8); 
 }
 
-module tokenWithArc(){
+module tokenWithArc(withForward = true){
     difference(){
         token();
         
@@ -22,13 +22,14 @@ module tokenWithArc(){
             rotate([0,0,-135/3])
                 cube([tokenWidth,arcWidth,arcWidth+2], center=true);
             
-        
-        translate([tokenWidth/2.6,tokenWidth/8,tokenHeight-arcWidth/2+1]) 
-            cube([tokenWidth/2,arcWidth,arcWidth+2], center=true);
-        
-        
-        translate([tokenWidth/2.6,-tokenWidth/8,tokenHeight-arcWidth/2+1]) 
-            cube([tokenWidth/2,arcWidth,arcWidth+2], center=true);
+        if(withForward) {
+            translate([tokenWidth/2.6,tokenWidth/8,tokenHeight-arcWidth/2+1]) 
+                cube([tokenWidth/2,arcWidth,arcWidth+2], center=true);
+            
+            
+            translate([tokenWidth/2.6,-tokenWidth/8,tokenHeight-arcWidth/2+1]) 
+                cube([tokenWidth/2,arcWidth,arcWidth+2], center=true);
+        }
     }
 }
 
@@ -50,15 +51,29 @@ module balls(zMod, dMod) {
 }
 
 
-
-
-
-module plane(){
-    color("green") tokenWithArc();
-    
+module planeIcon() {
     translate([0.5,1,tokenHeight])
         linear_extrude(height = tokenHeight/4) {
             scale(0.065)
                 import("icons/plane-model.svg", center=true);
+    }
+}
+
+
+module plane(){
+    // color("green")
+    union() {
+        tokenWithArc();
+
+        planeIcon();
+    }
+}
+
+module planeSansForwardArc() {
+    // color("green")
+    union() {
+        tokenWithArc(false);
+
+        planeIcon();
     }
 }
