@@ -77,3 +77,43 @@ module planeSansForwardArc() {
         planeIcon();
     }
 }
+
+module largeBaseTemplateGuides() {
+    translate([tokenWidth, 0, 0])
+        token();
+        
+    translate([-tokenWidth, 0, 0])
+        token();
+}
+
+// large base
+module largeBaseWithArc() {
+    scale([2.4,2.4,1])
+        tokenWithArc();
+}
+
+module largeTokenWithArc() {
+    difference() {
+        union() {
+            largeBaseWithArc();
+            largeBaseTemplateGuides();
+        }
+
+        // larger arc bits
+        scale([2.4,2.4,1])
+        translate([tokenWidth/2.6,tokenWidth/8,tokenHeight-arcWidth/2+1]) 
+                cube([tokenWidth/2,arcWidth,arcWidth+2], center=true);
+            
+            
+        scale([2.4,2.4,1])
+            translate([tokenWidth/2.6,-tokenWidth/8,tokenHeight-arcWidth/2+1]) 
+                cube([tokenWidth/2,arcWidth,arcWidth+2], center=true);
+    }
+}
+
+module largePlane() {
+    largeTokenWithArc();
+
+    scale([2.4,2.4,1])
+        planeIcon();
+}
