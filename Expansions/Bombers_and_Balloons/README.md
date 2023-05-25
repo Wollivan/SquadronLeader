@@ -35,6 +35,12 @@ It is up to the players to decide how many balloons each player may place before
 
 There are some scenarios for players to use with their Bombers and balloons, and they can be found <a href="https://github.com/Wollivan/SquadronLeader/tree/main/Expansions/BombersAndBallons/Missions" target="_blank">here</a>
 
+## Cover
+
+Bombers and Balloons both have one major thing in common... they are big!
+
+If an attacker is shooting a target (any kind of target) they **roll 1 less dice** and **may not re-roll** any of their dice for this attack.
+
 ## Download Assets
 
 Included:
