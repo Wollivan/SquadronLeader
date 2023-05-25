@@ -33,7 +33,11 @@ It is up to the players to decide how many balloons each player may place before
 
 ## Missions
 
-There are some scenarios for players to use with their Bombers and balloons, and they can be found <a href="https://github.com/Wollivan/SquadronLeader/tree/main/Expansions/BombersAndBallons/Missions" target="_blank">here</a>
+There are some scenarios for players to use with their Bombers and balloons, and they can be found here:
+
+<a href="https://squadronleader.wollivan.dev/expansions/bombers-balloons/mission-01.md" class="button">Mission 01 - The Errant Balloons</a>
+
+<a href="https://squadronleader.wollivan.dev/expansions/bombers-balloons/mission-02.md" class="button">Mission 02 - The Bombers Escape</a>
 
 ## Cover
 
