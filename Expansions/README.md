@@ -14,4 +14,4 @@ The force is strong with this one...
 
 Use your X-Wing TMG collection to play Squadron Leader is a galaxy far far away!
 
-<a href="https://squadronleader.wollivan.dev/expansions/xwing-compatibility" class="button">Check it out!</a>
+<a href="https://squadronleader.wollivan.dev/expansions/x-wing-compatibility" class="button">Check it out!</a>
