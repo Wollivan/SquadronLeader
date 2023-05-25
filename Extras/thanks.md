@@ -67,6 +67,10 @@ and for finding Split S so that what the rules do in game match what real life p
 
 - Josh
 
+and for a lot of inspiration on the Bimber expansion
+
+- u/ReasonablyCreamy
+
 ## Future features
 
 - Coop objectives & campaigns

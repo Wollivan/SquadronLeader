@@ -38,10 +38,10 @@ module altitude(){
 }
 
 // Plane Token
-playerPiece();
+// playerPiece();
 
 // Altitude Tokens
-translate([0,tokenWidth,0]) altitude();
-translate([tokenWidth,0,0]) altitude();
-translate([tokenWidth,tokenWidth,0]) altitude();
-translate([tokenWidth*2,tokenWidth,0]) altitude();
+// translate([0,tokenWidth,0]) altitude();
+// translate([tokenWidth,0,0]) altitude();
+// translate([tokenWidth,tokenWidth,0]) altitude();
+// translate([tokenWidth*2,tokenWidth,0]) altitude();
