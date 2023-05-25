@@ -34,3 +34,13 @@ It is up to the players to decide how many balloons each player may place before
 ## Missions
 
 There are some scenarios for players to use with their Bombers and balloons, and they can be found <a href="https://github.com/Wollivan/SquadronLeader/tree/main/Expansions/BombersAndBallons/Missions" target="_blank">here</a>
+
+## Download Assets
+
+Included:
+
+- bomber.stl
+- bomb.stl
+- balloon.stl
+
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/Expansions/Bombers_and_Balloons/STLs" class="button">Get the files</a>
