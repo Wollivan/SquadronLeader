@@ -4,26 +4,9 @@ include <variables.scad>;
 include <modules.scad>;
 
 
-module bomberBase() {
-    scale([2.4,2.4,1])
-        planeSansForwardArc();
-}
-
-module templateGuides() {
-    translate([tokenWidth, 0, 0])
-        token();
-    translate([-tokenWidth, 0, 0])
-        token();
-}
-
 module bomber() {
-    union() {
-        bomberBase();
-
-        templateGuides();
-    }
+    largePlane();
 }
-
 module bombIcon() {
     translate([0.5,1,tokenHeight])
         linear_extrude(height = tokenHeight/4) {
