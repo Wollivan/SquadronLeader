@@ -86,16 +86,16 @@ Tip: use the box lid as a dice tray to avoid moving your plane tokens around by 
 - The defender may reroll 1 die if they are within the furthest section of the range ruler
 - The attacker may reroll 1 dice if they are within the closest section of the range ruler
 - If the defender is within the forward firing guies, the attacker may reroll 1 die
-- An attcker with a greater altitude to the defender may reroll 1 die
+- An attcker ir defender with a greater altitude to the defender may reroll 1 die
 
-If multiple abilities allow you to reroll a die, you can reroll that many dice, even if its the same dicebeing rolled multple times.
+If multiple abilities allow you to reroll a die, you can reroll that many dice, even if its the same dice being rolled multple times.
 
 ## Next Round:
 
 After the last player who can attack is finished, a new round begins and the player who went second in the previous round now begins the next round.
 
-## Advanced Rules
+## Advanced Manoeuvres
 
-Now check out the <a href="https://squadronleader.wollivan.dev/rules/advanced-manoeuvres">advanced rules</a> and see if you have what it takes to rule the air!
+Now check out the <a href="https://squadronleader.wollivan.dev/rules/advanced-manoeuvres">advanced manoeuvers</a> and see if you have what it takes to rule the air!
 
-Alright enough chatter, time to take to the skies!
+Enough chatter, time to take to the skies!
