@@ -13,7 +13,7 @@ There are only 4 assets that need to be printed.
 
 ## Printing instructions
 
-You will need to print the following from the <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/STLs" target="_blank">STLs</a> directory:
+You will need to print the following from the <a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs" target="_blank">STLs</a> directory:
 
 ### For each player:
 
@@ -34,16 +34,16 @@ FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5
 
 ### Rules Quick Reference Cards
 
-There are 4 cards that have a quick reference for the basic and advanced rules. You can find them <a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/STLs" target="_blank">here</a>.
+There are 4 cards that have a quick reference for the basic and advanced rules. You can find them <a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs" target="_blank">here</a>.
 The size is made to fit on standard business cards so you can get them printed double sided and only need to put 2 cards in a box.
 
 ## Downloads
 
 You can download all the printable assets from GitHub. The reason we don't have anything on any of the STL sharing sites yet, is because things are in a big state of change, so its easer to just have them in one place at the moment.
 
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/STLs" target="_blank" class="button">Download STLs</a>
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs" target="_blank" class="button">Download STLs</a>
 
-<a href="https://github.com/Wollivan/SquadronLeader/tree/main/PrintingAssets/3D%20Printing/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
+<a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/OpenSCAD" target="_blank" class="button">Download OpenSCAD files</a>
 
 The game was originally designed to fit in old tobacco tins, so it is joyful to see copies of this in old tins!
 If you want a classic Squadron Leader tobacco tin without getting out a small loan <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get an imitation here</a>.
