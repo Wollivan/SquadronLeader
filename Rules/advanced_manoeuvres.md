@@ -10,7 +10,7 @@ This rule prevents a pilot from being stuck when they are being tailed by an opp
 - Turn the plane token 180° at the end of the manoeuvre.
 - Players cannot perform a Split S and gain altitude in the same round.
 
-![split_s_diagram](./ManoeuvreExamples/split_s.png)
+![split_s_diagram](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Rules/ManoeuvreExamples/split_s.png)
 
 You can read more about the Split S manoeuvre here:
 
@@ -30,7 +30,7 @@ This rule rewards aggressive tactics.
   - Execute a straight
   - Turn your plane 180° (facing the opposite direction to the way they were).
 
-![immelmann_diagram](./ManoeuvreExamples/immelmann.png)
+![immelmann_diagram](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Rules/ManoeuvreExamples/immelmann.png)
 
 You can read more about the Immelmann turn here:
 
@@ -48,7 +48,7 @@ This rule seperates the timid from the bold!
 - The manoeuvre cost is double the cost of whichever manoeuvre template the player is using (the straight now costs 4, the bank now costs 6).
 - Players cannot perform a Barrel roll and gain altitude in the same round.
 
-![barrel_roll_diagram](./ManoeuvreExamples/barrel_roll.png)
+![barrel_roll_diagram](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Rules/ManoeuvreExamples/barrel_roll.png)
 
 You can read more about the Barrel roll manoeuvre here:
 
@@ -67,7 +67,7 @@ After a player has attacked a plane within range 1 **and** they have more altitu
   - On a 2-6 result the defender suffers 1 damage
   - On a 1 result the attacker suffers 1 damage
 
-![dive_bomb_diagram](./ManoeuvreExamples/dive_bomb.png)
+![dive_bomb_diagram](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Rules/ManoeuvreExamples/dive_bomb.png)
 
 You can read more about the Dive Bomb manoeuvre here:
 

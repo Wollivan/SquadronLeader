@@ -48,7 +48,7 @@ Here is how that works:
 - A player must complete at least one manoeuvre each round otherwise their plane would stall and they would plummet to the ground!
 - If any part of a plane token goes off the board at the end of a manoeuvre, that plane is destroyed!
 
-![manoeuvre_diagram](./ManoeuvreExamples/manoeuvres.png)
+![manoeuvre_diagram](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Rules/ManoeuvreExamples/manoeuvres.png)
 
 ### Altitude
 
