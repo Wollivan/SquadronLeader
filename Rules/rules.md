@@ -82,7 +82,7 @@ Tip: use the box lid as a dice tray to avoid moving your plane tokens around by 
 - The defender may reroll 1 die if they are within the furthest section of the range ruler
 - The attacker may reroll 1 dice if they are within the closest section of the range ruler
 - If the defender is within the forward firing guies, the attacker may reroll 1 die
-- An attcker ir defender with a greater altitude to the defender may reroll 1 die
+- An attcker or defender with a greater altitude to the defender may reroll 1 die
 
 If multiple abilities allow you to reroll a die, you can reroll that many dice, even if its the same dice being rolled multple times.
 
