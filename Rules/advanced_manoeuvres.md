@@ -24,7 +24,7 @@ Here is an excerpt:
 
 This rule rewards aggressive tactics.
 
-- This free manoeuvre that can only be performed immediatley after reducing another opponent's Health to 0.
+- This is a free manoeuvre that can be performed immediatley after reducing another opponent's Health to 0.
 - Do the following actions in order:
   - Gain 3 altitude tokens
   - Execute a straight
@@ -44,8 +44,8 @@ Here is an excerpt:
 
 This rule seperates the timid from the bold!
 
-- During the manoeuvre phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost manoeuvre, but instead of orienting their plane along the new axis, their token will not rotate at all, and be traveling in the same direction.
-- The manoeuvre cost is double the cost of whichever manoeuvre template the player is using (the straight now costs 2, the bank now costs 4).
+- During the manoeuvre phase a player may declare they are executing a Barrel Roll and execute either the 2 or 3 cost manoeuvre, but instead of rotating their plane along the new axis they keep it moving straight traveling in the same direction.
+- The manoeuvre cost is double the cost of whichever manoeuvre template the player is using (the straight now costs 4, the bank now costs 6).
 - Players cannot perform a Barrel roll and gain altitude in the same round.
 
 ![barrel_roll_diagram](./ManoeuvreExamples/barrel_roll.png)
@@ -79,7 +79,7 @@ Here is an excerpt:
 
 Not to be confused with the Divebomb, the homicidal Decepticon.
 
-## Pushing the Envelope
+## Push the Envelope
 
 This rule rewards daring pilots who are willing to test the limits of the aircraft by going faster and higher than it should be possible!
 

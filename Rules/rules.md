@@ -68,8 +68,9 @@ The sky is a big place. Let's take advantage of that!
 - The defender must also be within the attackers firing arc which is shown with the 90° lines on the front of the token.
 - The attacking player rolls a number of Attack dice equal to their Attack value.
 - The defending player rolls a number of Defense dice equal to their Defense value.
-- Each value of 4-6 rolled on the Attack dice counts as 1 damage. A 6 rolled counts as a critical hit.
-- Each value of 4-6 rolled on the Defense dice counts as a dodge and cancels out a hit. It takes 2 dodges to cancel out a critical hit. Critical hits still only deal 1 damage when not cancelled out.
+- Each value of 4-6 rolled on the Attack dice counts as a **hit** and will deal 1 damage.
+- Each value of 4-6 rolled on the Defense dice counts as a **dodge** and cancels out a hit.
+- Rolling a 6 is either a **critical hit** or a **vital dodge**, and counts as 2 hits or dodges respectively.
 - The defender loses Health equal to the hits that haven’t been canceled out.
 
 This image shows a situation where the white plane can shoot at the yellow plane (blue arc) and the yellow plane CAN'T shoot at the white plane (red arc).
@@ -79,9 +80,9 @@ Tip: use the box lid as a dice tray to avoid moving your plane tokens around by 
 
 ### Attack/Defense bonuses
 
-- The defender may reroll 1 die if they are within the furthest section of the range ruler
-- The attacker may reroll 1 dice if they are within the closest section of the range ruler
-- If the defender is within the forward firing guies, the attacker may reroll 1 die
+- The defender may reroll 1 die if they are within range 3 from the attacker
+- The attacker may reroll 1 dice if the defender is within range 1
+- If the defender is within the forward firing guides the attacker may reroll 1 die
 - An attcker or defender with a greater altitude to the defender may reroll 1 die
 
 If multiple abilities allow you to reroll a die, you can reroll that many dice, even if its the same dice being rolled multple times.
