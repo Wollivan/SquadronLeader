@@ -38,6 +38,9 @@ module healthHole(x) {
 
   translate([healthWidth/4+gap,x+healthWidth/4,-1])
     cube([healthWidth/2, healthWidth/2, boardHeight+2]);
+
+  translate([gap*2.5,x,statHeight*2])
+    sphere(d=healthWidth);
 }
 
 module symbol(s, path, x, z) {
