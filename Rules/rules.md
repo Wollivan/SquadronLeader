@@ -80,12 +80,23 @@ Tip: use the box lid as a dice tray to avoid moving your plane tokens around by 
 
 ### Attack/Defense bonuses
 
+All bonuses come in the form of rerolling dice. You will always roll a number of dice equal to your attack/defense stats.
+
+There is no limit to the number of bonuses you can have in one turn. If multiple abilities allow you to reroll a die, you can reroll that many dice, even if its the same dice being rolled multple times.
+
 - The defender may reroll 1 die if they are within range 3 from the attacker
 - The attacker may reroll 1 dice if the defender is within range 1
 - If the defender is within the forward firing guides the attacker may reroll 1 die
 - An attcker or defender with a greater altitude to the defender may reroll 1 die
+- You are the Ace (see below)
 
-If multiple abilities allow you to reroll a die, you can reroll that many dice, even if its the same dice being rolled multple times.
+#### Ace Pilot
+
+Earn your wings and keep the action moving!
+
+- When you destroy another players plane, you become the Ace
+- For as long as they are the Ace you may reroll 1 Attack dice and 1 Defense dice each round
+- There can only be one Ace in the sky at a time
 
 ## Next Round:
 
