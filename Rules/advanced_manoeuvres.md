@@ -94,11 +94,3 @@ The flight envelope is a graph visualizing the capabilities of the aircraft in t
 ![push-the-envelope](https://github.com/Wollivan/SquadronLeader/assets/91621088/4d42ef50-5f53-49ea-a8af-8a6b4e74fe0a)
 
 <a href="https://en.wikipedia.org/wiki/Flight_envelope#%22Pushing_the_envelope%22" target="_blank" class="button">Immelmann Wiki</a>
-
-## Special Rule - Ace Pilot
-
-Earn your wings and keep the action moving!
-
-- When a pilot destroys another plane, they become the Ace.
-- For as long as they are the Ace, that pilot may reroll 1 Attack dice and 1 Defense dice each round.
-- There can only be one Ace in the sky at a time.
