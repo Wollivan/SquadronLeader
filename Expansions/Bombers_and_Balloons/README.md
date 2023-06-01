@@ -1,5 +1,7 @@
 # Bombers & Balloons
 
+![bombers-and-balloons-assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Expansions/Bombers_and_Balloons/bombers_and_balloons.png)
+
 This expansion adds 2 new game pieces to the game, and you guessed them:
 
 Bombers and Balloons!

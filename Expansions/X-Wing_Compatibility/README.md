@@ -1,5 +1,7 @@
 # X-Wing: The Miniatures Game Compatibility
 
+![x-wing-assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Expansions/X-Wing_Compatibility/x-wing_compatibility.png)
+
 It's no secret that Squadron Leader was partially inspired by X-Wing TMG, so it stands to reason that there should be a way to use pieces from that amazing game to Sqquadron Leader.
 
 Now you can with this new expansion!
