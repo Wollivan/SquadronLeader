@@ -41,5 +41,5 @@ module balloon() {
 }
 
 bomber();
-// bomb();
-// balloon();
+translate([0,tokenWidth*2,0]) bomb();
+translate([0,tokenWidth*4,0]) rotate([0,0,90]) balloon();

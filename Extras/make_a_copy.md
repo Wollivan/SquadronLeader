@@ -39,7 +39,7 @@ The size is made to fit on standard business cards so you can get them printed d
 
 ## Downloads
 
-You can download all the printable assets from GitHub. The reason we don't have anything on any of the STL sharing sites yet, is because things are in a big state of change, so its easer to just have them in one place at the moment.
+You can download all the printable assets from GitHub. We aren't on any STL sharing sites because they don't allow continuous development with a GitHub repo, so this is the only place you can find us!
 
 <a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs" target="_blank" class="button">Download STLs</a>
 
