@@ -9,7 +9,7 @@ There are only 4 assets that need to be printed.
 - Manoeuvre template
 - Range ruler
 
-![assetsNew](https://user-images.githubusercontent.com/91621088/211172716-5bc4983f-1582-4c58-9a07-ba0d7531282e.png)
+![player_assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Extras/player_assets.png)
 
 ## Printing instructions
 
