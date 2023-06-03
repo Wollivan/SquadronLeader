@@ -2,7 +2,7 @@
 
 At the moment the only way to get a copy of this game is to make it yourself, or find a friend with a 3D printer who is willing to print it for you. In the future there may be a way to order them, or even a crowd funding thing... who knows!
 
-There are only 4 assets that **need** to be printed.
+There are only 3 assets that **need** to be printed.
 
 - Plane and altitude tokens
 - Manoeuvre template
