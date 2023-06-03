@@ -2,14 +2,19 @@
 
 At the moment the only way to get a copy of this game is to make it yourself, or find a friend with a 3D printer who is willing to print it for you. In the future there may be a way to order them, or even a crowd funding thing... who knows!
 
-There are only 4 assets that need to be printed.
+There are only 4 assets that **need** to be printed.
 
 - Plane and altitude tokens
-- Stat board
 - Manoeuvre template
 - Range ruler
 
 ![player_assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Extras/player_assets.png)
+
+## Keep Track of stats and Health
+
+If you don't want to use the digital stat tracker, you can print the Stat Board so each player can quickly reference their stats.
+
+To keep track of health, you can print the two life tracker sides, and a wheel in each p;ayers colour.
 
 ## Printing instructions
 
@@ -19,12 +24,15 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 
 - player.stl
 - stat_board.stl
+- life_tracker/wheel.stl
 
 ### To share:
 
 - manoeuvre_template.stl
 - range_ruler.stl
 - box.stl
+- life_tracker/side_w_axel.stl
+- life_tracker/side_w_hole.stl
 
 ### Optional fancy box topper:
 

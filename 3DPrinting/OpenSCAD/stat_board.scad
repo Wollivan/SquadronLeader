@@ -6,12 +6,11 @@ boardHeight = 4;
 
 gap = 2;
 statHeight = 2;
-statWidth = (boardWidth - (gap * 5)) / 5;
+statWidth = (boardWidth - (gap * 5)) / 4;
 healthWidth = (boardLength - (gap * 5)) / 4;
-tolerance = 0.4;
+tolerance = 0.3;
 
 board();
-translate([gap+tolerance/2,-statWidth-2,0])
 allTiles();
 
 module tile(number) {
@@ -32,16 +31,6 @@ module hole(x) {
     cube([statWidth/2, statWidth/2, boardHeight+2]);
 }
 
-module healthHole(x) {
-  translate([gap,x,statHeight])
-    cube([healthWidth, healthWidth, statHeight*2]);
-
-  translate([healthWidth/4+gap,x+healthWidth/4,-1])
-    cube([healthWidth/2, healthWidth/2, boardHeight+2]);
-
-  translate([gap*2.5,x,statHeight*2])
-    sphere(d=healthWidth);
-}
 
 module symbol(s, path, x, z) {
   translate([x,z-gap,-1])
@@ -56,28 +45,25 @@ module board() {
     cube([boardWidth, boardLength, boardHeight]);
 
 
-    hole(gap*5);
-    hole(gap*6+statWidth);
-    hole(gap*7+statWidth*2);
-    hole(gap*8+statWidth*3);
-
-    healthHole(gap);
-    healthHole(gap*2+healthWidth);
-    healthHole(gap*3+healthWidth*2);
-    healthHole(gap*4+healthWidth*3);
+    hole(gap);
+    hole(gap*2+statWidth);
+    hole(gap*3+statWidth*2);
+    hole(gap*4+statWidth*3);
 
 
-    symbol(0.5, "icons/health.svg", (gap*4.5)+0.75, boardLength/1.5-(gap/3));
-    symbol(0.45, "icons/defense.svg", (gap*5.5)+statWidth+1.25, boardLength/1.5-(gap/3));
-    symbol(0.55, "icons/attack.svg", (gap*6.5)+statWidth*2.05, boardLength/1.5-(gap/2));
-    symbol(0.5, "icons/speed.svg", (gap*7.5)+statWidth*3+1.25, boardLength/1.5);
+    symbol(0.5, "icons/health.svg", (gap)+0.75, boardLength/1.5-(gap/3));
+    symbol(0.45, "icons/defense.svg", (gap*2)+statWidth+1.25, boardLength/1.5-(gap/3));
+    symbol(0.55, "icons/attack.svg", (gap*3)+statWidth*2.05, boardLength/1.5-(gap/2));
+    symbol(0.5, "icons/speed.svg", (gap*4)+statWidth*3+1.25, boardLength/1.5);
   }
 }
 
 module allTiles() {
-  translate([0, healthWidth/2,0]) scale([0.45,0.45,1]) tile("");
-  translate([statWidth+gap/2,0,0]) tile("2");
-  translate([(statWidth+gap/2)*2,0,0]) tile("3");
-  translate([(statWidth+gap/2)*3,0,0]) tile("3");
-  translate([(statWidth+gap/2)*4,0,0]) tile("4");
+  translate([gap+tolerance/2,-statWidth-2,0])
+    union() {
+      translate([0,0,0]) tile("2");
+      translate([statWidth+gap,0,0]) tile("3");
+      translate([statWidth*2+gap*2,0,0]) tile("3");
+      translate([statWidth*3+gap*3,0,0]) tile("4");
+    }
 }
