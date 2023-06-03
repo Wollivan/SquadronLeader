@@ -12,7 +12,7 @@ There are only 3 assets that **need** to be printed.
 
 ## Keep Track of stats and Health
 
-If you don't want to use the digital stat tracker, you can print the Stat Board so each player can quickly reference their stats.
+If you don't want to use the <a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs" target="_blank">digital stat tracker</a>, you can print the Stat Board so each player can quickly reference their stats.
 
 To keep track of health, you can print the two life tracker sides, and a wheel in each p;ayers colour.
 
