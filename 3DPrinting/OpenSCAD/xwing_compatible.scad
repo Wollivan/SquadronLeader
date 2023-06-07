@@ -1,7 +1,7 @@
 include <variables.scad>;
 include <modules.scad>;
 
-tolerance = 0.1;
+tolerance = 0.6;
 poleDia = 3 + tolerance;
 poleDiaLarge = 6 + tolerance;
 
@@ -31,6 +31,9 @@ module tokenWithXWingHole() {
       tokenWithArc();
 
       xWingHole(poleDia);
+
+      balls(zMod=0, dMod=0.25);
+      rotate([0,0,45]) balls(zMod=0, dMod=0.25);
     }
     struts(poleDia, 3.1);
   }
