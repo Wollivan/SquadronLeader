@@ -8,158 +8,74 @@ extra_space=4;
 tolerance = 0.8;
 ///// -- parameters -- /////////
 // Box
-box_wall_thickness=2;
-box_length = templateLength + extra_space + box_wall_thickness*2 + 5; // 5 is for the extra length from the joints on the ruler
-box_width = 52 + (tokenWidth/4) + extra_space; // manuever template plus the range ruler plus a bit
-box_height=tokenWidth + (tokenHeight*2) + extra_space; // this is the players pieces plus the manuever template OR its the dice plus 4 stat boards plus manuever template
+wall=2;
+boxLength = 113;
+boxWidth = 79;
+boxHeight = 32;
+
+lidLength = boxLength+wall*2;
+lidWidth = boxWidth+wall*2;
+
 box_radius_out=5;  // outer corner radius
 box_radius_in=3;   // inner corner radius
-box_bottom_thickness=box_wall_thickness;
-
-// Lid
-lid_length=box_length; //+ 0.5;  // inner lid lenght, add 0.2-0.5mm over box size
-lid_width=box_width  + tolerance;  // inner lid width, add 0.2-0.5mm over box size
-lid_height=0.3 * box_height;  // lid height
-lid_radius_in=box_radius_out;   // inner corner radius,the same or smaller as outer on box
-lid_radius_out=2;  // outer corner radius
-lid_wall_thickness=2;    // wall thickness
-lid_thickness=lid_wall_thickness;  // top thickness
-lid_cover_size=20; // y size of plane on cover
-
-
-// Insert
-token_stack_height = (tokenHeight*5)+3;
-inside_box_width = box_length-box_wall_thickness*2;
-token_stack_width = tokenWidth+tolerance*2;
-
-module insert() {
-  difference() {
-    cube([inside_box_width, box_width-box_wall_thickness*2, tokenWidth/1.5]);
-
-    cube([token_stack_width, token_stack_height, tokenWidth]);
-
-    translate([token_stack_width+box_wall_thickness,0,0])
-      cube([token_stack_width, token_stack_height, tokenWidth]);
-
-    translate([0, token_stack_height+box_wall_thickness,0])
-      cube([token_stack_width, token_stack_height, tokenWidth]);
-
-    translate([token_stack_width+box_wall_thickness, token_stack_height+box_wall_thickness,0])
-      cube([token_stack_width, token_stack_height, tokenWidth]);
-
-    // dice section
-    
-    translate([(token_stack_width+box_wall_thickness)*2, 0,0])
-      cube([inside_box_width-(token_stack_width+box_wall_thickness)*2, (token_stack_height*2)+box_wall_thickness, tokenWidth]);
-
-    // ruler section
-    translate([0, (token_stack_height+box_wall_thickness)*2, 0])
-      cube([inside_box_width, box_width-box_wall_thickness*2-tolerance*2, tokenWidth/1.5]);
-  }
-  
-}
 
 
 // Create box
-module box_outer_cylinder () {
-    cylinder (r=box_radius_out,h=box_height); }
-
-module box_inner_cylinder () {
-    cylinder (r=box_radius_in,h=box_height); }
-
-module box () {
-    difference () {
-        // Outer hull
-        hull () {
-            translate ([box_radius_out,box_radius_out,0])
-              box_outer_cylinder();
-            translate ([box_radius_out,box_width-box_radius_out,0])
-              box_outer_cylinder();
-            translate ([box_length-box_radius_out,box_width-box_radius_out,0])
-              box_outer_cylinder();
-            translate ([box_length-box_radius_out,box_radius_out,0])
-              box_outer_cylinder();
-        }
-
-        // Inner hull
-        hull () {
-            translate ([box_wall_thickness+box_radius_in,box_radius_in+box_wall_thickness,box_bottom_thickness])
-              box_inner_cylinder();
-            translate ([box_wall_thickness+box_radius_in,box_width-box_wall_thickness-box_radius_in,box_bottom_thickness])
-              box_inner_cylinder();
-            translate ([box_length-box_wall_thickness-box_radius_in,box_width-box_wall_thickness-box_radius_in,box_bottom_thickness])
-              box_inner_cylinder();
-            translate ([box_length-box_wall_thickness-box_radius_in,box_wall_thickness+box_radius_in,box_bottom_thickness])
-              box_inner_cylinder();
-        }
-    }
+module box_cylinder (radius, height) {
+  cylinder (r=radius,h=height);
 }
 
-// Create lid
-module lid_outer_cylinder () {
-    cylinder (r=lid_radius_in,h=lid_height+lid_thickness); }
 
-module lid_inner_cylinder () {
-    cylinder (r=lid_radius_out,h=lid_height+lid_thickness); }
 
-module lid () {
-    difference () {
-        // Inner hull
-        hull () {
-            translate ([lid_radius_out-lid_wall_thickness,lid_radius_out-lid_wall_thickness,0])
-              lid_inner_cylinder();
-            translate ([lid_radius_out-lid_wall_thickness,lid_width-lid_radius_out+lid_wall_thickness,0])
-              lid_inner_cylinder();
-            translate ([lid_length-lid_radius_out+lid_wall_thickness,lid_width-lid_radius_out+lid_wall_thickness,0])
-              lid_inner_cylinder();
-            translate ([lid_length-lid_radius_out+lid_wall_thickness,lid_radius_out-lid_wall_thickness,0])
-              lid_inner_cylinder();
-        }
-        // Outer hull
-        hull () {
-        translate ([lid_radius_in,lid_radius_in,lid_thickness])
-          lid_outer_cylinder();
-        translate ([lid_radius_in,lid_width-lid_radius_in,lid_thickness])
-          lid_outer_cylinder();
-        translate ([lid_length-lid_radius_in,lid_width-lid_radius_in,lid_thickness])
-          lid_outer_cylinder();
-        translate ([lid_length-lid_radius_in,lid_radius_in,lid_thickness])
-          lid_outer_cylinder();
-        }
-        
-        // Cover design
-        // translate([lid_length*3/3.5, lid_width/1.6, -0.1])
-        //     linear_extrude(height = lid_thickness/2) {
-        //         resize([0, lid_cover_size, 0], auto=true)
-        // // rotate([0,0,-90])
-        //             import("icons/plane-model.svg", center=true);
-        //     }
 
-        translate([lid_length*3/3.6, lid_width/1.6,-box_bottom_thickness/2])
-          tokenIcon();
-        translate([box_wall_thickness, 10.5+box_wall_thickness*2, -0.1])
-            linear_extrude(height = lid_thickness/2)
-                mirror([0, 1, 0])
-                    text("Squadron", valign="bottom", font="RobotoMono");
-        translate([box_wall_thickness, 10.5+box_wall_thickness*2, -0.1])
-            linear_extrude(height = lid_thickness/2)
-                mirror([0, 1, 0])
-                    text("Leader", valign="top");
-
-        translate([box_wall_thickness, lid_width-7, -0.1])
-            linear_extrude(height = lid_thickness/2)
-                mirror([0, 1, 0])
-                    text("A Game by Tim Smith", font="RobotoMono", valign="top", size=5);
-
-        
+module shell (width, length, radius, height) {
+  difference () {
+    // Outer hull
+    hull () {
+      translate ([radius,radius,0])
+        box_cylinder(radius, height);
+      translate ([radius,width-radius,0])
+        box_cylinder(radius, height);
+      translate ([length-radius,width-radius,0])
+        box_cylinder(radius, height);
+      translate ([length-radius,radius,0])
+        box_cylinder(radius, height);
     }
+  }
 }
-module boxWithInsert() {
-  union() {
-    translate([box_wall_thickness, box_wall_thickness,box_bottom_thickness])
-      insert();
-    
-    box();
+
+playerWidth = 28;
+diceWidth = 58;
+diceLength = 24;
+
+healthWidth = 75;
+healthLength = 23;
+
+rulerWidth = 15;
+rulerLength = 84;
+
+module insertSection(x, y, tx, ty) {
+  translate([tx,ty,-1])
+    cube([x,y,boxHeight+2]);
+}
+module insert() {
+  difference() {
+    shell(boxWidth-wall*2,boxLength-wall*2,box_radius_in, tokenHeight*4);
+
+    // player spaces
+    insertSection(playerWidth, playerWidth, 0, 0);
+    insertSection(playerWidth, playerWidth, playerWidth+wall, 0);
+    insertSection(playerWidth, playerWidth, playerWidth+wall, playerWidth+wall);
+    insertSection(playerWidth, playerWidth, 0, playerWidth+wall);
+
+    // range ruler
+    insertSection(rulerLength, rulerWidth, 0, playerWidth*2+wall*2);
+
+    // dice/stats
+    insertSection(diceLength, diceWidth, playerWidth*2+wall*2, 0);
+
+    // health
+    insertSection(healthLength, healthWidth, playerWidth*2+wall*3+diceLength, 0);
   }
 }
 
@@ -167,7 +83,7 @@ module thinToken(){
     translate([0,0,0])
     //cube([tokenWidth,tokenWidth,tokenHeight], true); 
     rotate([0,0,135/2])
-        cylinder(h=box_bottom_thickness, d=tokenWidth, $fn=8); 
+        cylinder(h=wall, d=tokenWidth, $fn=8); 
 }
 
 module tokenIcon() {
@@ -175,13 +91,63 @@ module tokenIcon() {
     thinToken();
     translate([0,1.07, -1])
                 linear_extrude(height = tokenHeight*2) {
-                    resize([0, lid_cover_size, 0], auto=true)
+                    resize([0, 20, 0], auto=true)
             // rotate([0,0,-90])
                         import("icons/plane-model.svg", center=true);
                 }
   }
 }
-// Output
-// boxWithInsert();
-// translate([0, box_width+10, 0]) 
-lid();
+
+module lidDesign() {
+  translate([lidLength/1.25, lidWidth/1.6,-wall/2])
+    tokenIcon();
+  translate([wall*2, 10.5+wall*3, -0.1])
+      linear_extrude(height = wall/2)
+          mirror([0, 1, 0])
+              text("Squadron", valign="bottom", font="RobotoMono");
+  translate([wall*2, 12.5+wall*3, -0.1])
+      linear_extrude(height = wall/2)
+          mirror([0, 1, 0])
+              text("Leader", valign="top");
+
+  translate([wall*2, lidWidth-10, -0.1])
+      linear_extrude(height = wall/2)
+          mirror([0, 1, 0])
+              text("A Game by Tim Smith", font="RobotoMono", valign="top", size=6);
+
+}
+
+module boxNoInsert() {
+  difference() {
+    shell(boxWidth,boxLength,box_radius_out, boxHeight);
+
+    translate([wall,wall,wall])
+      shell(boxWidth-wall*2,boxLength-wall*2,box_radius_in, boxHeight);
+  }
+}
+
+module box() {
+  union(){
+    boxNoInsert();
+
+    translate([wall,wall,0])
+      insert();
+  }
+}
+
+
+
+module lid() {
+  difference() {
+    shell(lidWidth,lidLength,box_radius_out, boxHeight*0.3);
+
+    translate([wall,wall,wall])
+      shell(boxWidth,boxLength,box_radius_in, boxHeight*0.3);
+      lidDesign();
+  }
+}
+
+translate([0,boxWidth+10,0]) lid();
+box();
+// boxNoInsert();
+// insert();
