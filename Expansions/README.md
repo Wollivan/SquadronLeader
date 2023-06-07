@@ -12,7 +12,7 @@ Bigger. Tougher. A fair bit slower.
 
 ## X-Wing: The Miniatures Game Compatibility
 
-![x-wing-assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Expansions/X-Wing_Compatibility/x-wing_compatibility.png)
+![x-wing-assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Expansions/X-Wing_Compatibility/x-wing_compatibility_03.png)
 
 The force is strong with this one...
 
