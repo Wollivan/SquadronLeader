@@ -1,13 +1,12 @@
 $fn=100;
-wheelWidth = 10;
-wheelDia = 20;
+wheelWidth = 8;
+wheelDia = 16;
+sideWidth = 4;
 
 sideSize = wheelDia*1.1;
 
 axelDia= wheelDia/3;
 axelLength = wheelWidth*4+(wheelWidth/2);
-
-textHeight = 5;
 
 magnetDia = 5;
 magnetHeight = 5;
@@ -16,7 +15,7 @@ sideNum = 5;
 axelSides = 10;
 
 springLength = wheelDia*0.8; // determined empirically
-springWidth = 1.2; // determined arbitrarily, adjust for feel
+springWidth = 0.8; // determined arbitrarily, adjust for feel
 springOffset = axelDia/2*sin(2*360/10); // determined with magic
 
 
@@ -24,11 +23,15 @@ springOffset = axelDia/2*sin(2*360/10); // determined with magic
 // sideWAxel();
 // translate([0,sideSize+10,0]) sideWHole();
 translate([0,-sideSize-10,0]) wheel();
-// translate([0,0,wheelWidth]) wheel(); // test
-
+// translate([0,0,sideWidth]) wheel(); // test
+centerPiece();
 // axelTest();
 
-
+module centerPiece() {
+  axel();
+  translate([-axelDia/2,0,0])
+  cube([axelDia, wheelWidth, wheelWidth/4]);
+}
 
 module axel(mod){
   rotate([0,0,18])
@@ -55,9 +58,9 @@ module numbers() {
     rotate([0,0,36])
         for (n=[0:sideNum-1])
         rotate ([0,0,(n-1)*360/sideNum])
-            translate([wheelDia/3,-wheelWidth/2.6,wheelWidth*0.79])
+            translate([wheelDia/3,-wheelWidth/2.6,wheelWidth*0.87])
                 rotate([0,90,0])
-                    linear_extrude(4)
+                    linear_extrude(3.2)
                         text(str(n), size=8);
 }
 
@@ -79,20 +82,21 @@ module wheel() {
 
 module side () {
   tran = sideSize/3.5;
+  echo(tran);
     difference () {
         // Outer hull
         hull () {
             translate ([tran,tran,0])
-              cylinder (r=5,h=wheelWidth);
+              cylinder (r=5,h=sideWidth);
 
             translate ([-tran,tran,0])
-              cylinder (r=5,h=wheelWidth);
+              cylinder (r=5,h=sideWidth);
 
 
             translate ([tran,-tran,0])
-              cylinder (r=5,h=wheelWidth);
+              cylinder (r=5,h=sideWidth);
             translate ([-tran,-tran,0])
-              cylinder (r=5,h=wheelWidth);
+              cylinder (r=5,h=sideWidth);
 
 
             // translate ([wheelWidth,box_width-wheelWidth,0])
@@ -127,7 +131,7 @@ module sideWAxel() {
   union() {
       side();
 
-      translate([0,0,wheelWidth])
+      translate([0,0,sideWidth])
       axel();
   }
 }
@@ -136,7 +140,7 @@ module sideWAxel() {
 module sideWHole() {
       difference() {
           side();
-          translate([0,0,wheelWidth/2])
+          translate([0,0,sideWidth/2])
               axel();
       }
 }
