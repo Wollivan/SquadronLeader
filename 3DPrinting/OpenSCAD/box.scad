@@ -9,8 +9,8 @@ tolerance = 0.8;
 ///// -- parameters -- /////////
 // Box
 wall=2;
-boxLength = 113;
-boxWidth = 79;
+boxLength = 118;
+boxWidth = 78;
 boxHeight = 32;
 
 lidLength = boxLength+wall*2;
@@ -44,15 +44,17 @@ module shell (width, length, radius, height) {
   }
 }
 
-playerWidth = 28;
-diceWidth = 58;
-diceLength = 24;
+insert_playerX = 28;
+insert_playerY = 28;
 
-healthWidth = 75;
-healthLength = 23;
+insert_diceX = 58;
+insert_diceY = 14;
 
-rulerWidth = 15;
-rulerLength = 84;
+insert_statX = 42;
+insert_statY = 74;
+
+insert_rulerX = 10;
+insert_rulerY = 74;
 
 module insertSection(x, y, tx, ty) {
   translate([tx,ty,-1])
@@ -60,22 +62,22 @@ module insertSection(x, y, tx, ty) {
 }
 module insert() {
   difference() {
-    shell(boxWidth-wall*2,boxLength-wall*2,box_radius_in, tokenHeight*4);
+    shell(boxWidth-wall*2,boxLength-wall*2,box_radius_in, boxHeight/2);
 
-    // player spaces
-    insertSection(playerWidth, playerWidth, 0, 0);
-    insertSection(playerWidth, playerWidth, playerWidth+wall, 0);
-    insertSection(playerWidth, playerWidth, playerWidth+wall, playerWidth+wall);
-    insertSection(playerWidth, playerWidth, 0, playerWidth+wall);
+    // player sections
+    insertSection(insert_playerX, insert_playerY, 0, 0);
+    insertSection(insert_playerX, insert_playerY, insert_playerX+wall, 0);
+    insertSection(insert_playerX, insert_playerY, insert_playerX+wall, insert_playerY+wall);
+    insertSection(insert_playerX, insert_playerY, 0, insert_playerY+wall);
 
-    // range ruler
-    insertSection(rulerLength, rulerWidth, 0, playerWidth*2+wall*2);
+    // dice section
+    insertSection(insert_diceX, insert_diceY, 0, insert_playerX*2+wall*2);
 
-    // dice/stats
-    insertSection(diceLength, diceWidth, playerWidth*2+wall*2, 0);
+    // stat section
+    insertSection(insert_statX, insert_statY, insert_playerX*2+wall*2, 0);
 
-    // health
-    insertSection(healthLength, healthWidth, playerWidth*2+wall*3+diceLength, 0);
+    // ruler section
+    insertSection(insert_rulerX, insert_rulerY, insert_playerX*2+wall*3+insert_statX, 0);
   }
 }
 
