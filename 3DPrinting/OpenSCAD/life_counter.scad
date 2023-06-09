@@ -21,8 +21,8 @@ springOffset = axelDia/2*sin(2*360/10); // determined with magic
 
 
 // output
-sideWAxel();
-translate([0,sideSize+10,0]) sideWHole();
+// sideWAxel();
+// translate([0,sideSize+10,0]) sideWHole();
 translate([0,-sideSize-10,0]) wheel();
 // translate([0,0,wheelWidth]) wheel(); // test
 
@@ -55,7 +55,7 @@ module numbers() {
     rotate([0,0,36])
         for (n=[0:sideNum-1])
         rotate ([0,0,(n-1)*360/sideNum])
-            translate([wheelDia/3,-wheelWidth/2.6,wheelWidth*0.75])
+            translate([wheelDia/3,-wheelWidth/2.6,wheelWidth*0.79])
                 rotate([0,90,0])
                     linear_extrude(4)
                         text(str(n), size=8);
