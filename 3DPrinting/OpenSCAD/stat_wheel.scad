@@ -15,11 +15,13 @@ sideNum = 5;
 axelSides = 10;
 
 springLength = wheelDia*0.8; // determined empirically
-springWidth = 0.8; // determined arbitrarily, adjust for feel
+springWidth = 1; // determined arbitrarily, adjust for feel
 springOffset = axelDia/2*sin(2*360/10); // determined with magic
 
 wheelSet();
-translate([45,0,0]) axelSet();
+axel();
+translate([sideSize+10,sideSize,0]) side();
+translate([0,sideSize,0]) side();
 
 
 module axel(mod){
@@ -106,11 +108,7 @@ module wheelSet() {
   translate([0,wheelDia+5,0]) wheel("icons/speed.svg",0.35, 0.85);
 }
 
-module axelSet() {
-  translate([-5,0,axelDia/2]) rotate([0,90,0]) axel();
-  translate([sideSize+10,sideSize,0]) side();
-  translate([0,sideSize,0]) side();
-}
+
 
 
 //Test only the axis fit before wasting plastic on the whole thing
