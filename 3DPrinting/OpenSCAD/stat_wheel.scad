@@ -15,18 +15,25 @@ sideNum = 5;
 axelSides = 10;
 
 springLength = wheelDia*0.8; // determined empirically
-springWidth = 1; // determined arbitrarily, adjust for feel
+springWidth = 1.2; // determined arbitrarily, adjust for feel
 springOffset = axelDia/2*sin(2*360/10); // determined with magic
 
+// test();
 wheelSet();
-axel();
-translate([sideSize+10,sideSize,0]) side();
-translate([0,sideSize,0]) side();
+rotate([0,0,360/10]) axel();
+sides();
 
 
 module axel(mod){
-  rotate([0,0,18])
-    cylinder(h=axelLength, d=axelDia, $fn=axelSides);
+  union() {
+      rotate([0,0,18])
+        cylinder(h=axelLength+1, d=axelDia, $fn=axelSides);
+      translate([-axelDia/2, -axelDia/2,0])
+        cube([axelDia/2, axelDia/2, sideWidth]);
+
+      translate([-axelDia/2, -axelDia/2,1+axelLength-sideWidth])
+        cube([axelDia/2, axelDia/2, sideWidth]);
+  }
 }
 
 module springs(){
@@ -76,7 +83,7 @@ module wheel(icon, yMod, zMod) {
     }
 }
 
-module side () {
+module sideNoHole () {
   tran = sideSize/3.5;
   difference () {
     hull () {
@@ -84,52 +91,74 @@ module side () {
         cylinder (r=5,h=sideWidth);
       translate ([-tran,tran,0])
         cylinder (r=5,h=sideWidth);
-      translate ([tran,-tran,0])
+      translate ([0,-tran,0])
         cylinder (r=5,h=sideWidth);
-      translate ([-tran,-tran,0])
-        cylinder (r=5,h=sideWidth);
+      // translate ([-tran,-tran,0])
+      //   cylinder (r=5,h=sideWidth);
     }
     // arrow
     translate([0,-sideSize/2,wheelWidth/2-1])
       rotate([90,0,0]) rotate([0,0,90])
         cylinder($fn=3, h=2, r=3);
 
+  }
+}
+
+module sideOne() {
+  difference(){
+    sideNoHole();
+
     // axel hole (obviously)
-    translate([0,0,-sideWidth])
+    translate([0,0,0])
       axel();
   }
 }
 
+module sideTwo() {
+  difference(){
+    sideNoHole();
 
-module wheelSet() {
-  translate([0,0,0]) wheel("icons/health.svg",0.375, 0.86);
-  translate([wheelDia+5,0,0]) wheel("icons/defense.svg",0.4, 0.87);
-  translate([wheelDia+5,wheelDia+5,0]) wheel("icons/attack.svg",0.4, 0.865);
-  translate([0,wheelDia+5,0]) wheel("icons/speed.svg",0.35, 0.85);
-}
+    // axel hole (obviously)
+    rotate([0,0,90])
 
-
-
-
-//Test only the axis fit before wasting plastic on the whole thing
-module axelTest() {
-  union() {
-    difference(){
-      cylinder(d=sideSize/1.75, h=wheelWidth);
-          
-      translate([0,0,-1])
-        cylinder(d=sideSize/2, h=wheelWidth+2);
-    }
-
-    intersection(){
-      cylinder(d=sideSize/1.75, h=wheelWidth);
-      
-      springs();
-    }
+      axel();
   }
-  // translate([0,15,0])
-    scale([1,1,0.3])
-    rotate([0,0,0])
-    axel();
 }
 
+module sides() {
+  // translate([sideSize+10,sideSize,0]) sideOne();
+  translate([0,sideSize,0]) sideTwo();
+}
+module health() {
+  wheel("icons/health.svg",0.375, 0.86);
+}
+
+module defense() {
+  wheel("icons/defense.svg",0.4, 0.87);
+}
+module attack() {
+  wheel("icons/attack.svg",0.4, 0.865);
+}
+module speed() {
+  wheel("icons/speed.svg",0.35, 0.85);
+}
+module wheelSet() {
+  translate([0,0,0]) health();
+  translate([wheelDia+5,0,0]) defense();
+  translate([wheelDia+5,wheelDia+5,0]) attack();
+  translate([0,wheelDia+5,0]) speed();
+}
+
+
+
+
+module test() {
+  axel();
+  side();
+  translate([0,0,sideWidth]) health();
+  translate([0,0,sideWidth+wheelWidth]) defense();
+  translate([0,0,sideWidth+wheelWidth*2]) attack();
+  translate([0,0,sideWidth+wheelWidth*3]) speed();
+  translate([0,0,1+sideWidth+wheelWidth*4]) side();
+
+}
