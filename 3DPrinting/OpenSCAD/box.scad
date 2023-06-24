@@ -5,16 +5,16 @@ use <fonts/RobotoMono-VariableFont_wght.ttf>
 
 $fn=100;
 extra_space=4;
-tolerance = 0.8;
 ///// -- parameters -- /////////
 // Box
 wall=2;
-boxLength = 118;
-boxWidth = 78;
+boxLength = 106; // x
+boxWidth = 78; // y
 boxHeight = 32;
 
 lidLength = boxLength+wall*2;
 lidWidth = boxWidth+wall*2;
+lidHeight = boxHeight*0.4;
 
 box_radius_out=5;  // outer corner radius
 box_radius_in=3;   // inner corner radius
@@ -45,21 +45,20 @@ module shell (width, length, radius, height) {
 }
 
 insert_playerX = 28;
-insert_playerY = 28;
+insert_playerY = 23;
 
 insert_diceX = 58;
-insert_diceY = 14;
+insert_diceY = 24;
 
 insert_statX = 42;
 insert_statY = 74;
 
-insert_rulerX = 10;
-insert_rulerY = 74;
 
 module insertSection(x, y, tx, ty) {
   translate([tx,ty,-1])
     cube([x,y,boxHeight+2]);
 }
+
 module insert() {
   difference() {
     shell(boxWidth-wall*2,boxLength-wall*2,box_radius_in, boxHeight/2);
@@ -71,13 +70,10 @@ module insert() {
     insertSection(insert_playerX, insert_playerY, 0, insert_playerY+wall);
 
     // dice section
-    insertSection(insert_diceX, insert_diceY, 0, insert_playerX*2+wall*2);
+    insertSection(insert_diceX, insert_diceY, 0, insert_playerY*2+wall*2);
 
     // stat section
     insertSection(insert_statX, insert_statY, insert_playerX*2+wall*2, 0);
-
-    // ruler section
-    insertSection(insert_rulerX, insert_rulerY, insert_playerX*2+wall*3+insert_statX, 0);
   }
 }
 
@@ -141,15 +137,15 @@ module box() {
 
 module lid() {
   difference() {
-    shell(lidWidth,lidLength,box_radius_out, boxHeight*0.3);
+    shell(lidWidth,lidLength,box_radius_out, lidHeight);
 
     translate([wall,wall,wall])
-      shell(boxWidth,boxLength,box_radius_in, boxHeight*0.3);
+      shell(boxWidth,boxLength,box_radius_in, lidHeight);
       lidDesign();
   }
 }
 
 translate([0,boxWidth+10,0]) lid();
-box();
+// box();
 // boxNoInsert();
 // insert();
