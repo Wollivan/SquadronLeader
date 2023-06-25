@@ -20,8 +20,8 @@ springOffset = axelDia/2*sin(2*360/10); // determined with magic
 
 // test();
 wheelSet();
-rotate([0,0,360/10]) axel();
-sides();
+// rotate([0,0,360/10]) axel();
+// sides();
 
 
 module axel(mod){
@@ -126,7 +126,7 @@ module sideTwo() {
 }
 
 module sides() {
-  // translate([sideSize+10,sideSize,0]) sideOne();
+  translate([sideSize+10,sideSize,0]) sideOne();
   translate([0,sideSize,0]) sideTwo();
 }
 module health() {
