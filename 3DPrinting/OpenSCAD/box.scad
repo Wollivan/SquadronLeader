@@ -1,8 +1,6 @@
 include <variables.scad>;
 use <fonts/RobotoMono-VariableFont_wght.ttf>
 
-
-
 $fn=100;
 extra_space=4;
 ///// -- parameters -- /////////
@@ -11,10 +9,16 @@ wall=2;
 boxLength = 106; // x
 boxWidth = 78; // y
 boxHeight = 32;
-
 lidLength = boxLength+wall*2;
 lidWidth = boxWidth+wall*2;
 lidHeight = boxHeight*0.4;
+
+
+// Small Box
+smallBoxLength = 89; // x
+smallBoxWidth = 64; // y
+smallLidLength = smallBoxLength+wall*2;
+smallLidWidth = smallBoxWidth+wall*2;
 
 box_radius_out=5;  // outer corner radius
 box_radius_in=3;   // inner corner radius
@@ -24,9 +28,6 @@ box_radius_in=3;   // inner corner radius
 module box_cylinder (radius, height) {
   cylinder (r=radius,h=height);
 }
-
-
-
 
 module shell (width, length, radius, height) {
   difference () {
@@ -77,6 +78,31 @@ module insert() {
   }
 }
 
+
+insert_diceX_small = 25;
+insert_diceY_small = 48;
+
+insert_statX_small = 85;
+insert_statY_small = 10;
+
+module smallInsert() {
+  difference() {
+    shell(smallBoxWidth-wall*2,smallBoxLength-wall*2,box_radius_in, boxHeight/2);
+
+    // player sections
+    insertSection(insert_playerX, insert_playerY, 0, 0);
+    insertSection(insert_playerX, insert_playerY, insert_playerX+wall, 0);
+    insertSection(insert_playerX, insert_playerY, insert_playerX+wall, insert_playerY+wall);
+    insertSection(insert_playerX, insert_playerY, 0, insert_playerY+wall);
+
+    // dice section
+    insertSection(insert_diceX_small, insert_diceY_small, insert_playerX*2+wall*2, 0);
+
+    // stat section
+    insertSection(insert_statX_small, insert_statY_small, 0, insert_playerY*2+wall*2);
+  }
+}
+
 module thinToken(){
     translate([0,0,0])
     //cube([tokenWidth,tokenWidth,tokenHeight], true); 
@@ -96,8 +122,8 @@ module tokenIcon() {
   }
 }
 
-module lidDesign() {
-  translate([lidLength/1.25, lidWidth/1.6,-wall/2])
+module lidDesign(wid, len) {
+  translate([len/1.25, wid/1.6,-wall/2])
     tokenIcon();
   translate([wall*2, 10.5+wall*3, -0.1])
       linear_extrude(height = wall/2)
@@ -108,32 +134,30 @@ module lidDesign() {
           mirror([0, 1, 0])
               text("Leader", valign="top");
 
-  translate([wall*2, lidWidth-10, -0.1])
+  translate([wall*2, wid-10, -0.1])
       linear_extrude(height = wall/2)
           mirror([0, 1, 0])
-              text("A Game by Tim Smith", font="RobotoMono", valign="top", size=6);
+              text("Wollivan Games", font="RobotoMono", valign="top", size=6);
 
 }
 
-module boxNoInsert() {
+module boxNoInsert(wid,len) {
   difference() {
-    shell(boxWidth,boxLength,box_radius_out, boxHeight);
+    shell(wid,len,box_radius_out, boxHeight);
 
     translate([wall,wall,wall])
-      shell(boxWidth-wall*2,boxLength-wall*2,box_radius_in, boxHeight);
+      shell(wid-wall*2,len-wall*2,box_radius_in, boxHeight);
   }
 }
 
 module box() {
   union(){
-    boxNoInsert();
+    boxNoInsert(boxWidth,boxLength);
 
     translate([wall,wall,0])
       insert();
   }
 }
-
-
 
 module lid() {
   difference() {
@@ -141,11 +165,36 @@ module lid() {
 
     translate([wall,wall,wall])
       shell(boxWidth,boxLength,box_radius_in, lidHeight);
-      lidDesign();
+      lidDesign(lidWidth, lidLength);
   }
 }
 
-translate([0,boxWidth+10,0]) lid();
+
+module smallBox() {
+  union(){
+    boxNoInsert(smallBoxWidth,smallBoxLength);
+
+    translate([wall,wall,0])
+      smallInsert();
+  }
+}
+
+module smallLid() {
+  difference() {
+    shell(smallLidWidth,smallLidLength,box_radius_out, lidHeight);
+
+    translate([wall,wall,wall])
+      shell(smallBoxWidth,smallBoxLength,box_radius_in, lidHeight);
+      lidDesign(smallLidWidth, smallLidLength);
+  }
+}
+
+
+
+
+// translate([0,boxWidth+10,0]) lid();
 // box();
 // boxNoInsert();
 // insert();
+smallBox();
+translate([0,smallBoxWidth+10,0])  smallLid();
