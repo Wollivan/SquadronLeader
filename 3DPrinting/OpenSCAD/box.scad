@@ -6,8 +6,8 @@ extra_space=4;
 ///// -- parameters -- /////////
 // Box
 wall=2;
-boxLength = 106; // x
-boxWidth = 78; // y
+boxLength = 102; // x
+boxWidth = 84; // y
 boxHeight = 32;
 lidLength = boxLength+wall*2;
 lidWidth = boxWidth+wall*2;
@@ -45,14 +45,14 @@ module shell (width, length, radius, height) {
   }
 }
 
-insert_playerX = 28;
+insert_playerX = 26;
 insert_playerY = 23;
 
-insert_diceX = 58;
-insert_diceY = 24;
+insert_diceX = 54;
+insert_diceY = 30;
 
 insert_statX = 42;
-insert_statY = 74;
+insert_statY = 80;
 
 
 module insertSection(x, y, tx, ty) {
@@ -119,6 +119,18 @@ module tokenIcon() {
             // rotate([0,0,-90])
                         import("icons/plane-model.svg", center=true);
                 }
+  }
+}
+module iconInsert() {
+  difference() {
+    scale([0.95,0.95,0.5])
+      thinToken();
+    translate([0,1.07, -1])
+      scale(1.05) 
+        linear_extrude(height = tokenHeight*2) {
+            resize([0, 20, 0], auto=true)
+              import("icons/plane-model.svg", center=true);
+        }
   }
 }
 
@@ -196,5 +208,7 @@ module smallLid() {
 // box();
 // boxNoInsert();
 // insert();
-smallBox();
-translate([0,smallBoxWidth+10,0])  smallLid();
+// smallBox();
+// translate([0,smallBoxWidth+10,0])  smallLid();
+
+rotate([0,180,0]) iconInsert();
