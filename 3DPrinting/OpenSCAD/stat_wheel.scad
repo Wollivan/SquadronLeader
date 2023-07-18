@@ -8,9 +8,6 @@ sideSize = wheelDia;
 axelDia= wheelDia/3;
 axelLength = wheelWidth*5;
 
-magnetDia = 5;
-magnetHeight = 5;
-
 sideNum = 5;
 axelSides = 10;
 
@@ -19,9 +16,9 @@ springWidth = 1.2; // determined arbitrarily, adjust for feel
 springOffset = axelDia/2*sin(2*360/10); // determined with magic
 
 // test();
-wheelSet();
+// wheelSet();
 // rotate([0,0,360/10]) axel();
-// sides();
+side();
 
 
 module axel(mod){
@@ -83,7 +80,7 @@ module wheel(icon, yMod, zMod) {
     }
 }
 
-module sideNoHole () {
+module side () {
   tran = sideSize/3.5;
   difference () {
     hull () {
@@ -96,17 +93,12 @@ module sideNoHole () {
       // translate ([-tran,-tran,0])
       //   cylinder (r=5,h=sideWidth);
     }
-    // arrow
-    translate([0,-sideSize/2,wheelWidth/2-1])
-      rotate([90,0,0]) rotate([0,0,90])
-        cylinder($fn=3, h=2, r=3);
-
-  }
-}
-
-module sideOne() {
-  difference(){
-    sideNoHole();
+    // top marker
+    translate([0,-sideSize/1.8,wheelWidth/4])
+      cube([3,2,wheelWidth], true);
+    // translate([0,-sideSize/2,wheelWidth/2-1])
+    //   rotate([90,0,0]) rotate([0,0,90])
+    //     cylinder($fn=3, h=2, r=3);
 
     // axel hole (obviously)
     translate([0,0,0])
@@ -114,21 +106,6 @@ module sideOne() {
   }
 }
 
-module sideTwo() {
-  difference(){
-    sideNoHole();
-
-    // axel hole (obviously)
-    rotate([0,0,90])
-
-      axel();
-  }
-}
-
-module sides() {
-  translate([sideSize+10,sideSize,0]) sideOne();
-  translate([0,sideSize,0]) sideTwo();
-}
 module health() {
   wheel("icons/health.svg",0.375, 0.86);
 }

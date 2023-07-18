@@ -1,109 +1,115 @@
 # Rules
 
-The objective of the game is to be the last plane left in the air by reducing your opponents Health to zero.
+**Objective:** Be the last plane in the air by reducing your opponents' Health to zero.
 
-Each pilot will need:
+## Setup:
+
+Each player needs:
 
 - 1 plane token
 - 4 altitude tokens
 
-The pilots will share:
+Shared items:
 
 - 1 move template
 - 1 range ruler
-- 4 Red d6 for the Attack dice
-- 4 Green d6 for the Defense dice
+- 4 Red d6 for Attack dice
+- 4 Green d6 for Defense dice
 
-The playing area of the game can be any size. Its usually just the entire table but if you want to have a consistent size try 3 lengths of the range ruler.
+### Playing Area:
 
-At the start of the game each player assigns their choice from 4, 3, 3, 2 to their:
+The playing area can be any size, typically the entire table. For a consistent size, try 3 lengths of the range ruler.
+
+### Starting Assignments:
+
+At the beginning of the game, each player assigns values from 4, 3, 3, 2 to the following attributes:
 
 - Health
 - Defense
 - Attack
 - Manoeuvrability
 
-A good starting setup for new players is:
+Suggested starting setup for new players:
 
-- Health - 3
-- Defense - 3
-- Attack - 2
-- Manoeuvrability - 4
+- Health: 3
+- Defense: 3
+- Attack: 2
+- Manoeuvrability: 4
 
-If you don't have any of the printable stat trackers, use the <a href="https://squadronleader.wollivan.dev/rules/advanced-manoeuvres">digital plane stat tracker</a>.
+If printable stat trackers are not available, use the [digital plane stat tracker](https://squadronleader.wollivan.dev/rules/advanced-manoeuvres).
 
-The last player who saw a plane in real life goes first.
+### Determining First Player:
 
-Each player places their plane on the playing area in turn.
-It should be placed within range 1 of the edge of the playing area, and no closer than the ranger ruler to another player.
+The player who last saw a plane in real life goes first.
 
-There are 2 stages each round, the manoeuvre Stage and the Attack Stage.
-Everyone moves their plane during the manoeuvre stage, and after that, everyone Attacks during the Attack Stage.
-Here is how that works:
+### Placing the Planes:
+
+Each player places their plane on the playing area in turn. The plane should be placed within range 1 of the edge of the playing area, and no closer than the range ruler's length to another player.
+
+### Game Rounds:
+
+Each round consists of two stages: the Manoeuvre Stage and the Attack Stage.
+
+The player who starts the round moves and attacks first. In the next round, the player to their left will start the round.
 
 ## Manoeuvre Stage:
 
-- To move, place the manoeuvre template at the front of the plane token, and move the plane to the other end of the template.
-- The player may use templates up to the value of their Manoeuvrability, for example a player with a Manoeuvrability of 4 can execute 2 straight manoeuvres & 1 bank manoeuvre (1 + 1 + 2).
-- A player must complete at least one manoeuvre each round otherwise their plane would stall and they would plummet to the ground!
-- If any part of a plane token goes off the board at the end of a manoeuvre, that plane is destroyed!
+- To move, place the manoeuvre template at the front of the plane token and move the plane to the other end of the template.
+- Players can use manoeuvre templates up to the value of their Manoeuvrability. For example, a player with Manoeuvrability 4 can execute 2 straight manoeuvres and 1 bank manoeuvre (1 + 1 + 2).
+- Each player must complete at least one manoeuvre each round; otherwise, their plane will stall and plummet to the ground.
+- If any part of a plane token goes off the board at the end of a manoeuvre, that plane is destroyed.
 
-![manoeuvre_diagram](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Rules/ManoeuvreExamples/manoeuvres.png)
+### Altitude:
 
-### Altitude
+Take advantage of the sky's vastness!
 
-The sky is a big place. Let's take advantage of that!
+- At the start of the game, each player begins with 0 altitude tokens.
+- Once per round during their manoeuvre stage, a player may spend 1 Manoeuvrability to Climb and add 1 altitude token beneath their plane.
+- Players can gain a maximum of 1 altitude per round.
+- If a player hasn't Climbed this round, they may Dive by removing any number of altitude tokens to gain an equal amount of Manoeuvrability this round.
+- The maximum allowed altitude is 4.
 
-- At the start of the game each player takes off with 0 altitude tokens.
-- Once per round during their manoeuvre stage, a player may spend 1 Manoeuvrability to Climb and add 1 altitude token underneath their plane.
-- Players can only gain 1 altitude per round.
-- If a player hasn't Climbed this round, they may Dive by removing any number of altitude tokens to gain that much Manoeuvrability this round.
-- The maximum altitude allowed is 4.
+### Split S
+
+This manoeuvre prevents a pilot from being stuck when they are being tailed by an opponent.
+
+**Cost:** 4 altitude
+**Action:** Turn 180° after manoeuvre
+
+![split_s_diagram](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Rules/ManoeuvreDiagrams/split_s.png)
 
 ## Attack Stage:
 
 - The attacker declares which enemy plane they will attack.
-- A player can only attack if the enemy plane is within in range.
-  - Use the range ruler, ensuring both planes are within that distance to each other.
-- The defender must also be within the attackers firing arc which is shown with the 90° lines on the front of the token.
+- A player can only attack if the enemy plane is within range.
+  - Use the range ruler to ensure both planes are within the designated distance from each other.
+- The defender must also be within the attacker's firing arc, indicated by the 90° lines on the front of the token.
 - The attacking player rolls a number of Attack dice equal to their Attack value.
 - The defending player rolls a number of Defense dice equal to their Defense value.
-- Each value of 4-6 rolled on the Attack dice counts as a **hit** and will deal 1 damage.
+- Each value of 4-6 rolled on the Attack dice counts as a **hit** and deals 1 damage.
 - Each value of 4-6 rolled on the Defense dice counts as a **dodge** and cancels out a hit.
-- Rolling a 6 is either a **critical hit** or a **vital dodge**, and counts as 2 hits or dodges respectively.
-- The defender loses Health equal to the hits that haven’t been canceled out.
+- Rolling a 6 results in a **critical hit** or a **vital dodge**, counting as 2 hits or dodges respectively.
+- The defender loses Health equal to the uncanceled hits.
 
-This image shows a situation where the white plane can shoot at the yellow plane (blue arc) and the yellow plane CAN'T shoot at the white plane (red arc).
+Example of the firing arc:
 ![firing-arc](https://user-images.githubusercontent.com/91621088/167209670-d14cfa27-6109-4bee-8a9e-e8c88d571aa2.jpg)
 
-Tip: use the box lid as a dice tray to avoid moving your plane tokens around by accident!
+### Attack/Defense Bonuses:
 
-### Attack/Defense bonuses
+Bonuses allow rerolling of dice. The number of dice rolled is determined by the Attack/Defense stats.
 
-All bonuses come in the form of rerolling dice. You will always roll a number of dice equal to your attack/defense stats.
-
-There is no limit to the number of bonuses you can have in one turn. If multiple abilities allow you to reroll a die, you can reroll that many dice, even if its the same dice being rolled multple times.
-
-- The defender may reroll 1 die if they are within range 3 from the attacker
-- The attacker may reroll 1 dice if the defender is within range 1
-- If the defender is within the forward firing guides the attacker may reroll 1 die
-- An attcker or defender with a greater altitude to the defender may reroll 1 die
-- You are the Ace (see below)
-
-#### Ace Pilot
-
-Earn your wings and keep the action moving!
-
-- When you destroy another players plane, you become the Ace
-- For as long as they are the Ace you may reroll 1 Attack dice and 1 Defense dice each round
-- There can only be one Ace in the sky at a time
+- The defender may reroll 1 die if they are within range 3 of the attacker.
+- The attacker may reroll 1 die if the defender is within range 1.
+- If the defender is within the attacker's forward firing guides, the attacker may reroll 1 die.
+- An attacker or defender with higher altitude may reroll 1 die.
+- When you destroy an enemy plane, you may reroll 1 die during your next attack.
 
 ## Next Round:
 
-After the last player who can attack is finished, a new round begins and the player who went second in the previous round now begins the next round.
+After the last player who can attack finishes their turn, a new round begins with the next starting player.
 
-## Advanced Manoeuvres
+### Advanced Manoeuvres:
 
-Now check out the <a href="https://squadronleader.wollivan.dev/rules/advanced-manoeuvres">advanced manoeuvers</a> and see if you have what it takes to rule the air!
+Explore the [advanced manoeuvres](https://squadronleader.wollivan.dev/rules/advanced-manoeuvres) and test your skills to rule the air!
 
-Enough chatter, time to take to the skies!
+Enough chatter, it's time to take to the skies!
