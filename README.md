@@ -10,34 +10,26 @@
 
 ![SquadronLeader](https://user-images.githubusercontent.com/91621088/168493767-c1d63822-c580-4a32-9528-802238ef4220.png)
 
-Squadron Leader is a fast pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built in that can be enjoyed by all ages!
+Squadron Leader is a fast-pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built-in that can be enjoyed by all ages!
 
 The modular nature of the rules allows for players to customise their game and add entirely new layers of strategy.
 
-We encourage the use of house rules, and if you think your rule improves the game, make a suggestions on <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>!
+We encourage the use of house rules, and if you think your rule improves the game, make a suggestion on <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>!
 
 Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
 
-#### Learn the Game
+### Learn the Game
 
-<a href="https://squadronleader.wollivan.dev/rules" class="button">How to Play</a>
+- [How to Play](https://squadronleader.wollivan.dev/rules)
+- [Advanced Manoeuvres](https://squadronleader.wollivan.dev/rules/advanced-manoeuvres)
+- [Plane Stat Tracker](https://squadronleader.wollivan.dev/tracker)
 
-Once you get the hang of the rules, checkout the Advanced Manoeuvres:
+### Get Involved
 
-<a href="https://squadronleader.wollivan.dev/rules/advanced-manoeuvres" class="button">Advanced Manoeuvres</a>
+- [Printing Instructions](https://squadronleader.wollivan.dev/make-a-copy)
+- [Open Source Project on GitHub](https://github.com/Wollivan/SquadronLeader)
 
-When you're ready to start playing, you can use the plane tracker to make it easier to remember the different plane's stats.
-
-<a href="https://squadronleader.wollivan.dev/tracker" class="button">Plane Stat Tracker</a>
-
-#### Get Involved
-
-Here are all the instructions for <a href="https://squadronleader.wollivan.dev/make-a-copy">printing your own copy</a>.
-
-If you have ANY ideas for rule changes, new rules or expansions, this is an Open Source project, so don't hesitate to make a fork!
-
-#### Note from the creator:
-
+**Note from the creator:**
 This project is made possible only through the continued support of <a href="https://squadronleader.wollivan.dev/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.
 If you're viewing this on the website and want to see all the incredible work from the amazing people making this game better, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a>, <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> and <a href="https://github.com/Wollivan/SquadronLeader/discussions" target="_blank">discussions</a> on GitHub.
 
@@ -60,4 +52,4 @@ This license requires that reusers give credit to the creator. It allows reusers
 
 BY: Credit must be given to the creator.
 
-SA: Adaptations must be shared under the same terms
+SA: Adaptations must be shared under the same terms.
