@@ -10,12 +10,6 @@ There are only 3 assets that **need** to be printed.
 
 ![player_assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Extras/player_assets.png)
 
-## Keep Track of stats and Health
-
-If you don't want to use the <a href="https://squadronleader.wollivan.dev/tracker" target="_blank">digital stat tracker</a>, you can print the Stat Board so each player can quickly reference their stats.
-
-To keep track of health, you can print the two life tracker sides, and a wheel in each p;ayers colour.
-
 ## Printing instructions
 
 You will need to print the following from the <a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs" target="_blank">STLs</a> directory:
@@ -30,9 +24,19 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 
 - manoeuvre_template.stl
 - range_ruler.stl
-- box.stl
-- life_tracker/side_w_axel.stl
-- life_tracker/side_w_hole.stl
+- box.stl (box_small.stl if you **aren't** printing the stat wheels)
+
+### Optional Stat Trackers
+
+If you don't want to use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker &#x2197;</a>, you can print the Stat Wheel so each player can quickly reference their stats and health.
+
+For each player, print:
+
+- stat_wheels.stl
+- stat_side.stl x2
+- stat_axel.stl
+
+**Tip:** Flip one of the stat_side's, so the finish on each end of the final wheel is the same.
 
 ### Optional fancy box topper:
 
@@ -42,8 +46,7 @@ FancyBoxTopper.stl is glued onto FancyBoxTop.stl. The topper is 'divided' into 5
 
 ### Rules Quick Reference Cards
 
-There are 4 cards that have a quick reference for the basic and advanced rules. You can find them <a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs" target="_blank">here</a>.
-The size is made to fit on standard business cards so you can get them printed double sided and only need to put 2 cards in a box.
+There are 2 images that, when printed back to back, create a trifold quick reference rules book. You can find them <a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs" target="_blank">here</a>.
 
 ## Downloads
 
