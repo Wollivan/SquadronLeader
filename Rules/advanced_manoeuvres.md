@@ -9,6 +9,7 @@ For players already familiar with the core rules or those seeking to become worl
 This manoeuvre seperates the timid from the bold!
 
 **Cost:** Manoeuvre cost doubled
+
 **Action:** Don't rotate plane after manoeuvre
 
 ![barrel_roll_diagram](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Rules/ManoeuvreDiagrams/barrel_roll.png)
@@ -18,7 +19,9 @@ This manoeuvre seperates the timid from the bold!
 Reward hyper-aggresive tactics with this risky manoeuvre!
 
 **Requirement:** Perform an attack against a plane within range 1 that has less altitude
+
 **Cost:** Reduce altitude to match defender
+
 **Action:** Roll a d6:
 
 - Result of 3-6: Deal one damage.
@@ -33,6 +36,7 @@ Not to be confused with Divebomb, the homicidal Decepticon.
 Few pilots ever pull this manoeuvre off.
 
 **Requirement:** Eliminate opponent while you have no altitude tokens
+
 **Action:** Gain 4 altitude, perform a straight manoeuvre and rotate plane 180°
 
 ![immelmann_diagram](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Rules/ManoeuvreDiagrams/immelmann.png)
@@ -44,6 +48,7 @@ This manoeuvre rewards daring pilots who are willing to test the limits of the a
 A player may push the envelope during the manoeuvre stage and roll a d6:
 
 **Requirement:** Execute during Manoeuvre stage, once per round
+
 **Action:** Roll a d6:
 
 - Result of 5-6: Gain 1 manoeuverability this round OR 1 extra altitude.
