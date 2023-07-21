@@ -7,8 +7,7 @@
 # Squadron Leader
 
 #### The aerial combat game you can fit in your pocket!
-
-![SquadronLeader](https://user-images.githubusercontent.com/91621088/168493767-c1d63822-c580-4a32-9528-802238ef4220.png)
+![Squadron Leader Full Set](https://github.com/Wollivan/SquadronLeader/assets/91621088/95237992-1433-4952-95dd-022060729741)
 
 Squadron Leader is a fast-pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built-in that can be enjoyed by all ages!
 
@@ -17,6 +16,8 @@ The modular nature of the rules allows for players to customise their game and a
 We encourage the use of house rules, and if you think your rule improves the game, make a suggestion on <a href="https://github.com/Wollivan/SquadronLeader" target="_blank">GitHub</a>!
 
 Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
+
+![Squadron Leader Tin Art](https://user-images.githubusercontent.com/91621088/168493767-c1d63822-c580-4a32-9528-802238ef4220.png)
 
 ### Learn the Game
 
@@ -32,12 +33,6 @@ Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
 **Note from the creator:**
 This project is made possible only through the continued support of <a href="https://squadronleader.wollivan.dev/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.
 If you're viewing this on the website and want to see all the incredible work from the amazing people making this game better, check out the <a href="https://github.com/Wollivan/SquadronLeader/issues?q=is%3Aissue" target="_blank">issues</a>, <a href="https://github.com/Wollivan/SquadronLeader/pulls?q=is%3Apr" target="_blank">pull requests</a> and <a href="https://github.com/Wollivan/SquadronLeader/discussions" target="_blank">discussions</a> on GitHub.
-
-#### Example print
-
-This amazing set was printed by Greg (who also designed the first score keeper pieces)
-
-![greg-box](https://user-images.githubusercontent.com/91621088/210184175-434638bb-5560-4614-b36b-49738572a15d.gif)
 
 ## License
 
