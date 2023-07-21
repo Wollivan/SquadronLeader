@@ -58,3 +58,9 @@ You can download all the printable assets from GitHub. We aren't on any STL shar
 
 The game was originally designed to fit in old tobacco tins, so it is joyful to see copies of this in old tins!
 If you want a classic Squadron Leader tobacco tin without getting out a small loan <a href="https://www.etsy.com/uk/listing/273646926/all-reserved-vintage-squadron-leader?show_sold_out_detail=1&ref=nla_listing_details" target="_blank">you can get an imitation here</a>.
+
+#### Example print
+
+This amazing set was printed by Greg (who also designed the first score keeper pieces)
+
+![greg-box](https://user-images.githubusercontent.com/91621088/210184175-434638bb-5560-4614-b36b-49738572a15d.gif)
