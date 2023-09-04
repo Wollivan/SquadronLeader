@@ -10,7 +10,6 @@
 
 ![Squadron Leader Full Set](https://github.com/Wollivan/SquadronLeader/assets/91621088/6e049c24-19cb-441c-bece-da09bf9a0b3e)
 
-
 Squadron Leader is a fast-pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built-in that can be enjoyed by all ages!
 
 The modular nature of the rules allows for players to customise their game and add entirely new layers of strategy.
@@ -29,8 +28,9 @@ Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
 
 ### Get Involved
 
-- [Printing Instructions](https://squadronleader.wollivan.dev/make-a-copy)
-- [Open Source Project on GitHub](https://github.com/Wollivan/SquadronLeader)
+- [Buy a copy](https://squadronleader.wollivan.dev/buy-a-copy)
+- [Make your own copy](https://squadronleader.wollivan.dev/make-a-copy)
+- [Make a change to the Project on GitHub](https://github.com/Wollivan/SquadronLeader)
 
 **Note from the creator:**
 This project is made possible only through the continued support of <a href="https://squadronleader.wollivan.dev/thanks" target="_blank">so many incredible people</a>, and for that I will be eternily grateful.

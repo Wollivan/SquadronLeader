@@ -1,6 +1,7 @@
 # Getting a Copy of the Game
 
-At the moment the only way to get a copy of this game is to make it yourself, or find a friend with a 3D printer who is willing to print it for you. In the future there may be a way to order them, or even a crowd funding thing... who knows!
+If you have a working 3D printer, you have all you need to make a copy of the game!
+If you DON'T have a printer, we do, so you can [get a copy here](https://squadronleader.wollivan.dev/buy-a-copy).
 
 There are only 3 assets that **need** to be printed.
 
