@@ -24,17 +24,17 @@ The playing area can be any size, typically the entire table. For a consistent s
 
 At the beginning of the game, each player assigns values from 4, 3, 3, 2 to the following attributes:
 
-- Health
-- Defense
-- Attack
-- Manoeuvrability
+<img src="../3DPrinting//OpenSCAD//icons//health.svg" width="12" style="display:inline-block"/> - Health
+<img src="../3DPrinting//OpenSCAD//icons//defense.svg" width="11.5" style="display:inline-block"/> - Defense
+<img src="../3DPrinting//OpenSCAD//icons//attack.svg" width="14" style="display:inline-block"/> - Attack
+<img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> - Manoeuvrability
 
 Suggested starting setup for new players:
 
-- Health: 3
-- Defense: 3
-- Attack: 2
-- Manoeuvrability: 4
+<img src="../3DPrinting//OpenSCAD//icons//health.svg" width="12" style="display:inline-block"/> - 3
+<img src="../3DPrinting//OpenSCAD//icons//defense.svg" width="11.5" style="display:inline-block"/> - 3
+<img src="../3DPrinting//OpenSCAD//icons//attack.svg" width="14" style="display:inline-block"/> - 2
+<img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> - 4
 
 If printable stat trackers are not available, use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker</a>
 
@@ -55,7 +55,7 @@ The player who starts the round moves and attacks first. In the next round, the 
 ## Manoeuvre Stage:
 
 - To move, place the manoeuvre template at the front of the plane token and move the plane to the other end of the template.
-- Players can use manoeuvre templates up to the value of their Manoeuvrability. For example, a player with Manoeuvrability 4 can execute 2 straight manoeuvres and 1 bank manoeuvre (1 + 1 + 2).
+- Players can use manoeuvre templates up to the value of their <img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> score. For example, a player with <img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> 4 can execute 2 straight manoeuvres and 1 bank manoeuvre (1 + 1 + 2).
 - Each player must complete at least one manoeuvre each round; otherwise, their plane will stall and plummet to the ground.
 - If any part of a plane token goes off the board at the end of a manoeuvre, that plane is destroyed.
 
@@ -64,9 +64,9 @@ The player who starts the round moves and attacks first. In the next round, the 
 Take advantage of the sky's vastness!
 
 - At the start of the game, each player begins with 0 altitude tokens.
-- Once per round during their manoeuvre stage, a player may spend 1 Manoeuvrability to Climb and add 1 altitude token beneath their plane.
+- Once per round during their manoeuvre stage, a player may spend 1 <img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> to Climb and add 1 altitude token beneath their plane.
 - Players can gain a maximum of 1 altitude per round.
-- If a player hasn't Climbed this round, they may Dive by removing any number of altitude tokens to gain an equal amount of Manoeuvrability this round.
+- If a player hasn't Climbed this round, they may Dive by removing any number of altitude tokens to gain an equal amount of <img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> this round.
 - The maximum allowed altitude is 4.
 
 ### Split S
@@ -84,12 +84,12 @@ This manoeuvre prevents a pilot from being stuck when they are being tailed by a
 - A player can only attack if the enemy plane is within range.
   - Use the range ruler to ensure both planes are within the designated distance from each other.
 - The defender must also be within the attacker's firing arc, indicated by the 90° lines on the front of the token.
-- The attacking player rolls a number of Attack dice equal to their Attack value.
-- The defending player rolls a number of Defense dice equal to their Defense value.
-- Each value of 4-6 rolled on the Attack dice counts as a **hit** and deals 1 damage.
-- Each value of 4-6 rolled on the Defense dice counts as a **dodge** and cancels out a hit.
+- The attacking player rolls a number of <img src="../3DPrinting//OpenSCAD//icons//attack.svg" width="14" style="display:inline-block"/> dice equal to their Attack value.
+- The defending player rolls a number of <img src="../3DPrinting//OpenSCAD//icons//defense.svg" width="11.5" style="display:inline-block"/> dice equal to their Defense value.
+- Each value of 4-6 rolled on the <img src="../3DPrinting//OpenSCAD//icons//attack.svg" width="14" style="display:inline-block"/> dice counts as a **hit** and deals 1 damage.
+- Each value of 4-6 rolled on the <img src="../3DPrinting//OpenSCAD//icons//defense.svg" width="11.5" style="display:inline-block"/> dice counts as a **dodge** and cancels out a hit.
 - Rolling a 6 results in a **critical hit** or a **vital dodge**, counting as 2 hits or dodges respectively.
-- The defender loses Health equal to the uncanceled hits.
+- The defender loses <img src="../3DPrinting//OpenSCAD//icons//health.svg" width="12" style="display:inline-block"/> equal to the uncanceled hits.
 
 Example of the firing arc:
 ![firing-arc](https://user-images.githubusercontent.com/91621088/167209670-d14cfa27-6109-4bee-8a9e-e8c88d571aa2.jpg)
