@@ -7,6 +7,7 @@
 # Squadron Leader
 
 #### The aerial combat game you can fit in your pocket!
+
 ![Squadron Leader Full Set](https://github.com/Wollivan/SquadronLeader/assets/91621088/95237992-1433-4952-95dd-022060729741)
 
 Squadron Leader is a fast-pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built-in that can be enjoyed by all ages!
@@ -23,7 +24,7 @@ Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
 
 - [How to Play](https://squadronleader.wollivan.dev/rules)
 - [Advanced Manoeuvres](https://squadronleader.wollivan.dev/rules/advanced-manoeuvres)
-- <a href="https://planes.wollivan.dev/" target="_blank">Plane Stat Tracker &#x2197;</a>
+- <a href="https://planes.wollivan.dev/" target="_blank">Plane Stat Tracker</a>
 
 ### Get Involved
 
