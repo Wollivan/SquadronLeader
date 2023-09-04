@@ -26,6 +26,11 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 - manoeuvre_template.stl
 - range_ruler.stl
 - box.stl (box_small.stl if you **aren't** printing the stat wheels)
+- 4 green dice and 4 red dice
+
+For the dice, you don't need to print them, we use Oakie Doakie Dice in the copies we sell, but any 12mm dice will fit in the printed box.
+
+_Also to note, the colours in the copy we sell are Overture PLA: Green, Light Blue, Yellow, Matte Orange & Light Brown._
 
 ### Optional Stat Trackers
 
