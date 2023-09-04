@@ -8,7 +8,7 @@ For players already familiar with the core rules or those seeking to become worl
 
 This manoeuvre seperates the timid from the bold!
 
-**Cost:** <img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> cost doubled
+**Cost:** <img class="small-icon" src="https://squadronleader.wollivan.dev/icons/manoeuvrability.svg" width="12" style="display:inline-block"/> cost doubled
 
 **Action:** Don't rotate plane after manoeuvre
 
@@ -51,7 +51,7 @@ A player may push the envelope during the manoeuvre stage and roll a d6:
 
 **Action:** Roll a d6:
 
-- Result of 5-6: Gain 1 <img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> this round OR 1 extra altitude.
+- Result of 5-6: Gain 1 <img class="small-icon" src="https://squadronleader.wollivan.dev/icons/manoeuvrability.svg" width="12" style="display:inline-block"/> this round OR 1 extra altitude.
 - Result of 1-4: Take one damage.
 
 ![push-the-envelope](https://github.com/Wollivan/SquadronLeader/assets/91621088/4d42ef50-5f53-49ea-a8af-8a6b4e74fe0a)
