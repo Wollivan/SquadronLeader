@@ -36,7 +36,7 @@ Suggested starting setup for new players:
 - Attack: 2
 - Manoeuvrability: 4
 
-If printable stat trackers are not available, use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker &#x2197;</a>
+If printable stat trackers are not available, use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker</a>
 
 ### Determining First Player:
 

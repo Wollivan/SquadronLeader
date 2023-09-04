@@ -149,8 +149,21 @@ module lidDesign(wid, len) {
   translate([wall*2, wid-10, -0.1])
       linear_extrude(height = wall/2)
           mirror([0, 1, 0])
-              text("Wollivan Games", font="RobotoMono", valign="top", size=6);
+//              text("Wollivan Games", font="RobotoMono", valign="top", size=6);
+              text("Wollivan Games", font="RobotoMono", valign="top", size=5.5);
 
+
+// rules
+    translate([wall*2, wid-40, wall/2])
+      linear_extrude(height = wall)
+//          mirror([0, 1, 0])
+//              text("Wollivan Games", font="RobotoMono", valign="top", size=6);
+              text("Rules:", font="RobotoMono", valign="top", size=6);
+   translate([wall*2, wid-50, wall/2])
+      linear_extrude(height = wall)
+//          mirror([0, 1, 0])
+//              text("Wollivan Games", font="RobotoMono", valign="top", size=6);
+              text("sl.wollivan.dev", font="RobotoMono", valign="top", size=6);
 }
 
 module boxNoInsert(wid,len) {
@@ -204,11 +217,11 @@ module smallLid() {
 
 
 
-// translate([0,boxWidth+10,0]) lid();
-// box();
+translate([0,boxWidth+10,0]) lid();
+box();
 // boxNoInsert();
 // insert();
 // smallBox();
 // translate([0,smallBoxWidth+10,0])  smallLid();
 
-rotate([0,180,0]) iconInsert();
+// rotate([0,180,0]) iconInsert();

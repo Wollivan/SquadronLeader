@@ -28,7 +28,7 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 
 ### Optional Stat Trackers
 
-If you don't want to use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker &#x2197;</a>, you can print the Stat Wheel so each player can quickly reference their stats and health.
+If you don't want to use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker</a>, you can print the Stat Wheel so each player can quickly reference their stats and health.
 
 For each player, print:
 
