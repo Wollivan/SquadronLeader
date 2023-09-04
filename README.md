@@ -6,9 +6,10 @@
 
 # Squadron Leader
 
-#### The aerial combat game you can fit in your pocket!
+#### The 3D printed, open source, aerial combat game you can fit in your pocket!
 
-![Squadron Leader Full Set](https://github.com/Wollivan/SquadronLeader/assets/91621088/95237992-1433-4952-95dd-022060729741)
+![Squadron Leader Full Set](https://github.com/Wollivan/SquadronLeader/assets/91621088/6e049c24-19cb-441c-bece-da09bf9a0b3e)
+
 
 Squadron Leader is a fast-pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built-in that can be enjoyed by all ages!
 
