@@ -26,7 +26,7 @@ At the beginning of the game, each player assigns values from 4, 3, 3, 2 to the 
 
 <img class="small-icon" src="https://squadronleader.wollivan.dev/icons/health.svg" width="12" style="display:inline-block"/> - Health
 
-<span><img class="small-icon" src="https://squadronleader.wollivan.dev/icons/defense.svg" width="11.5" style="display:inline-block"/> - Defense</span>
+<img class="small-icon" src="https://squadronleader.wollivan.dev/icons/defense.svg" width="11.5" style="display:inline-block"/> - Defense
 
 <img class="small-icon" src="https://squadronleader.wollivan.dev/icons/attack.svg" width="14" style="display:inline-block"/> - Attack
 
