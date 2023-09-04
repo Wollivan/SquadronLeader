@@ -25,15 +25,21 @@ The playing area can be any size, typically the entire table. For a consistent s
 At the beginning of the game, each player assigns values from 4, 3, 3, 2 to the following attributes:
 
 <img src="../3DPrinting//OpenSCAD//icons//health.svg" width="12" style="display:inline-block"/> - Health
+
 <img src="../3DPrinting//OpenSCAD//icons//defense.svg" width="11.5" style="display:inline-block"/> - Defense
+
 <img src="../3DPrinting//OpenSCAD//icons//attack.svg" width="14" style="display:inline-block"/> - Attack
+
 <img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> - Manoeuvrability
 
 Suggested starting setup for new players:
 
 <img src="../3DPrinting//OpenSCAD//icons//health.svg" width="12" style="display:inline-block"/> - 3
+
 <img src="../3DPrinting//OpenSCAD//icons//defense.svg" width="11.5" style="display:inline-block"/> - 3
+
 <img src="../3DPrinting//OpenSCAD//icons//attack.svg" width="14" style="display:inline-block"/> - 2
+
 <img src="../3DPrinting//OpenSCAD//icons//speed.svg" width="12" style="display:inline-block"/> - 4
 
 If printable stat trackers are not available, use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker</a>
