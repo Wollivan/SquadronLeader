@@ -119,3 +119,11 @@ After the last player who can attack finishes their turn, a new round begins wit
 Explore the [advanced manoeuvres](https://squadronleader.wollivan.dev/rules/advanced-manoeuvres) and test your skills to rule the air!
 
 Enough chatter, it's time to take to the skies!
+
+### Printable Rulebook
+
+No not that sort of printing, _actual_ printing with paper and everything!
+
+If you want a quick reference to the rules that fits in the printable (3D this time) box, then you can donwload the PDF from [here](https://github.com/Wollivan/SquadronLeader/blob/main/Rules/printable-rulebook.pdf).
+
+This bifold book contains the basic rules and a quick reference to the advanced manoeuvres.

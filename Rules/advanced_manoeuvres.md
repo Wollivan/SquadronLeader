@@ -69,3 +69,11 @@ All the manoeuvres are informed by real life actual plane stuff!
 - [Push the Envelope](https://en.wikipedia.org/wiki/Flight_envelope#%22Pushing_the_envelope%22): "The flight envelope is a graph visualizing the capabilities of the aircraft in terms of min-max speeds and the altitude at which it can safely fly. The envelope itself is of course defined by various parameters and there is absolutely no way of simulating that in a board game. But, there is a term "Pushing the envelope", which means that the pilot tries to go over the speed or altitude defined by the flight envelope while risking the integrity of the aircraft (or causing the plane to stall)."
 
 - [Split S](https://en.m.wikipedia.org/wiki/Split_S): "To execute a split S, the pilot half-rolls their aircraft inverted and executes a descending half-loop, resulting in level flight in the opposite direction at a lower altitude."
+
+### Printable Rulebook
+
+No not that sort of printing, _actual_ printing with paper and everything!
+
+If you want a quick reference to the rules that fits in the printable (3D this time) box, then you can donwload the PDF from [here](https://github.com/Wollivan/SquadronLeader/blob/main/Rules/printable-rulebook.pdf).
+
+This bifold book contains the basic rules and a quick reference to the advanced manoeuvres.
