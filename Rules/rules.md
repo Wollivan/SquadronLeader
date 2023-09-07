@@ -122,8 +122,8 @@ Explore the [advanced manoeuvres](https://squadronleader.wollivan.dev/rules/adva
 
 No not that sort of printing, _actual_ printing with paper and everything!
 
-If you want a quick reference to the rules that fits in the printable (3D this time) box, then you can donwload the PDF from [here](https://github.com/Wollivan/SquadronLeader/blob/main/Rules/printable-rulebook.pdf).
+If you want a quick reference to the rules that fits in the printable (3D this time) box, then you can donwload the PDF from [here](https://sl-rulebook.wollivan.dev), or go to [the folder that website comes from](https://github.com/Wollivan/SquadronLeader/tree/main/Rules/Rulebook) if you want to make a change.
 
 This bifold book contains the basic rules and a quick reference to the advanced manoeuvres.
 
-Enough chatter, it's time to take to the skies!
+**Enough chatter, it's time to take to the skies!**
