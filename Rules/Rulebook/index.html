@@ -103,6 +103,7 @@
         body {
           border: none;
         }
+        .hideonprint,
         button {
           display: none;
         }
@@ -116,6 +117,7 @@
           /* 210 = width of page | 90 = height of side | 16 = margin | 3 = offset of side borders */
           /* 210 - 90 - 16 - 3 = 101 */
           top: calc(101mm);
+          right: 3px;
           transform: rotate(180deg);
         }
       }
@@ -334,6 +336,7 @@
       </div>
     </div>
     <button>Print</button>
+    <p class="hideonprint">Print double sided. Flip on long edge.</p>
     <script>
       document.querySelector("button").addEventListener("click", () => {
         window.print();
