@@ -113,8 +113,10 @@
           top: 16mm;
         }
         .side-two {
-          /* 2 extra mm because the border (i think) */
-          top: 18mm;
+          /* 210 = width of page | 90 = height of side | 16 = margin | 3 = offset of side borders */
+          /* 210 - 90 - 16 - 3 = 101 */
+          top: calc(101mm);
+          transform: rotate(180deg);
         }
       }
     </style>
