@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Squadron Leader Printable Rulebook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Roboto Mono", monospace;
+      }
+      body {
+        font-size: 8.25px;
+      }
+      /* .book {
+        display: flex;
+        flex-direction: column;
+        width: 16.5cm;
+        height: ;
+      } */
+      .side {
+        width: 210mm;
+        border: 1px solid black;
+        display: flex;
+      }
+      .side-one {
+        page-break-after: always;
+      }
+      .page {
+        width: 70mm;
+        height: 90mm;
+        border: 1px solid black;
+        padding: 16px;
+      }
+      .icon {
+        display: inline-block;
+        position: relative;
+      }
+      .health-icon {
+        width: 14px;
+        height: 14px;
+        top: 2px;
+      }
+      .defense-icon {
+        width: 11px;
+        height: 11px;
+        top: 2px;
+      }
+      .attack-icon {
+        width: 14px;
+        height: 14px;
+        top: 2px;
+      }
+      .manoeuvrability-icon {
+        width: 12px;
+        height: 12px;
+        top: 2px;
+      }
+      .title {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+      }
+      .logo {
+        width: 100px;
+        margin: 0 auto;
+        display: block;
+      }
+
+      .qr {
+        width: 50px;
+        margin: 0 auto;
+        display: block;
+      }
+      h4 {
+        text-align: center;
+      }
+      button {
+        border: 3px solid black;
+        background-color: black;
+        color: white;
+        padding: 1rem 2rem;
+        margin: 1rem 0;
+        cursor: pointer;
+        border-radius: 1rem;
+      }
+      button:hover {
+        background-color: white;
+        color: black;
+      }
+      @media print {
+        @page {
+          size: landscape;
+          margin: 0 calc(22.5mm - 1px);
+        }
+        body {
+          border: none;
+        }
+        .hideonprint,
+        button {
+          display: none;
+        }
+        .side {
+          position: relative;
+        }
+        .side-one {
+          top: 16mm;
+        }
+        .side-two {
+          /* 210 = width of page | 90 = height of side | 16 = margin | 3 = offset of side borders */
+          /* 210 - 90 - 16 - 3 = 101 */
+          top: calc(101mm);
+          right: 3px;
+          transform: rotate(180deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="book">
+      <div class="side side-one">
+        <div class="page">
+          <h2>Advanced Manoeuvres</h2>
+          <h3>Barrel Roll</h3>
+          <p>Cost Manoeuvre cost doubled</p>
+          <p>Action Don't rotate plane after manoeuvre</p>
+          <h3>Dive Bomb</h3>
+          <p>
+            Cost After an attack, reduce altitude to match defender that is
+            within range 1 and roll d6
+          </p>
+          <p>
+            Action On a result of 2-6 deal one damage. On a result of 1 take one
+            damage
+          </p>
+          <h3>Immelmann</h3>
+          <p>Cost Eliminate opponent</p>
+          <p>Action +3 altitude, straight and 180° turn</p>
+        </div>
+        <div class="page">
+          <h3>Push the Envelope</h3>
+          <p>Cost During Manoeuvre stage, roll d6</p>
+          <p>
+            Action On a result of 5-6 gain 1 this round OR 1 extra altitude. On
+            a result of 1-4 take one damage
+          </p>
+          <h3>Split S</h3>
+          <p>Cost 4 altitude</p>
+          <p>Action Turn 180° after manoeuvre</p>
+          <br />
+          <img src="./images/logo.png" alt="logo" class="logo" />
+        </div>
+        <div class="page">
+          <h1 class="title">Squadron Leader</h1>
+          <img src="./images/logo.png" alt="logo" class="logo" />
+          <h4>Full rules and stat tracker at:</h4>
+          <h4>squadronleader. wollivan.dev</h4>
+
+          <img src="./images/qr.png" alt="qr code" class="qr" />
+        </div>
+      </div>
+
+      <div class="side side-two">
+        <div class="page">
+          <h2>Setup</h2>
+          <p>Each Player chooses their stats assigning 4,3,3,2 to their:</p>
+          <p>
+            <img
+              class="icon health-icon"
+              src="./images/health.svg"
+              alt="heath icon"
+            />
+            Health
+          </p>
+          <p>
+            <img
+              class="icon defense-icon"
+              src="./images/defense.svg"
+              alt="heath icon"
+            />
+            Defense
+          </p>
+          <p>
+            <img
+              class="icon attack-icon"
+              src="./images/attack.svg"
+              alt="heath icon"
+            />
+            Attack
+          </p>
+          <p>
+            <img
+              class="icon manoeuvrability-icon"
+              src="./images/manoeuvrability.svg"
+              alt="heath icon"
+            />
+            Manoeuvrability
+          </p>
+
+          <p>The last player to see a plane in real life starts</p>
+          <p>Each player places their plane token in turn on the board:</p>
+          <ul>
+            <li>Within range 1 of the edge of the play area</li>
+            <li>Not within range 1 ruler of another player</li>
+          </ul>
+          <p>Begin the first round!</p>
+        </div>
+        <div class="page">
+          <h2>Round Stages</h2>
+          <h3>Manoeuvre stage</h3>
+          <p>
+            Every player moves up to their
+            <img
+              class="icon manoeuvrability-icon"
+              src="./images/manoeuvrability.svg"
+              alt="heath icon"
+            />
+            score
+          </p>
+          <p>
+            You may gain 1 altitude per turn at the cost of 1
+            <img
+              class="icon manoeuvrability-icon"
+              src="./images/manoeuvrability.svg"
+              alt="heath icon"
+            />
+          </p>
+          <p>
+            You may spend any number of altitude to gain that much
+            <img
+              class="icon manoeuvrability-icon"
+              src="./images/manoeuvrability.svg"
+              alt="heath icon"
+            />
+            this round
+          </p>
+          <h3>Attack Stage</h3>
+          <p>Every player may attack a plane within range and their 90° arc</p>
+          <p>
+            Attacker rolls
+            <img
+              class="icon attack-icon"
+              src="./images/attack.svg"
+              alt="heath icon"
+            />
+            dice Each 4-6 result is a hit
+          </p>
+          <p>
+            Defender rolls
+            <img
+              class="icon defense-icon"
+              src="./images/defense.svg"
+              alt="heath icon"
+            />
+            dice Each 4-6 result cancels a hit
+          </p>
+          <p>Each 6 counts as 2 hits or dodges</p>
+        </div>
+        <div class="page">
+          <h2>Att/Def Bonuses</h2>
+          <p>All bonuses come in the form of rerolling dice</p>
+          <p>
+            You will never roll more or less dice than your
+            <img
+              class="icon attack-icon"
+              src="./images/attack.svg"
+              alt="heath icon"
+            />
+            /
+            <img
+              class="icon defense-icon"
+              src="./images/defense.svg"
+              alt="heath icon"
+            />
+            values
+          </p>
+          <h3>Bonuses</h3>
+          <p>
+            When attacking at range 1, reroll 1
+            <img
+              class="icon attack-icon"
+              src="./images/attack.svg"
+              alt="heath icon"
+            />
+            dice
+          </p>
+          <p>
+            When defending at range 3, reroll 1
+            <img
+              class="icon defense-icon"
+              src="./images/defense.svg"
+              alt="heath icon"
+            />
+            dice
+          </p>
+          <p>
+            When attacking or defending at a higher altitude, reroll 1
+            <img
+              class="icon attack-icon"
+              src="./images/attack.svg"
+              alt="heath icon"
+            />
+            /
+            <img
+              class="icon defense-icon"
+              src="./images/defense.svg"
+              alt="heath icon"
+            />
+          </p>
+          <p>
+            If the defender is within your forward guides, reroll 1
+            <img
+              class="icon attack-icon"
+              src="./images/attack.svg"
+              alt="heath icon"
+            />
+            dice
+          </p>
+          <p>
+            The next attack you make after defeating an opponent, reroll 1
+            <img
+              class="icon attack-icon"
+              src="./images/attack.svg"
+              alt="heath icon"
+            />
+            dice
+          </p>
+        </div>
+      </div>
+    </div>
+    <button>Print</button>
+    <p class="hideonprint">Print double sided. Flip on long edge.</p>
+    <script>
+      document.querySelector("button").addEventListener("click", () => {
+        window.print();
+      });
+    </script>
+  </body>
+</html>
