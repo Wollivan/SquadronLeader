@@ -79,7 +79,7 @@ module insert() {
 }
 
 
-insert_diceX_small = 25;
+insert_diceX_small = 30; // slightly extra so there is no overlap
 insert_diceY_small = 48;
 
 insert_statX_small = 85;
@@ -145,25 +145,22 @@ module lidDesign(wid, len) {
       linear_extrude(height = wall/2)
           mirror([0, 1, 0])
               text("Leader", valign="top");
-
   translate([wall*2, wid-10, -0.1])
-      linear_extrude(height = wall/2)
-          mirror([0, 1, 0])
-//              text("Wollivan Games", font="RobotoMono", valign="top", size=6);
-              text("Wollivan Games", font="RobotoMono", valign="top", size=5.5);
+    linear_extrude(height = wall/2)
+      mirror([0, 1, 0])
+        text("Wollivan Games", font="RobotoMono", valign="top", size=5.5);
 
 
-// rules
-    translate([wall*2, wid-40, wall/2])
+  // rules
+  translate([len-wall*3, wid/2-10, wall/2])
+    rotate([0,0,180]) 
       linear_extrude(height = wall)
-//          mirror([0, 1, 0])
-//              text("Wollivan Games", font="RobotoMono", valign="top", size=6);
-              text("Rules:", font="RobotoMono", valign="top", size=6);
-   translate([wall*2, wid-50, wall/2])
+        text("Rules:", font="RobotoMono", valign="top", size=6);
+            
+   translate([len-wall*3, wid/2, wall/2])
+    rotate([0,0,180]) 
       linear_extrude(height = wall)
-//          mirror([0, 1, 0])
-//              text("Wollivan Games", font="RobotoMono", valign="top", size=6);
-              text("sl.wollivan.dev", font="RobotoMono", valign="top", size=6);
+        text("sl.wollivan.dev", font="RobotoMono", valign="top", size=6);
 }
 
 module boxNoInsert(wid,len) {
@@ -218,7 +215,7 @@ module smallLid() {
 
 
 translate([0,boxWidth+10,0]) lid();
-box();
+// box();
 // boxNoInsert();
 // insert();
 // smallBox();
