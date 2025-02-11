@@ -1,7 +1,7 @@
 // bomb icon - <a href="https://www.flaticon.com/free-icons/atomic-bomb" title="atomic bomb icons">Atomic bomb icons created by Freepik - Flaticon</a>
 // balloon icon - <a href="https://www.flaticon.com/free-icons/hot-air-balloon" title="hot air balloon icons">Hot air balloon icons created by Freepik - Flaticon</a>
-include <variables.scad>;
-include <modules.scad>;
+include <../variables.scad>;
+include <../modules.scad>;
 
 
 module bomber() {

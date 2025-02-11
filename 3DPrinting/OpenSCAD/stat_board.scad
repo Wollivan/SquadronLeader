@@ -1,69 +1,81 @@
 include <variables.scad>;
+// board should fit in the dice section of the small box
+boardWidth = 24; // dice are 12mm
+boardLength = 45; // dice are 12mm
+boardHeight = 2;
+gap = boardLength/5;
 
-boardWidth = 45;//(tokenWidth * 2) - 2;
-boardLength = 22.5;//tokenWidth - 2;
-boardHeight = 4;
+config2334 = ["2", "3", "3", "4"];
+config2343 = ["2", "3", "4", "3"];
+config2433 = ["2", "4", "3", "3"];
+config3234 = ["3", "2", "3", "4"];
+config3243 = ["3", "2", "4", "3"];
+config3324 = ["3", "3", "2", "4"];
+config3342 = ["3", "3", "4", "2"];
+config3423 = ["3", "4", "2", "3"];
+config3432 = ["3", "4", "3", "2"];
+config4233 = ["4", "2", "3", "3"];
+config4323 = ["4", "3", "2", "3"];
+config4332 = ["4", "3", "3", "2"];
 
-gap = 2;
-statHeight = 2;
-statWidth = (boardWidth - (gap * 5)) / 4;
-healthWidth = (boardLength - (gap * 5)) / 4;
-tolerance = 0.3;
-
-board();
-allTiles();
-
-module tile(number) {
-  difference() {
-    cube([statWidth-tolerance, statWidth-tolerance, statHeight]);
-    
-    translate([statWidth/4-tolerance/1.5,statWidth/5,-1])
-    linear_extrude(statHeight+2)
-      text(number,statWidth/2,font="Verdana:style=Bold");
+module roundedCube(width, length, radius, height) {
+  hull () {
+    translate ([radius,radius,0])
+      cylinder (r=radius,h=height);
+    translate ([radius,width-radius,0])
+      cylinder (r=radius,h=height);
+    translate ([length-radius,width-radius,0])
+      cylinder (r=radius,h=height);
+    translate ([length-radius,radius,0])
+      cylinder (r=radius,h=height);
   }
 }
 
-module hole(x) {
-  translate([x,gap,statHeight])
-    cube([statWidth, statWidth, statHeight*2]);
 
-  translate([x+statWidth/4,gap+statWidth/4,-1])
-    cube([statWidth/2, statWidth/2, boardHeight+2]);
+module number(val, x) {
+  translate([x, 9, -1])
+    linear_extrude(boardHeight+2)
+      text(val, font="RobotoMono", valign="top", size=6);
 }
 
-
-module symbol(s, path, x, z) {
-  translate([x,z-gap,-1])
+module symbol(s, path, x) {
+  translate([x,boardWidth-10,-1])
       linear_extrude(height = boardHeight+2) {
           scale(s)
               import(path);
       }
 }
 
-module board() {
+module board(stats) {
   difference() {
-    cube([boardWidth, boardLength, boardHeight]);
+    roundedCube(boardWidth, boardLength, 3, boardHeight);
+
+    symbol(0.5, "icons/health.svg", 2.25);
+    translate([0,-0.25,0]) symbol(0.45, "icons/defense.svg", 13.75);
+    translate([0,-0.75,0]) symbol(0.55, "icons/attack.svg", 23.75);
+    symbol(0.5, "icons/speed.svg", 35.75);
 
 
-    hole(gap);
-    hole(gap*2+statWidth);
-    hole(gap*3+statWidth*2);
-    hole(gap*4+statWidth*3);
+    number(stats[0], 3.75);
+    number(stats[1], 14.75);
+    number(stats[2], 25.75);
+    number(stats[3], 36.75);
 
-
-    symbol(0.5, "icons/health.svg", (gap)+0.75, boardLength/1.5-(gap/3));
-    symbol(0.45, "icons/defense.svg", (gap*2)+statWidth+1.25, boardLength/1.5-(gap/3));
-    symbol(0.55, "icons/attack.svg", (gap*3)+statWidth*2.05, boardLength/1.5-(gap/2));
-    symbol(0.5, "icons/speed.svg", (gap*4)+statWidth*3+1.25, boardLength/1.5);
+    // translate([1.5, 9, -1])
+    //   linear_extrude(boardHeight+2)
+    //     text(order, font="RobotoMono", valign="top", size=6);
   }
 }
 
-module allTiles() {
-  translate([gap+tolerance/2,-statWidth-2,0])
-    union() {
-      translate([0,0,0]) tile("2");
-      translate([statWidth+gap,0,0]) tile("3");
-      translate([statWidth*2+gap*2,0,0]) tile("3");
-      translate([statWidth*3+gap*3,0,0]) tile("4");
-    }
-}
+board(config2334);
+// board(config2343);
+// board(config2433);
+// board(config3234);
+// board(config3243);
+// board(config3324);
+// board(config3342);
+// board(config3423);
+// board(config3432);
+// board(config4233);
+// board(config4323);
+// board(config4332);

@@ -42,7 +42,7 @@ Suggested starting setup for new players:
 
 <img class="small-icon" src="https://squadronleader.wollivan.dev/icons/manoeuvrability.svg" width="12" style="display:inline-block"/> - 4
 
-If printable stat trackers are not available, use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker</a>
+Use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker</a>, or print the v1 stat wheels (requires a v1 box).
 
 ### Determining First Player:
 
