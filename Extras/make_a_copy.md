@@ -18,14 +18,14 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 ### For each player:
 
 - player.stl
-- stat_board.stl
-- life_tracker/wheel.stl
+
+Thats it.
 
 ### To share:
 
 - manoeuvre_template.stl
 - range_ruler.stl
-- box.stl (box_small.stl if you **aren't** printing the stat wheels)
+- box.stl
 - 4 green dice and 4 red dice
 
 For the dice, you don't need to print them, we use Oakie Doakie Dice in the copies we sell, but any 12mm dice will fit in the printed box.
@@ -34,15 +34,11 @@ _Also to note, the colours in the copy we sell are Overture PLA: Green, Light Bl
 
 ### Optional Stat Trackers
 
-If you don't want to use the <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker</a>, you can print the Stat Wheel so each player can quickly reference their stats and health.
+The most basic option for printing something to show the stats is to print the stat_board in the STLs folder. There are different configurations in the individual_modles/stat_board_number_variations folder. But, if you want something fancier, 2 options are below:
 
-For each player, print:
+- Within the v1 folder in STLs (on GitHub) there are stat wheels, axels and sides, print each of these to create stat wheels that fit in the v1 box.
+- If you don't want to print stat wheels then use this <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker</a> (or just remember your stats/write them on a piece of paper/cheat).
 
-- stat_wheels.stl
-- stat_side.stl x2
-- stat_axel.stl
-
-**Tip:** Flip one of the stat_side's, so the finish on each end of the final wheel is the same.
 
 ### Optional fancy box topper:
 

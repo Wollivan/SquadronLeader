@@ -36,7 +36,7 @@ a thank you on the visual learners:
 
 - Adam
 
-for the awesome stat tracking designs:
+for the awesome stat tracking designs, still available within the v1 folders:
 
 - Greg
 
@@ -74,12 +74,10 @@ and for a lot of inspiration on the Bimber expansion
 ## Future features
 
 - Coop objectives & campaigns
-- Bomber token (larger, slower, tankier)
 - Large scale battle rules (10+ ships per team)
 - Assets & instructions for playmats
 - Printable assets for 3D models on blank bases
 - More accessible components for less able players
-- Stat dials for people who don't mind a larger box
 
 ## Inspiration
 

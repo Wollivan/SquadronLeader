@@ -1,5 +1,5 @@
-include <variables.scad>;
-include <modules.scad>;
+include <../variables.scad>;
+include <../modules.scad>;
 
 tolerance = 0.6;
 poleDia = 3 + tolerance;
