@@ -4,7 +4,7 @@ There is a growing list of expansions that add additional pieces to the core gam
 
 ## X-Wing: The Miniatures Game Compatibility
 
-![x-wing-assets](https://github.com/wollivan/SquadronLeader/blob/main/images/x-wing_compatibility_03.jpeg)
+![x-wing-assets](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/x-wing_compatibility_03.jpeg)
 
 The force is strong with this one...
 
@@ -14,7 +14,7 @@ Use your X-Wing TMG collection to play Squadron Leader is a galaxy far far away!
 
 ## Bomber & Balloons
 
-![bombers-and-balloons-assets](https://github.com/wollivan/SquadronLeader/blob/main/images/bombers_and_balloons.png)
+![bombers-and-balloons-assets](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/bombers_and_balloons.png)
 
 Bigger. Tougher. A fair bit slower.
 

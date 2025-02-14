@@ -11,7 +11,7 @@ There are only 3 assets that **need** to be printed.
 - manoeuvre_template.stl
 - range_ruler.stl
 
-![player_assets](https://github.com/wollivan/SquadronLeader/blob/main/images/player_assets.png)
+![player_assets](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/player_assets.png)
 
 Or you can print a box set which includes the following:
 
@@ -21,7 +21,7 @@ Or you can print a box set which includes the following:
 - box.stl
 - stat_board.stl
 
-![player_assets](https://github.com/wollivan/SquadronLeader/blob/main/images/full-set.png)
+![player_assets](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/full-set.png)
 
 ### For each player:
 

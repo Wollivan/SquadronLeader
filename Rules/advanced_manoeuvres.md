@@ -12,7 +12,7 @@ This manoeuvre seperates the timid from the bold!
 
 **Action:** Don't rotate plane after manoeuvre
 
-![barrel_roll_diagram](https://github.com/wollivan/SquadronLeader/blob/main/images/barrel_roll.png)
+![barrel_roll_diagram](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/barrel_roll.png)
 
 ## Dive Bomb
 
@@ -27,7 +27,7 @@ Reward hyper-aggresive tactics with this risky manoeuvre!
 - Result of 3-6: Deal one damage.
 - Result of 1-2: Take one damage.
 
-![dive_bomb_diagram](https://github.com/wollivan/SquadronLeader/blob/main/images/dive_bomb.png)
+![dive_bomb_diagram](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/dive_bomb.png)
 
 Not to be confused with Divebomb, the homicidal Decepticon.
 
@@ -39,7 +39,7 @@ Few pilots ever pull this manoeuvre off.
 
 **Action:** Gain 4 altitude, perform a straight manoeuvre and rotate plane 180°
 
-![immelmann_diagram](https://github.com/wollivan/SquadronLeader/blob/main/images/immelmann.png)
+![immelmann_diagram](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/immelmann.png)
 
 ## Push the Envelope
 
@@ -54,7 +54,7 @@ A player may push the envelope during the manoeuvre stage and roll a d6:
 - Result of 5-6: Gain 1 <img class="small-icon" src="https://squadronleader.wollivan.dev/icons/manoeuvrability.svg" width="12" style="display:inline-block"/> this round OR 1 extra altitude.
 - Result of 1-4: Take one damage.
 
-![push-the-envelope](https://github.com/wollivan/SquadronLeader/blob/main/images/push-the-envelope.png)
+![push-the-envelope](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/push-the-envelope.png)
 
 ### More Info
 
