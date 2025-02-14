@@ -1,6 +1,7 @@
 include <variables.scad>;
 
-boxV2Set();
+basicAssets();
+// boxV2Set();
 // bigBoxSet();
 // translate([0,90,0]) smallBoxSet();
 
@@ -17,7 +18,7 @@ module bigBoxSet() {
   translate([100,12+17.5*3+6,13]) rotate([0,-90,0]) rotate([0,0,90]) statDialSet("#f8903a");
 
   // translate([4,76,30]) rotate([0,0,-90]) color("#f0a843",0.1) rangeFlat();
-  // translate([4,55,30]) rotate([0,0,-90]) color("#f0a843",0.1) import("../STLs/maneuver_template.stl");
+  // translate([4,55,30]) rotate([0,0,-90]) color("#f0a843",0.1) import("../STLs/manoeuvre_template.stl");
 }
 
 module smallBoxSet() {
@@ -28,7 +29,7 @@ module smallBoxSet() {
   translate([6+tokenWidth/2+tokenWidth,2+tokenWidth,0]) rotate([-90,0,0]) color("#f8903a") playerStack();
 
   translate([3,60,0]) rotate([0,0,-90]) color("#f0a843") rangeStack();
-  translate([4,55,30]) rotate([0,0,-90]) color("#f0a843", 0.1) import("../STLs/maneuver_template.stl");
+  translate([4,55,30]) rotate([0,0,-90]) color("#f0a843", 0.1) import("../STLs/manoeuvre_template.stl");
 }
 
 module boxV2Set() {
@@ -39,7 +40,7 @@ module boxV2Set() {
   translate([2+tokenWidth/2+tokenWidth,2+tokenWidth,0]) color("#f8903a") playerStack();
 
   translate([3,65,0]) rotate([0,0,-90]) color("#b8956c", 0.1) rangeStack();
-  translate([4,55,21.6]) rotate([0,0,-90]) color("#b8956c", 0.1) import("../STLs/maneuver_template.stl");
+  translate([4,55,21.6]) rotate([0,0,-90]) color("#b8956c", 0.1) import("../STLs/manoeuvre_template.stl");
 }
 
 module playerStack() {
@@ -74,3 +75,8 @@ module rangeFlat() {
   translate([-16,0,0]) import("../STLs/individual_models/range_ruler_3_only.stl");
 } 
 
+module basicAssets() {
+  rangeFlat();
+  translate([125,13,0]) rotate([0,0,90]) import("../STLs/player.stl");
+  translate([26,0,0]) import("../STLs/manoeuvre_template.stl");
+}
