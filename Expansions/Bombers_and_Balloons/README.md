@@ -1,6 +1,6 @@
 # Bombers & Balloons
 
-![bombers-and-balloons-assets](https://github.com/wollivan/SquadronLeader/blob/main/images/bombers_and_balloons.png)
+![bombers-and-balloons-assets](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/bombers_and_balloons.png)
 
 This expansion adds 2 new game pieces to the game, and you guessed them:
 

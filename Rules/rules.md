@@ -82,7 +82,7 @@ This manoeuvre prevents a pilot from being stuck when they are being tailed by a
 **Cost:** 4 altitude
 **Action:** Turn 180° after manoeuvre
 
-![split_s_diagram](https://github.com/wollivan/SquadronLeader/blob/main/images/split_s.png)
+![split_s_diagram](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/split_s.png)
 
 ## Attack Stage:
 
