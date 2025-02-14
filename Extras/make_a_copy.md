@@ -23,13 +23,7 @@ Or you can print a box set which includes the following:
 
 ![player_assets](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/full-set.png)
 
-### For each player:
-
-- player.stl
-
-Thats it.
-
-### Buy:
+### To Buy:
 
 - 4 green dice
 - 4 red dice
