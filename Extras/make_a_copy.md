@@ -1,19 +1,17 @@
 # Getting a Copy of the Game
 
-If you have a working 3D printer, you have all you need to make a copy of the game!
-If you DON'T have a printer, we do, so you can [get a copy here](https://squadronleader.wollivan.dev/buy-a-copy).
-
-There are only 3 assets that **need** to be printed.
-
-- Plane and altitude tokens
-- Manoeuvre template
-- Range ruler
-
-![player_assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Extras/player_assets.png)
+If you have a working 3D printer, you have all you need to make a copy of the game! [Get the files here](https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs).
+If you DON'T have a printer, I do, so you can [get a copy here](https://squadronleader.wollivan.dev/buy-a-copy).
 
 ## Printing instructions
 
-You will need to print the following from the <a href="https://github.com/Wollivan/SquadronLeader/tree/main/3DPrinting/STLs" target="_blank">STLs</a> directory:
+There are only 3 assets that **need** to be printed.
+
+- player.stl (one for each printer)
+- maneuver_template.stl
+- range_ruler.stl
+
+![player_assets](https://github.com/wollivan/SquadronLeader/blob/main/images/player_assets.png)
 
 ### For each player:
 
@@ -21,16 +19,14 @@ You will need to print the following from the <a href="https://github.com/Wolliv
 
 Thats it.
 
-### To share:
+### Buy:
 
-- manoeuvre_template.stl
-- range_ruler.stl
-- box.stl
-- 4 green dice and 4 red dice
+- 4 green dice
+- 4 red dice
 
-For the dice, you don't need to print them, we use Oakie Doakie Dice in the copies we sell, but any 12mm dice will fit in the printed box.
+For the dice, 12mm dice fit nicely in the printable box.
 
-_Also to note, the colours in the copy we sell are Overture PLA: Green, Light Blue, Yellow, Matte Orange & Light Brown._
+_Also to note, the colours in the copy you can buy are Overture Matte PLA._
 
 ### Optional Stat Trackers
 
@@ -38,7 +34,6 @@ The most basic option for printing something to show the stats is to print the s
 
 - Within the v1 folder in STLs (on GitHub) there are stat wheels, axels and sides, print each of these to create stat wheels that fit in the v1 box.
 - If you don't want to print stat wheels then use this <a href="https://planes.wollivan.dev/" target="_blank">online stat tracker</a> (or just remember your stats/write them on a piece of paper/cheat).
-
 
 ### Optional fancy box topper:
 
