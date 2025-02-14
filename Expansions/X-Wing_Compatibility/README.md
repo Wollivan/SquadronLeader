@@ -1,6 +1,6 @@
 # X-Wing: The Miniatures Game Compatibility
 
-![x-wing-assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Expansions/X-Wing_Compatibility/x-wing_compatibility_02.jpeg)
+![x-wing-assets](https://github.com/wollivan/SquadronLeader/blob/main/images/x-wing_compatibility_02.jpeg)
 
 It's no secret that Squadron Leader was partially inspired by X-Wing TMG, so it stands to reason that there should be a way to use pieces from that amazing game to Sqquadron Leader.
 
@@ -10,7 +10,7 @@ There is a token for small bases using the 3mm peg, and large bases using the bo
 
 ## Download Assets
 
-![x-wing-assets](https://raw.githubusercontent.com/Wollivan/SquadronLeader/main/Expansions/X-Wing_Compatibility/x-wing_compatibility_01.png)
+![x-wing-assets](https://github.com/wollivan/SquadronLeader/blob/main/images/x-wing_compatibility_01.png)
 
 Included:
 
