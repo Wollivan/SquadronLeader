@@ -8,10 +8,20 @@ If you DON'T have a printer, I do, so you can [get a copy here](https://squadron
 There are only 3 assets that **need** to be printed.
 
 - player.stl (one for each printer)
-- maneuver_template.stl
+- manoeuvre_template.stl
 - range_ruler.stl
 
 ![player_assets](https://github.com/wollivan/SquadronLeader/blob/main/images/player_assets.png)
+
+Or you can print a box set which includes the following:
+
+- player.stl x4
+- manoeuvre_template.stl
+- range_ruler.stl
+- box.stl
+- stat_board.stl
+
+![player_assets](https://github.com/wollivan/SquadronLeader/blob/main/images/full-set.png)
 
 ### For each player:
 
