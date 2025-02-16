@@ -98,7 +98,7 @@ This manoeuvre prevents a pilot from being stuck when they are being tailed by a
 - The defender loses <img class="small-icon" src="https://squadronleader.wollivan.dev/icons/health.svg" width="12" style="display:inline-block"/> equal to the uncanceled hits.
 
 Example of the firing arc:
-![firing-arc](https://user-images.githubusercontent.com/91621088/167209670-d14cfa27-6109-4bee-8a9e-e8c88d571aa2.jpg)
+![firing-arc](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/firing-arc.jpg)
 
 ### Attack/Defense Bonuses:
 

@@ -8,7 +8,7 @@
 
 #### The 3D printed, open source, aerial combat game you can fit in your pocket!
 
-![Squadron Leader Full Set](https://github.com/Wollivan/SquadronLeader/assets/91621088/6e049c24-19cb-441c-bece-da09bf9a0b3e)
+![Squadron Leader Full Set](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/full-set-v2.png)
 
 Squadron Leader is a fast-pace World War 1 (loosely) themed aerial combat game that is easy to learn and quick to play, with multifaceted strategy built-in that can be enjoyed by all ages!
 
@@ -18,7 +18,7 @@ We encourage the use of house rules, and if you think your rule improves the gam
 
 Tin art by Robert Linneman after the original Squadron Leader tobacco tin.
 
-![Squadron Leader Tin Art](https://user-images.githubusercontent.com/91621088/168493767-c1d63822-c580-4a32-9528-802238ef4220.png)
+![Squadron Leader Tin Art](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/tin-art.png)
 
 ### Learn the Game
 
