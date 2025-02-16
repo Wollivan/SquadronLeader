@@ -1,6 +1,6 @@
 # Thank yous
 
-![gameplay](https://user-images.githubusercontent.com/91621088/166423402-8616cf0d-327b-4b30-899a-ac93b54038e1.jpg)
+![gameplay](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/early-gameplay.jpg)
 
 First and most important thank you to <a href="https://twitter.com/HarryTheGM?t=-lbRdIOqqLyfzbsDPnInbA&s=09" target="_blank">Harry the GM</a> for inspiring me to make a game in the first place.
 
@@ -85,10 +85,10 @@ This game was inspired by X-Wing TMG and Wings of War. The motivation for creati
 
 How it started:
 
-![unboxing](https://user-images.githubusercontent.com/91621088/166423538-75aa8dad-f195-4c8b-bbf7-f540c0126dec.gif)
+![unboxing](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/unboxing.gif)
+
+![gameplay-gif](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/early-gameplay-2.gif)
 
 How it's going:
 
-![unboxing](https://user-images.githubusercontent.com/91621088/211172716-5bc4983f-1582-4c58-9a07-ba0d7531282e.png)
-
-![gameplay-gif](https://user-images.githubusercontent.com/91621088/167132550-7d76632c-5442-49ae-bf9d-bd636c559a73.gif)
+![unboxing](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/full-set-v2.jpg)

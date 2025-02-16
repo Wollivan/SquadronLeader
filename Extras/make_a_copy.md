@@ -64,4 +64,4 @@ If you want a classic Squadron Leader tobacco tin without getting out a small lo
 
 This amazing set was printed by Greg (who also designed the first score keeper pieces)
 
-![greg-box](https://user-images.githubusercontent.com/91621088/210184175-434638bb-5560-4614-b36b-49738572a15d.gif)
+![greg-box](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/greg-box.gif)
