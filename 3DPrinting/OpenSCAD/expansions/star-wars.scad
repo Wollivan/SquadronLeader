@@ -11,18 +11,14 @@ module xwingIcon() {
     }
 }
 
-module plane(){
-    union() {
+//plane token
+module xwing(hasID){
+    difference(){
+        union() {
         tokenWithArc();
 
         xwingIcon();
     }
-}
-
-//plane token
-module xwing(hasID){
-    difference(){
-        plane();
 
         balls(zMod=0, dMod=0.25);
           rotate([0,0,45]) balls(zMod=0, dMod=0.25);
