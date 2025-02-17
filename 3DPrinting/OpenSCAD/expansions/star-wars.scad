@@ -11,7 +11,7 @@ module xwingIcon() {
     translate([0.5,0,tokenHeight])
         linear_extrude(height = tokenHeight/4) {
             rotate([0,0,-90])
-              scale(0.13)
+              scale(0.061)
                   import("../icons/x-wing.svg", center=true);
     }
 }
