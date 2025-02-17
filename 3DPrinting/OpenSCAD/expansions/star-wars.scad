@@ -3,11 +3,11 @@ include <../modules.scad>;
 include <../variables.scad>;
 
 
-// xwing();
-// ywing();
-falcon();
-// tieadv();
-// tiefighter();
+xwing();
+translate([tokenWidth+3,0,0]) ywing();
+translate([tokenWidth+3,tokenWidth+3,0])falcon();
+translate([0,tokenWidth*2+6,0])tieadv();
+translate([0,tokenWidth+3,0])tiefighter();
 module xwingIcon() {
     translate([0.5,0,tokenHeight])
         linear_extrude(height = tokenHeight/4) {
@@ -62,7 +62,7 @@ module xwing(hasID){
         union() {
         tokenWithArc();
 
-        xwingIcon();
+        color("grey") xwingIcon();
     }
 
         balls(zMod=0, dMod=0.25);
@@ -75,7 +75,7 @@ module ywing(hasID){
         union() {
         tokenWithArc();
 
-        ywingIcon();
+        color("grey") ywingIcon();
     }
 
         balls(zMod=0, dMod=0.25);
@@ -88,7 +88,7 @@ module falcon(hasID){
         union() {
         tokenWithArc();
 
-        falconIcon();
+        color("grey") falconIcon();
     }
 
         balls(zMod=0, dMod=0.25);
@@ -101,7 +101,7 @@ module tieadv(hasID){
         union() {
         tokenWithArc();
 
-        tieadvIcon();
+        color("grey") tieadvIcon();
     }
 
         balls(zMod=0, dMod=0.25);
@@ -113,7 +113,7 @@ module tiefighter(hasID){
         union() {
         tokenWithArc();
 
-        tiefighterIcon();
+        color("grey") tiefighterIcon();
     }
 
         balls(zMod=0, dMod=0.25);
