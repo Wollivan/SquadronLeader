@@ -8,9 +8,9 @@ For players already familiar with the core rules or those seeking to become worl
 
 This manoeuvre seperates the timid from the bold!
 
-**Cost:** <img class="small-icon" src="https://squadronleader.wollivan.dev/icons/manoeuvrability.svg" width="12" style="display:inline-block"/> cost doubled
+**Cost:** This is the only manoeuvre you can do this round
 
-**Action:** Don't rotate plane after manoeuvre
+**Action:** Perfom a 3 cost manoeuvre but don't rotate your token afterwards
 
 ![barrel_roll_diagram](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/barrel_roll.png)
 

@@ -84,6 +84,8 @@ This manoeuvre prevents a pilot from being stuck when they are being tailed by a
 
 ![split_s_diagram](https://raw.githubusercontent.com/wollivan/SquadronLeader/refs/heads/main/images/split_s.png)
 
+Note: You can't Split S on the same turn as gaining altitude.
+
 ## Attack Stage:
 
 - The attacker declares which enemy plane they will attack.

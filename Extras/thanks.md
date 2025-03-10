@@ -22,7 +22,7 @@ Playtesters. Without your help, this game would suck.
 - Patrick
 - Priyatham
 
-and a special thanks for their genius in coming up with a new barrel roll rule:
+and a special thanks for their genius in coming up with the original barrel roll rule:
 
 - Dylon
 - Kirk
