@@ -8,6 +8,7 @@ translate([tokenWidth+3,0,0]) ywing();
 translate([tokenWidth+3,tokenWidth+3,0])falcon();
 translate([0,tokenWidth*2+6,0])tieadv();
 translate([0,tokenWidth+3,0])tiefighter();
+translate([tokenWidth+3,tokenWidth*2+6,0])awing();
 module xwingIcon() {
     translate([0.5,0,tokenHeight])
         linear_extrude(height = tokenHeight/4) {
@@ -56,7 +57,15 @@ module tiefighterIcon() {
                   import("../icons/tie-fighter.svg", center=true);
     }
 }
-
+module awingIcon() {
+    translate([0.5,0,tokenHeight])
+        linear_extrude(height = tokenHeight/4) {
+            rotate([0,0,-90])
+                translate([0,0,0])
+                    scale(0.12)
+                  import("../icons/a-wing.svg", center=true);
+    }
+}
 module xwing(hasID){
     difference(){
         union() {
@@ -114,6 +123,18 @@ module tiefighter(hasID){
         tokenWithArc();
 
         color("grey") tiefighterIcon();
+    }
+
+        balls(zMod=0, dMod=0.25);
+          rotate([0,0,45]) balls(zMod=0, dMod=0.25);
+    }
+}
+module awing(hasID){
+    difference(){
+        union() {
+        tokenWithArc();
+
+        color("grey") awingIcon();
     }
 
         balls(zMod=0, dMod=0.25);
