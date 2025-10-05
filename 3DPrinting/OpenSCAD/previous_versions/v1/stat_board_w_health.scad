@@ -1,12 +1,12 @@
 include <../../variables.scad>;
 
-boardWidth = 45;//(tokenWidth * 2) - 2;
+boardWidth = 50;//(tokenWidth * 2) - 2;
 boardLength = 22.5;//tokenWidth - 2;
 boardHeight = 4;
 
 gap = 2;
 statHeight = 2;
-statWidth = (boardWidth - (gap * 5)) / 4;
+statWidth = (boardWidth - (gap * 5)) / 5;
 healthWidth = (boardLength - (gap * 5)) / 4;
 tolerance = 0.3;
 
@@ -31,6 +31,13 @@ module hole(x) {
     cube([statWidth/2, statWidth/2, boardHeight+2]);
 }
 
+module healthHole(y) {
+  translate([gap*1.5, y, statHeight])
+    cube([healthWidth, healthWidth, statHeight*2]);
+
+  translate([gap*1.5+healthWidth/4, y+healthWidth/4, -1])
+    cube([healthWidth/2, healthWidth/2, boardHeight+2]);
+}
 
 module symbol(s, path, x, z) {
   translate([x,z-gap,-1])
@@ -45,25 +52,33 @@ module board() {
     cube([boardWidth, boardLength, boardHeight]);
 
 
-    hole(gap);
-    hole(gap*2+statWidth);
-    hole(gap*3+statWidth*2);
-    hole(gap*4+statWidth*3);
+    hole(gap+statWidth);
+    hole(gap*2+statWidth*2);
+    hole(gap*3+statWidth*3);
+    hole(gap*4+statWidth*4);
+
+    healthHole(gap);
+    healthHole(gap*2+healthWidth);
+    healthHole(gap*3+healthWidth*2);
+    healthHole(gap*4+healthWidth*3);
 
 
-    symbol(0.5, "../../icons/health.svg", (gap)+0.75, boardLength/1.5-(gap/3));
-    symbol(0.45, "../../icons/defense.svg", (gap*2)+statWidth+1.25, boardLength/1.5-(gap/3));
-    symbol(0.55, "../../icons/attack.svg", (gap*3)+statWidth*2.05, boardLength/1.5-(gap/2));
-    symbol(0.5, "../../icons/speed.svg", (gap*4)+statWidth*3+1.25, boardLength/1.5);
+    symbol(0.5, "../../icons/health.svg", (gap)+statWidth+0.75, boardLength/1.5-(gap/3));
+    symbol(0.45, "../../icons/defense.svg", (gap*2)+statWidth*2.25, boardLength/1.5-(gap/3));
+    symbol(0.55, "../../icons/attack.svg", (gap*3)+statWidth*3.05, boardLength/1.5-(gap/2));
+    symbol(0.5, "../../icons/speed.svg", (gap*4)+statWidth*4+1.25, boardLength/1.5);
   }
 }
 
 module allTiles() {
-  translate([gap+tolerance/2,-statWidth-2,0])
+  translate([gap*5+tolerance/2,-statWidth-2,0])
     union() {
       translate([0,0,0]) tile("2");
       translate([statWidth+gap,0,0]) tile("3");
       translate([statWidth*2+gap*2,0,0]) tile("3");
       translate([statWidth*3+gap*3,0,0]) tile("4");
+
+      // health pip
+      translate([-statWidth,0,0]) cube([healthWidth, statWidth, healthWidth]);
     }
 }
