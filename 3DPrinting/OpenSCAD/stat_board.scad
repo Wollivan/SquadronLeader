@@ -17,6 +17,7 @@ config3432 = ["3", "4", "3", "2"];
 config4233 = ["4", "2", "3", "3"];
 config4323 = ["4", "3", "2", "3"];
 config4332 = ["4", "3", "3", "2"];
+config4422 = ["4", "4", "2", "2"]; // bomber
 
 module roundedCube(width, length, radius, height) {
   hull () {
@@ -67,7 +68,7 @@ module board(stats) {
   }
 }
 
-board(config2334);
+// board(config2334);
 // board(config2343);
 // board(config2433);
 // board(config3234);
@@ -79,3 +80,4 @@ board(config2334);
 // board(config4233);
 // board(config4323);
 // board(config4332);
+board(config4422); // bomber
